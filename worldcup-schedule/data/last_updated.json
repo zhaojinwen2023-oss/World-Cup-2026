@@ -1,0 +1,8 @@
+{
+  "last_updated": "2026-06-10T13:34:44Z",
+  "source": "local",
+  "live_results": "/Users/mi/Documents/World Cupt/worldcup-schedule/data/live_results.json",
+  "standings": "/Users/mi/Documents/World Cupt/worldcup-schedule/data/standings.json",
+  "knockout_bracket": "/Users/mi/Documents/World Cupt/worldcup-schedule/data/knockout_bracket.json",
+  "app_data": "/Users/mi/Documents/World Cupt/worldcup-schedule/data/app_data.json"
+}

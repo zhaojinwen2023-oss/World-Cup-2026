@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#21534a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="世界杯赛程" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>世界杯赛程</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2321534a'/%3E%3Ccircle cx='32' cy='30' r='17' fill='white'/%3E%3Cpath d='M32 13l6 12-6 5-6-5 6-12zm0 34l-6-12 6-5 6 5-6 12zM15 30l12-6 5 6-5 6-12-6zm34 0l-12 6-5-6 5-6 12 6z' fill='%23b98217'/%3E%3C/svg%3E" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">2026 FIFA World Cup</p>
+          <h1>世界杯赛程</h1>
+          <p class="updated-line">最后更新时间：<span id="lastUpdated">-</span></p>
+        </div>
+        <div class="host-art" aria-label="主办国与足球装饰">
+          <svg class="football-picture" viewBox="0 0 96 96" aria-label="足球">
+            <defs>
+              <radialGradient id="ballShine" cx="34%" cy="24%" r="68%">
+                <stop offset="0" stop-color="#ffffff" />
+                <stop offset="0.58" stop-color="#f7faf8" />
+                <stop offset="1" stop-color="#d7dfdc" />
+              </radialGradient>
+              <linearGradient id="ballShadow" x1="18" x2="78" y1="18" y2="84">
+                <stop offset="0" stop-color="#26302e" />
+                <stop offset="1" stop-color="#111716" />
+              </linearGradient>
+            </defs>
+            <circle cx="48" cy="48" r="38" fill="url(#ballShine)" />
+            <path d="M48 23 62 33 57 50H39L34 33 48 23Z" fill="url(#ballShadow)" />
+            <path d="M26 40 38 50 34 66 19 68 13 54 26 40Z" fill="#1c2524" />
+            <path d="M70 40 83 54 77 68 62 66 58 50 70 40Z" fill="#1c2524" />
+            <path d="M39 66h18l10 12c-5 5-11 8-19 8s-14-3-19-8l10-12Z" fill="#1c2524" />
+            <path d="M39 50 26 40M57 50l13-10M34 33 21 27M62 33l13-6M34 66l-15 2M62 66l15 2M39 66l-5-16M57 66l5-16" fill="none" stroke="#9fa9a5" stroke-width="2.4" stroke-linecap="round" />
+            <circle cx="35" cy="25" r="9" fill="#ffffff" opacity="0.38" />
+          </svg>
+          <div class="host-ribbon" aria-label="主办国">
+            <span class="host-chip host-usa">USA</span>
+            <span class="host-chip host-canada">CAN</span>
+            <span class="host-chip host-mexico">MEX</span>
+          </div>
+        </div>
+        <div class="counter" id="matchCounter">0 场</div>
+      </header>
+
+      <section id="schedulePanel" class="panel active">
+        <section class="controls" aria-label="赛程筛选">
+          <label class="search-box" for="searchInput">
+            <span>搜索</span>
+            <input id="searchInput" type="search" autocomplete="off" placeholder="球队 / 城市 / 阶段" />
+          </label>
+          <div class="filter-row" role="list" aria-label="快速筛选">
+            <button class="filter-chip active" data-filter="all" type="button">全部</button>
+            <button class="filter-chip" data-filter="today" type="button">今天</button>
+            <button class="filter-chip" data-filter="tomorrow" type="button">明天</button>
+            <button class="filter-chip" data-filter="live" type="button">进行中</button>
+            <button class="filter-chip" data-filter="finished" type="button">已结束</button>
+            <button class="filter-chip" data-filter="scheduled" type="button">未开始</button>
+            <button class="filter-chip" data-filter="favorites" type="button">重点想看</button>
+          </div>
+        </section>
+        <section id="calendarView" class="calendar-view"></section>
+        <section id="dayView" class="day-view" hidden>
+          <div class="day-page-head">
+            <button class="back-button" data-back-calendar type="button">返回月历</button>
+            <div>
+              <p class="day-kicker">按北京时间</p>
+              <h2 id="dayTitle">比赛日</h2>
+            </div>
+          </div>
+        </section>
+        <section id="statusMessage" class="status-message" hidden></section>
+        <section id="matchList" class="match-list" aria-live="polite"></section>
+      </section>
+
+      <section id="livePanel" class="panel">
+        <div id="liveList" class="match-list"></div>
+      </section>
+
+      <section id="standingsPanel" class="panel">
+        <div id="standingsList" class="standings-list"></div>
+      </section>
+
+      <section id="knockoutPanel" class="panel">
+        <div id="knockoutList" class="knockout-list"></div>
+      </section>
+
+      <section id="favoritesPanel" class="panel">
+        <div class="export-grid">
+          <button id="exportIcsBtn" class="secondary-button" type="button">导出 .ics</button>
+          <button id="exportCsvBtn" class="secondary-button" type="button">导出 CSV</button>
+          <a class="secondary-button as-link" href="../output/worldcup_2026_schedule.xlsx" download>下载 Excel</a>
+        </div>
+        <div id="favoriteList" class="match-list"></div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="主导航">
+      <button class="nav-item active" data-tab="schedule" type="button">赛程</button>
+      <button class="nav-item" data-tab="live" type="button">实时</button>
+      <button class="nav-item" data-tab="standings" type="button">积分榜</button>
+      <button class="nav-item" data-tab="knockout" type="button">淘汰赛</button>
+      <button class="nav-item" data-tab="favorites" type="button">我的关注</button>
+    </nav>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

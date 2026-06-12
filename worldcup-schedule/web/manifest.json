@@ -1,0 +1,19 @@
+{
+  "name": "世界杯赛程",
+  "short_name": "世界杯赛程",
+  "description": "2026 世界杯赛程、北京时间和美国时间、重点比赛提醒导出。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7f4",
+  "theme_color": "#21534a",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='96' fill='%2321534a'/%3E%3Ccircle cx='256' cy='236' r='132' fill='%23ffffff'/%3E%3Cpath d='M256 104l40 84-40 36-40-36 40-84zm0 248l-40-84 40-36 40 36-40 84zm-132-116l84-40 36 40-36 40-84-40zm264 0l-84 40-36-40 36-40 84 40z' fill='%23b98217'/%3E%3Cpath d='M256 192l46 34-18 54h-56l-18-54 46-34z' fill='%2321534a'/%3E%3C/svg%3E",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

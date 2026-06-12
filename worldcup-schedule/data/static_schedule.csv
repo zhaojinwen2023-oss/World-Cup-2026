@@ -1,0 +1,105 @@
+match_id,stage,round,group,home_placeholder,away_placeholder,home_team,away_team,stadium,city,country,local_datetime,local_timezone,is_favorite,notes
+1,Group Stage,Group A,A,Mexico,South Africa,Mexico,South Africa,Estadio Azteca,Mexico City,Mexico,2026-06-11T12:00:00,America/Mexico_City,false,Group A
+2,Group Stage,Group A,A,South Korea,Czech Republic,South Korea,Czech Republic,Estadio Akron,Zapopan,Mexico,2026-06-11T19:00:00,America/Mexico_City,false,Group A
+3,Group Stage,Group B,B,Canada,Bosnia and Herzegovina,Canada,Bosnia and Herzegovina,BMO Field,Toronto,Canada,2026-06-12T14:00:00,America/Toronto,false,Group B
+4,Group Stage,Group D,D,United States,Paraguay,United States,Paraguay,SoFi Stadium,Inglewood,USA,2026-06-12T17:00:00,America/Los_Angeles,false,Group D
+5,Group Stage,Group C,C,Haiti,Scotland,Haiti,Scotland,Gillette Stadium,Foxborough,USA,2026-06-13T20:00:00,America/New_York,false,Group C
+6,Group Stage,Group D,D,Australia,Turkey,Australia,Turkey,BC Place,Vancouver,Canada,2026-06-13T20:00:00,America/Vancouver,false,Group D
+7,Group Stage,Group C,C,Brazil,Morocco,Brazil,Morocco,MetLife Stadium,East Rutherford,USA,2026-06-13T17:00:00,America/New_York,false,Group C
+8,Group Stage,Group B,B,Qatar,Switzerland,Qatar,Switzerland,Levi's Stadium,Santa Clara,USA,2026-06-13T11:00:00,America/Los_Angeles,false,Group B
+9,Group Stage,Group E,E,Ivory Coast,Ecuador,Ivory Coast,Ecuador,Lincoln Financial Field,Philadelphia,USA,2026-06-14T18:00:00,America/New_York,false,Group E
+10,Group Stage,Group E,E,Germany,Curaçao,Germany,Curaçao,NRG Stadium,Houston,USA,2026-06-14T11:00:00,America/Chicago,false,Group E
+11,Group Stage,Group F,F,Netherlands,Japan,Netherlands,Japan,AT&T Stadium,Arlington,USA,2026-06-14T14:00:00,America/Chicago,false,Group F
+12,Group Stage,Group F,F,Sweden,Tunisia,Sweden,Tunisia,Estadio BBVA,Guadalupe,Mexico,2026-06-14T19:00:00,America/Monterrey,false,Group F
+13,Group Stage,Group H,H,Saudi Arabia,Uruguay,Saudi Arabia,Uruguay,Hard Rock Stadium,Miami Gardens,USA,2026-06-15T17:00:00,America/New_York,false,Group H
+14,Group Stage,Group H,H,Spain,Cape Verde,Spain,Cape Verde,Mercedes-Benz Stadium,Atlanta,USA,2026-06-15T11:00:00,America/New_York,false,Group H
+15,Group Stage,Group G,G,Iran,New Zealand,Iran,New Zealand,SoFi Stadium,Inglewood,USA,2026-06-15T17:00:00,America/Los_Angeles,false,Group G
+16,Group Stage,Group G,G,Belgium,Egypt,Belgium,Egypt,Lumen Field,Seattle,USA,2026-06-15T11:00:00,America/Los_Angeles,false,Group G
+17,Group Stage,Group I,I,France,Senegal,France,Senegal,MetLife Stadium,East Rutherford,USA,2026-06-16T14:00:00,America/New_York,false,Group I
+18,Group Stage,Group I,I,Iraq,Norway,Iraq,Norway,Gillette Stadium,Foxborough,USA,2026-06-16T17:00:00,America/New_York,false,Group I
+19,Group Stage,Group J,J,Argentina,Algeria,Argentina,Algeria,Arrowhead Stadium,Kansas City,USA,2026-06-16T19:00:00,America/Chicago,false,Group J
+20,Group Stage,Group J,J,Austria,Jordan,Austria,Jordan,Levi's Stadium,Santa Clara,USA,2026-06-16T20:00:00,America/Los_Angeles,false,Group J
+21,Group Stage,Group L,L,Ghana,Panama,Ghana,Panama,BMO Field,Toronto,Canada,2026-06-17T18:00:00,America/Toronto,false,Group L
+22,Group Stage,Group L,L,England,Croatia,England,Croatia,AT&T Stadium,Arlington,USA,2026-06-17T14:00:00,America/Chicago,false,Group L
+23,Group Stage,Group K,K,Portugal,DR Congo,Portugal,DR Congo,NRG Stadium,Houston,USA,2026-06-17T11:00:00,America/Chicago,false,Group K
+24,Group Stage,Group K,K,Uzbekistan,Colombia,Uzbekistan,Colombia,Estadio Azteca,Mexico City,Mexico,2026-06-17T19:00:00,America/Mexico_City,false,Group K
+25,Group Stage,Group A,A,Czech Republic,South Africa,Czech Republic,South Africa,Mercedes-Benz Stadium,Atlanta,USA,2026-06-18T11:00:00,America/New_York,false,Group A
+26,Group Stage,Group B,B,Switzerland,Bosnia and Herzegovina,Switzerland,Bosnia and Herzegovina,SoFi Stadium,Inglewood,USA,2026-06-18T11:00:00,America/Los_Angeles,false,Group B
+27,Group Stage,Group B,B,Canada,Qatar,Canada,Qatar,BC Place,Vancouver,Canada,2026-06-18T14:00:00,America/Vancouver,false,Group B
+28,Group Stage,Group A,A,Mexico,South Korea,Mexico,South Korea,Estadio Akron,Zapopan,Mexico,2026-06-18T18:00:00,America/Mexico_City,false,Group A
+29,Group Stage,Group C,C,Brazil,Haiti,Brazil,Haiti,Lincoln Financial Field,Philadelphia,USA,2026-06-19T19:30:00,America/New_York,false,Group C
+30,Group Stage,Group C,C,Scotland,Morocco,Scotland,Morocco,Gillette Stadium,Foxborough,USA,2026-06-19T17:00:00,America/New_York,false,Group C
+31,Group Stage,Group D,D,Turkey,Paraguay,Turkey,Paraguay,Levi's Stadium,Santa Clara,USA,2026-06-19T19:00:00,America/Los_Angeles,false,Group D
+32,Group Stage,Group D,D,United States,Australia,United States,Australia,Lumen Field,Seattle,USA,2026-06-19T11:00:00,America/Los_Angeles,false,Group D
+33,Group Stage,Group E,E,Germany,Ivory Coast,Germany,Ivory Coast,BMO Field,Toronto,Canada,2026-06-20T15:00:00,America/Toronto,false,Group E
+34,Group Stage,Group E,E,Ecuador,Curaçao,Ecuador,Curaçao,Arrowhead Stadium,Kansas City,USA,2026-06-20T18:00:00,America/Chicago,false,Group E
+35,Group Stage,Group F,F,Netherlands,Sweden,Netherlands,Sweden,NRG Stadium,Houston,USA,2026-06-20T11:00:00,America/Chicago,false,Group F
+36,Group Stage,Group F,F,Tunisia,Japan,Tunisia,Japan,Estadio BBVA,Guadalupe,Mexico,2026-06-20T21:00:00,America/Monterrey,false,Group F
+37,Group Stage,Group H,H,Uruguay,Cape Verde,Uruguay,Cape Verde,Hard Rock Stadium,Miami Gardens,USA,2026-06-21T17:00:00,America/New_York,false,Group H
+38,Group Stage,Group H,H,Spain,Saudi Arabia,Spain,Saudi Arabia,Mercedes-Benz Stadium,Atlanta,USA,2026-06-21T11:00:00,America/New_York,false,Group H
+39,Group Stage,Group G,G,Belgium,Iran,Belgium,Iran,SoFi Stadium,Inglewood,USA,2026-06-21T11:00:00,America/Los_Angeles,false,Group G
+40,Group Stage,Group G,G,New Zealand,Egypt,New Zealand,Egypt,BC Place,Vancouver,Canada,2026-06-21T17:00:00,America/Vancouver,false,Group G
+41,Group Stage,Group I,I,Norway,Senegal,Norway,Senegal,MetLife Stadium,East Rutherford,USA,2026-06-22T19:00:00,America/New_York,false,Group I
+42,Group Stage,Group I,I,France,Iraq,France,Iraq,Lincoln Financial Field,Philadelphia,USA,2026-06-22T16:00:00,America/New_York,false,Group I
+43,Group Stage,Group J,J,Argentina,Austria,Argentina,Austria,AT&T Stadium,Arlington,USA,2026-06-22T11:00:00,America/Chicago,false,Group J
+44,Group Stage,Group J,J,Jordan,Algeria,Jordan,Algeria,Levi's Stadium,Santa Clara,USA,2026-06-22T19:00:00,America/Los_Angeles,false,Group J
+45,Group Stage,Group L,L,England,Ghana,England,Ghana,Gillette Stadium,Foxborough,USA,2026-06-23T15:00:00,America/New_York,false,Group L
+46,Group Stage,Group L,L,Panama,Croatia,Panama,Croatia,BMO Field,Toronto,Canada,2026-06-23T18:00:00,America/Toronto,false,Group L
+47,Group Stage,Group K,K,Portugal,Uzbekistan,Portugal,Uzbekistan,NRG Stadium,Houston,USA,2026-06-23T11:00:00,America/Chicago,false,Group K
+48,Group Stage,Group K,K,Colombia,DR Congo,Colombia,DR Congo,Estadio Akron,Zapopan,Mexico,2026-06-23T19:00:00,America/Mexico_City,false,Group K
+49,Group Stage,Group C,C,Scotland,Brazil,Scotland,Brazil,Hard Rock Stadium,Miami Gardens,USA,2026-06-24T17:00:00,America/New_York,false,Group C
+50,Group Stage,Group C,C,Morocco,Haiti,Morocco,Haiti,Mercedes-Benz Stadium,Atlanta,USA,2026-06-24T17:00:00,America/New_York,false,Group C
+51,Group Stage,Group B,B,Switzerland,Canada,Switzerland,Canada,BC Place,Vancouver,Canada,2026-06-24T11:00:00,America/Vancouver,false,Group B
+52,Group Stage,Group B,B,Bosnia and Herzegovina,Qatar,Bosnia and Herzegovina,Qatar,Lumen Field,Seattle,USA,2026-06-24T11:00:00,America/Los_Angeles,false,Group B
+53,Group Stage,Group A,A,Czech Republic,Mexico,Czech Republic,Mexico,Estadio Azteca,Mexico City,Mexico,2026-06-24T18:00:00,America/Mexico_City,false,Group A
+54,Group Stage,Group A,A,South Africa,South Korea,South Africa,South Korea,Estadio BBVA,Guadalupe,Mexico,2026-06-24T18:00:00,America/Monterrey,false,Group A
+55,Group Stage,Group E,E,Curaçao,Ivory Coast,Curaçao,Ivory Coast,Lincoln Financial Field,Philadelphia,USA,2026-06-25T15:00:00,America/New_York,false,Group E
+56,Group Stage,Group E,E,Ecuador,Germany,Ecuador,Germany,MetLife Stadium,East Rutherford,USA,2026-06-25T15:00:00,America/New_York,false,Group E
+57,Group Stage,Group F,F,Japan,Sweden,Japan,Sweden,AT&T Stadium,Arlington,USA,2026-06-25T17:00:00,America/Chicago,false,Group F
+58,Group Stage,Group F,F,Tunisia,Netherlands,Tunisia,Netherlands,Arrowhead Stadium,Kansas City,USA,2026-06-25T17:00:00,America/Chicago,false,Group F
+59,Group Stage,Group D,D,Turkey,United States,Turkey,United States,SoFi Stadium,Inglewood,USA,2026-06-25T18:00:00,America/Los_Angeles,false,Group D
+60,Group Stage,Group D,D,Paraguay,Australia,Paraguay,Australia,Levi's Stadium,Santa Clara,USA,2026-06-25T18:00:00,America/Los_Angeles,false,Group D
+61,Group Stage,Group I,I,Norway,France,Norway,France,Gillette Stadium,Foxborough,USA,2026-06-26T14:00:00,America/New_York,false,Group I
+62,Group Stage,Group I,I,Senegal,Iraq,Senegal,Iraq,BMO Field,Toronto,Canada,2026-06-26T14:00:00,America/Toronto,false,Group I
+63,Group Stage,Group G,G,Egypt,Iran,Egypt,Iran,Lumen Field,Seattle,USA,2026-06-26T19:00:00,America/Los_Angeles,false,Group G
+64,Group Stage,Group G,G,New Zealand,Belgium,New Zealand,Belgium,BC Place,Vancouver,Canada,2026-06-26T19:00:00,America/Vancouver,false,Group G
+65,Group Stage,Group H,H,Cape Verde,Saudi Arabia,Cape Verde,Saudi Arabia,NRG Stadium,Houston,USA,2026-06-26T18:00:00,America/Chicago,false,Group H
+66,Group Stage,Group H,H,Uruguay,Spain,Uruguay,Spain,Estadio Akron,Zapopan,Mexico,2026-06-26T17:00:00,America/Mexico_City,false,Group H
+67,Group Stage,Group L,L,Panama,England,Panama,England,MetLife Stadium,East Rutherford,USA,2026-06-27T16:00:00,America/New_York,false,Group L
+68,Group Stage,Group L,L,Croatia,Ghana,Croatia,Ghana,Lincoln Financial Field,Philadelphia,USA,2026-06-27T16:00:00,America/New_York,false,Group L
+69,Group Stage,Group J,J,Algeria,Austria,Algeria,Austria,Arrowhead Stadium,Kansas City,USA,2026-06-27T20:00:00,America/Chicago,false,Group J
+70,Group Stage,Group J,J,Jordan,Argentina,Jordan,Argentina,AT&T Stadium,Arlington,USA,2026-06-27T20:00:00,America/Chicago,false,Group J
+71,Group Stage,Group K,K,Colombia,Portugal,Colombia,Portugal,Hard Rock Stadium,Miami Gardens,USA,2026-06-27T18:30:00,America/New_York,false,Group K
+72,Group Stage,Group K,K,DR Congo,Uzbekistan,DR Congo,Uzbekistan,Mercedes-Benz Stadium,Atlanta,USA,2026-06-27T18:30:00,America/New_York,false,Group K
+73,Round of 32,Round of 32,,Runner-up Group A,Runner-up Group B,,,SoFi Stadium,Inglewood,USA,2026-06-28T11:00:00,America/Los_Angeles,false,
+74,Round of 32,Round of 32,,Winner Group E,3rd Group A/B/C/D/F,,,Gillette Stadium,Foxborough,USA,2026-06-29T15:30:00,America/New_York,false,
+75,Round of 32,Round of 32,,Winner Group F,Runner-up Group C,,,Estadio BBVA,Guadalupe,Mexico,2026-06-29T18:00:00,America/Monterrey,false,
+76,Round of 32,Round of 32,,Winner Group C,Runner-up Group F,,,NRG Stadium,Houston,USA,2026-06-29T11:00:00,America/Chicago,false,
+77,Round of 32,Round of 32,,Winner Group I,3rd Group C/D/F/G/H,,,MetLife Stadium,East Rutherford,USA,2026-06-30T16:00:00,America/New_York,false,
+78,Round of 32,Round of 32,,Runner-up Group E,Runner-up Group I,,,AT&T Stadium,Arlington,USA,2026-06-30T11:00:00,America/Chicago,false,
+79,Round of 32,Round of 32,,Winner Group A,3rd Group C/E/F/H/I,,,Estadio Azteca,Mexico City,Mexico,2026-06-30T18:00:00,America/Mexico_City,false,
+80,Round of 32,Round of 32,,Winner Group L,3rd Group E/H/I/J/K,,,Mercedes-Benz Stadium,Atlanta,USA,2026-07-01T11:00:00,America/New_York,false,
+81,Round of 32,Round of 32,,Winner Group D,3rd Group B/E/F/I/J,,,Levi's Stadium,Santa Clara,USA,2026-07-01T16:00:00,America/Los_Angeles,false,
+82,Round of 32,Round of 32,,Winner Group G,3rd Group A/E/H/I/J,,,Lumen Field,Seattle,USA,2026-07-01T12:00:00,America/Los_Angeles,false,
+83,Round of 32,Round of 32,,Runner-up Group K,Runner-up Group L,,,BMO Field,Toronto,Canada,2026-07-02T18:00:00,America/Toronto,false,
+84,Round of 32,Round of 32,,Winner Group H,Runner-up Group J,,,SoFi Stadium,Inglewood,USA,2026-07-02T11:00:00,America/Los_Angeles,false,
+85,Round of 32,Round of 32,,Winner Group B,3rd Group E/F/G/I/J,,,BC Place,Vancouver,Canada,2026-07-02T19:00:00,America/Vancouver,false,
+86,Round of 32,Round of 32,,Winner Group J,Runner-up Group H,,,Hard Rock Stadium,Miami Gardens,USA,2026-07-03T17:00:00,America/New_York,false,
+87,Round of 32,Round of 32,,Winner Group K,3rd Group D/E/I/J/L,,,Arrowhead Stadium,Kansas City,USA,2026-07-03T19:30:00,America/Chicago,false,
+88,Round of 32,Round of 32,,Runner-up Group D,Runner-up Group G,,,AT&T Stadium,Arlington,USA,2026-07-03T12:00:00,America/Chicago,false,
+89,Round of 16,Round of 16,,Winner Match 74,Winner Match 77,,,Lincoln Financial Field,Philadelphia,USA,2026-07-04T16:00:00,America/New_York,false,
+90,Round of 16,Round of 16,,Winner Match 73,Winner Match 75,,,NRG Stadium,Houston,USA,2026-07-04T11:00:00,America/Chicago,false,
+91,Round of 16,Round of 16,,Winner Match 76,Winner Match 78,,,MetLife Stadium,East Rutherford,USA,2026-07-05T15:00:00,America/New_York,false,
+92,Round of 16,Round of 16,,Winner Match 79,Winner Match 80,,,Estadio Azteca,Mexico City,Mexico,2026-07-05T17:00:00,America/Mexico_City,false,
+93,Round of 16,Round of 16,,Winner Match 83,Winner Match 84,,,AT&T Stadium,Arlington,USA,2026-07-06T13:00:00,America/Chicago,false,
+94,Round of 16,Round of 16,,Winner Match 81,Winner Match 82,,,Lumen Field,Seattle,USA,2026-07-06T16:00:00,America/Los_Angeles,false,
+95,Round of 16,Round of 16,,Winner Match 86,Winner Match 88,,,Mercedes-Benz Stadium,Atlanta,USA,2026-07-07T11:00:00,America/New_York,false,
+96,Round of 16,Round of 16,,Winner Match 85,Winner Match 87,,,BC Place,Vancouver,Canada,2026-07-07T12:00:00,America/Vancouver,false,
+97,Quarter-final,Quarterfinals,,Winner Match 89,Winner Match 90,,,Gillette Stadium,Foxborough,USA,2026-07-09T15:00:00,America/New_York,false,
+98,Quarter-final,Quarterfinals,,Winner Match 93,Winner Match 94,,,SoFi Stadium,Inglewood,USA,2026-07-10T11:00:00,America/Los_Angeles,false,
+99,Quarter-final,Quarterfinals,,Winner Match 91,Winner Match 92,,,Hard Rock Stadium,Miami Gardens,USA,2026-07-11T16:00:00,America/New_York,false,
+100,Quarter-final,Quarterfinals,,Winner Match 95,Winner Match 96,,,Arrowhead Stadium,Kansas City,USA,2026-07-11T19:00:00,America/Chicago,false,
+101,Semi-final,Semifinals,,Winner Match 97,Winner Match 98,,,AT&T Stadium,Arlington,USA,2026-07-14T13:00:00,America/Chicago,false,
+102,Semi-final,Semifinals,,Winner Match 99,Winner Match 100,,,Mercedes-Benz Stadium,Atlanta,USA,2026-07-15T14:00:00,America/New_York,false,
+103,Third-place,Match for third place,,Loser Match 101,Loser Match 102,,,Hard Rock Stadium,Miami Gardens,USA,2026-07-18T16:00:00,America/New_York,false,
+104,Final,Final,,Winner Match 101,Winner Match 102,,,MetLife Stadium,East Rutherford,USA,2026-07-19T14:00:00,America/New_York,false,
