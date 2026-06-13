@@ -9,6 +9,11 @@ from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
 
+try:
+    import requests
+except ImportError:  # pragma: no cover - fallback for minimal local environments.
+    requests = None
+
 
 class ProviderError(RuntimeError):
     pass
@@ -33,7 +38,20 @@ def load_env_file(path: Path | str = ".env") -> None:
 
 
 def http_get_text(url: str, headers: dict[str, str] | None = None) -> str:
-    request = urllib.request.Request(url, headers=headers or {"User-Agent": "worldcup-schedule/1.0"})
+    request_headers = headers or {"User-Agent": "worldcup-schedule/1.0"}
+    if requests is not None:
+        try:
+            response = requests.get(url, headers=request_headers, timeout=30)
+            response.raise_for_status()
+            return response.text
+        except requests.HTTPError as exc:
+            body = exc.response.text[:400] if exc.response is not None else ""
+            code = exc.response.status_code if exc.response is not None else "unknown"
+            raise ProviderError(f"HTTP {code}: {body}") from exc
+        except requests.RequestException as exc:
+            raise ProviderError(f"网络请求失败: {exc}") from exc
+
+    request = urllib.request.Request(url, headers=request_headers)
     try:
         with urllib.request.urlopen(request, timeout=30) as response:
             return response.read().decode("utf-8-sig")
