@@ -3,7 +3,7 @@ from __future__ import annotations
 import os
 from datetime import UTC, datetime
 from pathlib import Path
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlparse
 
 from schedule_utils import default_static_schedule_path, safe_int
 
@@ -42,6 +42,8 @@ class ApiFootballProvider(BaseProvider):
         self.league_id = os.getenv("API_FOOTBALL_WORLD_CUP_LEAGUE_ID", "1")
         self.season = os.getenv("API_FOOTBALL_WORLD_CUP_SEASON", "2026")
         self.fixtures_url = os.getenv("API_FOOTBALL_FIXTURES_URL", "")
+        self.auth_mode = os.getenv("API_FOOTBALL_AUTH_MODE", "apisports").strip().lower()
+        self.rapidapi_host = os.getenv("API_FOOTBALL_RAPIDAPI_HOST", urlparse(self.base_url).netloc)
         self.static_path = static_path or default_static_schedule_path()
 
     def fetch(self) -> dict:
@@ -76,11 +78,20 @@ class ApiFootballProvider(BaseProvider):
         return result
 
     def _fetch_fixtures(self) -> dict:
-        headers = {"x-apisports-key": self.key, "User-Agent": "worldcup-schedule/1.0"}
+        headers = self._headers()
         if self.fixtures_url:
             return http_get_json(self.fixtures_url, headers=headers)
         query = urlencode({"league": self.league_id, "season": self.season})
         return http_get_json(f"{self.base_url}/fixtures?{query}", headers=headers)
+
+    def _headers(self) -> dict[str, str]:
+        headers = {"User-Agent": "worldcup-schedule/1.0"}
+        if self.auth_mode in {"rapidapi", "rapid_api", "x-rapidapi"}:
+            headers["x-rapidapi-key"] = self.key
+            headers["x-rapidapi-host"] = self.rapidapi_host
+        else:
+            headers["x-apisports-key"] = self.key
+        return headers
 
     def _normalize_fixture(self, item: dict, fallback_updated: str) -> dict:
         fixture = item.get("fixture") or {}
