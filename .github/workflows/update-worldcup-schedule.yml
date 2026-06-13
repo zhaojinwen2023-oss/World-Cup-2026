@@ -30,6 +30,10 @@ jobs:
         env:
           LIVE_DATA_SOURCE: ${{ vars.LIVE_DATA_SOURCE || 'api_football' }}
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_AUTH_MODE: ${{ vars.API_FOOTBALL_AUTH_MODE || 'apisports' }}
+          API_FOOTBALL_BASE_URL: ${{ vars.API_FOOTBALL_BASE_URL || 'https://v3.football.api-sports.io' }}
+          API_FOOTBALL_RAPIDAPI_HOST: ${{ vars.API_FOOTBALL_RAPIDAPI_HOST || 'v3.football.api-sports.io' }}
+          API_FOOTBALL_FIXTURES_URL: ${{ vars.API_FOOTBALL_FIXTURES_URL }}
           API_FOOTBALL_WORLD_CUP_LEAGUE_ID: ${{ vars.API_FOOTBALL_WORLD_CUP_LEAGUE_ID || '1' }}
           API_FOOTBALL_WORLD_CUP_SEASON: ${{ vars.API_FOOTBALL_WORLD_CUP_SEASON || '2026' }}
           SPORTMONKS_KEY: ${{ secrets.SPORTMONKS_KEY }}
@@ -45,6 +49,10 @@ jobs:
           fi
           {
             echo "API_FOOTBALL_KEY=$API_FOOTBALL_KEY"
+            echo "API_FOOTBALL_AUTH_MODE=$API_FOOTBALL_AUTH_MODE"
+            echo "API_FOOTBALL_BASE_URL=$API_FOOTBALL_BASE_URL"
+            echo "API_FOOTBALL_RAPIDAPI_HOST=$API_FOOTBALL_RAPIDAPI_HOST"
+            echo "API_FOOTBALL_FIXTURES_URL=$API_FOOTBALL_FIXTURES_URL"
             echo "API_FOOTBALL_WORLD_CUP_LEAGUE_ID=$API_FOOTBALL_WORLD_CUP_LEAGUE_ID"
             echo "API_FOOTBALL_WORLD_CUP_SEASON=$API_FOOTBALL_WORLD_CUP_SEASON"
             echo "SPORTMONKS_KEY=$SPORTMONKS_KEY"
