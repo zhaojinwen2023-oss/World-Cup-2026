@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-06-10T13:34:44Z",
-  "source": "local",
-  "live_results": "/Users/mi/Documents/World Cupt/worldcup-schedule/data/live_results.json",
-  "standings": "/Users/mi/Documents/World Cupt/worldcup-schedule/data/standings.json",
-  "knockout_bracket": "/Users/mi/Documents/World Cupt/worldcup-schedule/data/knockout_bracket.json",
-  "app_data": "/Users/mi/Documents/World Cupt/worldcup-schedule/data/app_data.json"
+  "last_updated": "2026-06-13T08:50:26Z",
+  "source": "api_football",
+  "live_results": "/home/runner/work/World-Cup-2026/World-Cup-2026/worldcup-schedule/data/live_results.json",
+  "standings": "/home/runner/work/World-Cup-2026/World-Cup-2026/worldcup-schedule/data/standings.json",
+  "knockout_bracket": "/home/runner/work/World-Cup-2026/World-Cup-2026/worldcup-schedule/data/knockout_bracket.json",
+  "app_data": "/home/runner/work/World-Cup-2026/World-Cup-2026/worldcup-schedule/data/app_data.json"
 }

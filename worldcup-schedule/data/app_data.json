@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-12T04:55:02Z",
-  "live_last_updated": "2026-06-10T00:00:00+08:00",
-  "standings_last_updated": "2026-06-10T13:34:44Z",
-  "knockout_last_updated": "2026-06-10T13:34:44Z",
+  "generated_at": "2026-06-13T08:50:27Z",
+  "live_last_updated": "2026-06-13T08:50:26Z",
+  "standings_last_updated": "2026-06-13T08:50:26Z",
+  "knockout_last_updated": "2026-06-13T08:50:26Z",
   "matches": [
     {
       "match_id": 1,
@@ -30,21 +30,21 @@
       "western_display": "2026-06-11 周四 11:00 (America/Los_Angeles)",
       "beijing_date": "2026-06-12",
       "beijing_is_early_morning": true,
-      "status": "scheduled",
-      "status_label": "未开始",
-      "match_status": "未开始",
-      "minute": "",
-      "score": "",
-      "home_score": "",
-      "away_score": "",
+      "status": "finished",
+      "status_label": "已结束",
+      "match_status": "已结束",
+      "minute": "90+8",
+      "score": "2-0",
+      "home_score": 2,
+      "away_score": 0,
       "home_penalty_score": "",
       "away_penalty_score": "",
       "penalty_score": "",
-      "winner": "",
-      "loser": "",
-      "is_finished": false,
+      "winner": "Mexico",
+      "loser": "South Africa",
+      "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -58,12 +58,12 @@
       "home_placeholder": "South Korea",
       "away_placeholder": "Czech Republic",
       "home_team": "South Korea",
-      "away_team": "Czech Republic",
+      "away_team": "Czechia",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：South Korea",
       "away_slot_label": "待定：Czech Republic",
-      "matchup": "South Korea vs Czech Republic",
+      "matchup": "South Korea vs Czechia",
       "stadium": "Estadio Akron",
       "city": "Zapopan",
       "country": "Mexico",
@@ -75,21 +75,21 @@
       "western_display": "2026-06-11 周四 18:00 (America/Los_Angeles)",
       "beijing_date": "2026-06-12",
       "beijing_is_early_morning": false,
-      "status": "scheduled",
-      "status_label": "未开始",
-      "match_status": "未开始",
-      "minute": "",
-      "score": "",
-      "home_score": "",
-      "away_score": "",
+      "status": "finished",
+      "status_label": "已结束",
+      "match_status": "已结束",
+      "minute": "90+7",
+      "score": "2-1",
+      "home_score": 2,
+      "away_score": 1,
       "home_penalty_score": "",
       "away_penalty_score": "",
       "penalty_score": "",
-      "winner": "",
-      "loser": "",
-      "is_finished": false,
+      "winner": "South Korea",
+      "loser": "Czechia",
+      "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -103,12 +103,12 @@
       "home_placeholder": "Canada",
       "away_placeholder": "Bosnia and Herzegovina",
       "home_team": "Canada",
-      "away_team": "Bosnia and Herzegovina",
+      "away_team": "Bosnia & Herzegovina",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Canada",
       "away_slot_label": "待定：Bosnia and Herzegovina",
-      "matchup": "Canada vs Bosnia and Herzegovina",
+      "matchup": "Canada vs Bosnia & Herzegovina",
       "stadium": "BMO Field",
       "city": "Toronto",
       "country": "Canada",
@@ -120,21 +120,21 @@
       "western_display": "2026-06-12 周五 11:00 (America/Los_Angeles)",
       "beijing_date": "2026-06-13",
       "beijing_is_early_morning": true,
-      "status": "scheduled",
-      "status_label": "未开始",
-      "match_status": "未开始",
-      "minute": "",
-      "score": "",
-      "home_score": "",
-      "away_score": "",
+      "status": "finished",
+      "status_label": "已结束",
+      "match_status": "已结束",
+      "minute": "90+6",
+      "score": "1-1",
+      "home_score": 1,
+      "away_score": 1,
       "home_penalty_score": "",
       "away_penalty_score": "",
       "penalty_score": "",
       "winner": "",
       "loser": "",
-      "is_finished": false,
+      "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -147,13 +147,13 @@
       "group": "D",
       "home_placeholder": "United States",
       "away_placeholder": "Paraguay",
-      "home_team": "United States",
+      "home_team": "USA",
       "away_team": "Paraguay",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：United States",
       "away_slot_label": "待定：Paraguay",
-      "matchup": "United States vs Paraguay",
+      "matchup": "USA vs Paraguay",
       "stadium": "SoFi Stadium",
       "city": "Inglewood",
       "country": "USA",
@@ -165,21 +165,21 @@
       "western_display": "2026-06-12 周五 17:00 (America/Los_Angeles)",
       "beijing_date": "2026-06-13",
       "beijing_is_early_morning": false,
-      "status": "scheduled",
-      "status_label": "未开始",
-      "match_status": "未开始",
-      "minute": "",
-      "score": "",
-      "home_score": "",
-      "away_score": "",
+      "status": "finished",
+      "status_label": "已结束",
+      "match_status": "已结束",
+      "minute": 90,
+      "score": "4-1",
+      "home_score": 4,
+      "away_score": 1,
       "home_penalty_score": "",
       "away_penalty_score": "",
       "penalty_score": "",
-      "winner": "",
-      "loser": "",
-      "is_finished": false,
+      "winner": "USA",
+      "loser": "Paraguay",
+      "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -224,7 +224,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -269,7 +269,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -314,7 +314,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -328,12 +328,12 @@
       "home_placeholder": "Australia",
       "away_placeholder": "Turkey",
       "home_team": "Australia",
-      "away_team": "Turkey",
+      "away_team": "Türkiye",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Australia",
       "away_slot_label": "待定：Turkey",
-      "matchup": "Australia vs Turkey",
+      "matchup": "Australia vs Türkiye",
       "stadium": "BC Place",
       "city": "Vancouver",
       "country": "Canada",
@@ -359,7 +359,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -404,7 +404,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -449,7 +449,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -494,7 +494,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -539,7 +539,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -553,12 +553,12 @@
       "home_placeholder": "Spain",
       "away_placeholder": "Cape Verde",
       "home_team": "Spain",
-      "away_team": "Cape Verde",
+      "away_team": "Cape Verde Islands",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Spain",
       "away_slot_label": "待定：Cape Verde",
-      "matchup": "Spain vs Cape Verde",
+      "matchup": "Spain vs Cape Verde Islands",
       "stadium": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
@@ -584,7 +584,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -629,7 +629,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -674,7 +674,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -719,7 +719,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -764,7 +764,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -809,7 +809,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -854,7 +854,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -899,7 +899,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -913,12 +913,12 @@
       "home_placeholder": "Portugal",
       "away_placeholder": "DR Congo",
       "home_team": "Portugal",
-      "away_team": "DR Congo",
+      "away_team": "Congo DR",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Portugal",
       "away_slot_label": "待定：DR Congo",
-      "matchup": "Portugal vs DR Congo",
+      "matchup": "Portugal vs Congo DR",
       "stadium": "NRG Stadium",
       "city": "Houston",
       "country": "USA",
@@ -944,7 +944,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -989,7 +989,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -1034,7 +1034,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -1079,7 +1079,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -1092,13 +1092,13 @@
       "group": "A",
       "home_placeholder": "Czech Republic",
       "away_placeholder": "South Africa",
-      "home_team": "Czech Republic",
+      "home_team": "Czechia",
       "away_team": "South Africa",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Czech Republic",
       "away_slot_label": "待定：South Africa",
-      "matchup": "Czech Republic vs South Africa",
+      "matchup": "Czechia vs South Africa",
       "stadium": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
@@ -1124,7 +1124,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -1138,12 +1138,12 @@
       "home_placeholder": "Switzerland",
       "away_placeholder": "Bosnia and Herzegovina",
       "home_team": "Switzerland",
-      "away_team": "Bosnia and Herzegovina",
+      "away_team": "Bosnia & Herzegovina",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Switzerland",
       "away_slot_label": "待定：Bosnia and Herzegovina",
-      "matchup": "Switzerland vs Bosnia and Herzegovina",
+      "matchup": "Switzerland vs Bosnia & Herzegovina",
       "stadium": "SoFi Stadium",
       "city": "Inglewood",
       "country": "USA",
@@ -1169,7 +1169,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -1214,7 +1214,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -1259,7 +1259,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -1272,13 +1272,13 @@
       "group": "D",
       "home_placeholder": "United States",
       "away_placeholder": "Australia",
-      "home_team": "United States",
+      "home_team": "USA",
       "away_team": "Australia",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：United States",
       "away_slot_label": "待定：Australia",
-      "matchup": "United States vs Australia",
+      "matchup": "USA vs Australia",
       "stadium": "Lumen Field",
       "city": "Seattle",
       "country": "USA",
@@ -1304,7 +1304,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -1349,7 +1349,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -1394,7 +1394,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -1407,13 +1407,13 @@
       "group": "D",
       "home_placeholder": "Turkey",
       "away_placeholder": "Paraguay",
-      "home_team": "Turkey",
+      "home_team": "Türkiye",
       "away_team": "Paraguay",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Turkey",
       "away_slot_label": "待定：Paraguay",
-      "matchup": "Turkey vs Paraguay",
+      "matchup": "Türkiye vs Paraguay",
       "stadium": "Levi's Stadium",
       "city": "Santa Clara",
       "country": "USA",
@@ -1439,7 +1439,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -1484,7 +1484,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -1529,7 +1529,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -1574,7 +1574,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -1619,7 +1619,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -1664,7 +1664,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -1709,7 +1709,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -1723,12 +1723,12 @@
       "home_placeholder": "Uruguay",
       "away_placeholder": "Cape Verde",
       "home_team": "Uruguay",
-      "away_team": "Cape Verde",
+      "away_team": "Cape Verde Islands",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Uruguay",
       "away_slot_label": "待定：Cape Verde",
-      "matchup": "Uruguay vs Cape Verde",
+      "matchup": "Uruguay vs Cape Verde Islands",
       "stadium": "Hard Rock Stadium",
       "city": "Miami Gardens",
       "country": "USA",
@@ -1754,7 +1754,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -1799,7 +1799,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -1844,7 +1844,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -1889,7 +1889,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -1934,7 +1934,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -1979,7 +1979,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -2024,7 +2024,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -2069,7 +2069,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -2114,7 +2114,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -2128,12 +2128,12 @@
       "home_placeholder": "Colombia",
       "away_placeholder": "DR Congo",
       "home_team": "Colombia",
-      "away_team": "DR Congo",
+      "away_team": "Congo DR",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Colombia",
       "away_slot_label": "待定：DR Congo",
-      "matchup": "Colombia vs DR Congo",
+      "matchup": "Colombia vs Congo DR",
       "stadium": "Estadio Akron",
       "city": "Zapopan",
       "country": "Mexico",
@@ -2159,7 +2159,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -2204,7 +2204,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -2217,13 +2217,13 @@
       "group": "B",
       "home_placeholder": "Bosnia and Herzegovina",
       "away_placeholder": "Qatar",
-      "home_team": "Bosnia and Herzegovina",
+      "home_team": "Bosnia & Herzegovina",
       "away_team": "Qatar",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Bosnia and Herzegovina",
       "away_slot_label": "待定：Qatar",
-      "matchup": "Bosnia and Herzegovina vs Qatar",
+      "matchup": "Bosnia & Herzegovina vs Qatar",
       "stadium": "Lumen Field",
       "city": "Seattle",
       "country": "USA",
@@ -2249,7 +2249,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -2294,7 +2294,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -2339,7 +2339,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -2352,13 +2352,13 @@
       "group": "A",
       "home_placeholder": "Czech Republic",
       "away_placeholder": "Mexico",
-      "home_team": "Czech Republic",
+      "home_team": "Czechia",
       "away_team": "Mexico",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Czech Republic",
       "away_slot_label": "待定：Mexico",
-      "matchup": "Czech Republic vs Mexico",
+      "matchup": "Czechia vs Mexico",
       "stadium": "Estadio Azteca",
       "city": "Mexico City",
       "country": "Mexico",
@@ -2384,7 +2384,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -2429,7 +2429,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -2474,7 +2474,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -2519,7 +2519,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -2564,7 +2564,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -2609,7 +2609,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -2622,13 +2622,13 @@
       "group": "D",
       "home_placeholder": "Turkey",
       "away_placeholder": "United States",
-      "home_team": "Turkey",
-      "away_team": "United States",
+      "home_team": "Türkiye",
+      "away_team": "USA",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Turkey",
       "away_slot_label": "待定：United States",
-      "matchup": "Turkey vs United States",
+      "matchup": "Türkiye vs USA",
       "stadium": "SoFi Stadium",
       "city": "Inglewood",
       "country": "USA",
@@ -2654,7 +2654,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -2699,7 +2699,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -2744,7 +2744,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -2789,7 +2789,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -2802,13 +2802,13 @@
       "group": "H",
       "home_placeholder": "Cape Verde",
       "away_placeholder": "Saudi Arabia",
-      "home_team": "Cape Verde",
+      "home_team": "Cape Verde Islands",
       "away_team": "Saudi Arabia",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Cape Verde",
       "away_slot_label": "待定：Saudi Arabia",
-      "matchup": "Cape Verde vs Saudi Arabia",
+      "matchup": "Cape Verde Islands vs Saudi Arabia",
       "stadium": "NRG Stadium",
       "city": "Houston",
       "country": "USA",
@@ -2834,7 +2834,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -2879,7 +2879,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -2924,7 +2924,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -2969,7 +2969,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -3014,7 +3014,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -3059,7 +3059,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -3104,7 +3104,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -3117,13 +3117,13 @@
       "group": "K",
       "home_placeholder": "DR Congo",
       "away_placeholder": "Uzbekistan",
-      "home_team": "DR Congo",
+      "home_team": "Congo DR",
       "away_team": "Uzbekistan",
       "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：DR Congo",
       "away_slot_label": "待定：Uzbekistan",
-      "matchup": "DR Congo vs Uzbekistan",
+      "matchup": "Congo DR vs Uzbekistan",
       "stadium": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
@@ -3149,7 +3149,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -3194,7 +3194,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -3239,7 +3239,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "2026-06-13T08:50:26Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -3284,7 +3284,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3329,7 +3329,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3374,7 +3374,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3419,7 +3419,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3464,7 +3464,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3509,7 +3509,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3554,7 +3554,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3599,7 +3599,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3644,7 +3644,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3689,7 +3689,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3734,7 +3734,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3779,7 +3779,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3824,7 +3824,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3869,7 +3869,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3914,7 +3914,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3959,7 +3959,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4004,7 +4004,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4049,7 +4049,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4094,7 +4094,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4139,7 +4139,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4184,7 +4184,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4229,7 +4229,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4274,7 +4274,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4319,7 +4319,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4364,7 +4364,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4409,7 +4409,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4454,7 +4454,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4499,7 +4499,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4544,7 +4544,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4589,7 +4589,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4634,7 +4634,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4679,7 +4679,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-10T00:00:00+08:00",
+      "last_updated": "",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4688,60 +4688,60 @@
   "standings": [
     {
       "group": "A",
-      "team": "Czech Republic",
-      "played": 0,
-      "won": 0,
+      "team": "Mexico",
+      "played": 1,
+      "won": 1,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 0,
+      "goals_for": 2,
       "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
+      "goal_difference": 2,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
     },
     {
       "group": "A",
-      "team": "Mexico",
-      "played": 0,
-      "won": 0,
+      "team": "South Korea",
+      "played": 1,
+      "won": 1,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
+      "goals_for": 2,
+      "goals_against": 1,
+      "goal_difference": 1,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 2,
       "qualified_status": "possible"
     },
     {
       "group": "A",
-      "team": "South Africa",
-      "played": 0,
+      "team": "Czech Republic",
+      "played": 1,
       "won": 0,
       "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
+      "lost": 1,
+      "goals_for": 1,
+      "goals_against": 2,
+      "goal_difference": -1,
       "points": 0,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9
+      "best_third_rank": 12
     },
     {
       "group": "A",
-      "team": "South Korea",
-      "played": 0,
+      "team": "South Africa",
+      "played": 1,
       "won": 0,
       "drawn": 0,
-      "lost": 0,
+      "lost": 1,
       "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
+      "goals_against": 2,
+      "goal_difference": -2,
       "points": 0,
       "fair_play_points": 0,
       "rank": 4,
@@ -4750,14 +4750,14 @@
     {
       "group": "B",
       "team": "Bosnia and Herzegovina",
-      "played": 0,
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
+      "goals_for": 1,
+      "goals_against": 1,
       "goal_difference": 0,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
@@ -4765,14 +4765,14 @@
     {
       "group": "B",
       "team": "Canada",
-      "played": 0,
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
+      "goals_for": 1,
+      "goals_against": 1,
       "goal_difference": 0,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 2,
       "qualified_status": "possible"
@@ -4871,22 +4871,22 @@
     },
     {
       "group": "D",
-      "team": "Australia",
-      "played": 0,
-      "won": 0,
+      "team": "United States",
+      "played": 1,
+      "won": 1,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
+      "goals_for": 4,
+      "goals_against": 1,
+      "goal_difference": 3,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
     },
     {
       "group": "D",
-      "team": "Paraguay",
+      "team": "Australia",
       "played": 0,
       "won": 0,
       "drawn": 0,
@@ -4913,18 +4913,18 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 12
+      "best_third_rank": 11
     },
     {
       "group": "D",
-      "team": "United States",
-      "played": 0,
+      "team": "Paraguay",
+      "played": 1,
       "won": 0,
       "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
+      "lost": 1,
+      "goals_for": 1,
+      "goals_against": 4,
+      "goal_difference": -3,
       "points": 0,
       "fair_play_points": 0,
       "rank": 4,
@@ -5035,7 +5035,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 11
+      "best_third_rank": 10
     },
     {
       "group": "F",
@@ -5157,7 +5157,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10
+      "best_third_rank": 9
     },
     {
       "group": "H",
@@ -5557,23 +5557,6 @@
       "best_third_qualified": false
     },
     {
-      "group": "A",
-      "team": "South Africa",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 9,
-      "best_third_qualified": false
-    },
-    {
       "group": "H",
       "team": "Spain",
       "played": 0,
@@ -5587,7 +5570,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10,
+      "best_third_rank": 9,
       "best_third_qualified": false
     },
     {
@@ -5604,7 +5587,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 11,
+      "best_third_rank": 10,
       "best_third_qualified": false
     },
     {
@@ -5617,6 +5600,23 @@
       "goals_for": 0,
       "goals_against": 0,
       "goal_difference": 0,
+      "points": 0,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 11,
+      "best_third_qualified": false
+    },
+    {
+      "group": "A",
+      "team": "Czech Republic",
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goals_for": 1,
+      "goals_against": 2,
+      "goal_difference": -1,
       "points": 0,
       "fair_play_points": 0,
       "rank": 3,
@@ -5645,7 +5645,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 74,
@@ -5666,7 +5666,7 @@
       "next_match_id": 89,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 75,
@@ -5687,7 +5687,7 @@
       "next_match_id": 90,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 76,
@@ -5708,7 +5708,7 @@
       "next_match_id": 91,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 77,
@@ -5729,7 +5729,7 @@
       "next_match_id": 89,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 78,
@@ -5750,7 +5750,7 @@
       "next_match_id": 91,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 79,
@@ -5771,7 +5771,7 @@
       "next_match_id": 92,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 80,
@@ -5792,7 +5792,7 @@
       "next_match_id": 92,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 81,
@@ -5813,7 +5813,7 @@
       "next_match_id": 94,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 82,
@@ -5834,7 +5834,7 @@
       "next_match_id": 94,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 83,
@@ -5855,7 +5855,7 @@
       "next_match_id": 93,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 84,
@@ -5876,7 +5876,7 @@
       "next_match_id": 93,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 85,
@@ -5897,7 +5897,7 @@
       "next_match_id": 96,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 86,
@@ -5918,7 +5918,7 @@
       "next_match_id": 95,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 87,
@@ -5939,7 +5939,7 @@
       "next_match_id": 96,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 88,
@@ -5960,7 +5960,7 @@
       "next_match_id": 95,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 89,
@@ -5981,7 +5981,7 @@
       "next_match_id": 97,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 90,
@@ -6002,7 +6002,7 @@
       "next_match_id": 97,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 91,
@@ -6023,7 +6023,7 @@
       "next_match_id": 99,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 92,
@@ -6044,7 +6044,7 @@
       "next_match_id": 99,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 93,
@@ -6065,7 +6065,7 @@
       "next_match_id": 98,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 94,
@@ -6086,7 +6086,7 @@
       "next_match_id": 98,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 95,
@@ -6107,7 +6107,7 @@
       "next_match_id": 100,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 96,
@@ -6128,7 +6128,7 @@
       "next_match_id": 100,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 97,
@@ -6149,7 +6149,7 @@
       "next_match_id": 101,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 98,
@@ -6170,7 +6170,7 @@
       "next_match_id": 101,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 99,
@@ -6191,7 +6191,7 @@
       "next_match_id": 102,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 100,
@@ -6212,7 +6212,7 @@
       "next_match_id": 102,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 101,
@@ -6233,7 +6233,7 @@
       "next_match_id": 104,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 102,
@@ -6254,7 +6254,7 @@
       "next_match_id": 104,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 103,
@@ -6275,7 +6275,7 @@
       "next_match_id": null,
       "next_slot": "",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     },
     {
       "match_id": 104,
@@ -6296,7 +6296,7 @@
       "next_match_id": null,
       "next_slot": "",
       "status": "scheduled",
-      "last_updated": "2026-06-10T00:00:00+08:00"
+      "last_updated": ""
     }
   ]
 }
