@@ -37,7 +37,7 @@ class ApiFootballProvider(BaseProvider):
     }
 
     def __init__(self, static_path: Path | None = None):
-        self.key = os.getenv("API_FOOTBALL_KEY") or os.getenv("APISPORTS_KEY")
+        self.key = clean_key(os.getenv("API_FOOTBALL_KEY") or os.getenv("APISPORTS_KEY"))
         self.base_url = os.getenv("API_FOOTBALL_BASE_URL", "https://v3.football.api-sports.io").rstrip("/")
         self.league_id = os.getenv("API_FOOTBALL_WORLD_CUP_LEAGUE_ID", "1")
         self.season = os.getenv("API_FOOTBALL_WORLD_CUP_SEASON", "2026")
@@ -143,6 +143,10 @@ class ApiFootballProvider(BaseProvider):
 
 def blank_none(value: object) -> object:
     return "" if value is None else value
+
+
+def clean_key(value: object) -> str:
+    return str(value or "").strip().strip('"').strip("'")
 
 
 def parse_api_datetime(value: object) -> datetime | None:
