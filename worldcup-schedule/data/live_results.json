@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T22:45:27Z",
+  "last_updated": "2026-06-13T23:49:22Z",
   "results": [
     {
       "match_id": 1,
@@ -14,7 +14,7 @@
       "winner": "Mexico",
       "loser": "South Africa",
       "is_finished": true,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 2,
@@ -29,7 +29,7 @@
       "winner": "South Korea",
       "loser": "Czechia",
       "is_finished": true,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 3,
@@ -44,7 +44,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 4,
@@ -59,7 +59,7 @@
       "winner": "USA",
       "loser": "Paraguay",
       "is_finished": true,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 5,
@@ -74,7 +74,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 6,
@@ -89,7 +89,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 7,
@@ -100,11 +100,11 @@
       "home_penalty_score": "",
       "away_penalty_score": "",
       "status": "live",
-      "minute": 41,
+      "minute": 84,
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 8,
@@ -119,7 +119,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 9,
@@ -134,7 +134,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 10,
@@ -149,7 +149,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 11,
@@ -164,7 +164,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 12,
@@ -179,7 +179,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 13,
@@ -194,7 +194,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 14,
@@ -209,7 +209,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 15,
@@ -224,7 +224,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 16,
@@ -239,7 +239,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 17,
@@ -254,7 +254,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 18,
@@ -269,7 +269,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 19,
@@ -284,7 +284,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 20,
@@ -299,7 +299,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 21,
@@ -314,7 +314,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 22,
@@ -329,7 +329,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 23,
@@ -344,7 +344,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 24,
@@ -359,7 +359,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 25,
@@ -374,7 +374,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 26,
@@ -389,7 +389,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 27,
@@ -404,7 +404,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 28,
@@ -419,7 +419,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 29,
@@ -434,7 +434,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 30,
@@ -449,7 +449,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 31,
@@ -464,7 +464,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 32,
@@ -479,7 +479,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 33,
@@ -494,7 +494,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 34,
@@ -509,7 +509,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 35,
@@ -524,7 +524,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 36,
@@ -539,7 +539,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 37,
@@ -554,7 +554,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 38,
@@ -569,7 +569,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 39,
@@ -584,7 +584,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 40,
@@ -599,7 +599,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 41,
@@ -614,7 +614,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 42,
@@ -629,7 +629,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 43,
@@ -644,7 +644,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 44,
@@ -659,7 +659,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 45,
@@ -674,7 +674,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 46,
@@ -689,7 +689,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 47,
@@ -704,7 +704,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 48,
@@ -719,7 +719,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 49,
@@ -734,7 +734,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 50,
@@ -749,7 +749,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 51,
@@ -764,7 +764,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 52,
@@ -779,7 +779,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 53,
@@ -794,7 +794,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 54,
@@ -809,7 +809,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 55,
@@ -824,7 +824,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 56,
@@ -839,7 +839,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 57,
@@ -854,7 +854,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 58,
@@ -869,7 +869,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 59,
@@ -884,7 +884,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 60,
@@ -899,7 +899,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 61,
@@ -914,7 +914,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 62,
@@ -929,7 +929,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 63,
@@ -944,7 +944,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 64,
@@ -959,7 +959,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 65,
@@ -974,7 +974,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 66,
@@ -989,7 +989,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 67,
@@ -1004,7 +1004,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 68,
@@ -1019,7 +1019,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 69,
@@ -1034,7 +1034,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 70,
@@ -1049,7 +1049,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 71,
@@ -1064,7 +1064,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 72,
@@ -1079,7 +1079,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-06-13T22:45:27Z"
+      "last_updated": "2026-06-13T23:49:22Z"
     },
     {
       "match_id": 73,
