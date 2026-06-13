@@ -1,0 +1,66 @@
+name: Update World Cup Schedule
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: worldcup-schedule
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pandas openpyxl
+
+      - name: Write provider env
+        env:
+          LIVE_DATA_SOURCE: ${{ vars.LIVE_DATA_SOURCE || 'api_football' }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_WORLD_CUP_LEAGUE_ID: ${{ vars.API_FOOTBALL_WORLD_CUP_LEAGUE_ID || '1' }}
+          API_FOOTBALL_WORLD_CUP_SEASON: ${{ vars.API_FOOTBALL_WORLD_CUP_SEASON || '2026' }}
+          SPORTMONKS_KEY: ${{ secrets.SPORTMONKS_KEY }}
+          SPORTMONKS_WORLD_CUP_LEAGUE_ID: ${{ vars.SPORTMONKS_WORLD_CUP_LEAGUE_ID || '732' }}
+        run: |
+          if [ "$LIVE_DATA_SOURCE" = "api_football" ] && [ -z "$API_FOOTBALL_KEY" ]; then
+            echo "API_FOOTBALL_KEY secret is missing"
+            exit 1
+          fi
+          if [ "$LIVE_DATA_SOURCE" = "sportmonks" ] && [ -z "$SPORTMONKS_KEY" ]; then
+            echo "SPORTMONKS_KEY secret is missing"
+            exit 1
+          fi
+          {
+            echo "API_FOOTBALL_KEY=$API_FOOTBALL_KEY"
+            echo "API_FOOTBALL_WORLD_CUP_LEAGUE_ID=$API_FOOTBALL_WORLD_CUP_LEAGUE_ID"
+            echo "API_FOOTBALL_WORLD_CUP_SEASON=$API_FOOTBALL_WORLD_CUP_SEASON"
+            echo "SPORTMONKS_KEY=$SPORTMONKS_KEY"
+            echo "SPORTMONKS_WORLD_CUP_LEAGUE_ID=$SPORTMONKS_WORLD_CUP_LEAGUE_ID"
+            echo "LIVE_DATA_SOURCE=$LIVE_DATA_SOURCE"
+          } > .env
+          echo "LIVE_DATA_SOURCE=$LIVE_DATA_SOURCE" >> "$GITHUB_ENV"
+
+      - name: Refresh data
+        run: python scripts/update_live_data.py --source "$LIVE_DATA_SOURCE"
+
+      - name: Validate generated data
+        run: python scripts/validate_schedule.py
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update World Cup live data"
+          file_pattern: "worldcup-schedule/data/*.json worldcup-schedule/output/*.xlsx worldcup-schedule/output/*.ics"
