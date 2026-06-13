@@ -24,7 +24,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install pandas openpyxl
+        run: pip install pandas openpyxl requests
 
       - name: Write provider env
         env:
@@ -60,6 +60,43 @@ jobs:
             echo "LIVE_DATA_SOURCE=$LIVE_DATA_SOURCE"
           } > .env
           echo "LIVE_DATA_SOURCE=$LIVE_DATA_SOURCE" >> "$GITHUB_ENV"
+
+      - name: Check API-Football auth
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_AUTH_MODE: ${{ vars.API_FOOTBALL_AUTH_MODE || 'apisports' }}
+          API_FOOTBALL_BASE_URL: ${{ vars.API_FOOTBALL_BASE_URL || 'https://v3.football.api-sports.io' }}
+          API_FOOTBALL_RAPIDAPI_HOST: ${{ vars.API_FOOTBALL_RAPIDAPI_HOST || 'v3.football.api-sports.io' }}
+        run: |
+          if [ "$LIVE_DATA_SOURCE" != "api_football" ]; then
+            exit 0
+          fi
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          key = (os.environ.get("API_FOOTBALL_KEY") or "").strip().strip('"').strip("'")
+          auth_mode = (os.environ.get("API_FOOTBALL_AUTH_MODE") or "apisports").strip().lower()
+          base_url = (os.environ.get("API_FOOTBALL_BASE_URL") or "https://v3.football.api-sports.io").rstrip("/")
+          rapidapi_host = os.environ.get("API_FOOTBALL_RAPIDAPI_HOST") or "v3.football.api-sports.io"
+          print(f"API_FOOTBALL_KEY length after trim: {len(key)}")
+          if not key:
+              raise SystemExit("API_FOOTBALL_KEY secret is empty after trimming.")
+          headers = {"User-Agent": "worldcup-schedule/1.0"}
+          if auth_mode in {"rapidapi", "rapid_api", "x-rapidapi"}:
+              headers["x-rapidapi-key"] = key
+              headers["x-rapidapi-host"] = rapidapi_host
+          else:
+              headers["x-apisports-key"] = key
+          request = urllib.request.Request(f"{base_url}/status", headers=headers)
+          with urllib.request.urlopen(request, timeout=30) as response:
+              payload = json.loads(response.read().decode("utf-8"))
+          errors = payload.get("errors")
+          if errors:
+              raise SystemExit(f"API-Football auth check failed: {errors}")
+          print("API-Football auth check ok")
+          PY
 
       - name: Refresh data
         env:
