@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T23:49:22Z",
+  "last_updated": "2026-06-14T02:48:18Z",
   "standings": [
     {
       "group": "A",
@@ -126,16 +126,31 @@
     {
       "group": "C",
       "team": "Brazil",
-      "played": 0,
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
+      "goals_for": 1,
+      "goals_against": 1,
       "goal_difference": 0,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 1,
+      "qualified_status": "possible"
+    },
+    {
+      "group": "C",
+      "team": "Morocco",
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "goals_for": 1,
+      "goals_against": 1,
+      "goal_difference": 0,
+      "points": 1,
+      "fair_play_points": 0,
+      "rank": 2,
       "qualified_status": "possible"
     },
     {
@@ -150,24 +165,9 @@
       "goal_difference": 0,
       "points": 0,
       "fair_play_points": 0,
-      "rank": 2,
-      "qualified_status": "possible"
-    },
-    {
-      "group": "C",
-      "team": "Morocco",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
-      "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 5
     },
     {
       "group": "C",
@@ -411,7 +411,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5
+      "best_third_rank": 6
     },
     {
       "group": "G",

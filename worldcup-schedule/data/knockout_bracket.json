@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T23:49:22Z",
+  "last_updated": "2026-06-14T02:48:18Z",
   "knockout": [
     {
       "match_id": 73,
@@ -744,8 +744,8 @@
       "best_third_qualified": true
     },
     {
-      "group": "G",
-      "team": "Iran",
+      "group": "C",
+      "team": "Haiti",
       "played": 0,
       "won": 0,
       "drawn": 0,
@@ -761,8 +761,8 @@
       "best_third_qualified": true
     },
     {
-      "group": "C",
-      "team": "Morocco",
+      "group": "G",
+      "team": "Iran",
       "played": 0,
       "won": 0,
       "drawn": 0,
