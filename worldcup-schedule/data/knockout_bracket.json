@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T17:46:37Z",
+  "last_updated": "2026-06-14T19:12:24Z",
   "knockout": [
     {
       "match_id": 73,
@@ -727,8 +727,8 @@
       "best_third_qualified": true
     },
     {
-      "group": "E",
-      "team": "Germany",
+      "group": "L",
+      "team": "Ghana",
       "played": 0,
       "won": 0,
       "drawn": 0,
@@ -744,8 +744,8 @@
       "best_third_qualified": true
     },
     {
-      "group": "L",
-      "team": "Ghana",
+      "group": "G",
+      "team": "Iran",
       "played": 0,
       "won": 0,
       "drawn": 0,
@@ -761,8 +761,8 @@
       "best_third_qualified": true
     },
     {
-      "group": "G",
-      "team": "Iran",
+      "group": "E",
+      "team": "Ivory Coast",
       "played": 0,
       "won": 0,
       "drawn": 0,

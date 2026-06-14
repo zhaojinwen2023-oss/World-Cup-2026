@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T17:46:37Z",
+  "last_updated": "2026-06-14T19:12:24Z",
   "standings": [
     {
       "group": "A",
@@ -247,15 +247,15 @@
     },
     {
       "group": "E",
-      "team": "Curaçao",
-      "played": 0,
-      "won": 0,
+      "team": "Germany",
+      "played": 1,
+      "won": 1,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
+      "goals_for": 7,
+      "goals_against": 1,
+      "goal_difference": 6,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
@@ -277,7 +277,7 @@
     },
     {
       "group": "E",
-      "team": "Germany",
+      "team": "Ivory Coast",
       "played": 0,
       "won": 0,
       "drawn": 0,
@@ -289,18 +289,18 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4
+      "best_third_rank": 6
     },
     {
       "group": "E",
-      "team": "Ivory Coast",
-      "played": 0,
+      "team": "Curaçao",
+      "played": 1,
       "won": 0,
       "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
+      "lost": 1,
+      "goals_for": 1,
+      "goals_against": 7,
+      "goal_difference": -6,
       "points": 0,
       "fair_play_points": 0,
       "rank": 4,
@@ -411,7 +411,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 5
     },
     {
       "group": "G",
@@ -716,7 +716,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5
+      "best_third_rank": 4
     },
     {
       "group": "L",
