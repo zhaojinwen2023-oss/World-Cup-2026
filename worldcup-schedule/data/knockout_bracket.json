@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T02:48:18Z",
+  "last_updated": "2026-06-14T07:18:01Z",
   "knockout": [
     {
       "match_id": 73,
@@ -676,6 +676,23 @@
   ],
   "best_thirds": [
     {
+      "group": "C",
+      "team": "Morocco",
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "goals_for": 1,
+      "goals_against": 1,
+      "goal_difference": 0,
+      "points": 1,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 1,
+      "best_third_qualified": true
+    },
+    {
       "group": "B",
       "team": "Qatar",
       "played": 1,
@@ -689,7 +706,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 1,
+      "best_third_rank": 2,
       "best_third_qualified": true
     },
     {
@@ -706,7 +723,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 2,
+      "best_third_rank": 3,
       "best_third_qualified": true
     },
     {
@@ -723,29 +740,12 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3,
+      "best_third_rank": 4,
       "best_third_qualified": true
     },
     {
       "group": "L",
       "team": "Ghana",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 4,
-      "best_third_qualified": true
-    },
-    {
-      "group": "C",
-      "team": "Haiti",
       "played": 0,
       "won": 0,
       "drawn": 0,
@@ -846,23 +846,6 @@
       "best_third_qualified": false
     },
     {
-      "group": "D",
-      "team": "Turkey",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 11,
-      "best_third_qualified": false
-    },
-    {
       "group": "A",
       "team": "Czech Republic",
       "played": 1,
@@ -872,6 +855,23 @@
       "goals_for": 1,
       "goals_against": 2,
       "goal_difference": -1,
+      "points": 0,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 11,
+      "best_third_qualified": false
+    },
+    {
+      "group": "D",
+      "team": "Turkey",
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goals_for": 0,
+      "goals_against": 2,
+      "goal_difference": -2,
       "points": 0,
       "fair_play_points": 0,
       "rank": 3,
