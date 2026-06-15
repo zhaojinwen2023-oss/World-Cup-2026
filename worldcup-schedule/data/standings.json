@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T16:32:25Z",
+  "last_updated": "2026-06-15T20:07:49Z",
   "standings": [
     {
       "group": "A",
@@ -431,36 +431,36 @@
     {
       "group": "H",
       "team": "Cape Verde",
-      "played": 0,
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
       "goals_for": 0,
       "goals_against": 0,
       "goal_difference": 0,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
     },
     {
       "group": "H",
-      "team": "Saudi Arabia",
-      "played": 0,
+      "team": "Spain",
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
       "goals_for": 0,
       "goals_against": 0,
       "goal_difference": 0,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 2,
       "qualified_status": "possible"
     },
     {
       "group": "H",
-      "team": "Spain",
+      "team": "Saudi Arabia",
       "played": 0,
       "won": 0,
       "drawn": 0,
