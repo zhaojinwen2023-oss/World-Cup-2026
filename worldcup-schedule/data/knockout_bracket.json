@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T00:43:49Z",
+  "last_updated": "2026-06-15T05:35:07Z",
   "knockout": [
     {
       "match_id": 73,
@@ -676,6 +676,23 @@
   ],
   "best_thirds": [
     {
+      "group": "F",
+      "team": "Netherlands",
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "goals_for": 2,
+      "goals_against": 2,
+      "goal_difference": 0,
+      "points": 1,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 1,
+      "best_third_qualified": true
+    },
+    {
       "group": "C",
       "team": "Morocco",
       "played": 1,
@@ -689,7 +706,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 1,
+      "best_third_rank": 2,
       "best_third_qualified": true
     },
     {
@@ -706,7 +723,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 2,
+      "best_third_rank": 3,
       "best_third_qualified": true
     },
     {
@@ -723,7 +740,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3,
+      "best_third_rank": 4,
       "best_third_qualified": true
     },
     {
@@ -740,29 +757,12 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4,
+      "best_third_rank": 5,
       "best_third_qualified": true
     },
     {
       "group": "G",
       "team": "Iran",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 5,
-      "best_third_qualified": true
-    },
-    {
-      "group": "E",
-      "team": "Ivory Coast",
       "played": 0,
       "won": 0,
       "drawn": 0,
@@ -829,23 +829,6 @@
       "best_third_qualified": false
     },
     {
-      "group": "F",
-      "team": "Sweden",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 10,
-      "best_third_qualified": false
-    },
-    {
       "group": "A",
       "team": "Czech Republic",
       "played": 1,
@@ -854,6 +837,23 @@
       "lost": 1,
       "goals_for": 1,
       "goals_against": 2,
+      "goal_difference": -1,
+      "points": 0,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 10,
+      "best_third_qualified": false
+    },
+    {
+      "group": "E",
+      "team": "Ecuador",
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goals_for": 0,
+      "goals_against": 1,
       "goal_difference": -1,
       "points": 0,
       "fair_play_points": 0,

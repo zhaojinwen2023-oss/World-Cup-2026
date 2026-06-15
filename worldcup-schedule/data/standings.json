@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T00:43:49Z",
+  "last_updated": "2026-06-15T05:35:07Z",
   "standings": [
     {
       "group": "A",
@@ -45,7 +45,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 11
+      "best_third_rank": 10
     },
     {
       "group": "A",
@@ -106,7 +106,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 2
+      "best_third_rank": 3
     },
     {
       "group": "B",
@@ -167,7 +167,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 1
+      "best_third_rank": 2
     },
     {
       "group": "C",
@@ -262,34 +262,34 @@
     },
     {
       "group": "E",
-      "team": "Ecuador",
-      "played": 0,
-      "won": 0,
+      "team": "Ivory Coast",
+      "played": 1,
+      "won": 1,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 0,
+      "goals_for": 1,
       "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
+      "goal_difference": 1,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 2,
       "qualified_status": "possible"
     },
     {
       "group": "E",
-      "team": "Ivory Coast",
-      "played": 0,
+      "team": "Ecuador",
+      "played": 1,
       "won": 0,
       "drawn": 0,
-      "lost": 0,
+      "lost": 1,
       "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
+      "goals_against": 1,
+      "goal_difference": -1,
       "points": 0,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 11
     },
     {
       "group": "E",
@@ -308,22 +308,22 @@
     },
     {
       "group": "F",
-      "team": "Japan",
+      "team": "Sweden",
       "played": 1,
-      "won": 0,
-      "drawn": 1,
+      "won": 1,
+      "drawn": 0,
       "lost": 0,
-      "goals_for": 2,
-      "goals_against": 2,
-      "goal_difference": 0,
-      "points": 1,
+      "goals_for": 5,
+      "goals_against": 1,
+      "goal_difference": 4,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
     },
     {
       "group": "F",
-      "team": "Netherlands",
+      "team": "Japan",
       "played": 1,
       "won": 0,
       "drawn": 1,
@@ -338,30 +338,30 @@
     },
     {
       "group": "F",
-      "team": "Sweden",
-      "played": 0,
+      "team": "Netherlands",
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
+      "goals_for": 2,
+      "goals_against": 2,
       "goal_difference": 0,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10
+      "best_third_rank": 1
     },
     {
       "group": "F",
       "team": "Tunisia",
-      "played": 0,
+      "played": 1,
       "won": 0,
       "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
+      "lost": 1,
+      "goals_for": 1,
+      "goals_against": 5,
+      "goal_difference": -4,
       "points": 0,
       "fair_play_points": 0,
       "rank": 4,
@@ -411,7 +411,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5
+      "best_third_rank": 6
     },
     {
       "group": "G",
@@ -594,7 +594,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3
+      "best_third_rank": 4
     },
     {
       "group": "J",
@@ -716,7 +716,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4
+      "best_third_rank": 5
     },
     {
       "group": "L",
