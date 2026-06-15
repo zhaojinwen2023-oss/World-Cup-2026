@@ -16,10 +16,12 @@ from schedule_utils import (
     default_live_results_path,
     default_standings_path,
     default_static_schedule_path,
+    default_top_scorers_path,
     load_knockout_bracket,
     load_live_results,
     load_standings,
     load_static_schedule,
+    load_top_scorers,
     normalize_status,
     safe_int,
     static_away,
@@ -39,7 +41,7 @@ STATIC_NON_EMPTY_COLUMNS = [
 ]
 
 
-def validate(static_path: Path, live_path: Path, standings_path: Path, knockout_path: Path, app_data_path: Path) -> int:
+def validate(static_path: Path, live_path: Path, standings_path: Path, knockout_path: Path, app_data_path: Path, top_scorers_path: Path) -> int:
     errors: list[str] = []
     static_rows = load_static_schedule(static_path)
     missing = [column for column in STATIC_REQUIRED_COLUMNS if column not in static_rows.columns]
@@ -107,6 +109,13 @@ def validate(static_path: Path, live_path: Path, standings_path: Path, knockout_
         if row["rank"] < 1:
             errors.append(f"standings.json: {row['team']} rank 必须 >= 1")
 
+    top_scorers = load_top_scorers(top_scorers_path)
+    for row in top_scorers["scorers"]:
+        if row["player"] == "":
+            errors.append("top_scorers.json: player 不能为空")
+        if row["goals"] < 0:
+            errors.append(f"top_scorers.json: {row['player']} goals 不能为负数")
+
     knockout = load_knockout_bracket(knockout_path)
     for row in knockout["knockout"]:
         match_id = row["match_id"]
@@ -119,7 +128,7 @@ def validate(static_path: Path, live_path: Path, standings_path: Path, knockout_
     if not errors:
         try:
             knockout = resolve_knockout(static_path, live_path, standings_path)
-            build_app_data(static_path, live_path, standings_path, knockout_path, app_data_path)
+            build_app_data(static_path, live_path, standings_path, knockout_path, app_data_path, top_scorers_path)
         except Exception as exc:  # noqa: BLE001
             errors.append(f"动态数据合成失败: {exc}")
             knockout = {"knockout": []}
@@ -128,7 +137,7 @@ def validate(static_path: Path, live_path: Path, standings_path: Path, knockout_
         print_errors(errors)
         return 1
 
-    print(f"赛程校验通过: {len(static_rows)} 场比赛，{len(live['results'])} 条实时结果，{len(standings['standings'])} 条积分榜记录，{len(knockout['knockout'])} 场淘汰赛。")
+    print(f"赛程校验通过: {len(static_rows)} 场比赛，{len(live['results'])} 条实时结果，{len(standings['standings'])} 条积分榜记录，{len(top_scorers['scorers'])} 条射手榜记录，{len(knockout['knockout'])} 场淘汰赛。")
     print(f"已生成 App 数据: {app_data_path}")
     print("淘汰赛解析示例:")
     for row in knockout["knockout"][:5]:
@@ -148,9 +157,10 @@ def main() -> int:
     parser.add_argument("--live", type=Path, default=default_live_results_path(), help="live_results.json 路径")
     parser.add_argument("--standings", type=Path, default=default_standings_path(), help="standings.json 路径")
     parser.add_argument("--knockout", type=Path, default=default_knockout_bracket_path(), help="knockout_bracket.json 路径")
+    parser.add_argument("--top-scorers", type=Path, default=default_top_scorers_path(), help="top_scorers.json 路径")
     parser.add_argument("--app-data", type=Path, default=default_app_data_path(), help="app_data.json 输出路径")
     args = parser.parse_args()
-    return validate(args.static, args.live, args.standings, args.knockout, args.app_data)
+    return validate(args.static, args.live, args.standings, args.knockout, args.app_data, args.top_scorers)
 
 
 if __name__ == "__main__":

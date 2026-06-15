@@ -18,11 +18,13 @@ from schedule_utils import (
     default_live_results_path,
     default_standings_path,
     default_static_schedule_path,
+    default_top_scorers_path,
     ensure_output_dir,
     load_static_schedule,
     load_standings,
     normalize_live_result,
     normalize_standing_row,
+    normalize_top_scorer,
     normalize_status,
     safe_int,
     static_away,
@@ -145,6 +147,15 @@ def merge_knockout_payload(resolved: dict, provider_rows: list[dict], fallback_l
     }
 
 
+def provider_top_scorers_payload(rows: list[dict], fallback_last_updated: str) -> dict:
+    normalized = [normalize_top_scorer(row, index) for index, row in enumerate(rows, start=1)]
+    normalized = [row for row in normalized if row["player"]]
+    normalized.sort(key=lambda row: (-row["goals"], -safe_int(row.get("assists")), row["rank"], row["player"]))
+    for index, row in enumerate(normalized, start=1):
+        row["rank"] = index
+    return {"last_updated": fallback_last_updated, "scorers": normalized}
+
+
 def update_live_data(args) -> None:
     load_env_file(args.env)
     provider = provider_from_source(args)
@@ -166,7 +177,10 @@ def update_live_data(args) -> None:
         knockout_payload = merge_knockout_payload(knockout_payload, payload["knockout"], payload.get("last_updated", ""))
     write_json(args.knockout, knockout_payload)
 
-    app_data = build_app_data(args.static, args.live, args.standings, args.knockout, args.app_data)
+    top_scorers_payload = provider_top_scorers_payload(payload.get("top_scorers", []), payload.get("top_scorers_last_updated") or payload.get("last_updated", ""))
+    write_json(args.top_scorers, top_scorers_payload)
+
+    app_data = build_app_data(args.static, args.live, args.standings, args.knockout, args.app_data, args.top_scorers)
     output_dir = ensure_output_dir()
     build_workbook(args.app_data, output_dir / "worldcup_2026_schedule.xlsx")
     build_calendar(args.app_data, output_dir / "worldcup_favorites.ics")
@@ -178,6 +192,7 @@ def update_live_data(args) -> None:
             "source": args.source,
             "live_results": args.live.as_posix(),
             "standings": args.standings.as_posix(),
+            "top_scorers": args.top_scorers.as_posix(),
             "knockout_bracket": args.knockout.as_posix(),
             "app_data": args.app_data.as_posix(),
         },
@@ -197,6 +212,7 @@ def main() -> int:
     parser.add_argument("--live", type=Path, default=default_live_results_path())
     parser.add_argument("--standings", type=Path, default=default_standings_path())
     parser.add_argument("--knockout", type=Path, default=default_knockout_bracket_path())
+    parser.add_argument("--top-scorers", type=Path, default=default_top_scorers_path())
     parser.add_argument("--app-data", type=Path, default=default_app_data_path())
     parser.add_argument("--last-updated", type=Path, default=default_last_updated_path())
     args = parser.parse_args()

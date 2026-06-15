@@ -105,6 +105,10 @@ def default_standings_path() -> Path:
     return data_dir() / "standings.json"
 
 
+def default_top_scorers_path() -> Path:
+    return data_dir() / "top_scorers.json"
+
+
 def default_knockout_bracket_path() -> Path:
     return data_dir() / "knockout_bracket.json"
 
@@ -251,6 +255,33 @@ def load_standings(path: Path | str = default_standings_path()) -> dict:
     rows = [normalize_standing_row(item) for item in payload.get("standings", [])]
     rows.sort(key=lambda row: (row["group"], row["rank"]))
     return {"last_updated": payload.get("last_updated", ""), "standings": rows}
+
+
+def normalize_top_scorer(item: dict, rank: int = 0) -> dict:
+    return {
+        "rank": safe_int(item.get("rank"), rank),
+        "player_id": str(item.get("player_id", "")).strip(),
+        "player": str(item.get("player", item.get("name", ""))).strip(),
+        "team": str(item.get("team", "")).strip(),
+        "goals": safe_int(item.get("goals")),
+        "assists": item.get("assists", ""),
+        "penalties": item.get("penalties", ""),
+        "appearances": item.get("appearances", ""),
+        "minutes": item.get("minutes", ""),
+        "photo": str(item.get("photo", "")).strip(),
+    }
+
+
+def load_top_scorers(path: Path | str = default_top_scorers_path()) -> dict:
+    payload = load_json(path, {"last_updated": "", "scorers": []})
+    if isinstance(payload, list):
+        payload = {"last_updated": "", "scorers": payload}
+    rows = [normalize_top_scorer(item, index) for index, item in enumerate(payload.get("scorers", []), start=1)]
+    rows = [row for row in rows if row["player"]]
+    rows.sort(key=lambda row: (-row["goals"], -safe_int(row.get("assists")), row["rank"], row["player"]))
+    for index, row in enumerate(rows, start=1):
+        row["rank"] = index
+    return {"last_updated": payload.get("last_updated", ""), "scorers": rows}
 
 
 def load_knockout_bracket(path: Path | str = default_knockout_bracket_path()) -> dict:
