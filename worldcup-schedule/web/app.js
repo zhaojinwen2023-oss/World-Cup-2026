@@ -101,6 +101,7 @@ const BRACKET_HALVES = [
 let appData = {};
 let matches = [];
 let standings = [];
+let topScorers = [];
 let knockout = [];
 let bestThirds = [];
 let favoriteIds = new Set();
@@ -109,11 +110,15 @@ let activeFilter = "all";
 let searchTerm = "";
 let scheduleView = "calendar";
 let selectedDateKey = "";
+let headToHeadTeamA = "";
+let headToHeadTeamB = "";
 
 const panels = {
   schedule: document.querySelector("#schedulePanel"),
   live: document.querySelector("#livePanel"),
   standings: document.querySelector("#standingsPanel"),
+  scorers: document.querySelector("#scorersPanel"),
+  headToHead: document.querySelector("#headToHeadPanel"),
   knockout: document.querySelector("#knockoutPanel"),
   favorites: document.querySelector("#favoritesPanel"),
 };
@@ -125,6 +130,10 @@ const dayTitleEl = document.querySelector("#dayTitle");
 const liveListEl = document.querySelector("#liveList");
 const favoriteListEl = document.querySelector("#favoriteList");
 const standingsListEl = document.querySelector("#standingsList");
+const scorersListEl = document.querySelector("#scorersList");
+const headToHeadListEl = document.querySelector("#headToHeadList");
+const teamASelect = document.querySelector("#teamASelect");
+const teamBSelect = document.querySelector("#teamBSelect");
 const knockoutListEl = document.querySelector("#knockoutList");
 const counterEl = document.querySelector("#matchCounter");
 const statusEl = document.querySelector("#statusMessage");
@@ -156,6 +165,16 @@ function bindControls() {
   searchInput?.addEventListener("input", (event) => {
     searchTerm = event.target.value.trim().toLowerCase();
     renderSchedule();
+  });
+
+  teamASelect?.addEventListener("change", (event) => {
+    headToHeadTeamA = event.target.value;
+    renderHeadToHead();
+  });
+
+  teamBSelect?.addEventListener("change", (event) => {
+    headToHeadTeamB = event.target.value;
+    renderHeadToHead();
   });
 
   document.body.addEventListener("click", (event) => {
@@ -193,9 +212,11 @@ async function loadData(isBackground = false) {
     appData = await response.json();
     matches = (appData.matches || []).map(enrichClientMatch).sort((a, b) => a.kickoff - b.kickoff);
     standings = appData.standings || [];
+    topScorers = normalizeTopScorers(appData.top_scorers || []);
     knockout = appData.knockout || [];
     bestThirds = appData.best_thirds || [];
     favoriteIds = loadFavoriteIds(matches);
+    syncHeadToHeadSelectors();
     lastUpdatedEl.textContent = appData.generated_at || appData.live_last_updated || "-";
     hideStatus();
     renderActiveTab();
@@ -258,6 +279,8 @@ function renderActiveTab() {
   if (activeTab === "schedule") renderSchedule();
   if (activeTab === "live") renderLive();
   if (activeTab === "standings") renderStandings();
+  if (activeTab === "scorers") renderScorers();
+  if (activeTab === "headToHead") renderHeadToHead();
   if (activeTab === "knockout") renderKnockout();
   if (activeTab === "favorites") renderFavorites();
 }
@@ -360,6 +383,81 @@ function standingsRow(row, bestThird) {
       <td>${escapeHtml(row.goal_difference)}</td>
       <td>${escapeHtml(row.goals_for)}</td>
     </tr>
+  `;
+}
+
+function renderScorers() {
+  counterEl.textContent = `${topScorers.length} 人`;
+  scorersListEl.innerHTML = "";
+  if (!topScorers.length) {
+    scorersListEl.innerHTML = `<section class="empty-state">暂无射手榜数据；比赛开始并且 API-Football 返回球员进球数据后会自动显示</section>`;
+    return;
+  }
+  scorersListEl.innerHTML = `
+    <section class="scorers-card">
+      <div class="scorers-head">
+        <h2>射手榜</h2>
+        <span>${escapeHtml(appData.top_scorers_last_updated || appData.generated_at || "")}</span>
+      </div>
+      <table class="scorers-table">
+        <thead><tr><th>#</th><th>球员</th><th>国家</th><th>进球</th><th>助攻</th></tr></thead>
+        <tbody>${topScorers.map(scorerRow).join("")}</tbody>
+      </table>
+    </section>
+  `;
+}
+
+function scorerRow(row) {
+  return `
+    <tr>
+      <td>${escapeHtml(row.rank)}</td>
+      <td>
+        <strong>${escapeHtml(row.player)}</strong>
+        ${row.minutes ? `<span>${escapeHtml(row.minutes)} 分钟</span>` : ""}
+      </td>
+      <td>${escapeHtml(displayTeamName(row.team))}</td>
+      <td><strong>${escapeHtml(row.goals)}</strong></td>
+      <td>${escapeHtml(row.assists)}</td>
+    </tr>
+  `;
+}
+
+function renderHeadToHead() {
+  const selected = headToHeadMatches();
+  counterEl.textContent = `${selected.length} 场`;
+  headToHeadListEl.innerHTML = "";
+  if (!selected.length) {
+    headToHeadListEl.innerHTML = `<section class="empty-state">当前筛选下没有找到对决战果</section>`;
+    return;
+  }
+  const summary = headToHeadSummary(selected);
+  headToHeadListEl.innerHTML = `
+    <section class="h2h-summary-card">
+      <h2>${escapeHtml(summary.title)}</h2>
+      <div class="h2h-summary-grid">
+        <span>${summary.total} 场</span>
+        <span>${summary.finished} 场已结束</span>
+        <span>${summary.live} 场进行中</span>
+      </div>
+    </section>
+    ${selected.map(headToHeadRow).join("")}
+  `;
+}
+
+function headToHeadRow(match) {
+  return `
+    <article class="h2h-card">
+      <div>
+        <div class="stage-line">
+          <span class="stage-badge ${stageClass(match)}">${escapeHtml(match.stage_label)}</span>
+          <span class="match-id">#${escapeHtml(match.matchId)}</span>
+          <span class="status-badge ${statusClass(match)}">${escapeHtml(statusText(match))}</span>
+        </div>
+        <h2 class="h2h-title">${escapeHtml(matchTitle(match))}</h2>
+      </div>
+      <strong class="h2h-score">${escapeHtml(match.score || scoreFallback(match))}</strong>
+      <div class="h2h-meta">${escapeHtml(formatInZone(match.kickoff, TIME_ZONES.beijing.zone))} / ${escapeHtml(match.city)} / ${escapeHtml(match.stadium)}</div>
+    </article>
   `;
 }
 
@@ -575,6 +673,85 @@ function formatDateTitle(key) {
 function displayTeamName(name) {
   const text = String(name ?? "").trim();
   return TEAM_NAME_ZH[text] || text;
+}
+
+function normalizeTopScorers(rows) {
+  return rows
+    .map((row, index) => ({
+      rank: Number(row.rank || index + 1),
+      player: String(row.player || row.name || "").trim(),
+      team: String(row.team || "").trim(),
+      goals: Number(row.goals || 0),
+      assists: row.assists ?? "",
+      minutes: row.minutes ?? "",
+    }))
+    .filter((row) => row.player)
+    .sort((a, b) => b.goals - a.goals || Number(b.assists || 0) - Number(a.assists || 0) || a.rank - b.rank)
+    .map((row, index) => ({ ...row, rank: index + 1 }));
+}
+
+function syncHeadToHeadSelectors() {
+  const teams = teamOptions();
+  renderTeamSelect(teamASelect, teams, headToHeadTeamA);
+  renderTeamSelect(teamBSelect, teams, headToHeadTeamB);
+  if (!teams.some((team) => team.value === headToHeadTeamA)) headToHeadTeamA = "";
+  if (!teams.some((team) => team.value === headToHeadTeamB)) headToHeadTeamB = "";
+  if (teamASelect) teamASelect.value = headToHeadTeamA;
+  if (teamBSelect) teamBSelect.value = headToHeadTeamB;
+}
+
+function renderTeamSelect(select, teams, selectedValue) {
+  if (!select) return;
+  select.innerHTML = [`<option value="">全部球队</option>`, ...teams.map((team) => `<option value="${escapeHtml(team.value)}">${escapeHtml(team.label)}</option>`)].join("");
+  select.value = selectedValue;
+}
+
+function teamOptions() {
+  const names = new Set();
+  matches.forEach((match) => {
+    if (isResolvedTeam(match.home_team)) names.add(match.home_team);
+    if (isResolvedTeam(match.away_team)) names.add(match.away_team);
+  });
+  return [...names]
+    .map((name) => ({ value: name, label: displayTeamName(name) }))
+    .sort((a, b) => a.label.localeCompare(b.label, "zh-CN"));
+}
+
+function isResolvedTeam(name) {
+  const text = String(name || "").trim();
+  return Boolean(text) && !text.startsWith("待定") && !/Winner|Runner-up|Loser|3rd|Third/i.test(text);
+}
+
+function headToHeadMatches() {
+  return matches
+    .filter((match) => {
+      const home = match.home_team;
+      const away = match.away_team;
+      if (!isResolvedTeam(home) || !isResolvedTeam(away)) return false;
+      if (headToHeadTeamA && headToHeadTeamB) return new Set([home, away]).size === 2 && [home, away].includes(headToHeadTeamA) && [home, away].includes(headToHeadTeamB);
+      if (headToHeadTeamA) return home === headToHeadTeamA || away === headToHeadTeamA;
+      if (headToHeadTeamB) return home === headToHeadTeamB || away === headToHeadTeamB;
+      return true;
+    })
+    .sort((a, b) => a.kickoff - b.kickoff);
+}
+
+function headToHeadSummary(selected) {
+  const labelA = headToHeadTeamA ? displayTeamName(headToHeadTeamA) : "";
+  const labelB = headToHeadTeamB ? displayTeamName(headToHeadTeamB) : "";
+  const title = labelA && labelB ? `${labelA} vs ${labelB}` : labelA || labelB || "全部对决战果";
+  return {
+    title,
+    total: selected.length,
+    finished: selected.filter((match) => match.is_finished).length,
+    live: selected.filter((match) => match.is_live).length,
+  };
+}
+
+function scoreFallback(match) {
+  if (match.status === "scheduled") return "未开始";
+  if (match.home_score !== "" && match.away_score !== "") return `${match.home_score}-${match.away_score}`;
+  return statusText(match);
 }
 
 function matchTitle(match) {

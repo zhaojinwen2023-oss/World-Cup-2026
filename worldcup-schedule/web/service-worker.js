@@ -1,14 +1,15 @@
-const CACHE_NAME = "worldcup-schedule-v10";
+const CACHE_NAME = "worldcup-schedule-v12";
 const ASSETS = [
   "./",
   "./index.html",
-  "./style.css",
-  "./app.js",
+  "./style.css?v=12",
+  "./app.js?v=12",
   "./manifest.json",
   "../data/app_data.json",
   "../data/static_schedule.csv",
   "../data/live_results.json",
   "../data/standings.json",
+  "../data/top_scorers.json",
   "../data/knockout_bracket.json",
   "../data/last_updated.json",
 ];

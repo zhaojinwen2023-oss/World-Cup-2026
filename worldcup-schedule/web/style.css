@@ -390,12 +390,15 @@ h2 {
   transform: translateX(-50%);
   z-index: 20;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(82px, 1fr);
   gap: 6px;
+  overflow-x: auto;
   border-top: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(14px);
   padding: 8px 8px max(8px, env(safe-area-inset-bottom));
+  scrollbar-width: none;
 }
 
 .nav-item {
@@ -406,6 +409,10 @@ h2 {
   color: var(--muted);
   font-size: 13px;
   font-weight: 900;
+}
+
+.bottom-nav::-webkit-scrollbar {
+  display: none;
 }
 
 .nav-item.active {
@@ -730,7 +737,9 @@ select {
 
 .match-list,
 .standings-list,
-.knockout-list {
+.knockout-list,
+.scorers-list,
+.head-to-head-list {
   display: grid;
   gap: 12px;
 }
@@ -739,7 +748,10 @@ select {
 .group-card,
 .knockout-card,
 .knockout-graphic-card,
-.settings-card {
+.settings-card,
+.scorers-card,
+.h2h-summary-card,
+.h2h-card {
   display: grid;
   gap: 12px;
   border: 1px solid var(--line);
@@ -914,8 +926,29 @@ select {
   table-layout: fixed;
 }
 
+.scorers-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.scorers-head span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.scorers-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
 .standings-table th,
-.standings-table td {
+.standings-table td,
+.scorers-table th,
+.scorers-table td {
   border-top: 1px solid var(--line);
   padding: 8px 4px;
   font-size: 13px;
@@ -926,6 +959,85 @@ select {
 .standings-table td:nth-child(2) {
   width: 34%;
   text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.scorers-table th:nth-child(2),
+.scorers-table td:nth-child(2) {
+  width: 34%;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.scorers-table td:nth-child(2) span {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.versus-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.versus-controls label {
+  display: grid;
+  gap: 6px;
+}
+
+.versus-controls span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.h2h-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.h2h-summary-grid span {
+  border-radius: 7px;
+  background: var(--surface-muted);
+  padding: 8px 6px;
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.h2h-card {
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.h2h-title {
+  margin-top: 8px;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.h2h-score {
+  justify-self: end;
+  border-radius: 8px;
+  background: var(--green-soft);
+  padding: 8px 10px;
+  color: var(--green);
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.h2h-meta {
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+  color: var(--muted);
+  font-size: 13px;
   overflow-wrap: anywhere;
 }
 
@@ -1317,13 +1429,13 @@ select {
 
   .search-box {
     min-height: 48px;
-    border-color: rgba(33, 83, 74, 0.13);
+    border-color: rgba(33, 83, 74, 0.12);
     border-radius: 14px;
     box-shadow: 0 8px 22px rgba(29, 40, 39, 0.08);
   }
 
   .search-box span {
-    color: var(--green);
+    color: var(--muted);
     font-size: 12px;
   }
 
@@ -1364,6 +1476,9 @@ select {
   .knockout-card,
   .knockout-graphic-card,
   .settings-card,
+  .scorers-card,
+  .h2h-summary-card,
+  .h2h-card,
   .empty-state,
   .status-message {
     border-color: rgba(33, 83, 74, 0.12);
@@ -1431,7 +1546,9 @@ select {
 
   .match-list,
   .standings-list,
-  .knockout-list {
+  .knockout-list,
+  .scorers-list,
+  .head-to-head-list {
     gap: 10px;
   }
 
@@ -1439,7 +1556,10 @@ select {
   .group-card,
   .knockout-card,
   .knockout-graphic-card,
-  .settings-card {
+  .settings-card,
+  .scorers-card,
+  .h2h-summary-card,
+  .h2h-card {
     padding: 13px;
   }
 
@@ -1495,9 +1615,23 @@ select {
   }
 
   .standings-table th,
-  .standings-table td {
+  .standings-table td,
+  .scorers-table th,
+  .scorers-table td {
     padding: 7px 3px;
     font-size: 12px;
+  }
+
+  .versus-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .h2h-card {
+    grid-template-columns: 1fr;
+  }
+
+  .h2h-score {
+    justify-self: start;
   }
 
   .graphic-head {

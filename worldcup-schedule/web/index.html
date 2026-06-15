@@ -12,7 +12,7 @@
     <title>世界杯赛程</title>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2321534a'/%3E%3Ccircle cx='32' cy='30' r='17' fill='white'/%3E%3Cpath d='M32 13l6 12-6 5-6-5 6-12zm0 34l-6-12 6-5 6 5-6 12zM15 30l12-6 5 6-5 6-12-6zm34 0l-12 6-5-6 5-6 12 6z' fill='%23b98217'/%3E%3C/svg%3E" />
     <link rel="manifest" href="./manifest.json" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css?v=12" />
   </head>
   <body>
     <main class="app-shell">
@@ -90,6 +90,24 @@
         <div id="standingsList" class="standings-list"></div>
       </section>
 
+      <section id="scorersPanel" class="panel">
+        <div id="scorersList" class="scorers-list"></div>
+      </section>
+
+      <section id="headToHeadPanel" class="panel">
+        <div class="versus-controls" aria-label="球队对决战果筛选">
+          <label>
+            <span>球队 A</span>
+            <select id="teamASelect"></select>
+          </label>
+          <label>
+            <span>球队 B</span>
+            <select id="teamBSelect"></select>
+          </label>
+        </div>
+        <div id="headToHeadList" class="head-to-head-list"></div>
+      </section>
+
       <section id="knockoutPanel" class="panel">
         <div id="knockoutList" class="knockout-list"></div>
       </section>
@@ -108,10 +126,12 @@
       <button class="nav-item active" data-tab="schedule" type="button">赛程</button>
       <button class="nav-item" data-tab="live" type="button">实时</button>
       <button class="nav-item" data-tab="standings" type="button">积分榜</button>
+      <button class="nav-item" data-tab="scorers" type="button">射手榜</button>
+      <button class="nav-item" data-tab="headToHead" type="button">对决战果</button>
       <button class="nav-item" data-tab="knockout" type="button">淘汰赛</button>
       <button class="nav-item" data-tab="favorites" type="button">我的关注</button>
     </nav>
 
-    <script src="./app.js" defer></script>
+    <script src="./app.js?v=12" defer></script>
   </body>
 </html>
