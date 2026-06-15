@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T20:07:49Z",
+  "last_updated": "2026-06-15T22:28:01Z",
   "standings": [
     {
       "group": "A",
@@ -370,14 +370,14 @@
     {
       "group": "G",
       "team": "Belgium",
-      "played": 0,
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
+      "goals_for": 1,
+      "goals_against": 1,
       "goal_difference": 0,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
@@ -385,14 +385,14 @@
     {
       "group": "G",
       "team": "Egypt",
-      "played": 0,
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
+      "goals_for": 1,
+      "goals_against": 1,
       "goal_difference": 0,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 2,
       "qualified_status": "possible"
