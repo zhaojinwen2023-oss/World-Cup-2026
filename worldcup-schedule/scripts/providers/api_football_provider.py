@@ -42,6 +42,7 @@ class ApiFootballProvider(BaseProvider):
         self.league_id = os.getenv("API_FOOTBALL_WORLD_CUP_LEAGUE_ID", "1")
         self.season = os.getenv("API_FOOTBALL_WORLD_CUP_SEASON", "2026")
         self.fixtures_url = os.getenv("API_FOOTBALL_FIXTURES_URL", "")
+        self.top_scorers_url = os.getenv("API_FOOTBALL_TOP_SCORERS_URL", "")
         self.auth_mode = os.getenv("API_FOOTBALL_AUTH_MODE", "apisports").strip().lower()
         self.rapidapi_host = os.getenv("API_FOOTBALL_RAPIDAPI_HOST", urlparse(self.base_url).netloc)
         self.static_path = static_path or default_static_schedule_path()
@@ -72,9 +73,15 @@ class ApiFootballProvider(BaseProvider):
             normalized["match_id"] = match_id
             matches.append(normalized)
 
-        result = {"matches": matches, "standings": [], "knockout": [], "last_updated": now}
+        top_scorers, scorer_warning = self._fetch_top_scorers(now)
+        result = {"matches": matches, "standings": [], "top_scorers": top_scorers, "top_scorers_last_updated": now, "knockout": [], "last_updated": now}
+        warnings = []
         if unmatched:
-            result["warnings"] = [f"{len(unmatched)} 条 API-SPORTS fixtures 未能匹配到本地 match_id。"]
+            warnings.append(f"{len(unmatched)} 条 API-SPORTS fixtures 未能匹配到本地 match_id。")
+        if scorer_warning:
+            warnings.append(scorer_warning)
+        if warnings:
+            result["warnings"] = warnings
         return result
 
     def _fetch_fixtures(self) -> dict:
@@ -83,6 +90,24 @@ class ApiFootballProvider(BaseProvider):
             return http_get_json(self.fixtures_url, headers=headers)
         query = urlencode({"league": self.league_id, "season": self.season})
         return http_get_json(f"{self.base_url}/fixtures?{query}", headers=headers)
+
+    def _fetch_top_scorers(self, fallback_updated: str) -> tuple[list[dict], str]:
+        headers = self._headers()
+        try:
+            if self.top_scorers_url:
+                payload = http_get_json(self.top_scorers_url, headers=headers)
+            else:
+                query = urlencode({"league": self.league_id, "season": self.season})
+                payload = http_get_json(f"{self.base_url}/players/topscorers?{query}", headers=headers)
+        except ProviderError as exc:
+            return [], f"API-SPORTS 射手榜暂不可用：{exc}"
+
+        errors = payload.get("errors")
+        if errors:
+            return [], f"API-SPORTS 射手榜暂不可用：{clean_error(errors)}"
+
+        rows = payload.get("response") or []
+        return [normalize_top_scorer(item, index, fallback_updated) for index, item in enumerate(rows, start=1)], ""
 
     def _headers(self) -> dict[str, str]:
         headers = {"User-Agent": "worldcup-schedule/1.0"}
@@ -143,6 +168,35 @@ class ApiFootballProvider(BaseProvider):
 
 def blank_none(value: object) -> object:
     return "" if value is None else value
+
+
+def normalize_top_scorer(item: dict, rank: int, fallback_updated: str) -> dict:
+    player = item.get("player") or {}
+    stats = first_stat(item)
+    team = stats.get("team") or {}
+    goals = stats.get("goals") or {}
+    games = stats.get("games") or {}
+    penalty = stats.get("penalty") or {}
+    return {
+        "rank": rank,
+        "player_id": str(player.get("id") or "").strip(),
+        "player": str(player.get("name") or "").strip(),
+        "team": str(team.get("name") or "").strip(),
+        "goals": safe_int(goals.get("total")),
+        "assists": blank_none(goals.get("assists")),
+        "penalties": blank_none(penalty.get("scored")),
+        "appearances": blank_none(games.get("appearences", games.get("appearances"))),
+        "minutes": blank_none(games.get("minutes")),
+        "photo": str(player.get("photo") or "").strip(),
+        "last_updated": fallback_updated,
+    }
+
+
+def first_stat(item: dict) -> dict:
+    stats = item.get("statistics")
+    if isinstance(stats, list) and stats:
+        return stats[0] if isinstance(stats[0], dict) else {}
+    return {}
 
 
 def clean_key(value: object) -> str:
