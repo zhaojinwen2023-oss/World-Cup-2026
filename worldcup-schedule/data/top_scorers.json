@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16T05:31:20Z",
+  "last_updated": "2026-06-16T10:30:27Z",
   "scorers": [
     {
       "rank": 1,
@@ -15,6 +15,18 @@
     },
     {
       "rank": 2,
+      "player_id": "94333",
+      "player": "E. Just",
+      "team": "New Zealand",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 1,
+      "minutes": 90,
+      "photo": "https://media.api-sports.io/football/players/94333.png"
+    },
+    {
+      "rank": 3,
       "player_id": "265820",
       "player": "Y. Ayari",
       "team": "Sweden",
@@ -26,7 +38,7 @@
       "photo": "https://media.api-sports.io/football/players/265820.png"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "player_id": "978",
       "player": "K. Havertz",
       "team": "Germany",
@@ -38,7 +50,7 @@
       "photo": "https://media.api-sports.io/football/players/978.png"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "player_id": "26475",
       "player": "D. Undav",
       "team": "Germany",
@@ -50,7 +62,7 @@
       "photo": "https://media.api-sports.io/football/players/26475.png"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "player_id": "2864",
       "player": "A. Isak",
       "team": "Sweden",
@@ -60,18 +72,6 @@
       "appearances": 1,
       "minutes": 89,
       "photo": "https://media.api-sports.io/football/players/2864.png"
-    },
-    {
-      "rank": 6,
-      "player_id": "542768",
-      "player": "Ibrahim Sadeh",
-      "team": "Jordan",
-      "goals": 1,
-      "assists": 1,
-      "penalties": "",
-      "appearances": 11,
-      "minutes": "",
-      "photo": "https://media.api-sports.io/football/players/542768.png"
     },
     {
       "rank": 7,
@@ -99,6 +99,18 @@
     },
     {
       "rank": 9,
+      "player_id": "2691",
+      "player": "R. Rezaeian",
+      "team": "Iran",
+      "goals": 1,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 1,
+      "minutes": 90,
+      "photo": "https://media.api-sports.io/football/players/2691.png"
+    },
+    {
+      "rank": 10,
       "player_id": "18979",
       "player": "V. Gyökeres",
       "team": "Sweden",
@@ -108,18 +120,6 @@
       "appearances": 1,
       "minutes": 90,
       "photo": "https://media.api-sports.io/football/players/18979.png"
-    },
-    {
-      "rank": 10,
-      "player_id": "453073",
-      "player": "Akam Hashim",
-      "team": "Iraq",
-      "goals": 1,
-      "assists": 0,
-      "penalties": "",
-      "appearances": 5,
-      "minutes": "",
-      "photo": "https://media.api-sports.io/football/players/453073.png"
     },
     {
       "rank": 11,
