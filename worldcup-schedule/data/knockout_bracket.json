@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T22:28:01Z",
+  "last_updated": "2026-06-16T00:11:29Z",
   "knockout": [
     {
       "match_id": 73,
@@ -727,6 +727,23 @@
       "best_third_qualified": true
     },
     {
+      "group": "H",
+      "team": "Cape Verde",
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 1,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 4,
+      "best_third_qualified": true
+    },
+    {
       "group": "J",
       "team": "Austria",
       "played": 0,
@@ -740,7 +757,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4,
+      "best_third_rank": 5,
       "best_third_qualified": true
     },
     {
@@ -757,7 +774,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5,
+      "best_third_rank": 6,
       "best_third_qualified": true
     },
     {
@@ -774,7 +791,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6,
+      "best_third_rank": 7,
       "best_third_qualified": true
     },
     {
@@ -791,29 +808,12 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7,
+      "best_third_rank": 8,
       "best_third_qualified": true
     },
     {
       "group": "K",
       "team": "Portugal",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 8,
-      "best_third_qualified": true
-    },
-    {
-      "group": "H",
-      "team": "Saudi Arabia",
       "played": 0,
       "won": 0,
       "drawn": 0,
