@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16T19:07:05Z",
+  "last_updated": "2026-06-16T21:47:44Z",
   "standings": [
     {
       "group": "A",
@@ -492,14 +492,14 @@
     {
       "group": "I",
       "team": "France",
-      "played": 0,
-      "won": 0,
+      "played": 1,
+      "won": 1,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
+      "goals_for": 3,
+      "goals_against": 1,
+      "goal_difference": 2,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
@@ -538,13 +538,13 @@
     {
       "group": "I",
       "team": "Senegal",
-      "played": 0,
+      "played": 1,
       "won": 0,
       "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
+      "lost": 1,
+      "goals_for": 1,
+      "goals_against": 3,
+      "goal_difference": -2,
       "points": 0,
       "fair_play_points": 0,
       "rank": 4,
