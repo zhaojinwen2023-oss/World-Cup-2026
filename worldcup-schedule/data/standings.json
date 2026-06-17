@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T01:59:41Z",
+  "last_updated": "2026-06-17T07:15:39Z",
   "standings": [
     {
       "group": "A",
@@ -45,7 +45,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9
+      "best_third_rank": 8
     },
     {
       "group": "A",
@@ -289,7 +289,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10
+      "best_third_rank": 9
     },
     {
       "group": "E",
@@ -552,60 +552,60 @@
     },
     {
       "group": "J",
-      "team": "Algeria",
-      "played": 0,
-      "won": 0,
+      "team": "Argentina",
+      "played": 1,
+      "won": 1,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 0,
+      "goals_for": 3,
       "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
+      "goal_difference": 3,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
     },
     {
       "group": "J",
-      "team": "Argentina",
-      "played": 0,
-      "won": 0,
+      "team": "Austria",
+      "played": 1,
+      "won": 1,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
+      "goals_for": 3,
+      "goals_against": 1,
+      "goal_difference": 2,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 2,
       "qualified_status": "possible"
     },
     {
       "group": "J",
-      "team": "Austria",
-      "played": 0,
+      "team": "Jordan",
+      "played": 1,
       "won": 0,
       "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
+      "lost": 1,
+      "goals_for": 1,
+      "goals_against": 3,
+      "goal_difference": -2,
       "points": 0,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 10
     },
     {
       "group": "J",
-      "team": "Jordan",
-      "played": 0,
+      "team": "Algeria",
+      "played": 1,
       "won": 0,
       "drawn": 0,
-      "lost": 0,
+      "lost": 1,
       "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
+      "goals_against": 3,
+      "goal_difference": -3,
       "points": 0,
       "fair_play_points": 0,
       "rank": 4,
@@ -655,7 +655,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8
+      "best_third_rank": 7
     },
     {
       "group": "K",
@@ -716,7 +716,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7
+      "best_third_rank": 6
     },
     {
       "group": "L",
