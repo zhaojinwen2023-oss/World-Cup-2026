@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-17T18:32:17Z",
-  "live_last_updated": "2026-06-17T18:32:16Z",
-  "standings_last_updated": "2026-06-17T18:32:16Z",
-  "top_scorers_last_updated": "2026-06-17T18:32:16Z",
-  "knockout_last_updated": "2026-06-17T18:32:16Z",
+  "generated_at": "2026-06-17T20:55:42Z",
+  "live_last_updated": "2026-06-17T20:55:41Z",
+  "standings_last_updated": "2026-06-17T20:55:41Z",
+  "top_scorers_last_updated": "2026-06-17T20:55:41Z",
+  "knockout_last_updated": "2026-06-17T20:55:41Z",
   "matches": [
     {
       "match_id": 1,
@@ -45,7 +45,7 @@
       "loser": "South Africa",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -90,7 +90,7 @@
       "loser": "Czechia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -135,7 +135,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -180,7 +180,7 @@
       "loser": "Paraguay",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -225,7 +225,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -270,7 +270,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -315,7 +315,7 @@
       "loser": "Haiti",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -360,7 +360,7 @@
       "loser": "Türkiye",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -405,7 +405,7 @@
       "loser": "Curaçao",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -450,7 +450,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -495,7 +495,7 @@
       "loser": "Ecuador",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -540,7 +540,7 @@
       "loser": "Tunisia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -585,7 +585,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -630,7 +630,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -675,7 +675,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -720,7 +720,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -765,7 +765,7 @@
       "loser": "Senegal",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -810,7 +810,7 @@
       "loser": "Iraq",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -855,7 +855,7 @@
       "loser": "Algeria",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -900,7 +900,7 @@
       "loser": "Jordan",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -931,10 +931,10 @@
       "western_display": "2026-06-17 周三 09:00 (America/Los_Angeles)",
       "beijing_date": "2026-06-18",
       "beijing_is_early_morning": true,
-      "status": "live",
-      "status_label": "进行中",
-      "match_status": "进行中",
-      "minute": 68,
+      "status": "finished",
+      "status_label": "已结束",
+      "match_status": "已结束",
+      "minute": "90+5",
       "score": "1-1",
       "home_score": 1,
       "away_score": 1,
@@ -943,9 +943,9 @@
       "penalty_score": "",
       "winner": "",
       "loser": "",
-      "is_finished": false,
-      "is_live": true,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "is_finished": true,
+      "is_live": false,
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -976,21 +976,21 @@
       "western_display": "2026-06-17 周三 12:00 (America/Los_Angeles)",
       "beijing_date": "2026-06-18",
       "beijing_is_early_morning": true,
-      "status": "scheduled",
-      "status_label": "未开始",
-      "match_status": "未开始",
-      "minute": "",
-      "score": "",
-      "home_score": "",
-      "away_score": "",
+      "status": "halftime",
+      "status_label": "中场",
+      "match_status": "中场",
+      "minute": "45+6",
+      "score": "2-2",
+      "home_score": 2,
+      "away_score": 2,
       "home_penalty_score": "",
       "away_penalty_score": "",
       "penalty_score": "",
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "is_live": true,
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -1035,7 +1035,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -1080,7 +1080,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -1125,7 +1125,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -1170,7 +1170,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -1215,7 +1215,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -1260,7 +1260,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -1305,7 +1305,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -1350,7 +1350,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -1395,7 +1395,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -1440,7 +1440,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -1485,7 +1485,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -1530,7 +1530,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -1575,7 +1575,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -1620,7 +1620,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -1665,7 +1665,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -1710,7 +1710,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -1755,7 +1755,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -1800,7 +1800,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -1845,7 +1845,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -1890,7 +1890,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -1935,7 +1935,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -1980,7 +1980,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -2025,7 +2025,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -2070,7 +2070,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -2115,7 +2115,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -2160,7 +2160,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -2205,7 +2205,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -2250,7 +2250,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -2295,7 +2295,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -2340,7 +2340,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -2385,7 +2385,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -2430,7 +2430,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -2475,7 +2475,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -2520,7 +2520,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -2565,7 +2565,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -2610,7 +2610,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -2655,7 +2655,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -2700,7 +2700,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -2745,7 +2745,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -2790,7 +2790,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -2835,7 +2835,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -2880,7 +2880,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -2925,7 +2925,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -2970,7 +2970,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -3015,7 +3015,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -3060,7 +3060,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -3105,7 +3105,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -3150,7 +3150,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -3195,7 +3195,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -3240,7 +3240,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-17T18:32:16Z",
+      "last_updated": "2026-06-17T20:55:41Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -5299,37 +5299,37 @@
     },
     {
       "group": "K",
-      "team": "Colombia",
-      "played": 0,
+      "team": "DR Congo",
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
+      "goals_for": 1,
+      "goals_against": 1,
       "goal_difference": 0,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
     },
     {
       "group": "K",
-      "team": "DR Congo",
-      "played": 0,
+      "team": "Portugal",
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
+      "goals_for": 1,
+      "goals_against": 1,
       "goal_difference": 0,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 2,
       "qualified_status": "possible"
     },
     {
       "group": "K",
-      "team": "Portugal",
+      "team": "Colombia",
       "played": 0,
       "won": 0,
       "drawn": 0,
@@ -5341,7 +5341,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7
+      "best_third_rank": 6
     },
     {
       "group": "K",
@@ -5402,7 +5402,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 7
     },
     {
       "group": "L",
@@ -5459,15 +5459,15 @@
     },
     {
       "rank": 4,
-      "player_id": "278",
-      "player": "Kylian Mbappé",
-      "team": "France",
+      "player_id": "1100",
+      "player": "E. Haaland",
+      "team": "Norway",
       "goals": 2,
       "assists": 0,
       "penalties": 0,
       "appearances": 1,
       "minutes": 90,
-      "photo": "https://media.api-sports.io/football/players/278.png"
+      "photo": "https://media.api-sports.io/football/players/1100.png"
     },
     {
       "rank": 5,
@@ -5483,15 +5483,15 @@
     },
     {
       "rank": 6,
-      "player_id": "1100",
-      "player": "E. Haaland",
-      "team": "Norway",
+      "player_id": "278",
+      "player": "Kylian Mbappé",
+      "team": "France",
       "goals": 2,
       "assists": 0,
       "penalties": 0,
       "appearances": 1,
-      "minutes": 95,
-      "photo": "https://media.api-sports.io/football/players/1100.png"
+      "minutes": 90,
+      "photo": "https://media.api-sports.io/football/players/278.png"
     },
     {
       "rank": 7,
@@ -5555,18 +5555,6 @@
     },
     {
       "rank": 12,
-      "player_id": "18979",
-      "player": "V. Gyökeres",
-      "team": "Sweden",
-      "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 1,
-      "minutes": 90,
-      "photo": "https://media.api-sports.io/football/players/18979.png"
-    },
-    {
-      "rank": 13,
       "player_id": "2691",
       "player": "R. Rezaeian",
       "team": "Iran",
@@ -5576,6 +5564,18 @@
       "appearances": 1,
       "minutes": 90,
       "photo": "https://media.api-sports.io/football/players/2691.png"
+    },
+    {
+      "rank": 13,
+      "player_id": "18979",
+      "player": "V. Gyökeres",
+      "team": "Sweden",
+      "goals": 1,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 1,
+      "minutes": 90,
+      "photo": "https://media.api-sports.io/football/players/18979.png"
     },
     {
       "rank": 14,
@@ -5639,6 +5639,18 @@
     },
     {
       "rank": 19,
+      "player_id": "18967",
+      "player": "L. Østigård",
+      "team": "Norway",
+      "goals": 1,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 1,
+      "minutes": 17,
+      "photo": "https://media.api-sports.io/football/players/18967.png"
+    },
+    {
+      "rank": 20,
       "player_id": "34710",
       "player": "Oh Hyeon-Gyu",
       "team": "South Korea",
@@ -5648,18 +5660,6 @@
       "appearances": 1,
       "minutes": 21,
       "photo": "https://media.api-sports.io/football/players/34710.png"
-    },
-    {
-      "rank": 20,
-      "player_id": "18967",
-      "player": "L. Østigård",
-      "team": "Norway",
-      "goals": 1,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1,
-      "minutes": 22,
-      "photo": "https://media.api-sports.io/football/players/18967.png"
     }
   ],
   "best_thirds": [
@@ -5749,8 +5749,8 @@
       "best_third_qualified": false
     },
     {
-      "group": "L",
-      "team": "Ghana",
+      "group": "K",
+      "team": "Colombia",
       "played": 0,
       "won": 0,
       "drawn": 0,
@@ -5766,8 +5766,8 @@
       "best_third_qualified": false
     },
     {
-      "group": "K",
-      "team": "Portugal",
+      "group": "L",
+      "team": "Ghana",
       "played": 0,
       "won": 0,
       "drawn": 0,

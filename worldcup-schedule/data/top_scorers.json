@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T18:32:16Z",
+  "last_updated": "2026-06-17T20:55:41Z",
   "scorers": [
     {
       "rank": 1,
@@ -39,15 +39,15 @@
     },
     {
       "rank": 4,
-      "player_id": "278",
-      "player": "Kylian Mbappé",
-      "team": "France",
+      "player_id": "1100",
+      "player": "E. Haaland",
+      "team": "Norway",
       "goals": 2,
       "assists": 0,
       "penalties": 0,
       "appearances": 1,
       "minutes": 90,
-      "photo": "https://media.api-sports.io/football/players/278.png"
+      "photo": "https://media.api-sports.io/football/players/1100.png"
     },
     {
       "rank": 5,
@@ -63,15 +63,15 @@
     },
     {
       "rank": 6,
-      "player_id": "1100",
-      "player": "E. Haaland",
-      "team": "Norway",
+      "player_id": "278",
+      "player": "Kylian Mbappé",
+      "team": "France",
       "goals": 2,
       "assists": 0,
       "penalties": 0,
       "appearances": 1,
-      "minutes": 95,
-      "photo": "https://media.api-sports.io/football/players/1100.png"
+      "minutes": 90,
+      "photo": "https://media.api-sports.io/football/players/278.png"
     },
     {
       "rank": 7,
@@ -135,18 +135,6 @@
     },
     {
       "rank": 12,
-      "player_id": "18979",
-      "player": "V. Gyökeres",
-      "team": "Sweden",
-      "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 1,
-      "minutes": 90,
-      "photo": "https://media.api-sports.io/football/players/18979.png"
-    },
-    {
-      "rank": 13,
       "player_id": "2691",
       "player": "R. Rezaeian",
       "team": "Iran",
@@ -156,6 +144,18 @@
       "appearances": 1,
       "minutes": 90,
       "photo": "https://media.api-sports.io/football/players/2691.png"
+    },
+    {
+      "rank": 13,
+      "player_id": "18979",
+      "player": "V. Gyökeres",
+      "team": "Sweden",
+      "goals": 1,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 1,
+      "minutes": 90,
+      "photo": "https://media.api-sports.io/football/players/18979.png"
     },
     {
       "rank": 14,
@@ -219,6 +219,18 @@
     },
     {
       "rank": 19,
+      "player_id": "18967",
+      "player": "L. Østigård",
+      "team": "Norway",
+      "goals": 1,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 1,
+      "minutes": 17,
+      "photo": "https://media.api-sports.io/football/players/18967.png"
+    },
+    {
+      "rank": 20,
       "player_id": "34710",
       "player": "Oh Hyeon-Gyu",
       "team": "South Korea",
@@ -228,18 +240,6 @@
       "appearances": 1,
       "minutes": 21,
       "photo": "https://media.api-sports.io/football/players/34710.png"
-    },
-    {
-      "rank": 20,
-      "player_id": "18967",
-      "player": "L. Østigård",
-      "team": "Norway",
-      "goals": 1,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1,
-      "minutes": 22,
-      "photo": "https://media.api-sports.io/football/players/18967.png"
     }
   ]
 }
