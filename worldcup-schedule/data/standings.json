@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T00:03:19Z",
+  "last_updated": "2026-06-18T05:00:07Z",
   "standings": [
     {
       "group": "A",
@@ -45,7 +45,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8
+      "best_third_rank": 7
     },
     {
       "group": "A",
@@ -106,7 +106,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4
+      "best_third_rank": 5
     },
     {
       "group": "B",
@@ -289,7 +289,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9
+      "best_third_rank": 8
     },
     {
       "group": "E",
@@ -472,7 +472,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5
+      "best_third_rank": 6
     },
     {
       "group": "H",
@@ -613,22 +613,22 @@
     },
     {
       "group": "K",
-      "team": "DR Congo",
+      "team": "Colombia",
       "played": 1,
-      "won": 0,
-      "drawn": 1,
+      "won": 1,
+      "drawn": 0,
       "lost": 0,
-      "goals_for": 1,
+      "goals_for": 3,
       "goals_against": 1,
-      "goal_difference": 0,
-      "points": 1,
+      "goal_difference": 2,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
     },
     {
       "group": "K",
-      "team": "Portugal",
+      "team": "DR Congo",
       "played": 1,
       "won": 0,
       "drawn": 1,
@@ -643,30 +643,30 @@
     },
     {
       "group": "K",
-      "team": "Colombia",
-      "played": 0,
+      "team": "Portugal",
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
+      "goals_for": 1,
+      "goals_against": 1,
       "goal_difference": 0,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 4
     },
     {
       "group": "K",
       "team": "Uzbekistan",
-      "played": 0,
+      "played": 1,
       "won": 0,
       "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
+      "lost": 1,
+      "goals_for": 1,
+      "goals_against": 3,
+      "goal_difference": -2,
       "points": 0,
       "fair_play_points": 0,
       "rank": 4,
@@ -690,14 +690,14 @@
     {
       "group": "L",
       "team": "Ghana",
-      "played": 0,
-      "won": 0,
+      "played": 1,
+      "won": 1,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 0,
+      "goals_for": 1,
       "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
+      "goal_difference": 1,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 2,
       "qualified_status": "possible"
@@ -705,18 +705,18 @@
     {
       "group": "L",
       "team": "Panama",
-      "played": 0,
+      "played": 1,
       "won": 0,
       "drawn": 0,
-      "lost": 0,
+      "lost": 1,
       "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
+      "goals_against": 1,
+      "goal_difference": -1,
       "points": 0,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7
+      "best_third_rank": 9
     },
     {
       "group": "L",

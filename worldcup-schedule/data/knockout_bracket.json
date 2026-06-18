@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T00:03:19Z",
+  "last_updated": "2026-06-18T05:00:07Z",
   "knockout": [
     {
       "match_id": 73,
@@ -727,6 +727,23 @@
       "best_third_qualified": true
     },
     {
+      "group": "K",
+      "team": "Portugal",
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "goals_for": 1,
+      "goals_against": 1,
+      "goal_difference": 0,
+      "points": 1,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 4,
+      "best_third_qualified": true
+    },
+    {
       "group": "B",
       "team": "Qatar",
       "played": 1,
@@ -740,7 +757,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4,
+      "best_third_rank": 5,
       "best_third_qualified": true
     },
     {
@@ -757,41 +774,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5,
-      "best_third_qualified": true
-    },
-    {
-      "group": "K",
-      "team": "Colombia",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
       "best_third_rank": 6,
-      "best_third_qualified": true
-    },
-    {
-      "group": "L",
-      "team": "Panama",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
-      "goal_difference": 0,
-      "points": 0,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 7,
       "best_third_qualified": true
     },
     {
@@ -808,12 +791,29 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8,
+      "best_third_rank": 7,
       "best_third_qualified": true
     },
     {
       "group": "E",
       "team": "Ecuador",
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "goals_for": 0,
+      "goals_against": 1,
+      "goal_difference": -1,
+      "points": 0,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 8,
+      "best_third_qualified": true
+    },
+    {
+      "group": "L",
+      "team": "Panama",
       "played": 1,
       "won": 0,
       "drawn": 0,
