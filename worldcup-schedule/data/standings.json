@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T16:05:53Z",
+  "last_updated": "2026-06-18T18:34:37Z",
   "standings": [
     {
       "group": "A",
@@ -34,14 +34,14 @@
     {
       "group": "A",
       "team": "Czech Republic",
-      "played": 1,
+      "played": 2,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 1,
-      "goals_for": 1,
-      "goals_against": 2,
+      "goals_for": 2,
+      "goals_against": 3,
       "goal_difference": -1,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
@@ -50,14 +50,14 @@
     {
       "group": "A",
       "team": "South Africa",
-      "played": 1,
+      "played": 2,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 1,
-      "goals_for": 0,
-      "goals_against": 2,
+      "goals_for": 1,
+      "goals_against": 3,
       "goal_difference": -2,
-      "points": 0,
+      "points": 1,
       "fair_play_points": 0,
       "rank": 4,
       "qualified_status": "possible"
