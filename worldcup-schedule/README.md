@@ -277,6 +277,55 @@ SPORTMONKS_WORLD_CUP_LEAGUE_ID=732
 
 不要把 `.env` 提交到 GitHub。项目里的 `.gitignore` 已经忽略 `.env`。
 
+## 飞书每日战报
+
+项目可以把北京时间当天的完场、进行中和待开赛场次推送到飞书群。默认工作流在每天北京时间 14:10 发送，以读取 14:00 刷新后的赛果；赛事日期范围外会自动跳过，休赛日会显示下一比赛日。
+
+1. 在飞书群里添加“自定义机器人”，复制 Webhook 地址；建议同时开启签名校验。
+2. 在 GitHub 仓库 `Settings` -> `Secrets and variables` -> `Actions` 新增 Repository secrets：
+
+```text
+FEISHU_WEBHOOK_URL
+FEISHU_WEBHOOK_SECRET    # 未开启签名校验时可不填
+```
+
+3. 可选新增 Repository variable，用于卡片里的“查看完整赛程”按钮：
+
+```text
+WORLDCUP_WEB_URL=https://你的赛程网页地址
+```
+
+### 推送给多个朋友
+
+群自定义机器人只能向它所在的群推送。要分别发给不同朋友，请为每位朋友创建一个两人群，并在每个群里添加自定义机器人。然后把全部目标保存到一个 Repository secret：
+
+```text
+名称：FEISHU_TARGETS_JSON
+值：
+[
+  {"name":"朋友A","webhook":"https://open.feishu.cn/open-apis/bot/v2/hook/...","secret":"朋友A群的签名密钥"},
+  {"name":"朋友B","webhook":"https://open.feishu.cn/open-apis/bot/v2/hook/...","secret":"朋友B群的签名密钥"}
+]
+```
+
+未开启签名校验的群可以把 `secret` 留空。临时停止向某个群推送时，在对应对象里增加 `"enabled":false`。配置 `FEISHU_TARGETS_JSON` 后会优先使用多群配置；原来的 `FEISHU_WEBHOOK_URL` 单群配置仍然兼容。
+
+工作流位于 `.github/workflows/push-feishu-daily-report.yml`。可以手动运行并指定补发日期，也可以修改 cron 调整每日推送时间。
+
+本地预览卡片，不会发送消息：
+
+```bash
+python scripts/push_feishu_report.py --date 2026-06-18 --dry-run
+```
+
+本地实际发送：
+
+```bash
+FEISHU_WEBHOOK_URL="https://open.feishu.cn/open-apis/bot/v2/hook/..." \
+FEISHU_WEBHOOK_SECRET="你的签名密钥" \
+python scripts/push_feishu_report.py
+```
+
 ## 淘汰赛自动解析
 
 小组赛结束前，淘汰赛会显示占位符：
