@@ -1,0 +1,53 @@
+name: Push Feishu Daily Report
+
+on:
+  workflow_dispatch:
+    inputs:
+      report_date:
+        description: "北京时间战报日期（YYYY-MM-DD，留空为今天）"
+        required: false
+        type: string
+  schedule:
+    # GitHub Actions cron 使用 UTC；06:10 UTC = 北京时间 14:10。
+    # 与每 15 分钟的数据刷新错开，优先读取 14:00 刷新后的赛果。
+    - cron: "10 6 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: feishu-daily-report
+  cancel-in-progress: false
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: worldcup-schedule
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Push report
+        env:
+          FEISHU_TARGETS_JSON: ${{ secrets.FEISHU_TARGETS_JSON }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_WEBHOOK_SECRET: ${{ secrets.FEISHU_WEBHOOK_SECRET }}
+          WORLDCUP_WEB_URL: ${{ vars.WORLDCUP_WEB_URL }}
+          REPORT_DATE: ${{ inputs.report_date }}
+        run: |
+          if [ -z "$FEISHU_TARGETS_JSON" ] && [ -z "$FEISHU_WEBHOOK_URL" ]; then
+            echo "FEISHU_TARGETS_JSON or FEISHU_WEBHOOK_URL secret is missing"
+            exit 1
+          fi
+          args=()
+          if [ -n "$REPORT_DATE" ]; then
+            args+=(--date "$REPORT_DATE")
+          fi
+          python scripts/push_feishu_report.py "${args[@]}"
