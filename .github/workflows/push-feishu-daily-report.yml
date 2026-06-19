@@ -8,9 +8,12 @@ on:
         required: false
         type: string
   schedule:
-    # GitHub 的 schedule 可能延迟数小时，因此在北京时间 14:10-20:10
-    # 每小时提供一次触发机会。缓存标记保证每天只实际推送一次。
-    - cron: "10 6-12 * * *"
+    # 一次性测试：2026-06-19 北京时间 17:10。步骤内还会校验年份和日期。
+    - cron: "10 9 19 6 *"
+    # 每日固定推送：北京时间 08:30、10:00、14:00。
+    - cron: "30 0 * * *"
+    - cron: "0 2 * * *"
+    - cron: "0 6 * * *"
 
 permissions:
   contents: read
@@ -34,20 +37,40 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Resolve Beijing report date
-        id: report-date
-        run: echo "value=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_OUTPUT"
+      - name: Resolve report schedule
+        id: report_schedule
+        env:
+          SCHEDULE_EXPR: ${{ github.event.schedule }}
+        run: |
+          report_date=$(TZ=Asia/Shanghai date +%F)
+          should_run=true
+          case "$SCHEDULE_EXPR" in
+            "10 9 19 6 *")
+              slot="1710-test"
+              if [ "$report_date" != "2026-06-19" ]; then
+                should_run=false
+              fi
+              ;;
+            "30 0 * * *") slot="0830" ;;
+            "0 2 * * *") slot="1000" ;;
+            "0 6 * * *") slot="1400" ;;
+            *) slot="manual" ;;
+          esac
+          echo "date=$report_date" >> "$GITHUB_OUTPUT"
+          echo "slot=$slot" >> "$GITHUB_OUTPUT"
+          echo "should_run=$should_run" >> "$GITHUB_OUTPUT"
+          echo "cache_key=feishu-report-$report_date-$slot" >> "$GITHUB_OUTPUT"
 
-      - name: Restore daily delivery marker
-        id: delivery-cache
-        if: github.event_name == 'schedule'
+      - name: Restore scheduled delivery marker
+        id: delivery_cache
+        if: github.event_name == 'schedule' && steps.report_schedule.outputs.should_run == 'true'
         uses: actions/cache/restore@v4
         with:
           path: worldcup-schedule/.feishu-delivery-state
-          key: feishu-daily-report-${{ steps.report-date.outputs.value }}
+          key: ${{ steps.report_schedule.outputs.cache_key }}
 
       - name: Push report
-        if: github.event_name != 'schedule' || steps.delivery-cache.outputs.cache-hit != 'true'
+        if: steps.report_schedule.outputs.should_run == 'true' && (github.event_name != 'schedule' || steps.delivery_cache.outputs.cache-hit != 'true')
         env:
           FEISHU_TARGETS_JSON: ${{ secrets.FEISHU_TARGETS_JSON }}
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
@@ -65,15 +88,15 @@ jobs:
           fi
           python scripts/push_feishu_report.py "${args[@]}"
 
-      - name: Mark daily report delivered
-        if: success() && github.event_name == 'schedule' && steps.delivery-cache.outputs.cache-hit != 'true'
+      - name: Mark scheduled report delivered
+        if: success() && github.event_name == 'schedule' && steps.report_schedule.outputs.should_run == 'true' && steps.delivery_cache.outputs.cache-hit != 'true'
         run: |
           mkdir -p .feishu-delivery-state
-          date -u +%FT%TZ > .feishu-delivery-state/${{ steps.report-date.outputs.value }}
+          date -u +%FT%TZ > .feishu-delivery-state/${{ steps.report_schedule.outputs.date }}-${{ steps.report_schedule.outputs.slot }}
 
-      - name: Save daily delivery marker
-        if: success() && github.event_name == 'schedule' && steps.delivery-cache.outputs.cache-hit != 'true'
+      - name: Save scheduled delivery marker
+        if: success() && github.event_name == 'schedule' && steps.report_schedule.outputs.should_run == 'true' && steps.delivery_cache.outputs.cache-hit != 'true'
         uses: actions/cache/save@v4
         with:
           path: worldcup-schedule/.feishu-delivery-state
-          key: feishu-daily-report-${{ steps.report-date.outputs.value }}
+          key: ${{ steps.report_schedule.outputs.cache_key }}
