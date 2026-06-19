@@ -117,6 +117,14 @@ jobs:
       - name: Validate generated data
         run: python scripts/validate_schedule.py
 
+      - name: Refresh daily champion prediction
+        run: |
+          args=(--daily-after-hour 14)
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            args+=(--force)
+          fi
+          python scripts/build_champion_predictions.py "${args[@]}"
+
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
