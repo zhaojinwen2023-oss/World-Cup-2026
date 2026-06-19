@@ -8,9 +8,9 @@ on:
         required: false
         type: string
   schedule:
-    # GitHub Actions cron 使用 UTC；06:10 UTC = 北京时间 14:10。
-    # 与每 15 分钟的数据刷新错开，优先读取 14:00 刷新后的赛果。
-    - cron: "10 6 * * *"
+    # GitHub 的 schedule 可能延迟数小时，因此在北京时间 14:10-20:10
+    # 每小时提供一次触发机会。缓存标记保证每天只实际推送一次。
+    - cron: "10 6-12 * * *"
 
 permissions:
   contents: read
@@ -34,7 +34,20 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Resolve Beijing report date
+        id: report-date
+        run: echo "value=$(TZ=Asia/Shanghai date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Restore daily delivery marker
+        id: delivery-cache
+        if: github.event_name == 'schedule'
+        uses: actions/cache/restore@v4
+        with:
+          path: worldcup-schedule/.feishu-delivery-state
+          key: feishu-daily-report-${{ steps.report-date.outputs.value }}
+
       - name: Push report
+        if: github.event_name != 'schedule' || steps.delivery-cache.outputs.cache-hit != 'true'
         env:
           FEISHU_TARGETS_JSON: ${{ secrets.FEISHU_TARGETS_JSON }}
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
@@ -51,3 +64,16 @@ jobs:
             args+=(--date "$REPORT_DATE")
           fi
           python scripts/push_feishu_report.py "${args[@]}"
+
+      - name: Mark daily report delivered
+        if: success() && github.event_name == 'schedule' && steps.delivery-cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p .feishu-delivery-state
+          date -u +%FT%TZ > .feishu-delivery-state/${{ steps.report-date.outputs.value }}
+
+      - name: Save daily delivery marker
+        if: success() && github.event_name == 'schedule' && steps.delivery-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: worldcup-schedule/.feishu-delivery-state
+          key: feishu-daily-report-${{ steps.report-date.outputs.value }}
