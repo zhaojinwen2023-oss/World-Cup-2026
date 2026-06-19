@@ -18,6 +18,14 @@ MODEL_WEIGHTS = {
 }
 SOFTMAX_TEMPERATURE = 5.0
 FINISHED_STATUSES = {"finished", "after extra time", "after penalties"}
+TEAM_ALIASES = {
+    "Bosnia & Herzegovina": "Bosnia and Herzegovina",
+    "Cape Verde Islands": "Cape Verde",
+    "Congo DR": "DR Congo",
+    "Czechia": "Czech Republic",
+    "Türkiye": "Turkey",
+    "USA": "United States",
+}
 KNOCKOUT_WIN_PATH = {
     "Round of 32": 65,
     "Round of 16": 74,
@@ -52,6 +60,11 @@ def is_resolved_team(value: object) -> bool:
     return bool(text) and not text.startswith("待定") and not any(token in text.lower() for token in ("winner ", "runner-up", "loser ", "3rd ", "third "))
 
 
+def canonical_team(value: object) -> str:
+    text = str(value or "").strip()
+    return TEAM_ALIASES.get(text, text)
+
+
 def is_finished(match: dict) -> bool:
     return bool(match.get("is_finished")) or str(match.get("status") or "").strip().lower() in FINISHED_STATUSES
 
@@ -66,8 +79,8 @@ def score_value(value: object) -> int | None:
 
 
 def match_result_for_team(match: dict, team: str) -> dict | None:
-    home = str(match.get("home_team") or "").strip()
-    away = str(match.get("away_team") or "").strip()
+    home = canonical_team(match.get("home_team"))
+    away = canonical_team(match.get("away_team"))
     if team not in {home, away} or not is_finished(match):
         return None
 
@@ -79,8 +92,8 @@ def match_result_for_team(match: dict, team: str) -> dict | None:
     is_home = team == home
     goals_for = home_score if is_home else away_score
     goals_against = away_score if is_home else home_score
-    winner = str(match.get("winner") or "").strip()
-    loser = str(match.get("loser") or "").strip()
+    winner = canonical_team(match.get("winner"))
+    loser = canonical_team(match.get("loser"))
 
     if winner == team:
         outcome = "win"
@@ -108,7 +121,7 @@ def tournament_teams(matches: list[dict]) -> list[str]:
         if str(match.get("stage") or "") != "Group Stage":
             continue
         for key in ("home_team", "away_team"):
-            team = str(match.get(key) or "").strip()
+            team = canonical_team(match.get(key))
             if is_resolved_team(team):
                 teams.add(team)
     return sorted(teams)
@@ -142,7 +155,7 @@ def recent_form(team: str, matches: list[dict], strength: float) -> tuple[float,
 
 def standings_by_team(app_data: dict) -> dict[str, dict]:
     return {
-        str(row.get("team") or "").strip(): row
+        canonical_team(row.get("team")): row
         for row in app_data.get("standings", [])
         if is_resolved_team(row.get("team"))
     }
@@ -153,8 +166,8 @@ def upcoming_opponent_strength(team: str, matches: list[dict], strengths: dict[s
     for match in matches:
         if is_finished(match):
             continue
-        home = str(match.get("home_team") or "").strip()
-        away = str(match.get("away_team") or "").strip()
+        home = canonical_team(match.get("home_team"))
+        away = canonical_team(match.get("away_team"))
         if home == team and away in strengths:
             opponents.append((str(match.get("kickoff_utc") or ""), strengths[away]))
         elif away == team and home in strengths:
@@ -353,8 +366,10 @@ def should_update(previous: dict, now: datetime, daily_after_hour: int | None, f
     if local_now.hour < daily_after_hour:
         return False, f"北京时间尚未到 {daily_after_hour:02d}:00"
     previous_time = parse_datetime(str(previous.get("generated_at") or ""))
-    if previous.get("status") == "model" and previous_time and previous_time.astimezone(BEIJING).date() == local_now.date():
-        return False, "今天已经生成过预测"
+    if previous.get("status") == "model" and previous_time:
+        previous_local = previous_time.astimezone(BEIJING)
+        if previous_local.date() == local_now.date() and previous_local.hour >= daily_after_hour:
+            return False, "今天已经在日更时间后生成过预测"
     return True, "进入今天的预测更新时间"
 
 
