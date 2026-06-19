@@ -8,12 +8,10 @@ on:
         required: false
         type: string
   schedule:
-    # 一次性测试：2026-06-19 北京时间 17:10。步骤内还会校验年份和日期。
-    - cron: "10 9 19 6 *"
-    # 每日固定推送：北京时间 08:30、10:00、14:00。
-    - cron: "30 0 * * *"
-    - cron: "0 2 * * *"
-    - cron: "0 6 * * *"
+    # 北京时间 08:30、10:00、14:00。每个时段增加三次补偿触发，缓存会阻止重复推送。
+    - cron: "30,35,40,45 0 * * *"
+    - cron: "0,5,10,15 2 * * *"
+    - cron: "0,5,10,15 6 * * *"
 
 permissions:
   contents: read
@@ -45,15 +43,9 @@ jobs:
           report_date=$(TZ=Asia/Shanghai date +%F)
           should_run=true
           case "$SCHEDULE_EXPR" in
-            "10 9 19 6 *")
-              slot="1710-test"
-              if [ "$report_date" != "2026-06-19" ]; then
-                should_run=false
-              fi
-              ;;
-            "30 0 * * *") slot="0830" ;;
-            "0 2 * * *") slot="1000" ;;
-            "0 6 * * *") slot="1400" ;;
+            "30,35,40,45 0 * * *") slot="0830" ;;
+            "0,5,10,15 2 * * *") slot="1000" ;;
+            "0,5,10,15 6 * * *") slot="1400" ;;
             *) slot="manual" ;;
           esac
           echo "date=$report_date" >> "$GITHUB_OUTPUT"
