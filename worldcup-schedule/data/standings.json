@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T20:12:10Z",
+  "last_updated": "2026-06-19T21:33:53Z",
   "standings": [
     {
       "group": "A",
@@ -187,14 +187,14 @@
     {
       "group": "D",
       "team": "United States",
-      "played": 1,
-      "won": 1,
+      "played": 2,
+      "won": 2,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 4,
+      "goals_for": 6,
       "goals_against": 1,
-      "goal_difference": 3,
-      "points": 3,
+      "goal_difference": 5,
+      "points": 6,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
@@ -202,13 +202,13 @@
     {
       "group": "D",
       "team": "Australia",
-      "played": 1,
+      "played": 2,
       "won": 1,
       "drawn": 0,
-      "lost": 0,
+      "lost": 1,
       "goals_for": 2,
-      "goals_against": 0,
-      "goal_difference": 2,
+      "goals_against": 2,
+      "goal_difference": 0,
       "points": 3,
       "fair_play_points": 0,
       "rank": 2,
