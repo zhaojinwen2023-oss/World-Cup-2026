@@ -1,4 +1,5 @@
 const APP_DATA_URL = "../data/app_data.json";
+const PREDICTIONS_DATA_URL = "../data/champion_predictions.json";
 const FAVORITES_KEY = "worldcup2026.favoriteMatchIds.v3";
 const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
 
@@ -98,12 +99,37 @@ const BRACKET_HALVES = [
   },
 ];
 
+const PREDICTION_METRICS = {
+  probability: {
+    key: "champion_probability",
+    label: "冠军概率",
+    suffix: "%",
+    digits: 1,
+    caption: "模型输出，不对应任何博彩平台赔率",
+  },
+  strength: {
+    key: "strength_score",
+    label: "球队实力",
+    suffix: "",
+    digits: 0,
+    caption: "综合阵容质量、长期表现与攻防效率",
+  },
+  path: {
+    key: "path_score",
+    label: "晋级路径",
+    suffix: "",
+    digits: 0,
+    caption: "分值越高，模型评估的潜在晋级路径越有利",
+  },
+};
+
 let appData = {};
 let matches = [];
 let standings = [];
 let topScorers = [];
 let knockout = [];
 let bestThirds = [];
+let predictionsData = {};
 let favoriteIds = new Set();
 let activeTab = "schedule";
 let activeFilter = "all";
@@ -112,6 +138,7 @@ let scheduleView = "calendar";
 let selectedDateKey = "";
 let headToHeadTeamA = "";
 let headToHeadTeamB = "";
+let predictionMetric = "probability";
 
 const panels = {
   schedule: document.querySelector("#schedulePanel"),
@@ -120,6 +147,7 @@ const panels = {
   scorers: document.querySelector("#scorersPanel"),
   headToHead: document.querySelector("#headToHeadPanel"),
   knockout: document.querySelector("#knockoutPanel"),
+  predictions: document.querySelector("#predictionsPanel"),
   favorites: document.querySelector("#favoritesPanel"),
 };
 
@@ -135,6 +163,10 @@ const headToHeadListEl = document.querySelector("#headToHeadList");
 const teamASelect = document.querySelector("#teamASelect");
 const teamBSelect = document.querySelector("#teamBSelect");
 const knockoutListEl = document.querySelector("#knockoutList");
+const predictionLeadersEl = document.querySelector("#predictionLeaders");
+const predictionRankingEl = document.querySelector("#predictionRanking");
+const predictionResidualEl = document.querySelector("#predictionResidual");
+const methodologyGridEl = document.querySelector("#methodologyGrid");
 const counterEl = document.querySelector("#matchCounter");
 const statusEl = document.querySelector("#statusMessage");
 const searchInput = document.querySelector("#searchInput");
@@ -190,6 +222,13 @@ function bindControls() {
       return;
     }
 
+    const metricButton = event.target.closest("[data-prediction-metric]");
+    if (metricButton) {
+      predictionMetric = metricButton.dataset.predictionMetric;
+      renderPredictions();
+      return;
+    }
+
     const button = event.target.closest("[data-favorite-id]");
     if (!button) return;
     toggleFavorite(button.dataset.favoriteId);
@@ -207,9 +246,13 @@ function registerServiceWorker() {
 
 async function loadData(isBackground = false) {
   try {
-    const response = await fetch(APP_DATA_URL, { cache: "no-store" });
+    const [response, predictionResponse] = await Promise.all([
+      fetch(APP_DATA_URL, { cache: "no-store" }),
+      fetch(PREDICTIONS_DATA_URL, { cache: "no-store" }).catch(() => null),
+    ]);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     appData = await response.json();
+    if (predictionResponse?.ok) predictionsData = await predictionResponse.json();
     matches = (appData.matches || []).map(enrichClientMatch).sort((a, b) => a.kickoff - b.kickoff);
     standings = appData.standings || [];
     topScorers = normalizeTopScorers(appData.top_scorers || []);
@@ -282,6 +325,7 @@ function renderActiveTab() {
   if (activeTab === "scorers") renderScorers();
   if (activeTab === "headToHead") renderHeadToHead();
   if (activeTab === "knockout") renderKnockout();
+  if (activeTab === "predictions") renderPredictions();
   if (activeTab === "favorites") renderFavorites();
 }
 
@@ -471,6 +515,109 @@ function renderKnockout() {
   });
 }
 
+function renderPredictions() {
+  const teams = Array.isArray(predictionsData.teams) ? predictionsData.teams : [];
+  counterEl.textContent = teams.length ? `${teams.length} 队` : "模型";
+  if (!teams.length) {
+    predictionLeadersEl.innerHTML = "";
+    predictionRankingEl.innerHTML = `<section class="empty-state">预测数据暂不可用</section>`;
+    return;
+  }
+
+  const metric = PREDICTION_METRICS[predictionMetric] || PREDICTION_METRICS.probability;
+  const sorted = [...teams].sort((a, b) => Number(b[metric.key] || 0) - Number(a[metric.key] || 0));
+  const maximum = Number(sorted[0][metric.key] || 1);
+
+  document.querySelectorAll("[data-prediction-metric]").forEach((button) => {
+    const active = button.dataset.predictionMetric === predictionMetric;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-selected", String(active));
+  });
+
+  document.querySelector("#predictionVersion").textContent = predictionsData.model_version || "统计模型";
+  document.querySelector("#predictionUpdated").textContent = `更新：${formatPredictionDate(predictionsData.generated_at)}`;
+  document.querySelector("#predictionSource").textContent = predictionsData.source_label || "统计模型";
+  document.querySelector("#predictionRankingTitle").textContent = `${metric.label}排名`;
+  document.querySelector("#predictionRankingCaption").textContent = metric.caption;
+  document.querySelector("#predictionHeroLead").innerHTML = `
+    <span>模型最高冠军概率</span>
+    <strong>${formatPredictionValue(sortedByProbability(teams)[0].champion_probability, PREDICTION_METRICS.probability)}</strong>
+    <p>${escapeHtml(displayTeamName(sortedByProbability(teams)[0].team))}</p>
+  `;
+
+  predictionLeadersEl.innerHTML = sorted
+    .slice(0, 3)
+    .map(
+      (team, index) => `
+        <article class="prediction-leader">
+          <span>0${index + 1}</span>
+          <div>
+            <h3>${escapeHtml(displayTeamName(team.team))}</h3>
+            <p>${escapeHtml(team.summary)}</p>
+          </div>
+          <strong>${formatPredictionValue(team[metric.key], metric)}</strong>
+        </article>
+      `,
+    )
+    .join("");
+
+  predictionRankingEl.innerHTML = sorted
+    .map((team, index) => predictionRow(team, index, metric, maximum))
+    .join("");
+
+  predictionResidualEl.hidden = predictionMetric !== "probability";
+  predictionResidualEl.innerHTML = predictionMetric === "probability" ? `<span>其余球队合计</span><strong>${formatPredictionValue(predictionsData.other_probability || 0, PREDICTION_METRICS.probability)}</strong>` : "";
+
+  methodologyGridEl.innerHTML = (predictionsData.methodology || [])
+    .map(
+      (item) => `
+        <article class="methodology-item">
+          <div><h3>${escapeHtml(item.label)}</h3><strong>${escapeHtml(item.weight)}%</strong></div>
+          <div class="methodology-track" aria-hidden="true"><span style="--method-weight: ${Number(item.weight) || 0}%"></span></div>
+          <p>${escapeHtml(item.description)}</p>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function predictionRow(team, index, metric, maximum) {
+  const value = Number(team[metric.key] || 0);
+  const width = maximum ? Math.max(4, (value / maximum) * 100) : 0;
+  return `
+    <article class="prediction-row">
+      <span class="prediction-rank">${String(index + 1).padStart(2, "0")}</span>
+      <div class="prediction-team">
+        <div><strong>${escapeHtml(displayTeamName(team.team))}</strong><span>${escapeHtml(team.summary)}</span></div>
+        <div class="prediction-bar" aria-hidden="true"><span style="--prediction-width: ${width.toFixed(1)}%"></span></div>
+      </div>
+      <strong class="prediction-value">${formatPredictionValue(value, metric)}</strong>
+    </article>
+  `;
+}
+
+function sortedByProbability(teams) {
+  return [...teams].sort((a, b) => Number(b.champion_probability || 0) - Number(a.champion_probability || 0));
+}
+
+function formatPredictionValue(value, metric) {
+  return `${Number(value || 0).toFixed(metric.digits)}${metric.suffix}`;
+}
+
+function formatPredictionDate(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return String(value || "-");
+  return new Intl.DateTimeFormat("zh-CN", {
+    timeZone: TIME_ZONES.beijing.zone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).format(date);
+}
+
 function filterMatches() {
   const today = dateKey(new Date(), TIME_ZONES.beijing.zone);
   const tomorrow = dateKey(new Date(Date.now() + 24 * 60 * 60 * 1000), TIME_ZONES.beijing.zone);
@@ -599,15 +746,18 @@ function renderMonthCalendar(month, matchesByDate) {
 
 function renderCalendarDay(day, key, dayMatches) {
   const hasMatches = dayMatches.length > 0;
+  const isToday = key === dateKey(new Date(), TIME_ZONES.beijing.zone);
   const type = calendarDayType(dayMatches);
   const meta = CALENDAR_TYPE_META[type];
   const classes = ["calendar-day", meta.className];
   if (hasMatches) classes.push("has-matches");
   if (dayMatches.some((match) => match.is_live)) classes.push("live");
-  const label = hasMatches ? `${key}，${dayMatches.length}场比赛` : `${key}，无比赛`;
+  if (isToday) classes.push("is-today");
+  const dayStatus = hasMatches ? `${dayMatches.length}场比赛` : "无比赛";
+  const label = `${key}，${isToday ? "今天，" : ""}${dayStatus}`;
   const firstMatch = dayMatches[0];
   return `
-    <button class="${classes.join(" ")}" data-calendar-date="${escapeHtml(key)}" type="button" ${hasMatches ? "" : "disabled"} aria-label="${escapeHtml(label)}">
+    <button class="${classes.join(" ")}" data-calendar-date="${escapeHtml(key)}" type="button" ${hasMatches ? "" : "disabled"} ${isToday ? 'aria-current="date"' : ""} aria-label="${escapeHtml(label)}">
       <span class="day-number">${day}</span>
       ${hasMatches ? `<span class="day-count">${dayMatches.length}场</span><span class="day-preview">${escapeHtml(dayPreview(firstMatch))}</span>` : '<span class="day-preview">休息</span>'}
     </button>
