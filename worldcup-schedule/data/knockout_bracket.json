@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T23:04:21Z",
+  "last_updated": "2026-06-19T01:51:42Z",
   "knockout": [
     {
       "match_id": 73,
@@ -744,23 +744,6 @@
       "best_third_qualified": true
     },
     {
-      "group": "B",
-      "team": "Qatar",
-      "played": 1,
-      "won": 0,
-      "drawn": 1,
-      "lost": 0,
-      "goals_for": 1,
-      "goals_against": 1,
-      "goal_difference": 0,
-      "points": 1,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 5,
-      "best_third_qualified": true
-    },
-    {
       "group": "H",
       "team": "Cape Verde",
       "played": 1,
@@ -774,7 +757,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6,
+      "best_third_rank": 5,
       "best_third_qualified": true
     },
     {
@@ -787,6 +770,23 @@
       "goals_for": 2,
       "goals_against": 3,
       "goal_difference": -1,
+      "points": 1,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 6,
+      "best_third_qualified": true
+    },
+    {
+      "group": "B",
+      "team": "Bosnia and Herzegovina",
+      "played": 2,
+      "won": 0,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 2,
+      "goals_against": 5,
+      "goal_difference": -3,
       "points": 1,
       "fair_play_points": 0,
       "rank": 3,

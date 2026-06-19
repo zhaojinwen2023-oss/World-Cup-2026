@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T23:04:21Z",
+  "last_updated": "2026-06-19T01:51:42Z",
   "standings": [
     {
       "group": "A",
@@ -45,7 +45,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7
+      "best_third_rank": 6
     },
     {
       "group": "A",
@@ -64,6 +64,21 @@
     },
     {
       "group": "B",
+      "team": "Canada",
+      "played": 2,
+      "won": 1,
+      "drawn": 1,
+      "lost": 0,
+      "goals_for": 7,
+      "goals_against": 1,
+      "goal_difference": 6,
+      "points": 4,
+      "fair_play_points": 0,
+      "rank": 1,
+      "qualified_status": "possible"
+    },
+    {
+      "group": "B",
       "team": "Switzerland",
       "played": 2,
       "won": 1,
@@ -74,39 +89,8 @@
       "goal_difference": 3,
       "points": 4,
       "fair_play_points": 0,
-      "rank": 1,
-      "qualified_status": "possible"
-    },
-    {
-      "group": "B",
-      "team": "Canada",
-      "played": 1,
-      "won": 0,
-      "drawn": 1,
-      "lost": 0,
-      "goals_for": 1,
-      "goals_against": 1,
-      "goal_difference": 0,
-      "points": 1,
-      "fair_play_points": 0,
       "rank": 2,
       "qualified_status": "possible"
-    },
-    {
-      "group": "B",
-      "team": "Qatar",
-      "played": 1,
-      "won": 0,
-      "drawn": 1,
-      "lost": 0,
-      "goals_for": 1,
-      "goals_against": 1,
-      "goal_difference": 0,
-      "points": 1,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 5
     },
     {
       "group": "B",
@@ -118,6 +102,22 @@
       "goals_for": 2,
       "goals_against": 5,
       "goal_difference": -3,
+      "points": 1,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 7
+    },
+    {
+      "group": "B",
+      "team": "Qatar",
+      "played": 2,
+      "won": 0,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 1,
+      "goals_against": 7,
+      "goal_difference": -6,
       "points": 1,
       "fair_play_points": 0,
       "rank": 4,
@@ -472,7 +472,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 5
     },
     {
       "group": "H",
