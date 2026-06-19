@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 SCRIPTS_DIR = Path(__file__).resolve().parents[1] / "scripts"
 sys.path.insert(0, str(SCRIPTS_DIR))
 
-from build_champion_predictions import build_predictions, should_update  # noqa: E402
+from build_champion_predictions import build_predictions, canonical_team, should_update  # noqa: E402
 
 
 BEIJING = ZoneInfo("Asia/Shanghai")
@@ -104,7 +104,14 @@ class ChampionPredictionTests(unittest.TestCase):
         self.assertTrue(should_update(previous, after, 14, False)[0])
         today = {"status": "model", "generated_at": "2026-06-20T14:00:00+08:00"}
         self.assertFalse(should_update(today, after, 14, False)[0])
+        before_window = {"status": "model", "generated_at": "2026-06-20T00:16:00+08:00"}
+        self.assertTrue(should_update(before_window, after, 14, False)[0])
         self.assertTrue(should_update(today, before, 14, True)[0])
+
+    def test_provider_team_aliases_are_canonicalized(self) -> None:
+        self.assertEqual(canonical_team("USA"), "United States")
+        self.assertEqual(canonical_team("Türkiye"), "Turkey")
+        self.assertEqual(canonical_team("Bosnia & Herzegovina"), "Bosnia and Herzegovina")
 
 
 if __name__ == "__main__":
