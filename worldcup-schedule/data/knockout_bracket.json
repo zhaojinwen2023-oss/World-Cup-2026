@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T23:46:22Z",
+  "last_updated": "2026-06-20T02:36:19Z",
   "knockout": [
     {
       "match_id": 73,
@@ -676,6 +676,23 @@
   ],
   "best_thirds": [
     {
+      "group": "C",
+      "team": "Scotland",
+      "played": 2,
+      "won": 1,
+      "drawn": 0,
+      "lost": 1,
+      "goals_for": 1,
+      "goals_against": 1,
+      "goal_difference": 0,
+      "points": 3,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 1,
+      "best_third_qualified": true
+    },
+    {
       "group": "F",
       "team": "Netherlands",
       "played": 1,
@@ -689,29 +706,12 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 1,
+      "best_third_rank": 2,
       "best_third_qualified": true
     },
     {
       "group": "G",
       "team": "Belgium",
-      "played": 1,
-      "won": 0,
-      "drawn": 1,
-      "lost": 0,
-      "goals_for": 1,
-      "goals_against": 1,
-      "goal_difference": 0,
-      "points": 1,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 2,
-      "best_third_qualified": true
-    },
-    {
-      "group": "C",
-      "team": "Morocco",
       "played": 1,
       "won": 0,
       "drawn": 1,
