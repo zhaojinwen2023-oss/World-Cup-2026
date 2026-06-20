@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 BEIJING = ZoneInfo("Asia/Shanghai")
-MODEL_VERSION = "可解释模型 v1.0"
+MODEL_VERSION = "历史 Elo + 赛事状态模型 v2.0"
 MODEL_WEIGHTS = {
     "strength": 0.45,
     "form": 0.30,
@@ -264,6 +264,7 @@ def summary_for(row: dict) -> str:
 def build_predictions(app_data: dict, seed_data: dict, generated_at: datetime, top_count: int = 12) -> dict:
     matches = list(app_data.get("matches") or [])
     strengths = {str(team): float(score) for team, score in (seed_data.get("teams") or {}).items()}
+    strength_details = seed_data.get("details") or {}
     teams = tournament_teams(matches)
     missing = [team for team in teams if team not in strengths]
     if missing:
@@ -281,6 +282,7 @@ def build_predictions(app_data: dict, seed_data: dict, generated_at: datetime, t
         rows.append({
             "team": team,
             "strength_score": round(strength),
+            "strength_details": strength_details.get(team) or {},
             "form_score": round(form),
             "path_score": round(path),
             "composite_score": composite,
@@ -297,10 +299,10 @@ def build_predictions(app_data: dict, seed_data: dict, generated_at: datetime, t
     generated_text = generated_at.astimezone(BEIJING).replace(microsecond=0).isoformat()
 
     return {
-        "model_version": MODEL_VERSION,
+        "model_version": MODEL_VERSION if strength_details else "可解释模型 v1.0（人工实力备用）",
         "generated_at": generated_text,
         "status": "model",
-        "source_label": "赛前实力种子 + 最新赛果统计模型",
+        "source_label": f"{seed_data.get('source_label', '赛前实力评分')} + 本届世界杯最新赛果",
         "data_freshness": {
             "app_data_generated_at": app_data.get("generated_at", ""),
             "live_last_updated": app_data.get("live_last_updated", ""),
@@ -313,8 +315,8 @@ def build_predictions(app_data: dict, seed_data: dict, generated_at: datetime, t
                 "last_updated": app_data.get("generated_at", ""),
             },
             {
-                "title": seed_data.get("source_label", "赛前实力种子"),
-                "path": "data/team_strength_seed.json",
+                "title": seed_data.get("source_label", "赛前实力评分"),
+                "path": seed_data.get("_input_path") or (seed_data.get("source") or {}).get("path", "data/team_strength_ratings.json"),
                 "last_updated": seed_data.get("as_of", ""),
             },
         ],
@@ -323,7 +325,7 @@ def build_predictions(app_data: dict, seed_data: dict, generated_at: datetime, t
             {
                 "label": "球队实力",
                 "weight": 45,
-                "description": "赛前相对实力种子，作为每日模型的稳定基线",
+                "description": "过去24个月国际比赛的时间衰减 Elo，按赛事级别与对手强弱动态更新" if strength_details else "人工赛前相对实力，仅在客观历史评分尚未生成时备用",
             },
             {
                 "label": "近期状态",
@@ -341,6 +343,13 @@ def build_predictions(app_data: dict, seed_data: dict, generated_at: datetime, t
                 "team": row["team"],
                 "champion_probability": probabilities[row["team"]],
                 "strength_score": row["strength_score"],
+                "historical_elo": row["strength_details"].get("elo"),
+                "historical_matches": row["strength_details"].get("played"),
+                "historical_record": {
+                    "won": row["strength_details"].get("won"),
+                    "drawn": row["strength_details"].get("drawn"),
+                    "lost": row["strength_details"].get("lost"),
+                } if row["strength_details"] else None,
                 "form_score": row["form_score"],
                 "path_score": row["path_score"],
                 "summary": summary_for(row),
@@ -378,7 +387,14 @@ def should_update(previous: dict, now: datetime, daily_after_hour: int | None, f
 def main() -> int:
     parser = argparse.ArgumentParser(description="根据最新战况生成每日冠军概率。")
     parser.add_argument("--app-data", type=Path, default=ROOT / "data" / "app_data.json")
-    parser.add_argument("--strength-seed", type=Path, default=ROOT / "data" / "team_strength_seed.json")
+    parser.add_argument(
+        "--strength-seed",
+        "--strength-data",
+        dest="strength_seed",
+        type=Path,
+        default=ROOT / "data" / "team_strength_ratings.json",
+        help="客观实力评分文件；保留 --strength-seed 作为兼容别名",
+    )
     parser.add_argument("--output", type=Path, default=ROOT / "data" / "champion_predictions.json")
     parser.add_argument("--daily-after-hour", type=int, choices=range(0, 24))
     parser.add_argument("--force", action="store_true")
@@ -394,7 +410,16 @@ def main() -> int:
         print(f"跳过冠军预测更新: {reason}")
         return 0
 
-    payload = build_predictions(load_json(args.app_data), load_json(args.strength_seed), now)
+    strength_path = args.strength_seed
+    if not strength_path.exists() and strength_path.name == "team_strength_ratings.json":
+        strength_path = ROOT / "data" / "team_strength_seed.json"
+        print(f"客观实力评分尚未生成，暂时使用人工备用评分: {strength_path}")
+    strength_data = load_json(strength_path)
+    try:
+        strength_data["_input_path"] = strength_path.relative_to(ROOT).as_posix()
+    except ValueError:
+        strength_data["_input_path"] = strength_path.as_posix()
+    payload = build_predictions(load_json(args.app_data), strength_data, now)
     write_json(args.output, payload)
     total = sum(float(row["champion_probability"]) for row in payload["teams"]) + float(payload["other_probability"])
     if round(total, 1) != 100.0:
