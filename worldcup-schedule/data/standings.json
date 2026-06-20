@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T21:38:59Z",
+  "last_updated": "2026-06-20T22:48:13Z",
   "standings": [
     {
       "group": "A",
@@ -248,14 +248,14 @@
     {
       "group": "E",
       "team": "Germany",
-      "played": 1,
-      "won": 1,
+      "played": 2,
+      "won": 2,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 7,
-      "goals_against": 1,
-      "goal_difference": 6,
-      "points": 3,
+      "goals_for": 9,
+      "goals_against": 2,
+      "goal_difference": 7,
+      "points": 6,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
@@ -263,13 +263,13 @@
     {
       "group": "E",
       "team": "Ivory Coast",
-      "played": 1,
+      "played": 2,
       "won": 1,
       "drawn": 0,
-      "lost": 0,
-      "goals_for": 1,
-      "goals_against": 0,
-      "goal_difference": 1,
+      "lost": 1,
+      "goals_for": 2,
+      "goals_against": 2,
+      "goal_difference": 0,
       "points": 3,
       "fair_play_points": 0,
       "rank": 2,
