@@ -93,18 +93,28 @@ def fetch_history(app_data: dict, start: date, end: date, base_url: str, headers
     target_teams = set(tournament_teams(app_data.get("matches") or []))
     team_ids = current_world_cup_team_ids(base_url, headers, target_teams)
     fixtures: dict[int, dict] = {}
+    seasons = list(range(start.year, end.year + 1))
     for index, (team, team_id) in enumerate(sorted(team_ids.items()), start=1):
-        payload = api_get(
-            base_url,
-            "fixtures",
-            {"team": team_id, "from": start.isoformat(), "to": end.isoformat(), "timezone": "UTC"},
-            headers,
-        )
-        for item in payload.get("response") or []:
-            normalized = normalized_historical_fixture(item)
-            if normalized:
-                fixtures[normalized["fixture_id"]] = normalized
-        print(f"历史赛果抓取 {index}/{len(team_ids)}: {team}")
+        team_match_count = 0
+        for season in seasons:
+            payload = api_get(
+                base_url,
+                "fixtures",
+                {
+                    "team": team_id,
+                    "season": season,
+                    "from": start.isoformat(),
+                    "to": end.isoformat(),
+                    "timezone": "UTC",
+                },
+                headers,
+            )
+            for item in payload.get("response") or []:
+                normalized = normalized_historical_fixture(item)
+                if normalized:
+                    fixtures[normalized["fixture_id"]] = normalized
+                    team_match_count += 1
+        print(f"历史赛果抓取 {index}/{len(team_ids)}: {team} ({team_match_count} 条，{len(seasons)} 个赛季)")
 
     generated_at = datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     return {
@@ -112,6 +122,7 @@ def fetch_history(app_data: dict, start: date, end: date, base_url: str, headers
         "generated_at": generated_at,
         "source": "API-Football",
         "window": {"start": start.isoformat(), "end": end.isoformat(), "days": (end - start).days},
+        "queried_seasons": seasons,
         "team_ids": team_ids,
         "matches": sorted(fixtures.values(), key=lambda row: (row["date"], row["fixture_id"])),
     }
