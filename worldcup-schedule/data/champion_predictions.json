@@ -1,0 +1,139 @@
+{
+  "model_version": "可解释模型 v1.0",
+  "generated_at": "2026-06-20T13:29:54+08:00",
+  "status": "model",
+  "source_label": "赛前实力种子 + 最新赛果统计模型",
+  "data_freshness": {
+    "app_data_generated_at": "2026-06-20T02:36:20Z",
+    "live_last_updated": "2026-06-20T02:36:19Z",
+    "finished_matches": 31
+  },
+  "sources": [
+    {
+      "title": "项目赛程、赛果、积分榜与淘汰赛数据",
+      "path": "data/app_data.json",
+      "last_updated": "2026-06-20T02:36:20Z"
+    },
+    {
+      "title": "内部赛前实力种子",
+      "path": "data/team_strength_seed.json",
+      "last_updated": "2026-06-19"
+    }
+  ],
+  "other_probability": 22.6,
+  "methodology": [
+    {
+      "label": "球队实力",
+      "weight": 45,
+      "description": "赛前相对实力种子，作为每日模型的稳定基线"
+    },
+    {
+      "label": "近期状态",
+      "weight": 30,
+      "description": "最近五场赛事内战绩、积分效率与净胜球趋势"
+    },
+    {
+      "label": "晋级路径",
+      "weight": 25,
+      "description": "小组排名、淘汰赛进度与未来对手相对难度"
+    }
+  ],
+  "teams": [
+    {
+      "team": "France",
+      "champion_probability": 12.3,
+      "strength_score": 93,
+      "form_score": 88,
+      "path_score": 56,
+      "summary": "近1场 1胜0平0负，净胜球+2"
+    },
+    {
+      "team": "Argentina",
+      "champion_probability": 11.6,
+      "strength_score": 91,
+      "form_score": 88,
+      "path_score": 59,
+      "summary": "近1场 1胜0平0负，净胜球+3"
+    },
+    {
+      "team": "Brazil",
+      "champion_probability": 11.3,
+      "strength_score": 92,
+      "form_score": 79,
+      "path_score": 67,
+      "summary": "近2场 1胜1平0负，净胜球+3"
+    },
+    {
+      "team": "England",
+      "champion_probability": 10.3,
+      "strength_score": 90,
+      "form_score": 86,
+      "path_score": 61,
+      "summary": "近1场 1胜0平0负，净胜球+2"
+    },
+    {
+      "team": "Germany",
+      "champion_probability": 8.0,
+      "strength_score": 88,
+      "form_score": 87,
+      "path_score": 58,
+      "summary": "近1场 1胜0平0负，净胜球+6"
+    },
+    {
+      "team": "Spain",
+      "champion_probability": 4.4,
+      "strength_score": 94,
+      "form_score": 78,
+      "path_score": 46,
+      "summary": "近1场 0胜1平0负，净胜球0"
+    },
+    {
+      "team": "Colombia",
+      "champion_probability": 3.9,
+      "strength_score": 84,
+      "form_score": 81,
+      "path_score": 57,
+      "summary": "近1场 1胜0平0负，净胜球+2"
+    },
+    {
+      "team": "United States",
+      "champion_probability": 3.8,
+      "strength_score": 80,
+      "form_score": 80,
+      "path_score": 65,
+      "summary": "近2场 2胜0平0负，净胜球+5"
+    },
+    {
+      "team": "Mexico",
+      "champion_probability": 3.2,
+      "strength_score": 79,
+      "form_score": 78,
+      "path_score": 67,
+      "summary": "近2场 2胜0平0负，净胜球+3"
+    },
+    {
+      "team": "Portugal",
+      "champion_probability": 3.1,
+      "strength_score": 89,
+      "form_score": 74,
+      "path_score": 52,
+      "summary": "近1场 0胜1平0负，净胜球0"
+    },
+    {
+      "team": "Morocco",
+      "champion_probability": 3.0,
+      "strength_score": 83,
+      "form_score": 72,
+      "path_score": 65,
+      "summary": "近2场 1胜1平0负，净胜球+1"
+    },
+    {
+      "team": "Austria",
+      "champion_probability": 2.5,
+      "strength_score": 82,
+      "form_score": 80,
+      "path_score": 54,
+      "summary": "近1场 1胜0平0负，净胜球+2"
+    }
+  ]
+}
