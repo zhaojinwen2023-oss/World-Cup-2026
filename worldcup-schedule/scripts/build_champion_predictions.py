@@ -362,6 +362,8 @@ def parse_datetime(value: str) -> datetime | None:
 def should_update(previous: dict, now: datetime, daily_after_hour: int | None, force: bool) -> tuple[bool, str]:
     if force or daily_after_hour is None:
         return True, "强制或未启用日更门控"
+    if not previous:
+        return True, "预测文件不存在，生成初始结果"
     local_now = now.astimezone(BEIJING)
     if local_now.hour < daily_after_hour:
         return False, f"北京时间尚未到 {daily_after_hour:02d}:00"
