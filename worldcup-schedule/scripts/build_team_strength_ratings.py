@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import math
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -21,6 +20,15 @@ MAJOR_TOURNAMENTS = (
     "asian cup",
     "gold cup",
     "ofc nations cup",
+)
+EXCLUDED_COMPETITIONS = (
+    "african nations championship",
+    "arab cup",
+    "olympic",
+    "u17",
+    "u20",
+    "u21",
+    "u23",
 )
 
 
@@ -48,6 +56,11 @@ def competition_weight(name: str, round_name: str = "") -> tuple[float, str]:
     return 0.65, "其他国际赛事"
 
 
+def is_eligible_match(match: dict) -> bool:
+    competition = str(match.get("competition") or "").lower()
+    return not any(excluded in competition for excluded in EXCLUDED_COMPETITIONS)
+
+
 def recency_weight(match_time: datetime, as_of: datetime, half_life_days: float = HALF_LIFE_DAYS) -> float:
     age_days = max(0.0, (as_of - match_time).total_seconds() / 86400)
     return 0.5 ** (age_days / half_life_days)
@@ -71,7 +84,8 @@ def goal_margin_multiplier(home_score: int, away_score: int) -> float:
 
 
 def calculate_ratings(history: dict) -> dict:
-    matches = sorted(history.get("matches") or [], key=lambda row: (row.get("date", ""), row.get("fixture_id", 0)))
+    input_matches = sorted(history.get("matches") or [], key=lambda row: (row.get("date", ""), row.get("fixture_id", 0)))
+    matches = [match for match in input_matches if is_eligible_match(match)]
     target_teams = set((history.get("team_ids") or {}).keys())
     if not matches or not target_teams:
         raise ValueError("历史赛果或目标球队为空")
@@ -110,14 +124,10 @@ def calculate_ratings(history: dict) -> dict:
             row["weighted_matches"] += tournament_weight * time_weight
             row.setdefault("competition_categories", defaultdict(int))[category] += 1
 
-    target_elos = [ratings[team] for team in target_teams]
-    mean = sum(target_elos) / len(target_elos)
-    variance = sum((value - mean) ** 2 for value in target_elos) / len(target_elos)
-    deviation = math.sqrt(variance) or 1.0
     details = {}
     strength_scores = {}
     for team in sorted(target_teams):
-        strength_score = round(clamp(75 + (ratings[team] - mean) / deviation * 10, 45, 95))
+        strength_score = round(clamp(75 + (ratings[team] - INITIAL_ELO) / 10, 45, 95))
         row = dict(stats[team])
         categories = row.pop("competition_categories", {})
         row["weighted_matches"] = round(float(row["weighted_matches"]), 2)
@@ -140,13 +150,16 @@ def calculate_ratings(history: dict) -> dict:
             "k_factor": K_FACTOR,
             "recency_half_life_days": HALF_LIFE_DAYS,
             "competition_weights": {"国际大赛正赛": 1.0, "大赛预选赛": 0.85, "国家联赛": 0.75, "其他国际赛事": 0.65, "友谊赛": 0.35},
-            "normalization": "参赛队 Elo 均值对应75分，每一个标准差对应10分，限制在45-95分",
+            "normalization": "固定标尺：Elo 1500对应75分，每增加100 Elo增加10分，限制在45-95分",
+            "excluded_competitions": list(EXCLUDED_COMPETITIONS),
         },
         "source": {
             "provider": history.get("source", ""),
             "path": "data/historical_results.json",
             "window": history.get("window", {}),
+            "input_match_count": len(input_matches),
             "match_count": len(matches),
+            "excluded_match_count": len(input_matches) - len(matches),
         },
         "teams": strength_scores,
         "details": details,
