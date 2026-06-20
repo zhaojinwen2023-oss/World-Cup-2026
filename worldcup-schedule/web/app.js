@@ -167,6 +167,7 @@ const predictionLeadersEl = document.querySelector("#predictionLeaders");
 const predictionRankingEl = document.querySelector("#predictionRanking");
 const predictionResidualEl = document.querySelector("#predictionResidual");
 const methodologyGridEl = document.querySelector("#methodologyGrid");
+const predictionSystemFrame = document.querySelector("#predictionSystemFrame");
 const counterEl = document.querySelector("#matchCounter");
 const statusEl = document.querySelector("#statusMessage");
 const searchInput = document.querySelector("#searchInput");
@@ -236,6 +237,13 @@ function bindControls() {
 
   document.querySelector("#exportIcsBtn").addEventListener("click", exportFavoritesIcs);
   document.querySelector("#exportCsvBtn").addEventListener("click", exportFavoritesCsv);
+
+  window.addEventListener("message", (event) => {
+    if (event.source !== predictionSystemFrame?.contentWindow || event.data?.type !== "worldcup-prediction-height") return;
+    const height = Math.min(5000, Math.max(640, Number(event.data.height) || 0));
+    const nextHeight = `${height}px`;
+    if (predictionSystemFrame.style.height !== nextHeight) predictionSystemFrame.style.height = nextHeight;
+  });
 }
 
 function registerServiceWorker() {
@@ -516,6 +524,11 @@ function renderKnockout() {
 }
 
 function renderPredictions() {
+  if (predictionSystemFrame) {
+    counterEl.textContent = "50,000 次";
+    predictionSystemFrame.contentWindow?.postMessage({ type: "worldcup-prediction-visible" }, "*");
+    return;
+  }
   const teams = Array.isArray(predictionsData.teams) ? predictionsData.teams : [];
   counterEl.textContent = teams.length ? `${teams.length} 队` : "模型";
   if (!teams.length) {

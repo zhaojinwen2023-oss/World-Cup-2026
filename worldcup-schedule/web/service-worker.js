@@ -1,9 +1,13 @@
-const CACHE_NAME = "worldcup-schedule-v14";
+const CACHE_NAME = "worldcup-schedule-v16";
 const ASSETS = [
   "./",
   "./index.html",
-  "./style.css?v=14",
-  "./app.js?v=14",
+  "./style.css?v=16",
+  "./app.js?v=16",
+  "./predictions.html",
+  "./predictions.html?embedded=1",
+  "./predictions.css?v=1",
+  "./predictions.js?v=1",
   "./manifest.json",
   "../data/app_data.json",
   "../data/static_schedule.csv",
@@ -11,6 +15,7 @@ const ASSETS = [
   "../data/standings.json",
   "../data/top_scorers.json",
   "../data/champion_predictions.json",
+  "../data/tournament_predictions.json",
   "../data/knockout_bracket.json",
   "../data/last_updated.json",
 ];
@@ -38,6 +43,11 @@ self.addEventListener("fetch", (event) => {
         caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
         return response;
       })
-      .catch(() => caches.match(event.request).then((cached) => cached || caches.match("./index.html"))),
+      .catch(async () => {
+        const cached = await caches.match(event.request);
+        if (cached) return cached;
+        if (event.request.mode === "navigate") return caches.match("./index.html");
+        return Response.error();
+      }),
   );
 });

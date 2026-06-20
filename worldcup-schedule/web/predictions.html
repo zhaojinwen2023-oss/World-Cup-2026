@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#21534a" />
+    <title>世界杯预测系统</title>
+    <link rel="stylesheet" href="./predictions.css?v=1" />
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js" defer></script>
+    <script src="./predictions.js?v=1" defer></script>
+  </head>
+  <body>
+    <header class="system-header">
+      <div class="system-header-inner">
+        <a class="back-link" href="./index.html">返回赛程</a>
+        <div class="title-block">
+          <h1>世界杯预测系统</h1>
+          <p id="modelMeta">正在读取模型结果</p>
+        </div>
+        <div class="export-actions" aria-label="导出预测结果">
+          <a href="../output/worldcup_prediction_probabilities.csv" download>导出 CSV</a>
+          <a class="primary" href="../output/worldcup_prediction_model.xlsx" download>下载 Excel</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="dashboard-shell">
+      <nav class="view-tabs" aria-label="预测视图">
+        <button class="active" data-view="overview" type="button">概率总览</button>
+        <button data-view="groups" type="button">小组排名</button>
+        <button data-view="paths" type="button">晋级路径</button>
+        <button data-view="matches" type="button">单场预测</button>
+        <button data-view="upsets" type="button">冷门观察</button>
+      </nav>
+
+      <section id="loadingState" class="loading-state">正在加载50,000次模拟结果</section>
+
+      <section class="dashboard-view active" data-panel="overview" hidden>
+        <div id="summaryStrip" class="summary-strip"></div>
+        <section class="chart-section" aria-labelledby="championChartTitle">
+          <div class="section-heading">
+            <div><h2 id="championChartTitle">冠军概率</h2><p>完整赛事模拟中最终夺冠的频率</p></div>
+            <span id="championLeader"></span>
+          </div>
+          <div id="championChart" class="chart chart-large" role="img" aria-label="冠军概率柱状图"></div>
+        </section>
+        <section class="table-section" aria-labelledby="stageTableTitle">
+          <div class="section-heading">
+            <div><h2 id="stageTableTitle">各阶段晋级概率</h2><p>从小组出线到冠军的完整概率链</p></div>
+            <label class="table-search">筛选球队<input id="teamSearch" type="search" placeholder="输入球队名称" /></label>
+          </div>
+          <div class="table-scroll"><table><thead><tr><th>球队</th><th>小组</th><th>32强</th><th>16强</th><th>8强</th><th>4强</th><th>决赛</th><th>冠军</th><th>最可能路径</th></tr></thead><tbody id="stageTableBody"></tbody></table></div>
+        </section>
+      </section>
+
+      <section class="dashboard-view" data-panel="groups" hidden>
+        <div class="control-row">
+          <label>选择小组<select id="groupSelect"></select></label>
+          <p>组内排名按积分、净胜球、进球数和相互战绩计算</p>
+        </div>
+        <section class="chart-section"><div id="groupChart" class="chart chart-medium" role="img" aria-label="小组排名概率图"></div></section>
+        <section class="table-section"><div class="table-scroll"><table><thead><tr><th>球队</th><th>第一</th><th>第二</th><th>第三</th><th>第四</th><th>晋级32强</th></tr></thead><tbody id="groupTableBody"></tbody></table></div></section>
+      </section>
+
+      <section class="dashboard-view" data-panel="paths" hidden>
+        <div class="control-row">
+          <label>选择球队<select id="pathTeamSelect"></select></label>
+          <p id="pathSummary"></p>
+        </div>
+        <section class="path-section"><div id="pathRail" class="path-rail"></div></section>
+        <section class="metrics-band" id="teamMetrics"></section>
+      </section>
+
+      <section class="dashboard-view" data-panel="matches" hidden>
+        <div class="section-heading">
+          <div><h2>剩余小组赛单场预测</h2><p>预期进球、胜平负概率与最可能比分</p></div>
+          <a href="../output/worldcup_match_predictions.csv" download>下载单场 CSV</a>
+        </div>
+        <div class="table-scroll"><table><thead><tr><th>比赛</th><th>小组</th><th>预期进球</th><th>主胜</th><th>平局</th><th>客胜</th><th>最可能比分</th></tr></thead><tbody id="matchTableBody"></tbody></table></div>
+      </section>
+
+      <section class="dashboard-view" data-panel="upsets" hidden>
+        <div class="section-heading"><div><h2>冷门概率最高的比赛</h2><p>模型评分较低球队在90分钟内获胜的概率</p></div></div>
+        <div id="upsetList" class="upset-list"></div>
+      </section>
+
+      <footer class="model-footer">
+        <strong>仅供体育数据研究</strong>
+        <p id="modelMethod">概率来自统计模型和随机模拟，不构成结果保证、投注或财务建议。</p>
+      </footer>
+    </main>
+  </body>
+</html>

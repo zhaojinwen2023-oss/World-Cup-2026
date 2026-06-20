@@ -12,7 +12,7 @@
     <title>世界杯赛程</title>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2321534a'/%3E%3Ccircle cx='32' cy='30' r='17' fill='white'/%3E%3Cpath d='M32 13l6 12-6 5-6-5 6-12zm0 34l-6-12 6-5 6 5-6 12zM15 30l12-6 5 6-5 6-12-6zm34 0l-12 6-5-6 5-6 12 6z' fill='%23b98217'/%3E%3C/svg%3E" />
     <link rel="manifest" href="./manifest.json" />
-    <link rel="stylesheet" href="./style.css?v=14" />
+    <link rel="stylesheet" href="./style.css?v=16" />
   </head>
   <body>
     <main class="app-shell">
@@ -113,65 +113,8 @@
       </section>
 
       <section id="predictionsPanel" class="panel">
-        <div class="prediction-page">
-          <section class="prediction-hero" aria-labelledby="predictionTitle">
-            <div class="prediction-hero-copy">
-              <div class="prediction-title-row">
-                <h2 id="predictionTitle">冠军概率研究</h2>
-                <span id="predictionStatus" class="prediction-status">模型演示</span>
-              </div>
-              <p>基于球队实力、近期表现与晋级路径的统计模拟，结果随赛事数据更新。</p>
-              <div class="prediction-meta">
-                <span id="predictionVersion">-</span>
-                <span id="predictionUpdated">-</span>
-              </div>
-            </div>
-            <div id="predictionHeroLead" class="prediction-hero-lead" aria-live="polite"></div>
-            <div class="research-notice" role="note">
-              <strong>仅供体育数据研究</strong>
-              <p>本页不展示博彩赔率，不提供投注、充值、返佣或外部跳转。模型概率不是结果保证，也不构成投注或财务建议。</p>
-            </div>
-          </section>
-
-          <div class="prediction-toolbar" aria-label="预测指标">
-            <div class="prediction-metric-switch" role="tablist" aria-label="切换排名指标">
-              <button class="prediction-metric active" data-prediction-metric="probability" role="tab" aria-selected="true" type="button">冠军概率</button>
-              <button class="prediction-metric" data-prediction-metric="strength" role="tab" aria-selected="false" type="button">球队实力</button>
-              <button class="prediction-metric" data-prediction-metric="path" role="tab" aria-selected="false" type="button">晋级路径</button>
-            </div>
-            <p id="predictionMetricHelp">条形长度按当前指标最高值归一化</p>
-          </div>
-
-          <section id="predictionLeaders" class="prediction-leaders" aria-label="当前指标前三名"></section>
-
-          <section class="prediction-ranking-card" aria-labelledby="predictionRankingTitle">
-            <div class="prediction-section-head">
-              <div>
-                <h2 id="predictionRankingTitle">冠军概率排名</h2>
-                <p id="predictionRankingCaption">模型输出，不对应任何博彩平台赔率</p>
-              </div>
-              <span id="predictionSource">-</span>
-            </div>
-            <div id="predictionRanking" class="prediction-ranking"></div>
-            <div id="predictionResidual" class="prediction-residual"></div>
-          </section>
-
-          <section class="methodology-section" aria-labelledby="methodologyTitle">
-            <div class="prediction-section-head">
-              <div>
-                <h2 id="methodologyTitle">模型如何计算</h2>
-                <p>权重公开，避免把主观判断包装成确定结果</p>
-              </div>
-            </div>
-            <div id="methodologyGrid" class="methodology-grid"></div>
-            <details class="prediction-boundary" open>
-              <summary>使用边界</summary>
-              <div>
-                <p>预测仅描述统计上的相对可能性，不能消除伤病、红牌、临场状态与随机事件带来的不确定性。</p>
-                <p>公开发布或商业化前，应根据实际运营地区、受众与推广方式完成独立合规审查。</p>
-              </div>
-            </details>
-          </section>
+        <div class="prediction-embed-shell">
+          <iframe id="predictionSystemFrame" title="世界杯完整预测系统" src="./predictions.html?embedded=1" loading="lazy"></iframe>
         </div>
       </section>
 
@@ -196,6 +139,6 @@
       <button class="nav-item" data-tab="favorites" type="button">我的关注</button>
     </nav>
 
-    <script src="./app.js?v=14" defer></script>
+    <script src="./app.js?v=16" defer></script>
   </body>
 </html>
