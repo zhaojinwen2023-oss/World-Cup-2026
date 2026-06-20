@@ -2,6 +2,12 @@ name: Update World Cup Schedule
 
 on:
   workflow_dispatch:
+    inputs:
+      refresh_history:
+        description: "重新抓取开赛前24个月历史赛果并重建Elo"
+        required: false
+        type: boolean
+        default: false
   schedule:
     - cron: "*/15 * * * *"
 
@@ -116,6 +122,18 @@ jobs:
 
       - name: Validate generated data
         run: python scripts/validate_schedule.py
+
+      - name: Refresh historical international results
+        if: ${{ github.event_name == 'workflow_dispatch' && (inputs.refresh_history == true || hashFiles('worldcup-schedule/data/historical_results.json') == '') }}
+        run: python scripts/fetch_historical_results.py
+
+      - name: Rebuild objective team strength ratings
+        run: |
+          if [ -f data/historical_results.json ]; then
+            python scripts/build_team_strength_ratings.py
+          else
+            echo "历史赛果尚未生成，冠军预测暂时使用已标注的人工备用评分"
+          fi
 
       - name: Refresh daily champion prediction
         run: |
