@@ -1,0 +1,922 @@
+{
+  "version": "historical-elo-v1",
+  "as_of": "2026-06-10",
+  "source_label": "过去24个月国际比赛时间衰减 Elo",
+  "note": "由可追溯历史赛果自动计算；本届世界杯比赛由每日预测模型另行更新，避免重复计权。",
+  "methodology": {
+    "initial_elo": 1500.0,
+    "k_factor": 32.0,
+    "recency_half_life_days": 365.0,
+    "competition_weights": {
+      "国际大赛正赛": 1.0,
+      "大赛预选赛": 0.85,
+      "国家联赛": 0.75,
+      "其他国际赛事": 0.65,
+      "友谊赛": 0.35
+    },
+    "normalization": "参赛队 Elo 均值对应75分，每一个标准差对应10分，限制在45-95分"
+  },
+  "source": {
+    "provider": "API-Football",
+    "path": "data/historical_results.json",
+    "window": {
+      "start": "2024-06-10",
+      "end": "2026-06-10",
+      "days": 730
+    },
+    "match_count": 971
+  },
+  "teams": {
+    "Algeria": 89,
+    "Argentina": 84,
+    "Australia": 75,
+    "Austria": 79,
+    "Belgium": 78,
+    "Bosnia and Herzegovina": 66,
+    "Brazil": 74,
+    "Canada": 75,
+    "Cape Verde": 60,
+    "Colombia": 74,
+    "Croatia": 78,
+    "Curaçao": 68,
+    "Czech Republic": 72,
+    "DR Congo": 74,
+    "Ecuador": 75,
+    "Egypt": 76,
+    "England": 89,
+    "France": 82,
+    "Germany": 84,
+    "Ghana": 51,
+    "Haiti": 68,
+    "Iran": 75,
+    "Iraq": 71,
+    "Ivory Coast": 78,
+    "Japan": 84,
+    "Jordan": 69,
+    "Mexico": 83,
+    "Morocco": 95,
+    "Netherlands": 83,
+    "New Zealand": 67,
+    "Norway": 86,
+    "Panama": 78,
+    "Paraguay": 68,
+    "Portugal": 81,
+    "Qatar": 53,
+    "Saudi Arabia": 64,
+    "Scotland": 68,
+    "Senegal": 84,
+    "South Africa": 70,
+    "South Korea": 76,
+    "Spain": 92,
+    "Sweden": 64,
+    "Switzerland": 75,
+    "Tunisia": 61,
+    "Turkey": 85,
+    "United States": 68,
+    "Uruguay": 67,
+    "Uzbekistan": 75
+  },
+  "details": {
+    "Algeria": {
+      "strength_score": 89,
+      "elo": 1593.9,
+      "played": 29,
+      "won": 18,
+      "drawn": 9,
+      "lost": 2,
+      "goals_for": 59,
+      "goals_against": 15,
+      "weighted_matches": 11.54,
+      "goal_difference": 44,
+      "competition_categories": {
+        "其他国际赛事": 9,
+        "友谊赛": 7,
+        "国际大赛正赛": 5,
+        "大赛预选赛": 8
+      }
+    },
+    "Argentina": {
+      "strength_score": 84,
+      "elo": 1576.9,
+      "played": 26,
+      "won": 20,
+      "drawn": 3,
+      "lost": 3,
+      "goals_for": 57,
+      "goals_against": 11,
+      "weighted_matches": 7.84,
+      "goal_difference": 46,
+      "competition_categories": {
+        "友谊赛": 8,
+        "国际大赛正赛": 6,
+        "大赛预选赛": 12
+      }
+    },
+    "Australia": {
+      "strength_score": 75,
+      "elo": 1546.8,
+      "played": 21,
+      "won": 11,
+      "drawn": 5,
+      "lost": 5,
+      "goals_for": 34,
+      "goals_against": 17,
+      "weighted_matches": 6.55,
+      "goal_difference": 17,
+      "competition_categories": {
+        "其他国际赛事": 2,
+        "友谊赛": 8,
+        "大赛预选赛": 11
+      }
+    },
+    "Austria": {
+      "strength_score": 79,
+      "elo": 1559.9,
+      "played": 23,
+      "won": 14,
+      "drawn": 4,
+      "lost": 5,
+      "goals_for": 51,
+      "goals_against": 19,
+      "weighted_matches": 8.12,
+      "goal_difference": 32,
+      "competition_categories": {
+        "友谊赛": 3,
+        "国家联赛": 8,
+        "国际大赛正赛": 4,
+        "大赛预选赛": 8
+      }
+    },
+    "Belgium": {
+      "strength_score": 78,
+      "elo": 1555.6,
+      "played": 24,
+      "won": 11,
+      "drawn": 6,
+      "lost": 7,
+      "goals_for": 54,
+      "goals_against": 24,
+      "weighted_matches": 8.47,
+      "goal_difference": 30,
+      "competition_categories": {
+        "友谊赛": 4,
+        "国家联赛": 8,
+        "国际大赛正赛": 4,
+        "大赛预选赛": 8
+      }
+    },
+    "Bosnia and Herzegovina": {
+      "strength_score": 66,
+      "elo": 1514.3,
+      "played": 20,
+      "won": 6,
+      "drawn": 8,
+      "lost": 6,
+      "goals_for": 29,
+      "goals_against": 30,
+      "weighted_matches": 7.84,
+      "goal_difference": -1,
+      "competition_categories": {
+        "友谊赛": 4,
+        "国家联赛": 6,
+        "大赛预选赛": 10
+      }
+    },
+    "Brazil": {
+      "strength_score": 74,
+      "elo": 1542.8,
+      "played": 25,
+      "won": 12,
+      "drawn": 8,
+      "lost": 5,
+      "goals_for": 44,
+      "goals_against": 23,
+      "weighted_matches": 7.54,
+      "goal_difference": 21,
+      "competition_categories": {
+        "友谊赛": 9,
+        "国际大赛正赛": 4,
+        "大赛预选赛": 12
+      }
+    },
+    "Canada": {
+      "strength_score": 75,
+      "elo": 1544.6,
+      "played": 30,
+      "won": 14,
+      "drawn": 12,
+      "lost": 4,
+      "goals_for": 40,
+      "goals_against": 20,
+      "weighted_matches": 8.33,
+      "goal_difference": 20,
+      "competition_categories": {
+        "友谊赛": 16,
+        "国家联赛": 4,
+        "国际大赛正赛": 10
+      }
+    },
+    "Cape Verde": {
+      "strength_score": 60,
+      "elo": 1494.4,
+      "played": 15,
+      "won": 4,
+      "drawn": 6,
+      "lost": 5,
+      "goals_for": 18,
+      "goals_against": 15,
+      "weighted_matches": 4.43,
+      "goal_difference": 3,
+      "competition_categories": {
+        "其他国际赛事": 2,
+        "友谊赛": 7,
+        "大赛预选赛": 6
+      }
+    },
+    "Colombia": {
+      "strength_score": 74,
+      "elo": 1542.2,
+      "played": 27,
+      "won": 14,
+      "drawn": 6,
+      "lost": 7,
+      "goals_for": 53,
+      "goals_against": 25,
+      "weighted_matches": 8.08,
+      "goal_difference": 28,
+      "competition_categories": {
+        "友谊赛": 9,
+        "国际大赛正赛": 6,
+        "大赛预选赛": 12
+      }
+    },
+    "Croatia": {
+      "strength_score": 78,
+      "elo": 1554.9,
+      "played": 23,
+      "won": 12,
+      "drawn": 5,
+      "lost": 6,
+      "goals_for": 44,
+      "goals_against": 27,
+      "weighted_matches": 8.21,
+      "goal_difference": 17,
+      "competition_categories": {
+        "友谊赛": 4,
+        "国家联赛": 8,
+        "国际大赛正赛": 3,
+        "大赛预选赛": 8
+      }
+    },
+    "Curaçao": {
+      "strength_score": 68,
+      "elo": 1519.9,
+      "played": 22,
+      "won": 10,
+      "drawn": 6,
+      "lost": 6,
+      "goals_for": 45,
+      "goals_against": 23,
+      "weighted_matches": 9.0,
+      "goal_difference": 22,
+      "competition_categories": {
+        "其他国际赛事": 2,
+        "友谊赛": 3,
+        "国家联赛": 6,
+        "国际大赛正赛": 3,
+        "大赛预选赛": 8
+      }
+    },
+    "Czech Republic": {
+      "strength_score": 72,
+      "elo": 1534.2,
+      "played": 24,
+      "won": 12,
+      "drawn": 7,
+      "lost": 5,
+      "goals_for": 42,
+      "goals_against": 28,
+      "weighted_matches": 8.62,
+      "goal_difference": 14,
+      "competition_categories": {
+        "友谊赛": 5,
+        "国家联赛": 6,
+        "国际大赛正赛": 3,
+        "大赛预选赛": 10
+      }
+    },
+    "DR Congo": {
+      "strength_score": 74,
+      "elo": 1543.3,
+      "played": 23,
+      "won": 14,
+      "drawn": 3,
+      "lost": 6,
+      "goals_for": 31,
+      "goals_against": 14,
+      "weighted_matches": 8.97,
+      "goal_difference": 17,
+      "competition_categories": {
+        "其他国际赛事": 4,
+        "友谊赛": 6,
+        "国际大赛正赛": 4,
+        "大赛预选赛": 9
+      }
+    },
+    "Ecuador": {
+      "strength_score": 75,
+      "elo": 1544.7,
+      "played": 26,
+      "won": 11,
+      "drawn": 13,
+      "lost": 2,
+      "goals_for": 30,
+      "goals_against": 13,
+      "weighted_matches": 7.63,
+      "goal_difference": 17,
+      "competition_categories": {
+        "友谊赛": 10,
+        "国际大赛正赛": 4,
+        "大赛预选赛": 12
+      }
+    },
+    "Egypt": {
+      "strength_score": 76,
+      "elo": 1549.1,
+      "played": 27,
+      "won": 13,
+      "drawn": 9,
+      "lost": 5,
+      "goals_for": 38,
+      "goals_against": 22,
+      "weighted_matches": 11.32,
+      "goal_difference": 16,
+      "competition_categories": {
+        "其他国际赛事": 3,
+        "友谊赛": 9,
+        "国际大赛正赛": 7,
+        "大赛预选赛": 8
+      }
+    },
+    "England": {
+      "strength_score": 89,
+      "elo": 1593.4,
+      "played": 27,
+      "won": 19,
+      "drawn": 4,
+      "lost": 4,
+      "goals_for": 55,
+      "goals_against": 14,
+      "weighted_matches": 8.79,
+      "goal_difference": 41,
+      "competition_categories": {
+        "友谊赛": 6,
+        "国家联赛": 6,
+        "国际大赛正赛": 7,
+        "大赛预选赛": 8
+      }
+    },
+    "France": {
+      "strength_score": 82,
+      "elo": 1569.9,
+      "played": 26,
+      "won": 16,
+      "drawn": 5,
+      "lost": 5,
+      "goals_for": 49,
+      "goals_against": 25,
+      "weighted_matches": 8.89,
+      "goal_difference": 24,
+      "competition_categories": {
+        "友谊赛": 4,
+        "国家联赛": 10,
+        "国际大赛正赛": 6,
+        "大赛预选赛": 6
+      }
+    },
+    "Germany": {
+      "strength_score": 84,
+      "elo": 1577.2,
+      "played": 25,
+      "won": 17,
+      "drawn": 4,
+      "lost": 4,
+      "goals_for": 63,
+      "goals_against": 24,
+      "weighted_matches": 8.62,
+      "goal_difference": 39,
+      "competition_categories": {
+        "友谊赛": 4,
+        "国家联赛": 10,
+        "国际大赛正赛": 5,
+        "大赛预选赛": 6
+      }
+    },
+    "Ghana": {
+      "strength_score": 51,
+      "elo": 1463.0,
+      "played": 16,
+      "won": 1,
+      "drawn": 5,
+      "lost": 10,
+      "goals_for": 12,
+      "goals_against": 25,
+      "weighted_matches": 4.34,
+      "goal_difference": -13,
+      "competition_categories": {
+        "友谊赛": 8,
+        "大赛预选赛": 8
+      }
+    },
+    "Haiti": {
+      "strength_score": 68,
+      "elo": 1523.1,
+      "played": 22,
+      "won": 12,
+      "drawn": 4,
+      "lost": 6,
+      "goals_for": 55,
+      "goals_against": 24,
+      "weighted_matches": 8.48,
+      "goal_difference": 31,
+      "competition_categories": {
+        "友谊赛": 5,
+        "国家联赛": 6,
+        "国际大赛正赛": 3,
+        "大赛预选赛": 8
+      }
+    },
+    "Iran": {
+      "strength_score": 75,
+      "elo": 1546.7,
+      "played": 23,
+      "won": 13,
+      "drawn": 6,
+      "lost": 4,
+      "goals_for": 41,
+      "goals_against": 17,
+      "weighted_matches": 7.14,
+      "goal_difference": 24,
+      "competition_categories": {
+        "其他国际赛事": 4,
+        "友谊赛": 8,
+        "大赛预选赛": 11
+      }
+    },
+    "Iraq": {
+      "strength_score": 71,
+      "elo": 1533.4,
+      "played": 28,
+      "won": 14,
+      "drawn": 6,
+      "lost": 8,
+      "goals_for": 29,
+      "goals_against": 26,
+      "weighted_matches": 10.72,
+      "goal_difference": 3,
+      "competition_categories": {
+        "其他国际赛事": 9,
+        "友谊赛": 3,
+        "大赛预选赛": 16
+      }
+    },
+    "Ivory Coast": {
+      "strength_score": 78,
+      "elo": 1555.1,
+      "played": 21,
+      "won": 13,
+      "drawn": 2,
+      "lost": 6,
+      "goals_for": 35,
+      "goals_against": 14,
+      "weighted_matches": 8.05,
+      "goal_difference": 21,
+      "competition_categories": {
+        "友谊赛": 8,
+        "国际大赛正赛": 5,
+        "大赛预选赛": 8
+      }
+    },
+    "Japan": {
+      "strength_score": 84,
+      "elo": 1575.8,
+      "played": 23,
+      "won": 17,
+      "drawn": 4,
+      "lost": 2,
+      "goals_for": 57,
+      "goals_against": 10,
+      "weighted_matches": 6.72,
+      "goal_difference": 47,
+      "competition_categories": {
+        "其他国际赛事": 3,
+        "友谊赛": 9,
+        "大赛预选赛": 11
+      }
+    },
+    "Jordan": {
+      "strength_score": 69,
+      "elo": 1523.4,
+      "played": 32,
+      "won": 12,
+      "drawn": 11,
+      "lost": 9,
+      "goals_for": 45,
+      "goals_against": 36,
+      "weighted_matches": 9.45,
+      "goal_difference": 9,
+      "competition_categories": {
+        "其他国际赛事": 6,
+        "友谊赛": 15,
+        "大赛预选赛": 11
+      }
+    },
+    "Mexico": {
+      "strength_score": 83,
+      "elo": 1573.7,
+      "played": 32,
+      "won": 18,
+      "drawn": 9,
+      "lost": 5,
+      "goals_for": 46,
+      "goals_against": 22,
+      "weighted_matches": 9.48,
+      "goal_difference": 24,
+      "competition_categories": {
+        "友谊赛": 19,
+        "国家联赛": 4,
+        "国际大赛正赛": 9
+      }
+    },
+    "Morocco": {
+      "strength_score": 95,
+      "elo": 1652.8,
+      "played": 36,
+      "won": 29,
+      "drawn": 6,
+      "lost": 1,
+      "goals_for": 84,
+      "goals_against": 15,
+      "weighted_matches": 14.84,
+      "goal_difference": 69,
+      "competition_categories": {
+        "其他国际赛事": 13,
+        "友谊赛": 10,
+        "国际大赛正赛": 7,
+        "大赛预选赛": 6
+      }
+    },
+    "Netherlands": {
+      "strength_score": 83,
+      "elo": 1571.4,
+      "played": 27,
+      "won": 14,
+      "drawn": 9,
+      "lost": 4,
+      "goals_for": 64,
+      "goals_against": 27,
+      "weighted_matches": 9.09,
+      "goal_difference": 37,
+      "competition_categories": {
+        "友谊赛": 5,
+        "国家联赛": 8,
+        "国际大赛正赛": 6,
+        "大赛预选赛": 8
+      }
+    },
+    "New Zealand": {
+      "strength_score": 67,
+      "elo": 1518.0,
+      "played": 24,
+      "won": 12,
+      "drawn": 2,
+      "lost": 10,
+      "goals_for": 58,
+      "goals_against": 25,
+      "weighted_matches": 6.42,
+      "goal_difference": 33,
+      "competition_categories": {
+        "其他国际赛事": 2,
+        "友谊赛": 13,
+        "国际大赛正赛": 4,
+        "大赛预选赛": 5
+      }
+    },
+    "Norway": {
+      "strength_score": 86,
+      "elo": 1583.1,
+      "played": 20,
+      "won": 14,
+      "drawn": 4,
+      "lost": 2,
+      "goals_for": 59,
+      "goals_against": 17,
+      "weighted_matches": 6.92,
+      "goal_difference": 42,
+      "competition_categories": {
+        "友谊赛": 6,
+        "国家联赛": 6,
+        "大赛预选赛": 8
+      }
+    },
+    "Panama": {
+      "strength_score": 78,
+      "elo": 1555.2,
+      "played": 32,
+      "won": 15,
+      "drawn": 8,
+      "lost": 9,
+      "goals_for": 52,
+      "goals_against": 47,
+      "weighted_matches": 11.15,
+      "goal_difference": 5,
+      "competition_categories": {
+        "友谊赛": 11,
+        "国家联赛": 4,
+        "国际大赛正赛": 8,
+        "大赛预选赛": 9
+      }
+    },
+    "Paraguay": {
+      "strength_score": 68,
+      "elo": 1520.0,
+      "played": 24,
+      "won": 10,
+      "drawn": 6,
+      "lost": 8,
+      "goals_for": 28,
+      "goals_against": 27,
+      "weighted_matches": 7.02,
+      "goal_difference": 1,
+      "competition_categories": {
+        "友谊赛": 9,
+        "国际大赛正赛": 3,
+        "大赛预选赛": 12
+      }
+    },
+    "Portugal": {
+      "strength_score": 81,
+      "elo": 1565.0,
+      "played": 26,
+      "won": 16,
+      "drawn": 7,
+      "lost": 3,
+      "goals_for": 56,
+      "goals_against": 23,
+      "weighted_matches": 8.73,
+      "goal_difference": 33,
+      "competition_categories": {
+        "友谊赛": 5,
+        "国家联赛": 10,
+        "国际大赛正赛": 5,
+        "大赛预选赛": 6
+      }
+    },
+    "Qatar": {
+      "strength_score": 53,
+      "elo": 1468.7,
+      "played": 25,
+      "won": 6,
+      "drawn": 7,
+      "lost": 12,
+      "goals_for": 29,
+      "goals_against": 45,
+      "weighted_matches": 8.09,
+      "goal_difference": -16,
+      "competition_categories": {
+        "其他国际赛事": 6,
+        "友谊赛": 6,
+        "大赛预选赛": 13
+      }
+    },
+    "Saudi Arabia": {
+      "strength_score": 64,
+      "elo": 1506.7,
+      "played": 37,
+      "won": 15,
+      "drawn": 8,
+      "lost": 14,
+      "goals_for": 43,
+      "goals_against": 42,
+      "weighted_matches": 12.59,
+      "goal_difference": 1,
+      "competition_categories": {
+        "其他国际赛事": 9,
+        "友谊赛": 11,
+        "国际大赛正赛": 4,
+        "大赛预选赛": 13
+      }
+    },
+    "Scotland": {
+      "strength_score": 68,
+      "elo": 1521.6,
+      "played": 23,
+      "won": 10,
+      "drawn": 3,
+      "lost": 10,
+      "goals_for": 36,
+      "goals_against": 31,
+      "weighted_matches": 7.71,
+      "goal_difference": 5,
+      "competition_categories": {
+        "友谊赛": 6,
+        "国家联赛": 8,
+        "国际大赛正赛": 3,
+        "大赛预选赛": 6
+      }
+    },
+    "Senegal": {
+      "strength_score": 84,
+      "elo": 1576.8,
+      "played": 33,
+      "won": 17,
+      "drawn": 10,
+      "lost": 6,
+      "goals_for": 53,
+      "goals_against": 24,
+      "weighted_matches": 12.54,
+      "goal_difference": 29,
+      "competition_categories": {
+        "其他国际赛事": 6,
+        "友谊赛": 12,
+        "国际大赛正赛": 7,
+        "大赛预选赛": 8
+      }
+    },
+    "South Africa": {
+      "strength_score": 70,
+      "elo": 1528.8,
+      "played": 34,
+      "won": 15,
+      "drawn": 13,
+      "lost": 6,
+      "goals_for": 50,
+      "goals_against": 30,
+      "weighted_matches": 11.78,
+      "goal_difference": 20,
+      "competition_categories": {
+        "其他国际赛事": 12,
+        "友谊赛": 8,
+        "国际大赛正赛": 4,
+        "大赛预选赛": 10
+      }
+    },
+    "South Korea": {
+      "strength_score": 76,
+      "elo": 1550.2,
+      "played": 24,
+      "won": 15,
+      "drawn": 5,
+      "lost": 4,
+      "goals_for": 41,
+      "goals_against": 20,
+      "weighted_matches": 7.07,
+      "goal_difference": 21,
+      "competition_categories": {
+        "其他国际赛事": 3,
+        "友谊赛": 10,
+        "大赛预选赛": 11
+      }
+    },
+    "Spain": {
+      "strength_score": 92,
+      "elo": 1603.6,
+      "played": 27,
+      "won": 20,
+      "drawn": 7,
+      "lost": 0,
+      "goals_for": 68,
+      "goals_against": 23,
+      "weighted_matches": 9.16,
+      "goal_difference": 45,
+      "competition_categories": {
+        "友谊赛": 4,
+        "国家联赛": 10,
+        "国际大赛正赛": 7,
+        "大赛预选赛": 6
+      }
+    },
+    "Sweden": {
+      "strength_score": 64,
+      "elo": 1507.6,
+      "played": 20,
+      "won": 10,
+      "drawn": 4,
+      "lost": 6,
+      "goals_for": 43,
+      "goals_against": 29,
+      "weighted_matches": 7.47,
+      "goal_difference": 14,
+      "competition_categories": {
+        "友谊赛": 6,
+        "国家联赛": 6,
+        "大赛预选赛": 8
+      }
+    },
+    "Switzerland": {
+      "strength_score": 75,
+      "elo": 1545.8,
+      "played": 25,
+      "won": 10,
+      "drawn": 10,
+      "lost": 5,
+      "goals_for": 48,
+      "goals_against": 30,
+      "weighted_matches": 7.89,
+      "goal_difference": 18,
+      "competition_categories": {
+        "友谊赛": 8,
+        "国家联赛": 6,
+        "国际大赛正赛": 5,
+        "大赛预选赛": 6
+      }
+    },
+    "Tunisia": {
+      "strength_score": 61,
+      "elo": 1496.0,
+      "played": 24,
+      "won": 8,
+      "drawn": 7,
+      "lost": 9,
+      "goals_for": 27,
+      "goals_against": 31,
+      "weighted_matches": 8.68,
+      "goal_difference": -4,
+      "competition_categories": {
+        "其他国际赛事": 3,
+        "友谊赛": 11,
+        "国际大赛正赛": 4,
+        "大赛预选赛": 6
+      }
+    },
+    "Turkey": {
+      "strength_score": 85,
+      "elo": 1578.2,
+      "played": 26,
+      "won": 17,
+      "drawn": 3,
+      "lost": 6,
+      "goals_for": 51,
+      "goals_against": 32,
+      "weighted_matches": 9.2,
+      "goal_difference": 19,
+      "competition_categories": {
+        "友谊赛": 5,
+        "国家联赛": 8,
+        "国际大赛正赛": 5,
+        "大赛预选赛": 8
+      }
+    },
+    "United States": {
+      "strength_score": 68,
+      "elo": 1522.9,
+      "played": 32,
+      "won": 15,
+      "drawn": 4,
+      "lost": 13,
+      "goals_for": 52,
+      "goals_against": 44,
+      "weighted_matches": 8.78,
+      "goal_difference": 8,
+      "competition_categories": {
+        "友谊赛": 19,
+        "国家联赛": 4,
+        "国际大赛正赛": 9
+      }
+    },
+    "Uruguay": {
+      "strength_score": 67,
+      "elo": 1516.9,
+      "played": 25,
+      "won": 8,
+      "drawn": 12,
+      "lost": 5,
+      "goals_for": 26,
+      "goals_against": 19,
+      "weighted_matches": 7.4,
+      "goal_difference": 7,
+      "competition_categories": {
+        "友谊赛": 7,
+        "国际大赛正赛": 6,
+        "大赛预选赛": 12
+      }
+    },
+    "Uzbekistan": {
+      "strength_score": 75,
+      "elo": 1544.8,
+      "played": 26,
+      "won": 13,
+      "drawn": 9,
+      "lost": 4,
+      "goals_for": 37,
+      "goals_against": 20,
+      "weighted_matches": 8.35,
+      "goal_difference": 17,
+      "competition_categories": {
+        "其他国际赛事": 6,
+        "友谊赛": 9,
+        "大赛预选赛": 11
+      }
+    }
+  }
+}
