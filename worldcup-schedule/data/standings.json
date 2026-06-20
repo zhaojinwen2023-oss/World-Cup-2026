@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T02:36:19Z",
+  "last_updated": "2026-06-20T06:49:58Z",
   "standings": [
     {
       "group": "A",
@@ -45,7 +45,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 7
     },
     {
       "group": "A",
@@ -106,7 +106,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7
+      "best_third_rank": 8
     },
     {
       "group": "B",
@@ -216,29 +216,29 @@
     },
     {
       "group": "D",
-      "team": "Turkey",
-      "played": 1,
-      "won": 0,
+      "team": "Paraguay",
+      "played": 2,
+      "won": 1,
       "drawn": 0,
       "lost": 1,
-      "goals_for": 0,
-      "goals_against": 2,
+      "goals_for": 2,
+      "goals_against": 4,
       "goal_difference": -2,
-      "points": 0,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 12
+      "best_third_rank": 2
     },
     {
       "group": "D",
-      "team": "Paraguay",
-      "played": 1,
+      "team": "Turkey",
+      "played": 2,
       "won": 0,
       "drawn": 0,
-      "lost": 1,
-      "goals_for": 1,
-      "goals_against": 4,
+      "lost": 2,
+      "goals_for": 0,
+      "goals_against": 3,
       "goal_difference": -3,
       "points": 0,
       "fair_play_points": 0,
@@ -289,7 +289,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8
+      "best_third_rank": 9
     },
     {
       "group": "E",
@@ -350,7 +350,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 2
+      "best_third_rank": 3
     },
     {
       "group": "F",
@@ -411,7 +411,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3
+      "best_third_rank": 4
     },
     {
       "group": "G",
@@ -472,7 +472,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5
+      "best_third_rank": 6
     },
     {
       "group": "H",
@@ -533,7 +533,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 11
+      "best_third_rank": 12
     },
     {
       "group": "I",
@@ -594,7 +594,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10
+      "best_third_rank": 11
     },
     {
       "group": "J",
@@ -655,7 +655,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4
+      "best_third_rank": 5
     },
     {
       "group": "K",
@@ -716,7 +716,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9
+      "best_third_rank": 10
     },
     {
       "group": "L",

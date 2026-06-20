@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T02:36:19Z",
+  "last_updated": "2026-06-20T06:49:58Z",
   "knockout": [
     {
       "match_id": 73,
@@ -693,6 +693,23 @@
       "best_third_qualified": true
     },
     {
+      "group": "D",
+      "team": "Paraguay",
+      "played": 2,
+      "won": 1,
+      "drawn": 0,
+      "lost": 1,
+      "goals_for": 2,
+      "goals_against": 4,
+      "goal_difference": -2,
+      "points": 3,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 2,
+      "best_third_qualified": true
+    },
+    {
       "group": "F",
       "team": "Netherlands",
       "played": 1,
@@ -706,7 +723,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 2,
+      "best_third_rank": 3,
       "best_third_qualified": true
     },
     {
@@ -723,7 +740,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3,
+      "best_third_rank": 4,
       "best_third_qualified": true
     },
     {
@@ -740,7 +757,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4,
+      "best_third_rank": 5,
       "best_third_qualified": true
     },
     {
@@ -757,7 +774,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5,
+      "best_third_rank": 6,
       "best_third_qualified": true
     },
     {
@@ -774,7 +791,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6,
+      "best_third_rank": 7,
       "best_third_qualified": true
     },
     {
@@ -791,7 +808,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7,
+      "best_third_rank": 8,
       "best_third_qualified": true
     },
     {
@@ -808,8 +825,8 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8,
-      "best_third_qualified": true
+      "best_third_rank": 9,
+      "best_third_qualified": false
     },
     {
       "group": "L",
@@ -825,7 +842,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9,
+      "best_third_rank": 10,
       "best_third_qualified": false
     },
     {
@@ -842,7 +859,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10,
+      "best_third_rank": 11,
       "best_third_qualified": false
     },
     {
@@ -854,23 +871,6 @@
       "lost": 1,
       "goals_for": 1,
       "goals_against": 3,
-      "goal_difference": -2,
-      "points": 0,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 11,
-      "best_third_qualified": false
-    },
-    {
-      "group": "D",
-      "team": "Turkey",
-      "played": 1,
-      "won": 0,
-      "drawn": 0,
-      "lost": 1,
-      "goals_for": 0,
-      "goals_against": 2,
       "goal_difference": -2,
       "points": 0,
       "fair_play_points": 0,
