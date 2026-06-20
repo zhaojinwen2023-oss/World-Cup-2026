@@ -100,6 +100,7 @@ class ChampionPredictionTests(unittest.TestCase):
         before = datetime(2026, 6, 20, 13, 59, tzinfo=BEIJING)
         after = datetime(2026, 6, 20, 14, 1, tzinfo=BEIJING)
 
+        self.assertTrue(should_update({}, before, 14, False)[0])
         self.assertFalse(should_update(previous, before, 14, False)[0])
         self.assertTrue(should_update(previous, after, 14, False)[0])
         today = {"status": "model", "generated_at": "2026-06-20T14:00:00+08:00"}
