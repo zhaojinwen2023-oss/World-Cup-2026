@@ -30,7 +30,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install pandas openpyxl requests
+        run: pip install pandas numpy scipy openpyxl requests
 
       - name: Write provider env
         env:
@@ -141,10 +141,14 @@ jobs:
           if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
             args+=(--force)
           fi
-          python scripts/build_champion_predictions.py "${args[@]}"
+          if [ -f data/historical_results.json ] && [ -f data/team_strength_ratings.json ]; then
+            python scripts/build_world_cup_predictions.py --simulations 50000 "${args[@]}"
+          else
+            python scripts/build_champion_predictions.py "${args[@]}"
+          fi
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update World Cup live data"
-          file_pattern: "worldcup-schedule/data/*.json worldcup-schedule/output/*.xlsx worldcup-schedule/output/*.ics"
+          file_pattern: "worldcup-schedule/data/*.json worldcup-schedule/data/*.csv worldcup-schedule/output/*.csv worldcup-schedule/output/*.xlsx worldcup-schedule/output/*.ics"
