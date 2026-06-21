@@ -1,8 +1,20 @@
 {
-  "last_updated": "2026-06-21T15:46:49Z",
+  "last_updated": "2026-06-21T17:20:33Z",
   "scorers": [
     {
       "rank": 1,
+      "player_id": "26475",
+      "player": "D. Undav",
+      "team": "Germany",
+      "goals": 3,
+      "assists": 2,
+      "penalties": 0,
+      "appearances": 2,
+      "minutes": 56,
+      "photo": "https://media.api-sports.io/football/players/26475.png"
+    },
+    {
+      "rank": 2,
       "player_id": "8489",
       "player": "J. David",
       "team": "Canada",
@@ -14,7 +26,7 @@
       "photo": "https://media.api-sports.io/football/players/8489.png"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "player_id": "154",
       "player": "L. Messi",
       "team": "Argentina",
@@ -26,7 +38,31 @@
       "photo": "https://media.api-sports.io/football/players/154.png"
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "player_id": "37724",
+      "player": "C. Summerville",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 2,
+      "minutes": 115,
+      "photo": "https://media.api-sports.io/football/players/37724.png"
+    },
+    {
+      "rank": 5,
+      "player_id": "72155",
+      "player": "A. Ueda",
+      "team": "Japan",
+      "goals": 2,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 2,
+      "minutes": 168,
+      "photo": "https://media.api-sports.io/football/players/72155.png"
+    },
+    {
+      "rank": 6,
       "player_id": "762",
       "player": "Vinícius Júnior",
       "team": "Brazil",
@@ -38,7 +74,19 @@
       "photo": "https://media.api-sports.io/football/players/762.png"
     },
     {
-      "rank": 4,
+      "rank": 7,
+      "player_id": "247",
+      "player": "C. Gakpo",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 2,
+      "minutes": 174,
+      "photo": "https://media.api-sports.io/football/players/247.png"
+    },
+    {
+      "rank": 8,
       "player_id": "406244",
       "player": "J. Manzambi",
       "team": "Switzerland",
@@ -50,7 +98,19 @@
       "photo": "https://media.api-sports.io/football/players/406244.png"
     },
     {
-      "rank": 5,
+      "rank": 9,
+      "player_id": "38750",
+      "player": "B. Brobbey",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2,
+      "minutes": 84,
+      "photo": "https://media.api-sports.io/football/players/38750.png"
+    },
+    {
+      "rank": 10,
       "player_id": "1165",
       "player": "Matheus Cunha",
       "team": "Brazil",
@@ -62,7 +122,7 @@
       "photo": "https://media.api-sports.io/football/players/1165.png"
     },
     {
-      "rank": 6,
+      "rank": 11,
       "player_id": "2001",
       "player": "C. Larin",
       "team": "Canada",
@@ -74,7 +134,7 @@
       "photo": "https://media.api-sports.io/football/players/2001.png"
     },
     {
-      "rank": 7,
+      "rank": 12,
       "player_id": "138835",
       "player": "F. Balogun",
       "team": "USA",
@@ -86,7 +146,31 @@
       "photo": "https://media.api-sports.io/football/players/138835.png"
     },
     {
-      "rank": 8,
+      "rank": 13,
+      "player_id": "2601",
+      "player": "D. Kamada",
+      "team": "Japan",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2,
+      "minutes": 163,
+      "photo": "https://media.api-sports.io/football/players/2601.png"
+    },
+    {
+      "rank": 14,
+      "player_id": "265820",
+      "player": "Y. Ayari",
+      "team": "Sweden",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2,
+      "minutes": 169,
+      "photo": "https://media.api-sports.io/football/players/265820.png"
+    },
+    {
+      "rank": 15,
       "player_id": "161897",
       "player": "I. Saibari",
       "team": "Morocco",
@@ -98,19 +182,7 @@
       "photo": "https://media.api-sports.io/football/players/161897.png"
     },
     {
-      "rank": 9,
-      "player_id": "278",
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1,
-      "minutes": 90,
-      "photo": "https://media.api-sports.io/football/players/278.png"
-    },
-    {
-      "rank": 10,
+      "rank": 16,
       "player_id": "94333",
       "player": "E. Just",
       "team": "New Zealand",
@@ -122,19 +194,7 @@
       "photo": "https://media.api-sports.io/football/players/94333.png"
     },
     {
-      "rank": 11,
-      "player_id": "265820",
-      "player": "Y. Ayari",
-      "team": "Sweden",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1,
-      "minutes": 90,
-      "photo": "https://media.api-sports.io/football/players/265820.png"
-    },
-    {
-      "rank": 12,
+      "rank": 17,
       "player_id": "1100",
       "player": "E. Haaland",
       "team": "Norway",
@@ -146,19 +206,31 @@
       "photo": "https://media.api-sports.io/football/players/1100.png"
     },
     {
-      "rank": 13,
+      "rank": 18,
+      "player_id": "278",
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 1,
+      "minutes": 90,
+      "photo": "https://media.api-sports.io/football/players/278.png"
+    },
+    {
+      "rank": 19,
       "player_id": "978",
       "player": "K. Havertz",
       "team": "Germany",
       "goals": 2,
       "assists": 0,
       "penalties": 1,
-      "appearances": 1,
-      "minutes": 90,
+      "appearances": 2,
+      "minutes": 175,
       "photo": "https://media.api-sports.io/football/players/978.png"
     },
     {
-      "rank": 14,
+      "rank": 20,
       "player_id": "184",
       "player": "H. Kane",
       "team": "England",
@@ -168,78 +240,6 @@
       "appearances": 1,
       "minutes": 90,
       "photo": "https://media.api-sports.io/football/players/184.png"
-    },
-    {
-      "rank": 15,
-      "player_id": "26475",
-      "player": "D. Undav",
-      "team": "Germany",
-      "goals": 1,
-      "assists": 2,
-      "penalties": 0,
-      "appearances": 1,
-      "minutes": 26,
-      "photo": "https://media.api-sports.io/football/players/26475.png"
-    },
-    {
-      "rank": 16,
-      "player_id": "2864",
-      "player": "A. Isak",
-      "team": "Sweden",
-      "goals": 1,
-      "assists": 2,
-      "penalties": 0,
-      "appearances": 1,
-      "minutes": 89,
-      "photo": "https://media.api-sports.io/football/players/2864.png"
-    },
-    {
-      "rank": 17,
-      "player_id": "48471",
-      "player": "R. Vargas",
-      "team": "Switzerland",
-      "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 2,
-      "minutes": 98,
-      "photo": "https://media.api-sports.io/football/players/48471.png"
-    },
-    {
-      "rank": 18,
-      "player_id": "2901",
-      "player": "Hwang In-Beom",
-      "team": "South Korea",
-      "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 2,
-      "minutes": 174,
-      "photo": "https://media.api-sports.io/football/players/2901.png"
-    },
-    {
-      "rank": 19,
-      "player_id": "355994",
-      "player": "A. Freeman",
-      "team": "USA",
-      "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 2,
-      "minutes": 180,
-      "photo": "https://media.api-sports.io/football/players/355994.png"
-    },
-    {
-      "rank": 20,
-      "player_id": "294824",
-      "player": "N. Saliba",
-      "team": "Canada",
-      "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 1,
-      "minutes": 33,
-      "photo": "https://media.api-sports.io/football/players/294824.png"
     }
   ]
 }
