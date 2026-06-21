@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T05:17:02Z",
+  "last_updated": "2026-06-21T09:06:15Z",
   "standings": [
     {
       "group": "A",
@@ -167,7 +167,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 1
+      "best_third_rank": 2
     },
     {
       "group": "C",
@@ -228,7 +228,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 2
+      "best_third_rank": 3
     },
     {
       "group": "D",
@@ -323,6 +323,21 @@
     },
     {
       "group": "F",
+      "team": "Japan",
+      "played": 2,
+      "won": 1,
+      "drawn": 1,
+      "lost": 0,
+      "goals_for": 6,
+      "goals_against": 2,
+      "goal_difference": 4,
+      "points": 4,
+      "fair_play_points": 0,
+      "rank": 2,
+      "qualified_status": "possible"
+    },
+    {
+      "group": "F",
       "team": "Sweden",
       "played": 2,
       "won": 1,
@@ -333,35 +348,20 @@
       "goal_difference": 0,
       "points": 3,
       "fair_play_points": 0,
-      "rank": 2,
-      "qualified_status": "possible"
-    },
-    {
-      "group": "F",
-      "team": "Japan",
-      "played": 1,
-      "won": 0,
-      "drawn": 1,
-      "lost": 0,
-      "goals_for": 2,
-      "goals_against": 2,
-      "goal_difference": 0,
-      "points": 1,
-      "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3
+      "best_third_rank": 1
     },
     {
       "group": "F",
       "team": "Tunisia",
-      "played": 1,
+      "played": 2,
       "won": 0,
       "drawn": 0,
-      "lost": 1,
+      "lost": 2,
       "goals_for": 1,
-      "goals_against": 5,
-      "goal_difference": -4,
+      "goals_against": 9,
+      "goal_difference": -8,
       "points": 0,
       "fair_play_points": 0,
       "rank": 4,
