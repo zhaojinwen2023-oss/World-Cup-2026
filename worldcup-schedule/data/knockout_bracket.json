@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T00:00:29Z",
+  "last_updated": "2026-06-21T05:17:02Z",
   "knockout": [
     {
       "match_id": 73,
@@ -795,6 +795,23 @@
       "best_third_qualified": true
     },
     {
+      "group": "E",
+      "team": "Ecuador",
+      "played": 2,
+      "won": 0,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 0,
+      "goals_against": 1,
+      "goal_difference": -1,
+      "points": 1,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 8,
+      "best_third_qualified": true
+    },
+    {
       "group": "B",
       "team": "Bosnia and Herzegovina",
       "played": 2,
@@ -805,23 +822,6 @@
       "goals_against": 5,
       "goal_difference": -3,
       "points": 1,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 8,
-      "best_third_qualified": true
-    },
-    {
-      "group": "E",
-      "team": "Ecuador",
-      "played": 1,
-      "won": 0,
-      "drawn": 0,
-      "lost": 1,
-      "goals_for": 0,
-      "goals_against": 1,
-      "goal_difference": -1,
-      "points": 0,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
