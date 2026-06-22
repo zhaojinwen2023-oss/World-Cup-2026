@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T16:09:07Z",
+  "last_updated": "2026-06-22T19:45:08Z",
   "standings": [
     {
       "group": "A",
@@ -553,14 +553,14 @@
     {
       "group": "J",
       "team": "Argentina",
-      "played": 1,
-      "won": 1,
+      "played": 2,
+      "won": 2,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 3,
+      "goals_for": 5,
       "goals_against": 0,
-      "goal_difference": 3,
-      "points": 3,
+      "goal_difference": 5,
+      "points": 6,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
@@ -568,13 +568,13 @@
     {
       "group": "J",
       "team": "Austria",
-      "played": 1,
+      "played": 2,
       "won": 1,
       "drawn": 0,
-      "lost": 0,
+      "lost": 1,
       "goals_for": 3,
-      "goals_against": 1,
-      "goal_difference": 2,
+      "goals_against": 3,
+      "goal_difference": 0,
       "points": 3,
       "fair_play_points": 0,
       "rank": 2,

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T16:09:07Z",
+  "last_updated": "2026-06-22T19:45:08Z",
   "scorers": [
     {
       "rank": 1,
@@ -219,18 +219,6 @@
     },
     {
       "rank": 19,
-      "player_id": "278",
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1,
-      "minutes": 90,
-      "photo": "https://media.api-sports.io/football/players/278.png"
-    },
-    {
-      "rank": 20,
       "player_id": "1100",
       "player": "E. Haaland",
       "team": "Norway",
@@ -240,6 +228,18 @@
       "appearances": 1,
       "minutes": 90,
       "photo": "https://media.api-sports.io/football/players/1100.png"
+    },
+    {
+      "rank": 20,
+      "player_id": "278",
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 1,
+      "minutes": 90,
+      "photo": "https://media.api-sports.io/football/players/278.png"
     }
   ]
 }
