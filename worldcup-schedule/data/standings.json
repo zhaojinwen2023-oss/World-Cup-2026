@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T23:02:52Z",
+  "last_updated": "2026-06-22T00:21:25Z",
   "standings": [
     {
       "group": "A",
@@ -411,7 +411,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4
+      "best_third_rank": 5
     },
     {
       "group": "G",
@@ -446,14 +446,14 @@
     {
       "group": "H",
       "team": "Uruguay",
-      "played": 1,
+      "played": 2,
       "won": 0,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 0,
-      "goals_for": 1,
-      "goals_against": 1,
+      "goals_for": 3,
+      "goals_against": 3,
       "goal_difference": 0,
-      "points": 1,
+      "points": 2,
       "fair_play_points": 0,
       "rank": 2,
       "qualified_status": "possible"
@@ -461,18 +461,18 @@
     {
       "group": "H",
       "team": "Cape Verde",
-      "played": 1,
+      "played": 2,
       "won": 0,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 0,
-      "goals_for": 0,
-      "goals_against": 0,
+      "goals_for": 2,
+      "goals_against": 2,
       "goal_difference": 0,
-      "points": 1,
+      "points": 2,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 4
     },
     {
       "group": "H",
@@ -655,7 +655,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5
+      "best_third_rank": 6
     },
     {
       "group": "K",
