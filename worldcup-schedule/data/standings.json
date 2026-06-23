@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T21:11:51Z",
+  "last_updated": "2026-06-23T22:37:57Z",
   "standings": [
     {
       "group": "A",
@@ -675,14 +675,14 @@
     {
       "group": "L",
       "team": "England",
-      "played": 1,
+      "played": 2,
       "won": 1,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
       "goals_for": 4,
       "goals_against": 2,
       "goal_difference": 2,
-      "points": 3,
+      "points": 4,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
@@ -690,14 +690,14 @@
     {
       "group": "L",
       "team": "Ghana",
-      "played": 1,
+      "played": 2,
       "won": 1,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
       "goals_for": 1,
       "goals_against": 0,
       "goal_difference": 1,
-      "points": 3,
+      "points": 4,
       "fair_play_points": 0,
       "rank": 2,
       "qualified_status": "possible"
