@@ -1,8 +1,20 @@
 {
-  "last_updated": "2026-06-23T01:23:46Z",
+  "last_updated": "2026-06-23T05:35:06Z",
   "scorers": [
     {
       "rank": 1,
+      "player_id": "154",
+      "player": "L. Messi",
+      "team": "Argentina",
+      "goals": 5,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2,
+      "minutes": 175,
+      "photo": "https://media.api-sports.io/football/players/154.png"
+    },
+    {
+      "rank": 2,
       "player_id": "26475",
       "player": "D. Undav",
       "team": "Germany",
@@ -14,7 +26,7 @@
       "photo": "https://media.api-sports.io/football/players/26475.png"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "player_id": "8489",
       "player": "J. David",
       "team": "Canada",
@@ -24,18 +36,6 @@
       "appearances": 2,
       "minutes": 151,
       "photo": "https://media.api-sports.io/football/players/8489.png"
-    },
-    {
-      "rank": 3,
-      "player_id": "154",
-      "player": "L. Messi",
-      "team": "Argentina",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1,
-      "minutes": 80,
-      "photo": "https://media.api-sports.io/football/players/154.png"
     },
     {
       "rank": 4,

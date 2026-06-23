@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T01:23:46Z",
+  "last_updated": "2026-06-23T05:35:06Z",
   "knockout": [
     {
       "match_id": 73,
@@ -710,6 +710,23 @@
       "best_third_qualified": true
     },
     {
+      "group": "J",
+      "team": "Algeria",
+      "played": 2,
+      "won": 1,
+      "drawn": 0,
+      "lost": 1,
+      "goals_for": 2,
+      "goals_against": 4,
+      "goal_difference": -2,
+      "points": 3,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 3,
+      "best_third_qualified": true
+    },
+    {
       "group": "D",
       "team": "Paraguay",
       "played": 2,
@@ -723,7 +740,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3,
+      "best_third_rank": 4,
       "best_third_qualified": true
     },
     {
@@ -740,7 +757,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4,
+      "best_third_rank": 5,
       "best_third_qualified": true
     },
     {
@@ -757,7 +774,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5,
+      "best_third_rank": 6,
       "best_third_qualified": true
     },
     {
@@ -774,7 +791,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6,
+      "best_third_rank": 7,
       "best_third_qualified": true
     },
     {
@@ -791,7 +808,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7,
+      "best_third_rank": 8,
       "best_third_qualified": true
     },
     {
@@ -808,8 +825,8 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8,
-      "best_third_qualified": true
+      "best_third_rank": 9,
+      "best_third_qualified": false
     },
     {
       "group": "B",
@@ -825,7 +842,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9,
+      "best_third_rank": 10,
       "best_third_qualified": false
     },
     {
@@ -842,36 +859,19 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10,
-      "best_third_qualified": false
-    },
-    {
-      "group": "J",
-      "team": "Jordan",
-      "played": 1,
-      "won": 0,
-      "drawn": 0,
-      "lost": 1,
-      "goals_for": 1,
-      "goals_against": 3,
-      "goal_difference": -2,
-      "points": 0,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
       "best_third_rank": 11,
       "best_third_qualified": false
     },
     {
       "group": "I",
       "team": "Senegal",
-      "played": 1,
+      "played": 2,
       "won": 0,
       "drawn": 0,
-      "lost": 1,
-      "goals_for": 1,
-      "goals_against": 3,
-      "goal_difference": -2,
+      "lost": 2,
+      "goals_for": 3,
+      "goals_against": 6,
+      "goal_difference": -3,
       "points": 0,
       "fair_play_points": 0,
       "rank": 3,
