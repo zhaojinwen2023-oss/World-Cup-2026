@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T17:03:21Z",
+  "last_updated": "2026-06-23T19:18:02Z",
   "standings": [
     {
       "group": "A",
@@ -613,6 +613,21 @@
     },
     {
       "group": "K",
+      "team": "Portugal",
+      "played": 2,
+      "won": 1,
+      "drawn": 1,
+      "lost": 0,
+      "goals_for": 6,
+      "goals_against": 1,
+      "goal_difference": 5,
+      "points": 4,
+      "fair_play_points": 0,
+      "rank": 1,
+      "qualified_status": "possible"
+    },
+    {
+      "group": "K",
       "team": "Colombia",
       "played": 1,
       "won": 1,
@@ -623,27 +638,12 @@
       "goal_difference": 2,
       "points": 3,
       "fair_play_points": 0,
-      "rank": 1,
-      "qualified_status": "possible"
-    },
-    {
-      "group": "K",
-      "team": "DR Congo",
-      "played": 1,
-      "won": 0,
-      "drawn": 1,
-      "lost": 0,
-      "goals_for": 1,
-      "goals_against": 1,
-      "goal_difference": 0,
-      "points": 1,
-      "fair_play_points": 0,
       "rank": 2,
       "qualified_status": "possible"
     },
     {
       "group": "K",
-      "team": "Portugal",
+      "team": "DR Congo",
       "played": 1,
       "won": 0,
       "drawn": 1,
@@ -660,13 +660,13 @@
     {
       "group": "K",
       "team": "Uzbekistan",
-      "played": 1,
+      "played": 2,
       "won": 0,
       "drawn": 0,
-      "lost": 1,
+      "lost": 2,
       "goals_for": 1,
-      "goals_against": 3,
-      "goal_difference": -2,
+      "goals_against": 8,
+      "goal_difference": -7,
       "points": 0,
       "fair_play_points": 0,
       "rank": 4,
