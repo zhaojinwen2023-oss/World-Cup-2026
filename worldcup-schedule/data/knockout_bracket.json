@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T01:30:02Z",
+  "last_updated": "2026-06-24T05:41:37Z",
   "knockout": [
     {
       "match_id": 73,
@@ -795,23 +795,6 @@
       "best_third_qualified": true
     },
     {
-      "group": "K",
-      "team": "DR Congo",
-      "played": 1,
-      "won": 0,
-      "drawn": 1,
-      "lost": 0,
-      "goals_for": 1,
-      "goals_against": 1,
-      "goal_difference": 0,
-      "points": 1,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 8,
-      "best_third_qualified": true
-    },
-    {
       "group": "A",
       "team": "Czech Republic",
       "played": 2,
@@ -820,6 +803,23 @@
       "lost": 1,
       "goals_for": 2,
       "goals_against": 3,
+      "goal_difference": -1,
+      "points": 1,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 8,
+      "best_third_qualified": true
+    },
+    {
+      "group": "K",
+      "team": "DR Congo",
+      "played": 2,
+      "won": 0,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 1,
+      "goals_against": 2,
       "goal_difference": -1,
       "points": 1,
       "fair_play_points": 0,
