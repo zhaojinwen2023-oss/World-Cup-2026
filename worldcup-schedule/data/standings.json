@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T20:04:41Z",
+  "last_updated": "2026-06-24T21:43:13Z",
   "standings": [
     {
       "group": "A",
@@ -45,7 +45,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8
+      "best_third_rank": 9
     },
     {
       "group": "A",
@@ -64,64 +64,64 @@
     },
     {
       "group": "B",
-      "team": "Canada",
-      "played": 2,
-      "won": 1,
+      "team": "Switzerland",
+      "played": 3,
+      "won": 2,
       "drawn": 1,
       "lost": 0,
       "goals_for": 7,
-      "goals_against": 1,
-      "goal_difference": 6,
-      "points": 4,
+      "goals_against": 3,
+      "goal_difference": 4,
+      "points": 7,
       "fair_play_points": 0,
       "rank": 1,
-      "qualified_status": "possible"
+      "qualified_status": "qualified"
     },
     {
       "group": "B",
-      "team": "Switzerland",
-      "played": 2,
+      "team": "Canada",
+      "played": 3,
       "won": 1,
       "drawn": 1,
-      "lost": 0,
-      "goals_for": 5,
-      "goals_against": 2,
-      "goal_difference": 3,
+      "lost": 1,
+      "goals_for": 8,
+      "goals_against": 3,
+      "goal_difference": 5,
       "points": 4,
       "fair_play_points": 0,
       "rank": 2,
-      "qualified_status": "possible"
+      "qualified_status": "qualified"
     },
     {
       "group": "B",
       "team": "Bosnia and Herzegovina",
-      "played": 2,
-      "won": 0,
+      "played": 3,
+      "won": 1,
       "drawn": 1,
       "lost": 1,
-      "goals_for": 2,
-      "goals_against": 5,
-      "goal_difference": -3,
-      "points": 1,
+      "goals_for": 5,
+      "goals_against": 6,
+      "goal_difference": -1,
+      "points": 4,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 11
+      "best_third_rank": 1
     },
     {
       "group": "B",
       "team": "Qatar",
-      "played": 2,
+      "played": 3,
       "won": 0,
       "drawn": 1,
-      "lost": 1,
-      "goals_for": 1,
-      "goals_against": 7,
-      "goal_difference": -6,
+      "lost": 2,
+      "goals_for": 2,
+      "goals_against": 10,
+      "goal_difference": -8,
       "points": 1,
       "fair_play_points": 0,
       "rank": 4,
-      "qualified_status": "possible"
+      "qualified_status": "eliminated"
     },
     {
       "group": "C",
@@ -167,7 +167,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 2
+      "best_third_rank": 3
     },
     {
       "group": "C",
@@ -228,7 +228,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5
+      "best_third_rank": 6
     },
     {
       "group": "D",
@@ -289,7 +289,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10
+      "best_third_rank": 11
     },
     {
       "group": "E",
@@ -350,7 +350,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 1
+      "best_third_rank": 2
     },
     {
       "group": "F",
@@ -411,7 +411,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7
+      "best_third_rank": 8
     },
     {
       "group": "G",
@@ -472,7 +472,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 7
     },
     {
       "group": "H",
@@ -594,7 +594,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4
+      "best_third_rank": 5
     },
     {
       "group": "J",
@@ -655,7 +655,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9
+      "best_third_rank": 10
     },
     {
       "group": "K",
@@ -716,7 +716,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3
+      "best_third_rank": 4
     },
     {
       "group": "L",
