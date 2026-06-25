@@ -1,13 +1,13 @@
 {
   "model_version": "Poisson + 50,000次蒙特卡洛 v1.0",
-  "generated_at": "2026-06-24T16:43:24+08:00",
+  "generated_at": "2026-06-25T15:59:16+08:00",
   "status": "model",
   "simulations": 50000,
   "sources": [
     {
       "title": "世界杯赛程、实时赛果与积分",
       "path": "data/app_data.json",
-      "last_updated": "2026-06-24T08:43:23Z"
+      "last_updated": "2026-06-25T07:59:15Z"
     },
     {
       "title": "过去24个月国际比赛",
@@ -43,11 +43,11 @@
         "4": 0.0
       },
       "round_of_32": 100.0,
-      "round_of_16": 77.9,
-      "quarterfinal": 53.2,
-      "semifinal": 34.7,
-      "final": 21.5,
-      "champion": 13.3,
+      "round_of_16": 78.3,
+      "quarterfinal": 53.4,
+      "semifinal": 36.3,
+      "final": 22.7,
+      "champion": 13.6,
       "most_likely_path": "小组第1 → 16强",
       "strength": {
         "fifa_rank": null,
@@ -58,20 +58,44 @@
       }
     },
     {
-      "team": "Spain",
-      "group": "H",
+      "team": "Morocco",
+      "group": "C",
       "group_position_probabilities": {
-        "1": 87.8,
-        "2": 6.2,
-        "3": 5.9,
+        "1": 0.0,
+        "2": 100.0,
+        "3": 0.0,
         "4": 0.0
       },
       "round_of_32": 100.0,
-      "round_of_16": 60.5,
-      "quarterfinal": 38.2,
-      "semifinal": 25.3,
-      "final": 14.8,
-      "champion": 8.3,
+      "round_of_16": 62.4,
+      "quarterfinal": 42.7,
+      "semifinal": 27.0,
+      "final": 17.2,
+      "champion": 10.4,
+      "most_likely_path": "小组第2 → 32强",
+      "strength": {
+        "fifa_rank": null,
+        "elo": 1617.8,
+        "attack": 1.38,
+        "defense": 0.55,
+        "form": 0.8
+      }
+    },
+    {
+      "team": "Spain",
+      "group": "H",
+      "group_position_probabilities": {
+        "1": 87.9,
+        "2": 6.1,
+        "3": 6.0,
+        "4": 0.0
+      },
+      "round_of_32": 100.0,
+      "round_of_16": 60.3,
+      "quarterfinal": 37.6,
+      "semifinal": 25.4,
+      "final": 14.3,
+      "champion": 8.2,
       "most_likely_path": "小组第1 → 32强",
       "strength": {
         "fifa_rank": null,
@@ -82,44 +106,20 @@
       }
     },
     {
-      "team": "Morocco",
-      "group": "C",
-      "group_position_probabilities": {
-        "1": 42.4,
-        "2": 53.4,
-        "3": 4.2,
-        "4": 0.0
-      },
-      "round_of_32": 99.9,
-      "round_of_16": 61.1,
-      "quarterfinal": 39.2,
-      "semifinal": 23.9,
-      "final": 14.1,
-      "champion": 8.2,
-      "most_likely_path": "小组第2 → 32强",
-      "strength": {
-        "fifa_rank": null,
-        "elo": 1617.8,
-        "attack": 1.3,
-        "defense": 0.55,
-        "form": 0.79
-      }
-    },
-    {
       "team": "Germany",
       "group": "E",
       "group_position_probabilities": {
-        "1": 99.8,
-        "2": 0.2,
+        "1": 99.9,
+        "2": 0.1,
         "3": 0.0,
         "4": 0.0
       },
       "round_of_32": 100.0,
-      "round_of_16": 72.9,
-      "quarterfinal": 41.9,
-      "semifinal": 23.2,
-      "final": 13.0,
-      "champion": 6.6,
+      "round_of_16": 73.6,
+      "quarterfinal": 42.4,
+      "semifinal": 21.9,
+      "final": 12.4,
+      "champion": 6.5,
       "most_likely_path": "小组第1 → 16强",
       "strength": {
         "fifa_rank": null,
@@ -133,17 +133,17 @@
       "team": "England",
       "group": "L",
       "group_position_probabilities": {
-        "1": 68.3,
-        "2": 31.3,
+        "1": 68.2,
+        "2": 31.5,
         "3": 0.3,
         "4": 0.0
       },
       "round_of_32": 100.0,
-      "round_of_16": 63.9,
-      "quarterfinal": 35.2,
+      "round_of_16": 63.1,
+      "quarterfinal": 34.9,
       "semifinal": 20.3,
-      "final": 10.9,
-      "champion": 6.0,
+      "final": 11.0,
+      "champion": 5.9,
       "most_likely_path": "小组第1 → 32强",
       "strength": {
         "fifa_rank": null,
@@ -157,17 +157,17 @@
       "team": "Portugal",
       "group": "K",
       "group_position_probabilities": {
-        "1": 46.7,
-        "2": 53.1,
+        "1": 46.6,
+        "2": 53.2,
         "3": 0.2,
         "4": 0.0
       },
       "round_of_32": 100.0,
-      "round_of_16": 72.2,
-      "quarterfinal": 37.3,
-      "semifinal": 20.6,
-      "final": 10.8,
-      "champion": 5.6,
+      "round_of_16": 72.1,
+      "quarterfinal": 39.2,
+      "semifinal": 21.4,
+      "final": 11.1,
+      "champion": 5.7,
       "most_likely_path": "小组第2 → 16强",
       "strength": {
         "fifa_rank": null,
@@ -181,18 +181,18 @@
       "team": "Mexico",
       "group": "A",
       "group_position_probabilities": {
-        "1": 96.1,
-        "2": 3.9,
+        "1": 100.0,
+        "2": 0.0,
         "3": 0.0,
         "4": 0.0
       },
       "round_of_32": 100.0,
-      "round_of_16": 67.1,
-      "quarterfinal": 39.7,
-      "semifinal": 20.0,
-      "final": 9.9,
-      "champion": 5.1,
-      "most_likely_path": "小组第1 → 32强",
+      "round_of_16": 71.5,
+      "quarterfinal": 41.9,
+      "semifinal": 21.3,
+      "final": 10.6,
+      "champion": 5.2,
+      "most_likely_path": "小组第1 → 16强",
       "strength": {
         "fifa_rank": null,
         "elo": 1573.8,
@@ -205,17 +205,17 @@
       "team": "Norway",
       "group": "I",
       "group_position_probabilities": {
-        "1": 40.5,
-        "2": 59.5,
+        "1": 40.8,
+        "2": 59.2,
         "3": 0.0,
         "4": 0.0
       },
       "round_of_32": 100.0,
-      "round_of_16": 64.2,
-      "quarterfinal": 34.1,
+      "round_of_16": 65.1,
+      "quarterfinal": 35.1,
       "semifinal": 18.5,
-      "final": 9.6,
-      "champion": 4.9,
+      "final": 9.7,
+      "champion": 5.0,
       "most_likely_path": "小组第2 → 32强",
       "strength": {
         "fifa_rank": null,
@@ -230,16 +230,16 @@
       "group": "G",
       "group_position_probabilities": {
         "1": 28.4,
-        "2": 54.9,
-        "3": 9.2,
-        "4": 7.4
+        "2": 54.6,
+        "3": 9.4,
+        "4": 7.6
       },
-      "round_of_32": 91.1,
-      "round_of_16": 60.5,
-      "quarterfinal": 32.9,
-      "semifinal": 17.9,
-      "final": 9.4,
-      "champion": 4.9,
+      "round_of_32": 90.7,
+      "round_of_16": 61.1,
+      "quarterfinal": 33.1,
+      "semifinal": 18.3,
+      "final": 9.3,
+      "champion": 4.7,
       "most_likely_path": "小组第2 → 32强",
       "strength": {
         "fifa_rank": null,
@@ -250,66 +250,18 @@
       }
     },
     {
-      "team": "Canada",
-      "group": "B",
-      "group_position_probabilities": {
-        "1": 74.8,
-        "2": 25.2,
-        "3": 0.0,
-        "4": 0.0
-      },
-      "round_of_32": 100.0,
-      "round_of_16": 64.9,
-      "quarterfinal": 38.6,
-      "semifinal": 18.6,
-      "final": 9.4,
-      "champion": 4.7,
-      "most_likely_path": "小组第1 → 32强",
-      "strength": {
-        "fifa_rank": null,
-        "elo": 1544.6,
-        "attack": 1.23,
-        "defense": 0.57,
-        "form": 0.63
-      }
-    },
-    {
-      "team": "Japan",
-      "group": "F",
-      "group_position_probabilities": {
-        "1": 37.4,
-        "2": 50.8,
-        "3": 11.8,
-        "4": 0.0
-      },
-      "round_of_32": 100.0,
-      "round_of_16": 52.3,
-      "quarterfinal": 30.2,
-      "semifinal": 16.5,
-      "final": 8.6,
-      "champion": 4.4,
-      "most_likely_path": "小组第2 → 32强",
-      "strength": {
-        "fifa_rank": null,
-        "elo": 1575.8,
-        "attack": 1.31,
-        "defense": 0.63,
-        "form": 0.78
-      }
-    },
-    {
       "team": "France",
       "group": "I",
       "group_position_probabilities": {
-        "1": 59.5,
-        "2": 40.5,
+        "1": 59.2,
+        "2": 40.8,
         "3": 0.0,
         "4": 0.0
       },
       "round_of_32": 100.0,
-      "round_of_16": 63.4,
-      "quarterfinal": 32.3,
-      "semifinal": 16.9,
+      "round_of_16": 64.2,
+      "quarterfinal": 33.6,
+      "semifinal": 16.7,
       "final": 8.6,
       "champion": 4.2,
       "most_likely_path": "小组第1 → 32强",
@@ -322,68 +274,92 @@
       }
     },
     {
-      "team": "Netherlands",
+      "team": "Japan",
       "group": "F",
       "group_position_probabilities": {
-        "1": 60.6,
-        "2": 39.2,
-        "3": 0.2,
+        "1": 37.1,
+        "2": 51.2,
+        "3": 11.7,
         "4": 0.0
       },
       "round_of_32": 100.0,
-      "round_of_16": 46.4,
-      "quarterfinal": 24.9,
-      "semifinal": 12.3,
-      "final": 5.9,
-      "champion": 2.6,
-      "most_likely_path": "小组第1 → 32强",
-      "strength": {
-        "fifa_rank": null,
-        "elo": 1571.0,
-        "attack": 1.5,
-        "defense": 0.83,
-        "form": 0.66
-      }
-    },
-    {
-      "team": "Austria",
-      "group": "J",
-      "group_position_probabilities": {
-        "1": 0.1,
-        "2": 65.7,
-        "3": 33.7,
-        "4": 0.4
-      },
-      "round_of_32": 94.4,
-      "round_of_16": 43.0,
-      "quarterfinal": 22.9,
-      "semifinal": 12.3,
-      "final": 5.7,
-      "champion": 2.6,
+      "round_of_16": 49.8,
+      "quarterfinal": 28.6,
+      "semifinal": 15.5,
+      "final": 8.1,
+      "champion": 4.2,
       "most_likely_path": "小组第2 → 32强",
       "strength": {
         "fifa_rank": null,
-        "elo": 1560.0,
-        "attack": 1.32,
-        "defense": 0.73,
-        "form": 0.72
+        "elo": 1575.8,
+        "attack": 1.31,
+        "defense": 0.63,
+        "form": 0.78
+      }
+    },
+    {
+      "team": "Brazil",
+      "group": "C",
+      "group_position_probabilities": {
+        "1": 100.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "round_of_32": 100.0,
+      "round_of_16": 50.4,
+      "quarterfinal": 25.3,
+      "semifinal": 13.1,
+      "final": 6.2,
+      "champion": 2.9,
+      "most_likely_path": "小组第1 → 32强",
+      "strength": {
+        "fifa_rank": null,
+        "elo": 1542.8,
+        "attack": 1.49,
+        "defense": 0.75,
+        "form": 0.71
+      }
+    },
+    {
+      "team": "Canada",
+      "group": "B",
+      "group_position_probabilities": {
+        "1": 0.0,
+        "2": 100.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "round_of_32": 100.0,
+      "round_of_16": 65.6,
+      "quarterfinal": 26.2,
+      "semifinal": 12.2,
+      "final": 5.9,
+      "champion": 2.7,
+      "most_likely_path": "小组第2 → 16强",
+      "strength": {
+        "fifa_rank": null,
+        "elo": 1544.6,
+        "attack": 1.18,
+        "defense": 0.63,
+        "form": 0.55
       }
     },
     {
       "team": "Colombia",
       "group": "K",
       "group_position_probabilities": {
-        "1": 53.3,
-        "2": 46.7,
+        "1": 53.4,
+        "2": 46.6,
         "3": 0.0,
         "4": 0.0
       },
       "round_of_32": 100.0,
-      "round_of_16": 65.2,
-      "quarterfinal": 28.2,
-      "semifinal": 12.8,
-      "final": 5.5,
-      "champion": 2.3,
+      "round_of_16": 65.4,
+      "quarterfinal": 30.4,
+      "semifinal": 13.8,
+      "final": 5.9,
+      "champion": 2.5,
       "most_likely_path": "小组第1 → 16强",
       "strength": {
         "fifa_rank": null,
@@ -394,92 +370,92 @@
       }
     },
     {
-      "team": "Switzerland",
-      "group": "B",
+      "team": "Austria",
+      "group": "J",
       "group_position_probabilities": {
-        "1": 25.2,
-        "2": 72.9,
-        "3": 1.9,
-        "4": 0.0
+        "1": 0.1,
+        "2": 65.5,
+        "3": 33.9,
+        "4": 0.5
       },
-      "round_of_32": 100.0,
-      "round_of_16": 57.8,
-      "quarterfinal": 25.6,
-      "semifinal": 10.9,
-      "final": 5.0,
-      "champion": 2.1,
+      "round_of_32": 94.9,
+      "round_of_16": 43.5,
+      "quarterfinal": 22.8,
+      "semifinal": 12.1,
+      "final": 5.4,
+      "champion": 2.5,
       "most_likely_path": "小组第2 → 32强",
       "strength": {
         "fifa_rank": null,
-        "elo": 1545.2,
-        "attack": 1.41,
-        "defense": 0.84,
-        "form": 0.61
+        "elo": 1560.0,
+        "attack": 1.32,
+        "defense": 0.73,
+        "form": 0.72
       }
     },
     {
-      "team": "Algeria",
-      "group": "J",
+      "team": "Netherlands",
+      "group": "F",
       "group_position_probabilities": {
-        "1": 0.0,
-        "2": 34.1,
-        "3": 64.4,
-        "4": 1.5
-      },
-      "round_of_32": 82.5,
-      "round_of_16": 38.2,
-      "quarterfinal": 20.4,
-      "semifinal": 9.8,
-      "final": 4.3,
-      "champion": 2.0,
-      "most_likely_path": "小组第3 → 32强",
-      "strength": {
-        "fifa_rank": null,
-        "elo": 1573.4,
-        "attack": 1.22,
-        "defense": 0.75,
-        "form": 0.73
-      }
-    },
-    {
-      "team": "Brazil",
-      "group": "C",
-      "group_position_probabilities": {
-        "1": 47.9,
-        "2": 25.0,
-        "3": 27.2,
+        "1": 61.1,
+        "2": 38.6,
+        "3": 0.2,
         "4": 0.0
       },
-      "round_of_32": 99.9,
-      "round_of_16": 45.2,
-      "quarterfinal": 22.0,
-      "semifinal": 10.0,
-      "final": 4.4,
-      "champion": 1.9,
+      "round_of_32": 100.0,
+      "round_of_16": 41.2,
+      "quarterfinal": 22.3,
+      "semifinal": 10.8,
+      "final": 5.2,
+      "champion": 2.4,
       "most_likely_path": "小组第1 → 32强",
       "strength": {
         "fifa_rank": null,
-        "elo": 1542.8,
-        "attack": 1.44,
+        "elo": 1571.0,
+        "attack": 1.49,
+        "defense": 0.83,
+        "form": 0.66
+      }
+    },
+    {
+      "team": "Switzerland",
+      "group": "B",
+      "group_position_probabilities": {
+        "1": 100.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "round_of_32": 100.0,
+      "round_of_16": 55.8,
+      "quarterfinal": 29.1,
+      "semifinal": 12.0,
+      "final": 5.3,
+      "champion": 2.2,
+      "most_likely_path": "小组第1 → 32强",
+      "strength": {
+        "fifa_rank": null,
+        "elo": 1545.2,
+        "attack": 1.42,
         "defense": 0.82,
-        "form": 0.68
+        "form": 0.66
       }
     },
     {
       "team": "Egypt",
       "group": "G",
       "group_position_probabilities": {
-        "1": 54.2,
+        "1": 54.5,
         "2": 18.0,
-        "3": 27.8,
+        "3": 27.5,
         "4": 0.0
       },
       "round_of_32": 100.0,
-      "round_of_16": 51.3,
-      "quarterfinal": 25.7,
-      "semifinal": 10.7,
-      "final": 4.5,
-      "champion": 1.8,
+      "round_of_16": 54.2,
+      "quarterfinal": 27.5,
+      "semifinal": 11.6,
+      "final": 4.8,
+      "champion": 1.9,
       "most_likely_path": "小组第1 → 32强",
       "strength": {
         "fifa_rank": null,
@@ -490,25 +466,49 @@
       }
     },
     {
+      "team": "Algeria",
+      "group": "J",
+      "group_position_probabilities": {
+        "1": 0.0,
+        "2": 34.4,
+        "3": 64.1,
+        "4": 1.6
+      },
+      "round_of_32": 78.4,
+      "round_of_16": 36.4,
+      "quarterfinal": 18.7,
+      "semifinal": 8.9,
+      "final": 3.9,
+      "champion": 1.7,
+      "most_likely_path": "小组第3 → 32强",
+      "strength": {
+        "fifa_rank": null,
+        "elo": 1573.4,
+        "attack": 1.22,
+        "defense": 0.75,
+        "form": 0.73
+      }
+    },
+    {
       "team": "Ivory Coast",
       "group": "E",
       "group_position_probabilities": {
-        "1": 0.2,
-        "2": 82.5,
-        "3": 13.9,
+        "1": 0.1,
+        "2": 82.4,
+        "3": 14.0,
         "4": 3.5
       },
-      "round_of_32": 94.2,
-      "round_of_16": 40.6,
-      "quarterfinal": 18.2,
-      "semifinal": 8.2,
-      "final": 3.4,
+      "round_of_32": 94.5,
+      "round_of_16": 40.1,
+      "quarterfinal": 18.3,
+      "semifinal": 8.6,
+      "final": 3.7,
       "champion": 1.6,
       "most_likely_path": "小组第2 → 32强",
       "strength": {
         "fifa_rank": null,
         "elo": 1556.1,
-        "attack": 1.13,
+        "attack": 1.12,
         "defense": 0.68,
         "form": 0.69
       }
@@ -517,18 +517,18 @@
       "team": "Iran",
       "group": "G",
       "group_position_probabilities": {
-        "1": 17.3,
+        "1": 17.1,
         "2": 20.8,
-        "3": 58.5,
+        "3": 58.7,
         "4": 3.4
       },
-      "round_of_32": 69.4,
-      "round_of_16": 34.3,
-      "quarterfinal": 16.1,
-      "semifinal": 6.9,
-      "final": 2.9,
-      "champion": 1.2,
-      "most_likely_path": "小组第3 → 32强",
+      "round_of_32": 66.0,
+      "round_of_16": 34.9,
+      "quarterfinal": 16.5,
+      "semifinal": 7.1,
+      "final": 3.0,
+      "champion": 1.3,
+      "most_likely_path": "小组第3 → 小组赛",
       "strength": {
         "fifa_rank": null,
         "elo": 1546.8,
@@ -547,10 +547,10 @@
         "4": 0.0
       },
       "round_of_32": 100.0,
-      "round_of_16": 61.6,
-      "quarterfinal": 27.3,
-      "semifinal": 9.6,
-      "final": 3.4,
+      "round_of_16": 57.7,
+      "quarterfinal": 26.0,
+      "semifinal": 9.2,
+      "final": 3.0,
       "champion": 1.1,
       "most_likely_path": "小组第1 → 32强",
       "strength": {
@@ -562,91 +562,19 @@
       }
     },
     {
-      "team": "Scotland",
-      "group": "C",
-      "group_position_probabilities": {
-        "1": 9.7,
-        "2": 21.7,
-        "3": 67.7,
-        "4": 0.9
-      },
-      "round_of_32": 90.6,
-      "round_of_16": 33.1,
-      "quarterfinal": 14.3,
-      "semifinal": 5.6,
-      "final": 2.3,
-      "champion": 0.9,
-      "most_likely_path": "小组第3 → 32强",
-      "strength": {
-        "fifa_rank": null,
-        "elo": 1521.6,
-        "attack": 1.14,
-        "defense": 0.76,
-        "form": 0.58
-      }
-    },
-    {
-      "team": "South Korea",
-      "group": "A",
-      "group_position_probabilities": {
-        "1": 3.9,
-        "2": 68.2,
-        "3": 23.3,
-        "4": 4.6
-      },
-      "round_of_32": 91.8,
-      "round_of_16": 38.5,
-      "quarterfinal": 15.2,
-      "semifinal": 5.4,
-      "final": 2.0,
-      "champion": 0.8,
-      "most_likely_path": "小组第2 → 32强",
-      "strength": {
-        "fifa_rank": null,
-        "elo": 1550.3,
-        "attack": 1.04,
-        "defense": 0.79,
-        "form": 0.61
-      }
-    },
-    {
-      "team": "Australia",
-      "group": "D",
-      "group_position_probabilities": {
-        "1": 1.2,
-        "2": 67.7,
-        "3": 25.3,
-        "4": 5.7
-      },
-      "round_of_32": 90.5,
-      "round_of_16": 33.7,
-      "quarterfinal": 10.9,
-      "semifinal": 4.2,
-      "final": 1.4,
-      "champion": 0.5,
-      "most_likely_path": "小组第2 → 32强",
-      "strength": {
-        "fifa_rank": null,
-        "elo": 1546.8,
-        "attack": 0.97,
-        "defense": 0.79,
-        "form": 0.54
-      }
-    },
-    {
       "team": "Croatia",
       "group": "L",
       "group_position_probabilities": {
-        "1": 21.7,
-        "2": 37.5,
+        "1": 21.9,
+        "2": 37.4,
         "3": 38.3,
-        "4": 2.5
+        "4": 2.4
       },
       "round_of_32": 94.5,
       "round_of_16": 36.1,
-      "quarterfinal": 12.0,
-      "semifinal": 4.2,
-      "final": 1.4,
+      "quarterfinal": 13.1,
+      "semifinal": 4.8,
+      "final": 1.5,
       "champion": 0.5,
       "most_likely_path": "小组第3 → 32强",
       "strength": {
@@ -658,20 +586,92 @@
       }
     },
     {
+      "team": "South Korea",
+      "group": "A",
+      "group_position_probabilities": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 80.8,
+        "4": 19.2
+      },
+      "round_of_32": 75.7,
+      "round_of_16": 28.6,
+      "quarterfinal": 13.3,
+      "semifinal": 4.6,
+      "final": 1.5,
+      "champion": 0.5,
+      "most_likely_path": "小组第3 → 32强",
+      "strength": {
+        "fifa_rank": null,
+        "elo": 1550.3,
+        "attack": 0.97,
+        "defense": 0.79,
+        "form": 0.54
+      }
+    },
+    {
+      "team": "Australia",
+      "group": "D",
+      "group_position_probabilities": {
+        "1": 1.2,
+        "2": 68.0,
+        "3": 25.3,
+        "4": 5.5
+      },
+      "round_of_32": 91.0,
+      "round_of_16": 34.0,
+      "quarterfinal": 11.0,
+      "semifinal": 4.1,
+      "final": 1.5,
+      "champion": 0.5,
+      "most_likely_path": "小组第2 → 32强",
+      "strength": {
+        "fifa_rank": null,
+        "elo": 1546.8,
+        "attack": 0.97,
+        "defense": 0.79,
+        "form": 0.54
+      }
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "group": "B",
+      "group_position_probabilities": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 100.0,
+        "4": 0.0
+      },
+      "round_of_32": 100.0,
+      "round_of_16": 34.3,
+      "quarterfinal": 12.2,
+      "semifinal": 3.3,
+      "final": 0.9,
+      "champion": 0.3,
+      "most_likely_path": "小组第3 → 32强",
+      "strength": {
+        "fifa_rank": null,
+        "elo": 1514.3,
+        "attack": 1.07,
+        "defense": 0.98,
+        "form": 0.46
+      }
+    },
+    {
       "team": "DR Congo",
       "group": "K",
       "group_position_probabilities": {
         "1": 0.0,
         "2": 0.2,
-        "3": 76.3,
-        "4": 23.5
+        "3": 76.1,
+        "4": 23.7
       },
-      "round_of_32": 49.3,
-      "round_of_16": 20.1,
-      "quarterfinal": 7.6,
-      "semifinal": 2.8,
-      "final": 1.0,
-      "champion": 0.4,
+      "round_of_32": 46.2,
+      "round_of_16": 18.6,
+      "quarterfinal": 7.0,
+      "semifinal": 2.6,
+      "final": 0.8,
+      "champion": 0.3,
       "most_likely_path": "小组第3 → 小组赛",
       "strength": {
         "fifa_rank": null,
@@ -682,20 +682,44 @@
       }
     },
     {
+      "team": "Senegal",
+      "group": "I",
+      "group_position_probabilities": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 79.5,
+        "4": 20.5
+      },
+      "round_of_32": 49.8,
+      "round_of_16": 17.9,
+      "quarterfinal": 7.2,
+      "semifinal": 2.4,
+      "final": 0.8,
+      "champion": 0.3,
+      "most_likely_path": "小组第3 → 小组赛",
+      "strength": {
+        "fifa_rank": null,
+        "elo": 1564.9,
+        "attack": 1.17,
+        "defense": 0.99,
+        "form": 0.46
+      }
+    },
+    {
       "team": "Cape Verde",
       "group": "H",
       "group_position_probabilities": {
-        "1": 3.2,
-        "2": 67.4,
-        "3": 15.7,
-        "4": 13.7
+        "1": 3.3,
+        "2": 67.2,
+        "3": 15.6,
+        "4": 13.9
       },
-      "round_of_32": 79.5,
-      "round_of_16": 19.4,
-      "quarterfinal": 7.6,
+      "round_of_32": 79.0,
+      "round_of_16": 18.9,
+      "quarterfinal": 7.3,
       "semifinal": 2.7,
-      "final": 0.9,
-      "champion": 0.3,
+      "final": 0.8,
+      "champion": 0.2,
       "most_likely_path": "小组第2 → 32强",
       "strength": {
         "fifa_rank": null,
@@ -706,51 +730,27 @@
       }
     },
     {
-      "team": "Senegal",
-      "group": "I",
+      "team": "South Africa",
+      "group": "A",
       "group_position_probabilities": {
         "1": 0.0,
-        "2": 0.0,
-        "3": 79.3,
-        "4": 20.7
+        "2": 80.8,
+        "3": 19.2,
+        "4": 0.0
       },
-      "round_of_32": 48.9,
-      "round_of_16": 18.3,
-      "quarterfinal": 7.7,
-      "semifinal": 2.4,
-      "final": 0.8,
-      "champion": 0.3,
-      "most_likely_path": "小组第3 → 小组赛",
-      "strength": {
-        "fifa_rank": null,
-        "elo": 1564.9,
-        "attack": 1.18,
-        "defense": 1.0,
-        "form": 0.46
-      }
-    },
-    {
-      "team": "Paraguay",
-      "group": "D",
-      "group_position_probabilities": {
-        "1": 0.1,
-        "2": 31.0,
-        "3": 52.8,
-        "4": 16.1
-      },
-      "round_of_32": 73.7,
-      "round_of_16": 21.6,
-      "quarterfinal": 6.3,
-      "semifinal": 2.0,
-      "final": 0.5,
+      "round_of_32": 100.0,
+      "round_of_16": 32.9,
+      "quarterfinal": 8.8,
+      "semifinal": 2.3,
+      "final": 0.6,
       "champion": 0.2,
-      "most_likely_path": "小组第3 → 32强",
+      "most_likely_path": "小组第2 → 32强",
       "strength": {
         "fifa_rank": null,
-        "elo": 1519.6,
-        "attack": 1.0,
-        "defense": 0.91,
-        "form": 0.56
+        "elo": 1521.7,
+        "attack": 0.79,
+        "defense": 0.8,
+        "form": 0.46
       }
     },
     {
@@ -758,14 +758,14 @@
       "group": "E",
       "group_position_probabilities": {
         "1": 0.0,
-        "2": 4.9,
-        "3": 72.3,
-        "4": 22.8
+        "2": 5.0,
+        "3": 72.1,
+        "4": 22.9
       },
-      "round_of_32": 22.8,
-      "round_of_16": 9.2,
-      "quarterfinal": 4.2,
-      "semifinal": 1.5,
+      "round_of_32": 21.5,
+      "round_of_16": 8.6,
+      "quarterfinal": 3.8,
+      "semifinal": 1.6,
       "final": 0.5,
       "champion": 0.2,
       "most_likely_path": "小组第3 → 小组赛",
@@ -783,13 +783,13 @@
       "group_position_probabilities": {
         "1": 0.0,
         "2": 0.0,
-        "3": 21.8,
-        "4": 78.2
+        "3": 21.7,
+        "4": 78.3
       },
-      "round_of_32": 19.0,
-      "round_of_16": 6.6,
+      "round_of_32": 19.4,
+      "round_of_16": 6.9,
       "quarterfinal": 2.7,
-      "semifinal": 1.1,
+      "semifinal": 1.0,
       "final": 0.4,
       "champion": 0.2,
       "most_likely_path": "小组第4 → 小组赛",
@@ -802,66 +802,66 @@
       }
     },
     {
-      "team": "Czech Republic",
-      "group": "A",
+      "team": "Paraguay",
+      "group": "D",
       "group_position_probabilities": {
-        "1": 0.0,
-        "2": 8.5,
-        "3": 52.5,
-        "4": 39.0
+        "1": 0.1,
+        "2": 30.7,
+        "3": 53.1,
+        "4": 16.1
       },
-      "round_of_32": 21.1,
-      "round_of_16": 8.2,
-      "quarterfinal": 3.3,
-      "semifinal": 1.1,
-      "final": 0.4,
+      "round_of_32": 71.1,
+      "round_of_16": 20.7,
+      "quarterfinal": 5.9,
+      "semifinal": 1.9,
+      "final": 0.5,
       "champion": 0.1,
-      "most_likely_path": "小组第3 → 小组赛",
+      "most_likely_path": "小组第3 → 32强",
       "strength": {
         "fifa_rank": null,
-        "elo": 1534.2,
-        "attack": 1.15,
-        "defense": 0.87,
-        "form": 0.55
+        "elo": 1519.6,
+        "attack": 1.0,
+        "defense": 0.91,
+        "form": 0.56
       }
     },
     {
-      "team": "Bosnia and Herzegovina",
-      "group": "B",
+      "team": "Scotland",
+      "group": "C",
       "group_position_probabilities": {
         "1": 0.0,
-        "2": 1.9,
-        "3": 78.9,
-        "4": 19.2
+        "2": 0.0,
+        "3": 100.0,
+        "4": 0.0
       },
-      "round_of_32": 55.8,
-      "round_of_16": 17.2,
-      "quarterfinal": 5.3,
-      "semifinal": 1.2,
+      "round_of_32": 36.4,
+      "round_of_16": 10.4,
+      "quarterfinal": 3.8,
+      "semifinal": 1.1,
       "final": 0.3,
       "champion": 0.1,
       "most_likely_path": "小组第3 → 小组赛",
       "strength": {
         "fifa_rank": null,
-        "elo": 1514.3,
-        "attack": 0.97,
-        "defense": 1.0,
-        "form": 0.38
+        "elo": 1521.6,
+        "attack": 1.05,
+        "defense": 0.86,
+        "form": 0.52
       }
     },
     {
       "team": "Uruguay",
       "group": "H",
       "group_position_probabilities": {
-        "1": 9.0,
-        "2": 8.0,
+        "1": 8.8,
+        "2": 8.2,
         "3": 75.3,
         "4": 7.7
       },
-      "round_of_32": 36.3,
-      "round_of_16": 9.9,
-      "quarterfinal": 3.2,
-      "semifinal": 0.9,
+      "round_of_32": 33.1,
+      "round_of_16": 8.7,
+      "quarterfinal": 2.9,
+      "semifinal": 0.8,
       "final": 0.2,
       "champion": 0.1,
       "most_likely_path": "小组第3 → 小组赛",
@@ -874,17 +874,41 @@
       }
     },
     {
+      "team": "Czech Republic",
+      "group": "A",
+      "group_position_probabilities": {
+        "1": 0.0,
+        "2": 19.2,
+        "3": 0.0,
+        "4": 80.8
+      },
+      "round_of_32": 19.1,
+      "round_of_16": 7.4,
+      "quarterfinal": 2.1,
+      "semifinal": 0.7,
+      "final": 0.2,
+      "champion": 0.1,
+      "most_likely_path": "小组第4 → 小组赛",
+      "strength": {
+        "fifa_rank": null,
+        "elo": 1534.2,
+        "attack": 1.15,
+        "defense": 0.87,
+        "form": 0.55
+      }
+    },
+    {
       "team": "Sweden",
       "group": "F",
       "group_position_probabilities": {
-        "1": 2.0,
-        "2": 10.1,
-        "3": 87.9,
+        "1": 1.8,
+        "2": 10.2,
+        "3": 88.0,
         "4": 0.0
       },
-      "round_of_32": 84.8,
-      "round_of_16": 18.5,
-      "quarterfinal": 4.8,
+      "round_of_32": 82.4,
+      "round_of_16": 17.8,
+      "quarterfinal": 5.0,
       "semifinal": 1.1,
       "final": 0.2,
       "champion": 0.0,
@@ -892,7 +916,7 @@
       "strength": {
         "fifa_rank": null,
         "elo": 1507.6,
-        "attack": 1.33,
+        "attack": 1.32,
         "defense": 1.36,
         "form": 0.45
       }
@@ -901,14 +925,14 @@
       "team": "Ghana",
       "group": "L",
       "group_position_probabilities": {
-        "1": 10.0,
+        "1": 9.9,
         "2": 31.1,
-        "3": 58.9,
+        "3": 59.0,
         "4": 0.0
       },
       "round_of_32": 99.9,
-      "round_of_16": 19.7,
-      "quarterfinal": 3.7,
+      "round_of_16": 19.3,
+      "quarterfinal": 4.0,
       "semifinal": 0.7,
       "final": 0.1,
       "champion": 0.0,
@@ -922,41 +946,17 @@
       }
     },
     {
-      "team": "South Africa",
-      "group": "A",
-      "group_position_probabilities": {
-        "1": 0.0,
-        "2": 19.5,
-        "3": 24.2,
-        "4": 56.3
-      },
-      "round_of_32": 23.7,
-      "round_of_16": 7.2,
-      "quarterfinal": 1.8,
-      "semifinal": 0.5,
-      "final": 0.1,
-      "champion": 0.0,
-      "most_likely_path": "小组第4 → 小组赛",
-      "strength": {
-        "fifa_rank": null,
-        "elo": 1521.7,
-        "attack": 0.81,
-        "defense": 0.85,
-        "form": 0.4
-      }
-    },
-    {
       "team": "Curaçao",
       "group": "E",
       "group_position_probabilities": {
         "1": 0.0,
-        "2": 12.4,
+        "2": 12.5,
         "3": 13.9,
-        "4": 73.7
+        "4": 73.6
       },
-      "round_of_32": 15.8,
+      "round_of_32": 15.9,
       "round_of_16": 2.7,
-      "quarterfinal": 0.6,
+      "quarterfinal": 0.5,
       "semifinal": 0.1,
       "final": 0.0,
       "champion": 0.0,
@@ -965,32 +965,8 @@
         "fifa_rank": null,
         "elo": 1519.9,
         "attack": 1.09,
-        "defense": 1.3,
+        "defense": 1.29,
         "form": 0.39
-      }
-    },
-    {
-      "team": "Iraq",
-      "group": "I",
-      "group_position_probabilities": {
-        "1": 0.0,
-        "2": 0.0,
-        "3": 20.7,
-        "4": 79.3
-      },
-      "round_of_32": 8.5,
-      "round_of_16": 2.0,
-      "quarterfinal": 0.5,
-      "semifinal": 0.1,
-      "final": 0.0,
-      "champion": 0.0,
-      "most_likely_path": "小组第4 → 小组赛",
-      "strength": {
-        "fifa_rank": null,
-        "elo": 1534.7,
-        "attack": 0.75,
-        "defense": 1.08,
-        "form": 0.44
       }
     },
     {
@@ -998,13 +974,13 @@
       "group": "G",
       "group_position_probabilities": {
         "1": 0.0,
-        "2": 6.3,
-        "3": 4.5,
-        "4": 89.2
+        "2": 6.6,
+        "3": 4.4,
+        "4": 89.0
       },
-      "round_of_32": 8.9,
-      "round_of_16": 2.5,
-      "quarterfinal": 0.4,
+      "round_of_32": 9.2,
+      "round_of_16": 2.8,
+      "quarterfinal": 0.5,
       "semifinal": 0.1,
       "final": 0.0,
       "champion": 0.0,
@@ -1022,13 +998,13 @@
       "group": "H",
       "group_position_probabilities": {
         "1": 0.0,
-        "2": 18.4,
+        "2": 18.5,
         "3": 3.1,
-        "4": 78.5
+        "4": 78.4
       },
-      "round_of_32": 20.7,
-      "round_of_16": 2.8,
-      "quarterfinal": 0.7,
+      "round_of_32": 20.8,
+      "round_of_16": 2.5,
+      "quarterfinal": 0.6,
       "semifinal": 0.1,
       "final": 0.0,
       "champion": 0.0,
@@ -1042,40 +1018,16 @@
       }
     },
     {
-      "team": "Uzbekistan",
-      "group": "K",
-      "group_position_probabilities": {
-        "1": 0.0,
-        "2": 0.0,
-        "3": 23.5,
-        "4": 76.5
-      },
-      "round_of_32": 7.0,
-      "round_of_16": 1.9,
-      "quarterfinal": 0.4,
-      "semifinal": 0.1,
-      "final": 0.0,
-      "champion": 0.0,
-      "most_likely_path": "小组第4 → 小组赛",
-      "strength": {
-        "fifa_rank": null,
-        "elo": 1544.8,
-        "attack": 0.94,
-        "defense": 1.15,
-        "form": 0.41
-      }
-    },
-    {
       "team": "Haiti",
       "group": "C",
       "group_position_probabilities": {
         "1": 0.0,
         "2": 0.0,
-        "3": 0.9,
-        "4": 99.1
+        "3": 0.0,
+        "4": 100.0
       },
-      "round_of_32": 0.6,
-      "round_of_16": 0.1,
+      "round_of_32": 0.0,
+      "round_of_16": 0.0,
       "quarterfinal": 0.0,
       "semifinal": 0.0,
       "final": 0.0,
@@ -1084,9 +1036,33 @@
       "strength": {
         "fifa_rank": null,
         "elo": 1523.0,
-        "attack": 0.95,
-        "defense": 0.95,
-        "form": 0.35
+        "attack": 0.96,
+        "defense": 1.1,
+        "form": 0.3
+      }
+    },
+    {
+      "team": "Iraq",
+      "group": "I",
+      "group_position_probabilities": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 20.5,
+        "4": 79.5
+      },
+      "round_of_32": 3.5,
+      "round_of_16": 0.8,
+      "quarterfinal": 0.2,
+      "semifinal": 0.0,
+      "final": 0.0,
+      "champion": 0.0,
+      "most_likely_path": "小组第4 → 小组赛",
+      "strength": {
+        "fifa_rank": null,
+        "elo": 1534.7,
+        "attack": 0.75,
+        "defense": 1.08,
+        "form": 0.44
       }
     },
     {
@@ -1095,11 +1071,11 @@
       "group_position_probabilities": {
         "1": 0.0,
         "2": 0.0,
-        "3": 1.9,
-        "4": 98.1
+        "3": 2.1,
+        "4": 97.9
       },
-      "round_of_32": 1.5,
-      "round_of_16": 0.2,
+      "round_of_32": 1.7,
+      "round_of_16": 0.3,
       "quarterfinal": 0.0,
       "semifinal": 0.0,
       "final": 0.0,
@@ -1119,11 +1095,11 @@
       "group_position_probabilities": {
         "1": 0.0,
         "2": 0.0,
-        "3": 2.5,
-        "4": 97.5
+        "3": 2.4,
+        "4": 97.6
       },
-      "round_of_32": 2.3,
-      "round_of_16": 0.7,
+      "round_of_32": 2.2,
+      "round_of_16": 0.6,
       "quarterfinal": 0.2,
       "semifinal": 0.0,
       "final": 0.0,
@@ -1143,12 +1119,12 @@
       "group_position_probabilities": {
         "1": 0.0,
         "2": 0.0,
-        "3": 19.2,
-        "4": 80.8
+        "3": 0.0,
+        "4": 100.0
       },
-      "round_of_32": 19.1,
-      "round_of_16": 2.9,
-      "quarterfinal": 0.4,
+      "round_of_32": 0.0,
+      "round_of_16": 0.0,
+      "quarterfinal": 0.0,
       "semifinal": 0.0,
       "final": 0.0,
       "champion": 0.0,
@@ -1157,8 +1133,8 @@
         "fifa_rank": null,
         "elo": 1484.3,
         "attack": 0.69,
-        "defense": 1.26,
-        "form": 0.24
+        "defense": 1.33,
+        "form": 0.21
       }
     },
     {
@@ -1184,6 +1160,30 @@
         "defense": 1.4,
         "form": 0.28
       }
+    },
+    {
+      "team": "Uzbekistan",
+      "group": "K",
+      "group_position_probabilities": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 23.7,
+        "4": 76.3
+      },
+      "round_of_32": 1.6,
+      "round_of_16": 0.4,
+      "quarterfinal": 0.1,
+      "semifinal": 0.0,
+      "final": 0.0,
+      "champion": 0.0,
+      "most_likely_path": "小组第4 → 小组赛",
+      "strength": {
+        "fifa_rank": null,
+        "elo": 1544.8,
+        "attack": 0.94,
+        "defense": 1.15,
+        "form": 0.41
+      }
     }
   ],
   "group_probabilities": [
@@ -1194,18 +1194,18 @@
           "team": "Mexico",
           "group": "A",
           "group_position_probabilities": {
-            "1": 96.1,
-            "2": 3.9,
+            "1": 100.0,
+            "2": 0.0,
             "3": 0.0,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 67.1,
-          "quarterfinal": 39.7,
-          "semifinal": 20.0,
-          "final": 9.9,
-          "champion": 5.1,
-          "most_likely_path": "小组第1 → 32强",
+          "round_of_16": 71.5,
+          "quarterfinal": 41.9,
+          "semifinal": 21.3,
+          "final": 10.6,
+          "champion": 5.2,
+          "most_likely_path": "小组第1 → 16强",
           "strength": {
             "fifa_rank": null,
             "elo": 1573.8,
@@ -1218,48 +1218,24 @@
           "team": "South Korea",
           "group": "A",
           "group_position_probabilities": {
-            "1": 3.9,
-            "2": 68.2,
-            "3": 23.3,
-            "4": 4.6
+            "1": 0.0,
+            "2": 0.0,
+            "3": 80.8,
+            "4": 19.2
           },
-          "round_of_32": 91.8,
-          "round_of_16": 38.5,
-          "quarterfinal": 15.2,
-          "semifinal": 5.4,
-          "final": 2.0,
-          "champion": 0.8,
-          "most_likely_path": "小组第2 → 32强",
+          "round_of_32": 75.7,
+          "round_of_16": 28.6,
+          "quarterfinal": 13.3,
+          "semifinal": 4.6,
+          "final": 1.5,
+          "champion": 0.5,
+          "most_likely_path": "小组第3 → 32强",
           "strength": {
             "fifa_rank": null,
             "elo": 1550.3,
-            "attack": 1.04,
+            "attack": 0.97,
             "defense": 0.79,
-            "form": 0.61
-          }
-        },
-        {
-          "team": "Czech Republic",
-          "group": "A",
-          "group_position_probabilities": {
-            "1": 0.0,
-            "2": 8.5,
-            "3": 52.5,
-            "4": 39.0
-          },
-          "round_of_32": 21.1,
-          "round_of_16": 8.2,
-          "quarterfinal": 3.3,
-          "semifinal": 1.1,
-          "final": 0.4,
-          "champion": 0.1,
-          "most_likely_path": "小组第3 → 小组赛",
-          "strength": {
-            "fifa_rank": null,
-            "elo": 1534.2,
-            "attack": 1.15,
-            "defense": 0.87,
-            "form": 0.55
+            "form": 0.54
           }
         },
         {
@@ -1267,23 +1243,47 @@
           "group": "A",
           "group_position_probabilities": {
             "1": 0.0,
-            "2": 19.5,
-            "3": 24.2,
-            "4": 56.3
+            "2": 80.8,
+            "3": 19.2,
+            "4": 0.0
           },
-          "round_of_32": 23.7,
-          "round_of_16": 7.2,
-          "quarterfinal": 1.8,
-          "semifinal": 0.5,
-          "final": 0.1,
-          "champion": 0.0,
-          "most_likely_path": "小组第4 → 小组赛",
+          "round_of_32": 100.0,
+          "round_of_16": 32.9,
+          "quarterfinal": 8.8,
+          "semifinal": 2.3,
+          "final": 0.6,
+          "champion": 0.2,
+          "most_likely_path": "小组第2 → 32强",
           "strength": {
             "fifa_rank": null,
             "elo": 1521.7,
-            "attack": 0.81,
-            "defense": 0.85,
-            "form": 0.4
+            "attack": 0.79,
+            "defense": 0.8,
+            "form": 0.46
+          }
+        },
+        {
+          "team": "Czech Republic",
+          "group": "A",
+          "group_position_probabilities": {
+            "1": 0.0,
+            "2": 19.2,
+            "3": 0.0,
+            "4": 80.8
+          },
+          "round_of_32": 19.1,
+          "round_of_16": 7.4,
+          "quarterfinal": 2.1,
+          "semifinal": 0.7,
+          "final": 0.2,
+          "champion": 0.1,
+          "most_likely_path": "小组第4 → 小组赛",
+          "strength": {
+            "fifa_rank": null,
+            "elo": 1534.2,
+            "attack": 1.15,
+            "defense": 0.87,
+            "form": 0.55
           }
         }
       ]
@@ -1295,48 +1295,48 @@
           "team": "Canada",
           "group": "B",
           "group_position_probabilities": {
-            "1": 74.8,
-            "2": 25.2,
+            "1": 0.0,
+            "2": 100.0,
             "3": 0.0,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 64.9,
-          "quarterfinal": 38.6,
-          "semifinal": 18.6,
-          "final": 9.4,
-          "champion": 4.7,
-          "most_likely_path": "小组第1 → 32强",
+          "round_of_16": 65.6,
+          "quarterfinal": 26.2,
+          "semifinal": 12.2,
+          "final": 5.9,
+          "champion": 2.7,
+          "most_likely_path": "小组第2 → 16强",
           "strength": {
             "fifa_rank": null,
             "elo": 1544.6,
-            "attack": 1.23,
-            "defense": 0.57,
-            "form": 0.63
+            "attack": 1.18,
+            "defense": 0.63,
+            "form": 0.55
           }
         },
         {
           "team": "Switzerland",
           "group": "B",
           "group_position_probabilities": {
-            "1": 25.2,
-            "2": 72.9,
-            "3": 1.9,
+            "1": 100.0,
+            "2": 0.0,
+            "3": 0.0,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 57.8,
-          "quarterfinal": 25.6,
-          "semifinal": 10.9,
-          "final": 5.0,
-          "champion": 2.1,
-          "most_likely_path": "小组第2 → 32强",
+          "round_of_16": 55.8,
+          "quarterfinal": 29.1,
+          "semifinal": 12.0,
+          "final": 5.3,
+          "champion": 2.2,
+          "most_likely_path": "小组第1 → 32强",
           "strength": {
             "fifa_rank": null,
             "elo": 1545.2,
-            "attack": 1.41,
-            "defense": 0.84,
-            "form": 0.61
+            "attack": 1.42,
+            "defense": 0.82,
+            "form": 0.66
           }
         },
         {
@@ -1344,23 +1344,23 @@
           "group": "B",
           "group_position_probabilities": {
             "1": 0.0,
-            "2": 1.9,
-            "3": 78.9,
-            "4": 19.2
+            "2": 0.0,
+            "3": 100.0,
+            "4": 0.0
           },
-          "round_of_32": 55.8,
-          "round_of_16": 17.2,
-          "quarterfinal": 5.3,
-          "semifinal": 1.2,
-          "final": 0.3,
-          "champion": 0.1,
-          "most_likely_path": "小组第3 → 小组赛",
+          "round_of_32": 100.0,
+          "round_of_16": 34.3,
+          "quarterfinal": 12.2,
+          "semifinal": 3.3,
+          "final": 0.9,
+          "champion": 0.3,
+          "most_likely_path": "小组第3 → 32强",
           "strength": {
             "fifa_rank": null,
             "elo": 1514.3,
-            "attack": 0.97,
-            "defense": 1.0,
-            "form": 0.38
+            "attack": 1.07,
+            "defense": 0.98,
+            "form": 0.46
           }
         },
         {
@@ -1369,12 +1369,12 @@
           "group_position_probabilities": {
             "1": 0.0,
             "2": 0.0,
-            "3": 19.2,
-            "4": 80.8
+            "3": 0.0,
+            "4": 100.0
           },
-          "round_of_32": 19.1,
-          "round_of_16": 2.9,
-          "quarterfinal": 0.4,
+          "round_of_32": 0.0,
+          "round_of_16": 0.0,
+          "quarterfinal": 0.0,
           "semifinal": 0.0,
           "final": 0.0,
           "champion": 0.0,
@@ -1383,8 +1383,8 @@
             "fifa_rank": null,
             "elo": 1484.3,
             "attack": 0.69,
-            "defense": 1.26,
-            "form": 0.24
+            "defense": 1.33,
+            "form": 0.21
           }
         }
       ]
@@ -1396,72 +1396,72 @@
           "team": "Morocco",
           "group": "C",
           "group_position_probabilities": {
-            "1": 42.4,
-            "2": 53.4,
-            "3": 4.2,
+            "1": 0.0,
+            "2": 100.0,
+            "3": 0.0,
             "4": 0.0
           },
-          "round_of_32": 99.9,
-          "round_of_16": 61.1,
-          "quarterfinal": 39.2,
-          "semifinal": 23.9,
-          "final": 14.1,
-          "champion": 8.2,
+          "round_of_32": 100.0,
+          "round_of_16": 62.4,
+          "quarterfinal": 42.7,
+          "semifinal": 27.0,
+          "final": 17.2,
+          "champion": 10.4,
           "most_likely_path": "小组第2 → 32强",
           "strength": {
             "fifa_rank": null,
             "elo": 1617.8,
-            "attack": 1.3,
+            "attack": 1.38,
             "defense": 0.55,
-            "form": 0.79
+            "form": 0.8
           }
         },
         {
           "team": "Brazil",
           "group": "C",
           "group_position_probabilities": {
-            "1": 47.9,
-            "2": 25.0,
-            "3": 27.2,
+            "1": 100.0,
+            "2": 0.0,
+            "3": 0.0,
             "4": 0.0
           },
-          "round_of_32": 99.9,
-          "round_of_16": 45.2,
-          "quarterfinal": 22.0,
-          "semifinal": 10.0,
-          "final": 4.4,
-          "champion": 1.9,
+          "round_of_32": 100.0,
+          "round_of_16": 50.4,
+          "quarterfinal": 25.3,
+          "semifinal": 13.1,
+          "final": 6.2,
+          "champion": 2.9,
           "most_likely_path": "小组第1 → 32强",
           "strength": {
             "fifa_rank": null,
             "elo": 1542.8,
-            "attack": 1.44,
-            "defense": 0.82,
-            "form": 0.68
+            "attack": 1.49,
+            "defense": 0.75,
+            "form": 0.71
           }
         },
         {
           "team": "Scotland",
           "group": "C",
           "group_position_probabilities": {
-            "1": 9.7,
-            "2": 21.7,
-            "3": 67.7,
-            "4": 0.9
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0,
+            "4": 0.0
           },
-          "round_of_32": 90.6,
-          "round_of_16": 33.1,
-          "quarterfinal": 14.3,
-          "semifinal": 5.6,
-          "final": 2.3,
-          "champion": 0.9,
-          "most_likely_path": "小组第3 → 32强",
+          "round_of_32": 36.4,
+          "round_of_16": 10.4,
+          "quarterfinal": 3.8,
+          "semifinal": 1.1,
+          "final": 0.3,
+          "champion": 0.1,
+          "most_likely_path": "小组第3 → 小组赛",
           "strength": {
             "fifa_rank": null,
             "elo": 1521.6,
-            "attack": 1.14,
-            "defense": 0.76,
-            "form": 0.58
+            "attack": 1.05,
+            "defense": 0.86,
+            "form": 0.52
           }
         },
         {
@@ -1470,11 +1470,11 @@
           "group_position_probabilities": {
             "1": 0.0,
             "2": 0.0,
-            "3": 0.9,
-            "4": 99.1
+            "3": 0.0,
+            "4": 100.0
           },
-          "round_of_32": 0.6,
-          "round_of_16": 0.1,
+          "round_of_32": 0.0,
+          "round_of_16": 0.0,
           "quarterfinal": 0.0,
           "semifinal": 0.0,
           "final": 0.0,
@@ -1483,9 +1483,9 @@
           "strength": {
             "fifa_rank": null,
             "elo": 1523.0,
-            "attack": 0.95,
-            "defense": 0.95,
-            "form": 0.35
+            "attack": 0.96,
+            "defense": 1.1,
+            "form": 0.3
           }
         }
       ]
@@ -1503,10 +1503,10 @@
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 61.6,
-          "quarterfinal": 27.3,
-          "semifinal": 9.6,
-          "final": 3.4,
+          "round_of_16": 57.7,
+          "quarterfinal": 26.0,
+          "semifinal": 9.2,
+          "final": 3.0,
           "champion": 1.1,
           "most_likely_path": "小组第1 → 32强",
           "strength": {
@@ -1522,15 +1522,15 @@
           "group": "D",
           "group_position_probabilities": {
             "1": 1.2,
-            "2": 67.7,
+            "2": 68.0,
             "3": 25.3,
-            "4": 5.7
+            "4": 5.5
           },
-          "round_of_32": 90.5,
-          "round_of_16": 33.7,
-          "quarterfinal": 10.9,
-          "semifinal": 4.2,
-          "final": 1.4,
+          "round_of_32": 91.0,
+          "round_of_16": 34.0,
+          "quarterfinal": 11.0,
+          "semifinal": 4.1,
+          "final": 1.5,
           "champion": 0.5,
           "most_likely_path": "小组第2 → 32强",
           "strength": {
@@ -1542,42 +1542,18 @@
           }
         },
         {
-          "team": "Paraguay",
-          "group": "D",
-          "group_position_probabilities": {
-            "1": 0.1,
-            "2": 31.0,
-            "3": 52.8,
-            "4": 16.1
-          },
-          "round_of_32": 73.7,
-          "round_of_16": 21.6,
-          "quarterfinal": 6.3,
-          "semifinal": 2.0,
-          "final": 0.5,
-          "champion": 0.2,
-          "most_likely_path": "小组第3 → 32强",
-          "strength": {
-            "fifa_rank": null,
-            "elo": 1519.6,
-            "attack": 1.0,
-            "defense": 0.91,
-            "form": 0.56
-          }
-        },
-        {
           "team": "Turkey",
           "group": "D",
           "group_position_probabilities": {
             "1": 0.0,
             "2": 0.0,
-            "3": 21.8,
-            "4": 78.2
+            "3": 21.7,
+            "4": 78.3
           },
-          "round_of_32": 19.0,
-          "round_of_16": 6.6,
+          "round_of_32": 19.4,
+          "round_of_16": 6.9,
           "quarterfinal": 2.7,
-          "semifinal": 1.1,
+          "semifinal": 1.0,
           "final": 0.4,
           "champion": 0.2,
           "most_likely_path": "小组第4 → 小组赛",
@@ -1587,6 +1563,30 @@
             "attack": 1.14,
             "defense": 0.85,
             "form": 0.63
+          }
+        },
+        {
+          "team": "Paraguay",
+          "group": "D",
+          "group_position_probabilities": {
+            "1": 0.1,
+            "2": 30.7,
+            "3": 53.1,
+            "4": 16.1
+          },
+          "round_of_32": 71.1,
+          "round_of_16": 20.7,
+          "quarterfinal": 5.9,
+          "semifinal": 1.9,
+          "final": 0.5,
+          "champion": 0.1,
+          "most_likely_path": "小组第3 → 32强",
+          "strength": {
+            "fifa_rank": null,
+            "elo": 1519.6,
+            "attack": 1.0,
+            "defense": 0.91,
+            "form": 0.56
           }
         }
       ]
@@ -1598,17 +1598,17 @@
           "team": "Germany",
           "group": "E",
           "group_position_probabilities": {
-            "1": 99.8,
-            "2": 0.2,
+            "1": 99.9,
+            "2": 0.1,
             "3": 0.0,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 72.9,
-          "quarterfinal": 41.9,
-          "semifinal": 23.2,
-          "final": 13.0,
-          "champion": 6.6,
+          "round_of_16": 73.6,
+          "quarterfinal": 42.4,
+          "semifinal": 21.9,
+          "final": 12.4,
+          "champion": 6.5,
           "most_likely_path": "小组第1 → 16强",
           "strength": {
             "fifa_rank": null,
@@ -1622,22 +1622,22 @@
           "team": "Ivory Coast",
           "group": "E",
           "group_position_probabilities": {
-            "1": 0.2,
-            "2": 82.5,
-            "3": 13.9,
+            "1": 0.1,
+            "2": 82.4,
+            "3": 14.0,
             "4": 3.5
           },
-          "round_of_32": 94.2,
-          "round_of_16": 40.6,
-          "quarterfinal": 18.2,
-          "semifinal": 8.2,
-          "final": 3.4,
+          "round_of_32": 94.5,
+          "round_of_16": 40.1,
+          "quarterfinal": 18.3,
+          "semifinal": 8.6,
+          "final": 3.7,
           "champion": 1.6,
           "most_likely_path": "小组第2 → 32强",
           "strength": {
             "fifa_rank": null,
             "elo": 1556.1,
-            "attack": 1.13,
+            "attack": 1.12,
             "defense": 0.68,
             "form": 0.69
           }
@@ -1647,14 +1647,14 @@
           "group": "E",
           "group_position_probabilities": {
             "1": 0.0,
-            "2": 4.9,
-            "3": 72.3,
-            "4": 22.8
+            "2": 5.0,
+            "3": 72.1,
+            "4": 22.9
           },
-          "round_of_32": 22.8,
-          "round_of_16": 9.2,
-          "quarterfinal": 4.2,
-          "semifinal": 1.5,
+          "round_of_32": 21.5,
+          "round_of_16": 8.6,
+          "quarterfinal": 3.8,
+          "semifinal": 1.6,
           "final": 0.5,
           "champion": 0.2,
           "most_likely_path": "小组第3 → 小组赛",
@@ -1671,13 +1671,13 @@
           "group": "E",
           "group_position_probabilities": {
             "1": 0.0,
-            "2": 12.4,
+            "2": 12.5,
             "3": 13.9,
-            "4": 73.7
+            "4": 73.6
           },
-          "round_of_32": 15.8,
+          "round_of_32": 15.9,
           "round_of_16": 2.7,
-          "quarterfinal": 0.6,
+          "quarterfinal": 0.5,
           "semifinal": 0.1,
           "final": 0.0,
           "champion": 0.0,
@@ -1686,7 +1686,7 @@
             "fifa_rank": null,
             "elo": 1519.9,
             "attack": 1.09,
-            "defense": 1.3,
+            "defense": 1.29,
             "form": 0.39
           }
         }
@@ -1699,17 +1699,17 @@
           "team": "Japan",
           "group": "F",
           "group_position_probabilities": {
-            "1": 37.4,
-            "2": 50.8,
-            "3": 11.8,
+            "1": 37.1,
+            "2": 51.2,
+            "3": 11.7,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 52.3,
-          "quarterfinal": 30.2,
-          "semifinal": 16.5,
-          "final": 8.6,
-          "champion": 4.4,
+          "round_of_16": 49.8,
+          "quarterfinal": 28.6,
+          "semifinal": 15.5,
+          "final": 8.1,
+          "champion": 4.2,
           "most_likely_path": "小组第2 → 32强",
           "strength": {
             "fifa_rank": null,
@@ -1723,22 +1723,22 @@
           "team": "Netherlands",
           "group": "F",
           "group_position_probabilities": {
-            "1": 60.6,
-            "2": 39.2,
+            "1": 61.1,
+            "2": 38.6,
             "3": 0.2,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 46.4,
-          "quarterfinal": 24.9,
-          "semifinal": 12.3,
-          "final": 5.9,
-          "champion": 2.6,
+          "round_of_16": 41.2,
+          "quarterfinal": 22.3,
+          "semifinal": 10.8,
+          "final": 5.2,
+          "champion": 2.4,
           "most_likely_path": "小组第1 → 32强",
           "strength": {
             "fifa_rank": null,
             "elo": 1571.0,
-            "attack": 1.5,
+            "attack": 1.49,
             "defense": 0.83,
             "form": 0.66
           }
@@ -1747,14 +1747,14 @@
           "team": "Sweden",
           "group": "F",
           "group_position_probabilities": {
-            "1": 2.0,
-            "2": 10.1,
-            "3": 87.9,
+            "1": 1.8,
+            "2": 10.2,
+            "3": 88.0,
             "4": 0.0
           },
-          "round_of_32": 84.8,
-          "round_of_16": 18.5,
-          "quarterfinal": 4.8,
+          "round_of_32": 82.4,
+          "round_of_16": 17.8,
+          "quarterfinal": 5.0,
           "semifinal": 1.1,
           "final": 0.2,
           "champion": 0.0,
@@ -1762,7 +1762,7 @@
           "strength": {
             "fifa_rank": null,
             "elo": 1507.6,
-            "attack": 1.33,
+            "attack": 1.32,
             "defense": 1.36,
             "form": 0.45
           }
@@ -1801,16 +1801,16 @@
           "group": "G",
           "group_position_probabilities": {
             "1": 28.4,
-            "2": 54.9,
-            "3": 9.2,
-            "4": 7.4
+            "2": 54.6,
+            "3": 9.4,
+            "4": 7.6
           },
-          "round_of_32": 91.1,
-          "round_of_16": 60.5,
-          "quarterfinal": 32.9,
-          "semifinal": 17.9,
-          "final": 9.4,
-          "champion": 4.9,
+          "round_of_32": 90.7,
+          "round_of_16": 61.1,
+          "quarterfinal": 33.1,
+          "semifinal": 18.3,
+          "final": 9.3,
+          "champion": 4.7,
           "most_likely_path": "小组第2 → 32强",
           "strength": {
             "fifa_rank": null,
@@ -1824,17 +1824,17 @@
           "team": "Egypt",
           "group": "G",
           "group_position_probabilities": {
-            "1": 54.2,
+            "1": 54.5,
             "2": 18.0,
-            "3": 27.8,
+            "3": 27.5,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 51.3,
-          "quarterfinal": 25.7,
-          "semifinal": 10.7,
-          "final": 4.5,
-          "champion": 1.8,
+          "round_of_16": 54.2,
+          "quarterfinal": 27.5,
+          "semifinal": 11.6,
+          "final": 4.8,
+          "champion": 1.9,
           "most_likely_path": "小组第1 → 32强",
           "strength": {
             "fifa_rank": null,
@@ -1848,18 +1848,18 @@
           "team": "Iran",
           "group": "G",
           "group_position_probabilities": {
-            "1": 17.3,
+            "1": 17.1,
             "2": 20.8,
-            "3": 58.5,
+            "3": 58.7,
             "4": 3.4
           },
-          "round_of_32": 69.4,
-          "round_of_16": 34.3,
-          "quarterfinal": 16.1,
-          "semifinal": 6.9,
-          "final": 2.9,
-          "champion": 1.2,
-          "most_likely_path": "小组第3 → 32强",
+          "round_of_32": 66.0,
+          "round_of_16": 34.9,
+          "quarterfinal": 16.5,
+          "semifinal": 7.1,
+          "final": 3.0,
+          "champion": 1.3,
+          "most_likely_path": "小组第3 → 小组赛",
           "strength": {
             "fifa_rank": null,
             "elo": 1546.8,
@@ -1873,13 +1873,13 @@
           "group": "G",
           "group_position_probabilities": {
             "1": 0.0,
-            "2": 6.3,
-            "3": 4.5,
-            "4": 89.2
+            "2": 6.6,
+            "3": 4.4,
+            "4": 89.0
           },
-          "round_of_32": 8.9,
-          "round_of_16": 2.5,
-          "quarterfinal": 0.4,
+          "round_of_32": 9.2,
+          "round_of_16": 2.8,
+          "quarterfinal": 0.5,
           "semifinal": 0.1,
           "final": 0.0,
           "champion": 0.0,
@@ -1901,17 +1901,17 @@
           "team": "Spain",
           "group": "H",
           "group_position_probabilities": {
-            "1": 87.8,
-            "2": 6.2,
-            "3": 5.9,
+            "1": 87.9,
+            "2": 6.1,
+            "3": 6.0,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 60.5,
-          "quarterfinal": 38.2,
-          "semifinal": 25.3,
-          "final": 14.8,
-          "champion": 8.3,
+          "round_of_16": 60.3,
+          "quarterfinal": 37.6,
+          "semifinal": 25.4,
+          "final": 14.3,
+          "champion": 8.2,
           "most_likely_path": "小组第1 → 32强",
           "strength": {
             "fifa_rank": null,
@@ -1925,17 +1925,17 @@
           "team": "Cape Verde",
           "group": "H",
           "group_position_probabilities": {
-            "1": 3.2,
-            "2": 67.4,
-            "3": 15.7,
-            "4": 13.7
+            "1": 3.3,
+            "2": 67.2,
+            "3": 15.6,
+            "4": 13.9
           },
-          "round_of_32": 79.5,
-          "round_of_16": 19.4,
-          "quarterfinal": 7.6,
+          "round_of_32": 79.0,
+          "round_of_16": 18.9,
+          "quarterfinal": 7.3,
           "semifinal": 2.7,
-          "final": 0.9,
-          "champion": 0.3,
+          "final": 0.8,
+          "champion": 0.2,
           "most_likely_path": "小组第2 → 32强",
           "strength": {
             "fifa_rank": null,
@@ -1949,15 +1949,15 @@
           "team": "Uruguay",
           "group": "H",
           "group_position_probabilities": {
-            "1": 9.0,
-            "2": 8.0,
+            "1": 8.8,
+            "2": 8.2,
             "3": 75.3,
             "4": 7.7
           },
-          "round_of_32": 36.3,
-          "round_of_16": 9.9,
-          "quarterfinal": 3.2,
-          "semifinal": 0.9,
+          "round_of_32": 33.1,
+          "round_of_16": 8.7,
+          "quarterfinal": 2.9,
+          "semifinal": 0.8,
           "final": 0.2,
           "champion": 0.1,
           "most_likely_path": "小组第3 → 小组赛",
@@ -1974,13 +1974,13 @@
           "group": "H",
           "group_position_probabilities": {
             "1": 0.0,
-            "2": 18.4,
+            "2": 18.5,
             "3": 3.1,
-            "4": 78.5
+            "4": 78.4
           },
-          "round_of_32": 20.7,
-          "round_of_16": 2.8,
-          "quarterfinal": 0.7,
+          "round_of_32": 20.8,
+          "round_of_16": 2.5,
+          "quarterfinal": 0.6,
           "semifinal": 0.1,
           "final": 0.0,
           "champion": 0.0,
@@ -2002,17 +2002,17 @@
           "team": "Norway",
           "group": "I",
           "group_position_probabilities": {
-            "1": 40.5,
-            "2": 59.5,
+            "1": 40.8,
+            "2": 59.2,
             "3": 0.0,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 64.2,
-          "quarterfinal": 34.1,
+          "round_of_16": 65.1,
+          "quarterfinal": 35.1,
           "semifinal": 18.5,
-          "final": 9.6,
-          "champion": 4.9,
+          "final": 9.7,
+          "champion": 5.0,
           "most_likely_path": "小组第2 → 32强",
           "strength": {
             "fifa_rank": null,
@@ -2026,15 +2026,15 @@
           "team": "France",
           "group": "I",
           "group_position_probabilities": {
-            "1": 59.5,
-            "2": 40.5,
+            "1": 59.2,
+            "2": 40.8,
             "3": 0.0,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 63.4,
-          "quarterfinal": 32.3,
-          "semifinal": 16.9,
+          "round_of_16": 64.2,
+          "quarterfinal": 33.6,
+          "semifinal": 16.7,
           "final": 8.6,
           "champion": 4.2,
           "most_likely_path": "小组第1 → 32强",
@@ -2052,12 +2052,12 @@
           "group_position_probabilities": {
             "1": 0.0,
             "2": 0.0,
-            "3": 79.3,
-            "4": 20.7
+            "3": 79.5,
+            "4": 20.5
           },
-          "round_of_32": 48.9,
-          "round_of_16": 18.3,
-          "quarterfinal": 7.7,
+          "round_of_32": 49.8,
+          "round_of_16": 17.9,
+          "quarterfinal": 7.2,
           "semifinal": 2.4,
           "final": 0.8,
           "champion": 0.3,
@@ -2065,8 +2065,8 @@
           "strength": {
             "fifa_rank": null,
             "elo": 1564.9,
-            "attack": 1.18,
-            "defense": 1.0,
+            "attack": 1.17,
+            "defense": 0.99,
             "form": 0.46
           }
         },
@@ -2076,13 +2076,13 @@
           "group_position_probabilities": {
             "1": 0.0,
             "2": 0.0,
-            "3": 20.7,
-            "4": 79.3
+            "3": 20.5,
+            "4": 79.5
           },
-          "round_of_32": 8.5,
-          "round_of_16": 2.0,
-          "quarterfinal": 0.5,
-          "semifinal": 0.1,
+          "round_of_32": 3.5,
+          "round_of_16": 0.8,
+          "quarterfinal": 0.2,
+          "semifinal": 0.0,
           "final": 0.0,
           "champion": 0.0,
           "most_likely_path": "小组第4 → 小组赛",
@@ -2109,11 +2109,11 @@
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 77.9,
-          "quarterfinal": 53.2,
-          "semifinal": 34.7,
-          "final": 21.5,
-          "champion": 13.3,
+          "round_of_16": 78.3,
+          "quarterfinal": 53.4,
+          "semifinal": 36.3,
+          "final": 22.7,
+          "champion": 13.6,
           "most_likely_path": "小组第1 → 16强",
           "strength": {
             "fifa_rank": null,
@@ -2128,16 +2128,16 @@
           "group": "J",
           "group_position_probabilities": {
             "1": 0.1,
-            "2": 65.7,
-            "3": 33.7,
-            "4": 0.4
+            "2": 65.5,
+            "3": 33.9,
+            "4": 0.5
           },
-          "round_of_32": 94.4,
-          "round_of_16": 43.0,
-          "quarterfinal": 22.9,
-          "semifinal": 12.3,
-          "final": 5.7,
-          "champion": 2.6,
+          "round_of_32": 94.9,
+          "round_of_16": 43.5,
+          "quarterfinal": 22.8,
+          "semifinal": 12.1,
+          "final": 5.4,
+          "champion": 2.5,
           "most_likely_path": "小组第2 → 32强",
           "strength": {
             "fifa_rank": null,
@@ -2152,16 +2152,16 @@
           "group": "J",
           "group_position_probabilities": {
             "1": 0.0,
-            "2": 34.1,
-            "3": 64.4,
-            "4": 1.5
+            "2": 34.4,
+            "3": 64.1,
+            "4": 1.6
           },
-          "round_of_32": 82.5,
-          "round_of_16": 38.2,
-          "quarterfinal": 20.4,
-          "semifinal": 9.8,
-          "final": 4.3,
-          "champion": 2.0,
+          "round_of_32": 78.4,
+          "round_of_16": 36.4,
+          "quarterfinal": 18.7,
+          "semifinal": 8.9,
+          "final": 3.9,
+          "champion": 1.7,
           "most_likely_path": "小组第3 → 32强",
           "strength": {
             "fifa_rank": null,
@@ -2177,11 +2177,11 @@
           "group_position_probabilities": {
             "1": 0.0,
             "2": 0.0,
-            "3": 1.9,
-            "4": 98.1
+            "3": 2.1,
+            "4": 97.9
           },
-          "round_of_32": 1.5,
-          "round_of_16": 0.2,
+          "round_of_32": 1.7,
+          "round_of_16": 0.3,
           "quarterfinal": 0.0,
           "semifinal": 0.0,
           "final": 0.0,
@@ -2204,17 +2204,17 @@
           "team": "Portugal",
           "group": "K",
           "group_position_probabilities": {
-            "1": 46.7,
-            "2": 53.1,
+            "1": 46.6,
+            "2": 53.2,
             "3": 0.2,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 72.2,
-          "quarterfinal": 37.3,
-          "semifinal": 20.6,
-          "final": 10.8,
-          "champion": 5.6,
+          "round_of_16": 72.1,
+          "quarterfinal": 39.2,
+          "semifinal": 21.4,
+          "final": 11.1,
+          "champion": 5.7,
           "most_likely_path": "小组第2 → 16强",
           "strength": {
             "fifa_rank": null,
@@ -2228,17 +2228,17 @@
           "team": "Colombia",
           "group": "K",
           "group_position_probabilities": {
-            "1": 53.3,
-            "2": 46.7,
+            "1": 53.4,
+            "2": 46.6,
             "3": 0.0,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 65.2,
-          "quarterfinal": 28.2,
-          "semifinal": 12.8,
-          "final": 5.5,
-          "champion": 2.3,
+          "round_of_16": 65.4,
+          "quarterfinal": 30.4,
+          "semifinal": 13.8,
+          "final": 5.9,
+          "champion": 2.5,
           "most_likely_path": "小组第1 → 16强",
           "strength": {
             "fifa_rank": null,
@@ -2254,15 +2254,15 @@
           "group_position_probabilities": {
             "1": 0.0,
             "2": 0.2,
-            "3": 76.3,
-            "4": 23.5
+            "3": 76.1,
+            "4": 23.7
           },
-          "round_of_32": 49.3,
-          "round_of_16": 20.1,
-          "quarterfinal": 7.6,
-          "semifinal": 2.8,
-          "final": 1.0,
-          "champion": 0.4,
+          "round_of_32": 46.2,
+          "round_of_16": 18.6,
+          "quarterfinal": 7.0,
+          "semifinal": 2.6,
+          "final": 0.8,
+          "champion": 0.3,
           "most_likely_path": "小组第3 → 小组赛",
           "strength": {
             "fifa_rank": null,
@@ -2278,13 +2278,13 @@
           "group_position_probabilities": {
             "1": 0.0,
             "2": 0.0,
-            "3": 23.5,
-            "4": 76.5
+            "3": 23.7,
+            "4": 76.3
           },
-          "round_of_32": 7.0,
-          "round_of_16": 1.9,
-          "quarterfinal": 0.4,
-          "semifinal": 0.1,
+          "round_of_32": 1.6,
+          "round_of_16": 0.4,
+          "quarterfinal": 0.1,
+          "semifinal": 0.0,
           "final": 0.0,
           "champion": 0.0,
           "most_likely_path": "小组第4 → 小组赛",
@@ -2305,17 +2305,17 @@
           "team": "England",
           "group": "L",
           "group_position_probabilities": {
-            "1": 68.3,
-            "2": 31.3,
+            "1": 68.2,
+            "2": 31.5,
             "3": 0.3,
             "4": 0.0
           },
           "round_of_32": 100.0,
-          "round_of_16": 63.9,
-          "quarterfinal": 35.2,
+          "round_of_16": 63.1,
+          "quarterfinal": 34.9,
           "semifinal": 20.3,
-          "final": 10.9,
-          "champion": 6.0,
+          "final": 11.0,
+          "champion": 5.9,
           "most_likely_path": "小组第1 → 32强",
           "strength": {
             "fifa_rank": null,
@@ -2329,16 +2329,16 @@
           "team": "Croatia",
           "group": "L",
           "group_position_probabilities": {
-            "1": 21.7,
-            "2": 37.5,
+            "1": 21.9,
+            "2": 37.4,
             "3": 38.3,
-            "4": 2.5
+            "4": 2.4
           },
           "round_of_32": 94.5,
           "round_of_16": 36.1,
-          "quarterfinal": 12.0,
-          "semifinal": 4.2,
-          "final": 1.4,
+          "quarterfinal": 13.1,
+          "semifinal": 4.8,
+          "final": 1.5,
           "champion": 0.5,
           "most_likely_path": "小组第3 → 32强",
           "strength": {
@@ -2353,14 +2353,14 @@
           "team": "Ghana",
           "group": "L",
           "group_position_probabilities": {
-            "1": 10.0,
+            "1": 9.9,
             "2": 31.1,
-            "3": 58.9,
+            "3": 59.0,
             "4": 0.0
           },
           "round_of_32": 99.9,
-          "round_of_16": 19.7,
-          "quarterfinal": 3.7,
+          "round_of_16": 19.3,
+          "quarterfinal": 4.0,
           "semifinal": 0.7,
           "final": 0.1,
           "champion": 0.0,
@@ -2379,11 +2379,11 @@
           "group_position_probabilities": {
             "1": 0.0,
             "2": 0.0,
-            "3": 2.5,
-            "4": 97.5
+            "3": 2.4,
+            "4": 97.6
           },
-          "round_of_32": 2.3,
-          "round_of_16": 0.7,
+          "round_of_32": 2.2,
+          "round_of_16": 0.6,
           "quarterfinal": 0.2,
           "semifinal": 0.0,
           "final": 0.0,
@@ -2402,78 +2402,6 @@
   ],
   "match_predictions": [
     {
-      "match_id": 49,
-      "group": "C",
-      "kickoff_utc": "2026-06-24T21:00:00Z",
-      "country": "USA",
-      "home_team": "Scotland",
-      "away_team": "Brazil",
-      "expected_home_goals": 1.18,
-      "expected_away_goals": 1.48,
-      "home_win_probability": 30.3,
-      "draw_probability": 25.7,
-      "away_win_probability": 44.0,
-      "most_likely_score": "1-1",
-      "favorite": "Brazil",
-      "underdog": "Scotland",
-      "rating_difference": 21.2,
-      "upset_probability": 30.3
-    },
-    {
-      "match_id": 50,
-      "group": "C",
-      "kickoff_utc": "2026-06-24T21:00:00Z",
-      "country": "USA",
-      "home_team": "Morocco",
-      "away_team": "Haiti",
-      "expected_home_goals": 1.86,
-      "expected_away_goals": 0.59,
-      "home_win_probability": 68.0,
-      "draw_probability": 21.1,
-      "away_win_probability": 11.0,
-      "most_likely_score": "1-0",
-      "favorite": "Morocco",
-      "underdog": "Haiti",
-      "rating_difference": 94.8,
-      "upset_probability": 11.0
-    },
-    {
-      "match_id": 51,
-      "group": "B",
-      "kickoff_utc": "2026-06-24T18:00:00Z",
-      "country": "Canada",
-      "home_team": "Switzerland",
-      "away_team": "Canada",
-      "expected_home_goals": 1.01,
-      "expected_away_goals": 1.51,
-      "home_win_probability": 25.4,
-      "draw_probability": 25.9,
-      "away_win_probability": 48.7,
-      "most_likely_score": "1-1",
-      "favorite": "Switzerland",
-      "underdog": "Canada",
-      "rating_difference": 0.6,
-      "upset_probability": 48.7
-    },
-    {
-      "match_id": 52,
-      "group": "B",
-      "kickoff_utc": "2026-06-24T18:00:00Z",
-      "country": "USA",
-      "home_team": "Bosnia and Herzegovina",
-      "away_team": "Qatar",
-      "expected_home_goals": 1.59,
-      "expected_away_goals": 0.81,
-      "home_win_probability": 55.8,
-      "draw_probability": 25.1,
-      "away_win_probability": 19.1,
-      "most_likely_score": "1-0",
-      "favorite": "Bosnia and Herzegovina",
-      "underdog": "Qatar",
-      "rating_difference": 30.0,
-      "upset_probability": 19.1
-    },
-    {
       "match_id": 53,
       "group": "A",
       "kickoff_utc": "2026-06-25T00:00:00Z",
@@ -2484,30 +2412,12 @@
       "expected_away_goals": 1.47,
       "home_win_probability": 19.2,
       "draw_probability": 26.6,
-      "away_win_probability": 54.3,
+      "away_win_probability": 54.2,
       "most_likely_score": "0-1",
       "favorite": "Mexico",
       "underdog": "Czech Republic",
       "rating_difference": 39.6,
       "upset_probability": 19.2
-    },
-    {
-      "match_id": 54,
-      "group": "A",
-      "kickoff_utc": "2026-06-25T00:00:00Z",
-      "country": "Mexico",
-      "home_team": "South Africa",
-      "away_team": "South Korea",
-      "expected_home_goals": 0.78,
-      "expected_away_goals": 1.2,
-      "home_win_probability": 24.0,
-      "draw_probability": 30.1,
-      "away_win_probability": 45.9,
-      "most_likely_score": "0-1",
-      "favorite": "South Korea",
-      "underdog": "South Africa",
-      "rating_difference": 28.6,
-      "upset_probability": 24.0
     },
     {
       "match_id": 55,
@@ -2518,14 +2428,14 @@
       "away_team": "Ivory Coast",
       "expected_home_goals": 0.9,
       "expected_away_goals": 2.02,
-      "home_win_probability": 15.9,
+      "home_win_probability": 16.0,
       "draw_probability": 20.7,
-      "away_win_probability": 63.4,
+      "away_win_probability": 63.3,
       "most_likely_score": "0-2",
       "favorite": "Ivory Coast",
       "underdog": "Curaçao",
       "rating_difference": 36.2,
-      "upset_probability": 15.9
+      "upset_probability": 16.0
     },
     {
       "match_id": 56,
@@ -2552,16 +2462,16 @@
       "country": "USA",
       "home_team": "Japan",
       "away_team": "Sweden",
-      "expected_home_goals": 2.6,
+      "expected_home_goals": 2.59,
       "expected_away_goals": 0.98,
       "home_win_probability": 72.1,
-      "draw_probability": 15.9,
-      "away_win_probability": 11.9,
+      "draw_probability": 16.0,
+      "away_win_probability": 12.0,
       "most_likely_score": "2-0",
       "favorite": "Japan",
       "underdog": "Sweden",
       "rating_difference": 68.2,
-      "upset_probability": 11.9
+      "upset_probability": 12.0
     },
     {
       "match_id": 58,
@@ -2573,9 +2483,9 @@
       "expected_home_goals": 0.67,
       "expected_away_goals": 3.0,
       "home_win_probability": 5.4,
-      "draw_probability": 10.8,
-      "away_win_probability": 83.8,
-      "most_likely_score": "0-3",
+      "draw_probability": 10.9,
+      "away_win_probability": 83.7,
+      "most_likely_score": "0-2",
       "favorite": "Netherlands",
       "underdog": "Tunisia",
       "rating_difference": 76.0,
@@ -2591,7 +2501,7 @@
       "expected_home_goals": 1.62,
       "expected_away_goals": 1.54,
       "home_win_probability": 39.9,
-      "draw_probability": 23.5,
+      "draw_probability": 23.6,
       "away_win_probability": 36.5,
       "most_likely_score": "1-1",
       "favorite": "Turkey",
@@ -2628,12 +2538,12 @@
       "expected_away_goals": 1.69,
       "home_win_probability": 40.8,
       "draw_probability": 22.3,
-      "away_win_probability": 36.9,
+      "away_win_probability": 36.8,
       "most_likely_score": "1-1",
       "favorite": "Norway",
       "underdog": "France",
       "rating_difference": 12.6,
-      "upset_probability": 36.9
+      "upset_probability": 36.8
     },
     {
       "match_id": 62,
@@ -2663,7 +2573,7 @@
       "expected_home_goals": 1.0,
       "expected_away_goals": 1.03,
       "home_win_probability": 34.0,
-      "draw_probability": 30.5,
+      "draw_probability": 30.6,
       "away_win_probability": 35.5,
       "most_likely_score": "1-1",
       "favorite": "Egypt",
@@ -2679,15 +2589,15 @@
       "home_team": "New Zealand",
       "away_team": "Belgium",
       "expected_home_goals": 0.77,
-      "expected_away_goals": 2.54,
-      "home_win_probability": 9.1,
+      "expected_away_goals": 2.53,
+      "home_win_probability": 9.2,
       "draw_probability": 15.2,
-      "away_win_probability": 75.7,
+      "away_win_probability": 75.6,
       "most_likely_score": "0-2",
       "favorite": "Belgium",
       "underdog": "New Zealand",
       "rating_difference": 37.6,
-      "upset_probability": 9.1
+      "upset_probability": 9.2
     },
     {
       "match_id": 65,
@@ -2698,14 +2608,14 @@
       "away_team": "Saudi Arabia",
       "expected_home_goals": 1.41,
       "expected_away_goals": 0.78,
-      "home_win_probability": 51.9,
-      "draw_probability": 27.3,
+      "home_win_probability": 51.8,
+      "draw_probability": 27.4,
       "away_win_probability": 20.8,
       "most_likely_score": "1-0",
       "favorite": "Saudi Arabia",
       "underdog": "Cape Verde",
       "rating_difference": 4.7,
-      "upset_probability": 51.9
+      "upset_probability": 51.8
     },
     {
       "match_id": 66,
@@ -2717,8 +2627,8 @@
       "expected_home_goals": 0.6,
       "expected_away_goals": 1.83,
       "home_win_probability": 11.5,
-      "draw_probability": 21.4,
-      "away_win_probability": 67.1,
+      "draw_probability": 21.5,
+      "away_win_probability": 67.0,
       "most_likely_score": "0-1",
       "favorite": "Spain",
       "underdog": "Uruguay",
@@ -2734,14 +2644,14 @@
       "away_team": "England",
       "expected_home_goals": 0.74,
       "expected_away_goals": 1.83,
-      "home_win_probability": 14.5,
+      "home_win_probability": 14.6,
       "draw_probability": 22.1,
-      "away_win_probability": 63.4,
+      "away_win_probability": 63.3,
       "most_likely_score": "0-1",
       "favorite": "England",
       "underdog": "Panama",
       "rating_difference": 38.4,
-      "upset_probability": 14.5
+      "upset_probability": 14.6
     },
     {
       "match_id": 68,
@@ -2750,9 +2660,9 @@
       "country": "USA",
       "home_team": "Croatia",
       "away_team": "Ghana",
-      "expected_home_goals": 1.69,
+      "expected_home_goals": 1.68,
       "expected_away_goals": 0.76,
-      "home_win_probability": 59.5,
+      "home_win_probability": 59.4,
       "draw_probability": 23.9,
       "away_win_probability": 16.7,
       "most_likely_score": "1-0",
@@ -2771,7 +2681,7 @@
       "expected_home_goals": 1.2,
       "expected_away_goals": 1.3,
       "home_win_probability": 34.3,
-      "draw_probability": 26.9,
+      "draw_probability": 27.0,
       "away_win_probability": 38.8,
       "most_likely_score": "1-1",
       "favorite": "Algeria",
@@ -2787,15 +2697,15 @@
       "home_team": "Jordan",
       "away_team": "Argentina",
       "expected_home_goals": 0.52,
-      "expected_away_goals": 2.97,
-      "home_win_probability": 3.9,
-      "draw_probability": 9.9,
+      "expected_away_goals": 2.96,
+      "home_win_probability": 4.0,
+      "draw_probability": 10.0,
       "away_win_probability": 86.1,
       "most_likely_score": "0-2",
       "favorite": "Argentina",
       "underdog": "Jordan",
       "rating_difference": 83.7,
-      "upset_probability": 3.9
+      "upset_probability": 4.0
     },
     {
       "match_id": 71,
@@ -2808,7 +2718,7 @@
       "expected_away_goals": 1.62,
       "home_win_probability": 28.8,
       "draw_probability": 24.5,
-      "away_win_probability": 46.7,
+      "away_win_probability": 46.6,
       "most_likely_score": "1-1",
       "favorite": "Portugal",
       "underdog": "Colombia",
@@ -2824,14 +2734,14 @@
       "away_team": "Uzbekistan",
       "expected_home_goals": 1.2,
       "expected_away_goals": 0.77,
-      "home_win_probability": 46.1,
+      "home_win_probability": 46.0,
       "draw_probability": 30.2,
       "away_win_probability": 23.8,
       "most_likely_score": "1-0",
       "favorite": "Uzbekistan",
       "underdog": "DR Congo",
       "rating_difference": 6.9,
-      "upset_probability": 46.1
+      "upset_probability": 46.0
     }
   ],
   "upset_matches": [
@@ -2845,7 +2755,7 @@
       "expected_home_goals": 1.62,
       "expected_away_goals": 1.54,
       "home_win_probability": 39.9,
-      "draw_probability": 23.5,
+      "draw_probability": 23.6,
       "away_win_probability": 36.5,
       "most_likely_score": "1-1",
       "favorite": "Turkey",
@@ -2870,24 +2780,6 @@
       "underdog": "Paraguay",
       "rating_difference": 27.2,
       "upset_probability": 30.8
-    },
-    {
-      "match_id": 54,
-      "group": "A",
-      "kickoff_utc": "2026-06-25T00:00:00Z",
-      "country": "Mexico",
-      "home_team": "South Africa",
-      "away_team": "South Korea",
-      "expected_home_goals": 0.78,
-      "expected_away_goals": 1.2,
-      "home_win_probability": 24.0,
-      "draw_probability": 30.1,
-      "away_win_probability": 45.9,
-      "most_likely_score": "0-1",
-      "favorite": "South Korea",
-      "underdog": "South Africa",
-      "rating_difference": 28.6,
-      "upset_probability": 24.0
     },
     {
       "match_id": 56,
@@ -2936,30 +2828,12 @@
       "expected_away_goals": 1.47,
       "home_win_probability": 19.2,
       "draw_probability": 26.6,
-      "away_win_probability": 54.3,
+      "away_win_probability": 54.2,
       "most_likely_score": "0-1",
       "favorite": "Mexico",
       "underdog": "Czech Republic",
       "rating_difference": 39.6,
       "upset_probability": 19.2
-    },
-    {
-      "match_id": 52,
-      "group": "B",
-      "kickoff_utc": "2026-06-24T18:00:00Z",
-      "country": "USA",
-      "home_team": "Bosnia and Herzegovina",
-      "away_team": "Qatar",
-      "expected_home_goals": 1.59,
-      "expected_away_goals": 0.81,
-      "home_win_probability": 55.8,
-      "draw_probability": 25.1,
-      "away_win_probability": 19.1,
-      "most_likely_score": "1-0",
-      "favorite": "Bosnia and Herzegovina",
-      "underdog": "Qatar",
-      "rating_difference": 30.0,
-      "upset_probability": 19.1
     },
     {
       "match_id": 68,
@@ -2968,9 +2842,9 @@
       "country": "USA",
       "home_team": "Croatia",
       "away_team": "Ghana",
-      "expected_home_goals": 1.69,
+      "expected_home_goals": 1.68,
       "expected_away_goals": 0.76,
-      "home_win_probability": 59.5,
+      "home_win_probability": 59.4,
       "draw_probability": 23.9,
       "away_win_probability": 16.7,
       "most_likely_score": "1-0",
@@ -2988,14 +2862,14 @@
       "away_team": "Ivory Coast",
       "expected_home_goals": 0.9,
       "expected_away_goals": 2.02,
-      "home_win_probability": 15.9,
+      "home_win_probability": 16.0,
       "draw_probability": 20.7,
-      "away_win_probability": 63.4,
+      "away_win_probability": 63.3,
       "most_likely_score": "0-2",
       "favorite": "Ivory Coast",
       "underdog": "Curaçao",
       "rating_difference": 36.2,
-      "upset_probability": 15.9
+      "upset_probability": 16.0
     },
     {
       "match_id": 67,
@@ -3006,14 +2880,50 @@
       "away_team": "England",
       "expected_home_goals": 0.74,
       "expected_away_goals": 1.83,
-      "home_win_probability": 14.5,
+      "home_win_probability": 14.6,
       "draw_probability": 22.1,
-      "away_win_probability": 63.4,
+      "away_win_probability": 63.3,
       "most_likely_score": "0-1",
       "favorite": "England",
       "underdog": "Panama",
       "rating_difference": 38.4,
-      "upset_probability": 14.5
+      "upset_probability": 14.6
+    },
+    {
+      "match_id": 57,
+      "group": "F",
+      "kickoff_utc": "2026-06-25T22:00:00Z",
+      "country": "USA",
+      "home_team": "Japan",
+      "away_team": "Sweden",
+      "expected_home_goals": 2.59,
+      "expected_away_goals": 0.98,
+      "home_win_probability": 72.1,
+      "draw_probability": 16.0,
+      "away_win_probability": 12.0,
+      "most_likely_score": "2-0",
+      "favorite": "Japan",
+      "underdog": "Sweden",
+      "rating_difference": 68.2,
+      "upset_probability": 12.0
+    },
+    {
+      "match_id": 66,
+      "group": "H",
+      "kickoff_utc": "2026-06-26T23:00:00Z",
+      "country": "Mexico",
+      "home_team": "Uruguay",
+      "away_team": "Spain",
+      "expected_home_goals": 0.6,
+      "expected_away_goals": 1.83,
+      "home_win_probability": 11.5,
+      "draw_probability": 21.5,
+      "away_win_probability": 67.0,
+      "most_likely_score": "0-1",
+      "favorite": "Spain",
+      "underdog": "Uruguay",
+      "rating_difference": 87.2,
+      "upset_probability": 11.5
     }
   ],
   "third_place_allocation": "按官方32强候选小组槽位进行无重复可行匹配；多个合法方案时在蒙特卡洛中均匀抽取"

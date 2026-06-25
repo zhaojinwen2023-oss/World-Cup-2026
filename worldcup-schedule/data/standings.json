@@ -1,20 +1,20 @@
 {
-  "last_updated": "2026-06-25T04:22:11Z",
+  "last_updated": "2026-06-25T07:59:14Z",
   "standings": [
     {
       "group": "A",
       "team": "Mexico",
-      "played": 3,
-      "won": 3,
+      "played": 2,
+      "won": 2,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 6,
+      "goals_for": 3,
       "goals_against": 0,
-      "goal_difference": 6,
-      "points": 9,
+      "goal_difference": 3,
+      "points": 6,
       "fair_play_points": 0,
       "rank": 1,
-      "qualified_status": "qualified"
+      "qualified_status": "possible"
     },
     {
       "group": "A",
@@ -29,7 +29,7 @@
       "points": 4,
       "fair_play_points": 0,
       "rank": 2,
-      "qualified_status": "qualified"
+      "qualified_status": "possible"
     },
     {
       "group": "A",
@@ -50,17 +50,17 @@
     {
       "group": "A",
       "team": "Czech Republic",
-      "played": 3,
+      "played": 2,
       "won": 0,
       "drawn": 1,
-      "lost": 2,
+      "lost": 1,
       "goals_for": 2,
-      "goals_against": 6,
-      "goal_difference": -4,
+      "goals_against": 3,
+      "goal_difference": -1,
       "points": 1,
       "fair_play_points": 0,
       "rank": 4,
-      "qualified_status": "eliminated"
+      "qualified_status": "possible"
     },
     {
       "group": "B",

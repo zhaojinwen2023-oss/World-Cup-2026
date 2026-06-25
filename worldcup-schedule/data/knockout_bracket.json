@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T04:22:11Z",
+  "last_updated": "2026-06-25T07:59:14Z",
   "knockout": [
     {
       "match_id": 73,
@@ -20,7 +20,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-06-25T07:59:14Z"
     },
     {
       "match_id": 74,
@@ -133,9 +133,9 @@
       "stage": "Round of 32",
       "home_source": "Winner Group A",
       "away_source": "3rd Group C/E/F/H/I",
-      "home_team": "Mexico",
+      "home_team": "待定：A组第一",
       "away_team": "Scotland",
-      "home_resolved": true,
+      "home_resolved": false,
       "away_resolved": true,
       "home_score": "",
       "away_score": "",
