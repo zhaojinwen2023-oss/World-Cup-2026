@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T21:13:02Z",
+  "last_updated": "2026-06-25T22:45:49Z",
   "knockout": [
     {
       "match_id": 73,
@@ -20,7 +20,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-25T21:13:02Z"
+      "last_updated": "2026-06-25T22:45:49Z"
     },
     {
       "match_id": 74,
@@ -28,9 +28,9 @@
       "stage": "Round of 32",
       "home_source": "Winner Group E",
       "away_source": "3rd Group A/B/C/D/F",
-      "home_team": "待定：E组第一",
+      "home_team": "Germany",
       "away_team": "Bosnia and Herzegovina",
-      "home_resolved": false,
+      "home_resolved": true,
       "away_resolved": true,
       "home_score": "",
       "away_score": "",
@@ -112,9 +112,9 @@
       "stage": "Round of 32",
       "home_source": "Runner-up Group E",
       "away_source": "Runner-up Group I",
-      "home_team": "待定：E组第二",
+      "home_team": "Ivory Coast",
       "away_team": "待定：I组第二",
-      "home_resolved": false,
+      "home_resolved": true,
       "away_resolved": false,
       "home_score": "",
       "away_score": "",
@@ -134,7 +134,7 @@
       "home_source": "Winner Group A",
       "away_source": "3rd Group C/E/F/H/I",
       "home_team": "待定：A组第一",
-      "away_team": "Scotland",
+      "away_team": "Ecuador",
       "home_resolved": false,
       "away_resolved": true,
       "home_score": "",
@@ -155,9 +155,9 @@
       "home_source": "Winner Group L",
       "away_source": "3rd Group E/H/I/J/K",
       "home_team": "待定：L组第一",
-      "away_team": "待定：E/H/I/J/K组第三之一",
+      "away_team": "Ecuador",
       "home_resolved": false,
-      "away_resolved": false,
+      "away_resolved": true,
       "home_score": "",
       "away_score": "",
       "home_penalty_score": "",
@@ -176,7 +176,7 @@
       "home_source": "Winner Group D",
       "away_source": "3rd Group B/E/F/I/J",
       "home_team": "待定：D组第一",
-      "away_team": "Bosnia and Herzegovina",
+      "away_team": "Ecuador",
       "home_resolved": false,
       "away_resolved": true,
       "home_score": "",
@@ -197,7 +197,7 @@
       "home_source": "Winner Group G",
       "away_source": "3rd Group A/E/H/I/J",
       "home_team": "待定：G组第一",
-      "away_team": "South Korea",
+      "away_team": "Ecuador",
       "home_resolved": false,
       "away_resolved": true,
       "home_score": "",
@@ -260,9 +260,9 @@
       "home_source": "Winner Group B",
       "away_source": "3rd Group E/F/G/I/J",
       "home_team": "Switzerland",
-      "away_team": "待定：E/F/G/I/J组第三之一",
+      "away_team": "Ecuador",
       "home_resolved": true,
-      "away_resolved": false,
+      "away_resolved": true,
       "home_score": "",
       "away_score": "",
       "home_penalty_score": "",
@@ -302,9 +302,9 @@
       "home_source": "Winner Group K",
       "away_source": "3rd Group D/E/I/J/L",
       "home_team": "待定：K组第一",
-      "away_team": "待定：D/E/I/J/L组第三之一",
+      "away_team": "Ecuador",
       "home_resolved": false,
-      "away_resolved": false,
+      "away_resolved": true,
       "home_score": "",
       "away_score": "",
       "home_penalty_score": "",
@@ -676,6 +676,23 @@
   ],
   "best_thirds": [
     {
+      "group": "E",
+      "team": "Ecuador",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 2,
+      "goals_against": 2,
+      "goal_difference": 0,
+      "points": 4,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 1,
+      "best_third_qualified": true
+    },
+    {
       "group": "B",
       "team": "Bosnia and Herzegovina",
       "played": 3,
@@ -689,7 +706,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 1,
+      "best_third_rank": 2,
       "best_third_qualified": true
     },
     {
@@ -706,7 +723,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 2,
+      "best_third_rank": 3,
       "best_third_qualified": true
     },
     {
@@ -723,7 +740,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3,
+      "best_third_rank": 4,
       "best_third_qualified": true
     },
     {
@@ -740,7 +757,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4,
+      "best_third_rank": 5,
       "best_third_qualified": true
     },
     {
@@ -757,7 +774,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5,
+      "best_third_rank": 6,
       "best_third_qualified": true
     },
     {
@@ -774,7 +791,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6,
+      "best_third_rank": 7,
       "best_third_qualified": true
     },
     {
@@ -791,7 +808,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7,
+      "best_third_rank": 8,
       "best_third_qualified": true
     },
     {
@@ -808,8 +825,8 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8,
-      "best_third_qualified": true
+      "best_third_rank": 9,
+      "best_third_qualified": false
     },
     {
       "group": "G",
@@ -825,7 +842,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9,
+      "best_third_rank": 10,
       "best_third_qualified": false
     },
     {
@@ -837,23 +854,6 @@
       "lost": 1,
       "goals_for": 1,
       "goals_against": 2,
-      "goal_difference": -1,
-      "points": 1,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 10,
-      "best_third_qualified": false
-    },
-    {
-      "group": "E",
-      "team": "Ecuador",
-      "played": 2,
-      "won": 0,
-      "drawn": 1,
-      "lost": 1,
-      "goals_for": 0,
-      "goals_against": 1,
       "goal_difference": -1,
       "points": 1,
       "fair_play_points": 0,

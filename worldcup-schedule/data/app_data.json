@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-25T21:13:03Z",
-  "live_last_updated": "2026-06-25T21:13:02Z",
-  "standings_last_updated": "2026-06-25T21:13:02Z",
-  "top_scorers_last_updated": "2026-06-25T21:13:02Z",
-  "knockout_last_updated": "2026-06-25T21:13:02Z",
+  "generated_at": "2026-06-25T22:45:50Z",
+  "live_last_updated": "2026-06-25T22:45:49Z",
+  "standings_last_updated": "2026-06-25T22:45:49Z",
+  "top_scorers_last_updated": "2026-06-25T22:45:49Z",
+  "knockout_last_updated": "2026-06-25T22:45:49Z",
   "matches": [
     {
       "match_id": 1,
@@ -45,7 +45,7 @@
       "loser": "South Africa",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -90,7 +90,7 @@
       "loser": "Czechia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -135,7 +135,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -180,7 +180,7 @@
       "loser": "Paraguay",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -225,7 +225,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -270,7 +270,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -315,7 +315,7 @@
       "loser": "Haiti",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -360,7 +360,7 @@
       "loser": "Türkiye",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -405,7 +405,7 @@
       "loser": "Curaçao",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -450,7 +450,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -495,7 +495,7 @@
       "loser": "Ecuador",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -540,7 +540,7 @@
       "loser": "Tunisia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -585,7 +585,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -630,7 +630,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -675,7 +675,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -720,7 +720,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -765,7 +765,7 @@
       "loser": "Senegal",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -810,7 +810,7 @@
       "loser": "Iraq",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -855,7 +855,7 @@
       "loser": "Algeria",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -900,7 +900,7 @@
       "loser": "Jordan",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -945,7 +945,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -990,7 +990,7 @@
       "loser": "Croatia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -1035,7 +1035,7 @@
       "loser": "Panama",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -1080,7 +1080,7 @@
       "loser": "Uzbekistan",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -1125,7 +1125,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -1170,7 +1170,7 @@
       "loser": "Bosnia & Herzegovina",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -1215,7 +1215,7 @@
       "loser": "Qatar",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -1260,7 +1260,7 @@
       "loser": "South Korea",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -1305,7 +1305,7 @@
       "loser": "Australia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -1350,7 +1350,7 @@
       "loser": "Scotland",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -1395,7 +1395,7 @@
       "loser": "Haiti",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -1440,7 +1440,7 @@
       "loser": "Türkiye",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -1485,7 +1485,7 @@
       "loser": "Sweden",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -1530,7 +1530,7 @@
       "loser": "Ivory Coast",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -1575,7 +1575,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -1620,7 +1620,7 @@
       "loser": "Tunisia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -1665,7 +1665,7 @@
       "loser": "Saudi Arabia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -1710,7 +1710,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -1755,7 +1755,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -1800,7 +1800,7 @@
       "loser": "New Zealand",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -1845,7 +1845,7 @@
       "loser": "Austria",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -1890,7 +1890,7 @@
       "loser": "Iraq",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -1935,7 +1935,7 @@
       "loser": "Senegal",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -1980,7 +1980,7 @@
       "loser": "Jordan",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -2025,7 +2025,7 @@
       "loser": "Uzbekistan",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -2070,7 +2070,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -2115,7 +2115,7 @@
       "loser": "Panama",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -2160,7 +2160,7 @@
       "loser": "Congo DR",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -2205,7 +2205,7 @@
       "loser": "Canada",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -2250,7 +2250,7 @@
       "loser": "Qatar",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -2295,7 +2295,7 @@
       "loser": "Scotland",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -2340,7 +2340,7 @@
       "loser": "Haiti",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -2430,7 +2430,7 @@
       "loser": "South Korea",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -2461,21 +2461,21 @@
       "western_display": "2026-06-25 周四 12:00 (America/Los_Angeles)",
       "beijing_date": "2026-06-26",
       "beijing_is_early_morning": true,
-      "status": "live",
-      "status_label": "进行中",
-      "match_status": "进行中",
-      "minute": 52,
-      "score": "0-1",
+      "status": "finished",
+      "status_label": "已结束",
+      "match_status": "已结束",
+      "minute": 90,
+      "score": "0-2",
       "home_score": 0,
-      "away_score": 1,
+      "away_score": 2,
       "home_penalty_score": "",
       "away_penalty_score": "",
       "penalty_score": "",
       "winner": "Ivory Coast",
       "loser": "Curaçao",
-      "is_finished": false,
-      "is_live": true,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "is_finished": true,
+      "is_live": false,
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -2506,21 +2506,21 @@
       "western_display": "2026-06-25 周四 12:00 (America/Los_Angeles)",
       "beijing_date": "2026-06-26",
       "beijing_is_early_morning": true,
-      "status": "live",
-      "status_label": "进行中",
-      "match_status": "进行中",
-      "minute": 52,
-      "score": "1-1",
-      "home_score": 1,
+      "status": "finished",
+      "status_label": "已结束",
+      "match_status": "已结束",
+      "minute": 90,
+      "score": "2-1",
+      "home_score": 2,
       "away_score": 1,
       "home_penalty_score": "",
       "away_penalty_score": "",
       "penalty_score": "",
-      "winner": "",
-      "loser": "",
-      "is_finished": false,
-      "is_live": true,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "winner": "Ecuador",
+      "loser": "Germany",
+      "is_finished": true,
+      "is_live": false,
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -2565,7 +2565,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -2610,7 +2610,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -2655,7 +2655,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -2700,7 +2700,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -2745,7 +2745,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -2790,7 +2790,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -2835,7 +2835,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -2880,7 +2880,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -2925,7 +2925,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -2970,7 +2970,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -3015,7 +3015,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -3060,7 +3060,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -3105,7 +3105,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -3150,7 +3150,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -3195,7 +3195,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -3240,7 +3240,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -3285,7 +3285,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-06-25T21:13:02Z",
+      "last_updated": "2026-06-25T22:45:49Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3343,13 +3343,13 @@
       "group": "",
       "home_placeholder": "Winner Group E",
       "away_placeholder": "3rd Group A/B/C/D/F",
-      "home_team": "待定：E组第一",
+      "home_team": "Germany",
       "away_team": "Bosnia and Herzegovina",
-      "home_slot_resolved": false,
+      "home_slot_resolved": true,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Winner Group E",
       "away_slot_label": "待定：3rd Group A/B/C/D/F",
-      "matchup": "待定：E组第一 vs Bosnia and Herzegovina",
+      "matchup": "Germany vs Bosnia and Herzegovina",
       "stadium": "Gillette Stadium",
       "city": "Foxborough",
       "country": "USA",
@@ -3433,13 +3433,13 @@
       "group": "",
       "home_placeholder": "Runner-up Group E",
       "away_placeholder": "Runner-up Group I",
-      "home_team": "待定：E组第二",
+      "home_team": "Ivory Coast",
       "away_team": "待定：I组第二",
-      "home_slot_resolved": false,
+      "home_slot_resolved": true,
       "away_slot_resolved": false,
       "home_slot_label": "待定：Runner-up Group E",
       "away_slot_label": "待定：Runner-up Group I",
-      "matchup": "待定：E组第二 vs 待定：I组第二",
+      "matchup": "Ivory Coast vs 待定：I组第二",
       "stadium": "AT&T Stadium",
       "city": "Arlington",
       "country": "USA",
@@ -3524,12 +3524,12 @@
       "home_placeholder": "Winner Group A",
       "away_placeholder": "3rd Group C/E/F/H/I",
       "home_team": "待定：A组第一",
-      "away_team": "Scotland",
+      "away_team": "Ecuador",
       "home_slot_resolved": false,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Winner Group A",
       "away_slot_label": "待定：3rd Group C/E/F/H/I",
-      "matchup": "待定：A组第一 vs Scotland",
+      "matchup": "待定：A组第一 vs Ecuador",
       "stadium": "Estadio Azteca",
       "city": "Mexico City",
       "country": "Mexico",
@@ -3569,12 +3569,12 @@
       "home_placeholder": "Winner Group L",
       "away_placeholder": "3rd Group E/H/I/J/K",
       "home_team": "待定：L组第一",
-      "away_team": "待定：E/H/I/J/K组第三之一",
+      "away_team": "Ecuador",
       "home_slot_resolved": false,
-      "away_slot_resolved": false,
+      "away_slot_resolved": true,
       "home_slot_label": "待定：Winner Group L",
       "away_slot_label": "待定：3rd Group E/H/I/J/K",
-      "matchup": "待定：L组第一 vs 待定：E/H/I/J/K组第三之一",
+      "matchup": "待定：L组第一 vs Ecuador",
       "stadium": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
@@ -3614,12 +3614,12 @@
       "home_placeholder": "Winner Group G",
       "away_placeholder": "3rd Group A/E/H/I/J",
       "home_team": "待定：G组第一",
-      "away_team": "South Korea",
+      "away_team": "Ecuador",
       "home_slot_resolved": false,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Winner Group G",
       "away_slot_label": "待定：3rd Group A/E/H/I/J",
-      "matchup": "待定：G组第一 vs South Korea",
+      "matchup": "待定：G组第一 vs Ecuador",
       "stadium": "Lumen Field",
       "city": "Seattle",
       "country": "USA",
@@ -3659,12 +3659,12 @@
       "home_placeholder": "Winner Group D",
       "away_placeholder": "3rd Group B/E/F/I/J",
       "home_team": "待定：D组第一",
-      "away_team": "Bosnia and Herzegovina",
+      "away_team": "Ecuador",
       "home_slot_resolved": false,
       "away_slot_resolved": true,
       "home_slot_label": "待定：Winner Group D",
       "away_slot_label": "待定：3rd Group B/E/F/I/J",
-      "matchup": "待定：D组第一 vs Bosnia and Herzegovina",
+      "matchup": "待定：D组第一 vs Ecuador",
       "stadium": "Levi's Stadium",
       "city": "Santa Clara",
       "country": "USA",
@@ -3794,12 +3794,12 @@
       "home_placeholder": "Winner Group B",
       "away_placeholder": "3rd Group E/F/G/I/J",
       "home_team": "Switzerland",
-      "away_team": "待定：E/F/G/I/J组第三之一",
+      "away_team": "Ecuador",
       "home_slot_resolved": true,
-      "away_slot_resolved": false,
+      "away_slot_resolved": true,
       "home_slot_label": "待定：Winner Group B",
       "away_slot_label": "待定：3rd Group E/F/G/I/J",
-      "matchup": "Switzerland vs 待定：E/F/G/I/J组第三之一",
+      "matchup": "Switzerland vs Ecuador",
       "stadium": "BC Place",
       "city": "Vancouver",
       "country": "Canada",
@@ -3929,12 +3929,12 @@
       "home_placeholder": "Winner Group K",
       "away_placeholder": "3rd Group D/E/I/J/L",
       "home_team": "待定：K组第一",
-      "away_team": "待定：D/E/I/J/L组第三之一",
+      "away_team": "Ecuador",
       "home_slot_resolved": false,
-      "away_slot_resolved": false,
+      "away_slot_resolved": true,
       "home_slot_label": "待定：Winner Group K",
       "away_slot_label": "待定：3rd Group D/E/I/J/L",
-      "matchup": "待定：K组第一 vs 待定：D/E/I/J/L组第三之一",
+      "matchup": "待定：K组第一 vs Ecuador",
       "stadium": "Arrowhead Stadium",
       "city": "Kansas City",
       "country": "USA",
@@ -4731,7 +4731,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4
+      "best_third_rank": 5
     },
     {
       "group": "A",
@@ -4792,7 +4792,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 1
+      "best_third_rank": 2
     },
     {
       "group": "B",
@@ -4853,7 +4853,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7
+      "best_third_rank": 8
     },
     {
       "group": "C",
@@ -4914,7 +4914,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 7
     },
     {
       "group": "D",
@@ -4934,63 +4934,63 @@
     {
       "group": "E",
       "team": "Germany",
-      "played": 2,
+      "played": 3,
       "won": 2,
       "drawn": 0,
-      "lost": 0,
-      "goals_for": 9,
-      "goals_against": 2,
-      "goal_difference": 7,
+      "lost": 1,
+      "goals_for": 10,
+      "goals_against": 4,
+      "goal_difference": 6,
       "points": 6,
       "fair_play_points": 0,
       "rank": 1,
-      "qualified_status": "possible"
+      "qualified_status": "qualified"
     },
     {
       "group": "E",
       "team": "Ivory Coast",
-      "played": 2,
-      "won": 1,
+      "played": 3,
+      "won": 2,
       "drawn": 0,
       "lost": 1,
-      "goals_for": 2,
+      "goals_for": 4,
       "goals_against": 2,
-      "goal_difference": 0,
-      "points": 3,
+      "goal_difference": 2,
+      "points": 6,
       "fair_play_points": 0,
       "rank": 2,
-      "qualified_status": "possible"
+      "qualified_status": "qualified"
     },
     {
       "group": "E",
       "team": "Ecuador",
-      "played": 2,
-      "won": 0,
+      "played": 3,
+      "won": 1,
       "drawn": 1,
       "lost": 1,
-      "goals_for": 0,
-      "goals_against": 1,
-      "goal_difference": -1,
-      "points": 1,
+      "goals_for": 2,
+      "goals_against": 2,
+      "goal_difference": 0,
+      "points": 4,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 11
+      "best_third_rank": 1
     },
     {
       "group": "E",
       "team": "Curaçao",
-      "played": 2,
+      "played": 3,
       "won": 0,
       "drawn": 1,
-      "lost": 1,
+      "lost": 2,
       "goals_for": 1,
-      "goals_against": 7,
-      "goal_difference": -6,
+      "goals_against": 9,
+      "goal_difference": -8,
       "points": 1,
       "fair_play_points": 0,
       "rank": 4,
-      "qualified_status": "possible"
+      "qualified_status": "eliminated"
     },
     {
       "group": "F",
@@ -5036,7 +5036,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 2
+      "best_third_rank": 3
     },
     {
       "group": "F",
@@ -5097,7 +5097,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9
+      "best_third_rank": 10
     },
     {
       "group": "G",
@@ -5158,7 +5158,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8
+      "best_third_rank": 9
     },
     {
       "group": "H",
@@ -5280,7 +5280,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5
+      "best_third_rank": 6
     },
     {
       "group": "J",
@@ -5341,7 +5341,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10
+      "best_third_rank": 11
     },
     {
       "group": "K",
@@ -5402,7 +5402,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3
+      "best_third_rank": 4
     },
     {
       "group": "L",
@@ -5442,7 +5442,7 @@
       "assists": 1,
       "penalties": 0,
       "appearances": 3,
-      "minutes": 264,
+      "minutes": 261,
       "photo": "https://media.api-sports.io/football/players/762.png"
     },
     {
@@ -5477,8 +5477,8 @@
       "goals": 3,
       "assists": 2,
       "penalties": 0,
-      "appearances": 2,
-      "minutes": 56,
+      "appearances": 3,
+      "minutes": 86,
       "photo": "https://media.api-sports.io/football/players/26475.png"
     },
     {
@@ -5531,6 +5531,30 @@
     },
     {
       "rank": 10,
+      "player_id": "72155",
+      "player": "A. Ueda",
+      "team": "Japan",
+      "goals": 2,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 3,
+      "minutes": 168,
+      "photo": "https://media.api-sports.io/football/players/72155.png"
+    },
+    {
+      "rank": 11,
+      "player_id": "247",
+      "player": "C. Gakpo",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 3,
+      "minutes": 174,
+      "photo": "https://media.api-sports.io/football/players/247.png"
+    },
+    {
+      "rank": 12,
       "player_id": "48471",
       "player": "R. Vargas",
       "team": "Switzerland",
@@ -5542,7 +5566,7 @@
       "photo": "https://media.api-sports.io/football/players/48471.png"
     },
     {
-      "rank": 11,
+      "rank": 13,
       "player_id": "37724",
       "player": "C. Summerville",
       "team": "Netherlands",
@@ -5554,7 +5578,7 @@
       "photo": "https://media.api-sports.io/football/players/37724.png"
     },
     {
-      "rank": 12,
+      "rank": 14,
       "player_id": "47323",
       "player": "Mikel Oyarzabal",
       "team": "Spain",
@@ -5566,7 +5590,7 @@
       "photo": "https://media.api-sports.io/football/players/47323.png"
     },
     {
-      "rank": 13,
+      "rank": 15,
       "player_id": "51776",
       "player": "M. Araújo",
       "team": "Uruguay",
@@ -5578,31 +5602,31 @@
       "photo": "https://media.api-sports.io/football/players/51776.png"
     },
     {
-      "rank": 14,
-      "player_id": "72155",
-      "player": "A. Ueda",
-      "team": "Japan",
-      "goals": 2,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 2,
-      "minutes": 168,
-      "photo": "https://media.api-sports.io/football/players/72155.png"
-    },
-    {
-      "rank": 15,
-      "player_id": "247",
-      "player": "C. Gakpo",
+      "rank": 16,
+      "player_id": "38750",
+      "player": "B. Brobbey",
       "team": "Netherlands",
       "goals": 2,
-      "assists": 1,
+      "assists": 0,
       "penalties": 0,
-      "appearances": 2,
-      "minutes": 174,
-      "photo": "https://media.api-sports.io/football/players/247.png"
+      "appearances": 3,
+      "minutes": 84,
+      "photo": "https://media.api-sports.io/football/players/38750.png"
     },
     {
-      "rank": 16,
+      "rank": 17,
+      "player_id": "3246",
+      "player": "N. Pépé",
+      "team": "Ivory Coast",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3,
+      "minutes": 157,
+      "photo": "https://media.api-sports.io/football/players/3246.png"
+    },
+    {
+      "rank": 18,
       "player_id": "2001",
       "player": "C. Larin",
       "team": "Canada",
@@ -5614,55 +5638,48 @@
       "photo": "https://media.api-sports.io/football/players/2001.png"
     },
     {
-      "rank": 17,
-      "player_id": "35532",
-      "player": "J. Quiñones",
-      "team": "Mexico",
+      "rank": 19,
+      "player_id": "2601",
+      "player": "D. Kamada",
+      "team": "Japan",
       "goals": 2,
       "assists": 0,
       "penalties": 0,
       "appearances": 3,
-      "minutes": 253,
-      "photo": "https://media.api-sports.io/football/players/35532.png"
-    },
-    {
-      "rank": 18,
-      "player_id": "340173",
-      "player": "Ermin Mahmić",
-      "team": "Bosnia & Herzegovina",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2,
-      "minutes": 33,
-      "photo": "https://media.api-sports.io/football/players/340173.png"
-    },
-    {
-      "rank": 19,
-      "player_id": "38750",
-      "player": "B. Brobbey",
-      "team": "Netherlands",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2,
-      "minutes": 84,
-      "photo": "https://media.api-sports.io/football/players/38750.png"
+      "minutes": 163,
+      "photo": "https://media.api-sports.io/football/players/2601.png"
     },
     {
       "rank": 20,
-      "player_id": "138835",
-      "player": "F. Balogun",
-      "team": "USA",
+      "player_id": "265820",
+      "player": "Y. Ayari",
+      "team": "Sweden",
       "goals": 2,
       "assists": 0,
       "penalties": 0,
-      "appearances": 2,
-      "minutes": 161,
-      "photo": "https://media.api-sports.io/football/players/138835.png"
+      "appearances": 3,
+      "minutes": 169,
+      "photo": "https://media.api-sports.io/football/players/265820.png"
     }
   ],
   "best_thirds": [
+    {
+      "group": "E",
+      "team": "Ecuador",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 2,
+      "goals_against": 2,
+      "goal_difference": 0,
+      "points": 4,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 1,
+      "best_third_qualified": false
+    },
     {
       "group": "B",
       "team": "Bosnia and Herzegovina",
@@ -5677,7 +5694,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 1,
+      "best_third_rank": 2,
       "best_third_qualified": false
     },
     {
@@ -5694,7 +5711,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 2,
+      "best_third_rank": 3,
       "best_third_qualified": false
     },
     {
@@ -5711,7 +5728,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3,
+      "best_third_rank": 4,
       "best_third_qualified": false
     },
     {
@@ -5728,7 +5745,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4,
+      "best_third_rank": 5,
       "best_third_qualified": false
     },
     {
@@ -5745,7 +5762,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5,
+      "best_third_rank": 6,
       "best_third_qualified": false
     },
     {
@@ -5762,7 +5779,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6,
+      "best_third_rank": 7,
       "best_third_qualified": false
     },
     {
@@ -5779,7 +5796,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7,
+      "best_third_rank": 8,
       "best_third_qualified": false
     },
     {
@@ -5796,7 +5813,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8,
+      "best_third_rank": 9,
       "best_third_qualified": false
     },
     {
@@ -5813,7 +5830,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9,
+      "best_third_rank": 10,
       "best_third_qualified": false
     },
     {
@@ -5825,23 +5842,6 @@
       "lost": 1,
       "goals_for": 1,
       "goals_against": 2,
-      "goal_difference": -1,
-      "points": 1,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 10,
-      "best_third_qualified": false
-    },
-    {
-      "group": "E",
-      "team": "Ecuador",
-      "played": 2,
-      "won": 0,
-      "drawn": 1,
-      "lost": 1,
-      "goals_for": 0,
-      "goals_against": 1,
       "goal_difference": -1,
       "points": 1,
       "fair_play_points": 0,
@@ -5888,7 +5888,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-25T21:13:02Z"
+      "last_updated": "2026-06-25T22:45:49Z"
     },
     {
       "match_id": 74,
@@ -5896,9 +5896,9 @@
       "stage": "Round of 32",
       "home_source": "Winner Group E",
       "away_source": "3rd Group A/B/C/D/F",
-      "home_team": "待定：E组第一",
+      "home_team": "Germany",
       "away_team": "Bosnia and Herzegovina",
-      "home_resolved": false,
+      "home_resolved": true,
       "away_resolved": true,
       "home_score": "",
       "away_score": "",
@@ -5980,9 +5980,9 @@
       "stage": "Round of 32",
       "home_source": "Runner-up Group E",
       "away_source": "Runner-up Group I",
-      "home_team": "待定：E组第二",
+      "home_team": "Ivory Coast",
       "away_team": "待定：I组第二",
-      "home_resolved": false,
+      "home_resolved": true,
       "away_resolved": false,
       "home_score": "",
       "away_score": "",
@@ -6002,7 +6002,7 @@
       "home_source": "Winner Group A",
       "away_source": "3rd Group C/E/F/H/I",
       "home_team": "待定：A组第一",
-      "away_team": "Scotland",
+      "away_team": "Ecuador",
       "home_resolved": false,
       "away_resolved": true,
       "home_score": "",
@@ -6023,9 +6023,9 @@
       "home_source": "Winner Group L",
       "away_source": "3rd Group E/H/I/J/K",
       "home_team": "待定：L组第一",
-      "away_team": "待定：E/H/I/J/K组第三之一",
+      "away_team": "Ecuador",
       "home_resolved": false,
-      "away_resolved": false,
+      "away_resolved": true,
       "home_score": "",
       "away_score": "",
       "home_penalty_score": "",
@@ -6044,7 +6044,7 @@
       "home_source": "Winner Group D",
       "away_source": "3rd Group B/E/F/I/J",
       "home_team": "待定：D组第一",
-      "away_team": "Bosnia and Herzegovina",
+      "away_team": "Ecuador",
       "home_resolved": false,
       "away_resolved": true,
       "home_score": "",
@@ -6065,7 +6065,7 @@
       "home_source": "Winner Group G",
       "away_source": "3rd Group A/E/H/I/J",
       "home_team": "待定：G组第一",
-      "away_team": "South Korea",
+      "away_team": "Ecuador",
       "home_resolved": false,
       "away_resolved": true,
       "home_score": "",
@@ -6128,9 +6128,9 @@
       "home_source": "Winner Group B",
       "away_source": "3rd Group E/F/G/I/J",
       "home_team": "Switzerland",
-      "away_team": "待定：E/F/G/I/J组第三之一",
+      "away_team": "Ecuador",
       "home_resolved": true,
-      "away_resolved": false,
+      "away_resolved": true,
       "home_score": "",
       "away_score": "",
       "home_penalty_score": "",
@@ -6170,9 +6170,9 @@
       "home_source": "Winner Group K",
       "away_source": "3rd Group D/E/I/J/L",
       "home_team": "待定：K组第一",
-      "away_team": "待定：D/E/I/J/L组第三之一",
+      "away_team": "Ecuador",
       "home_resolved": false,
-      "away_resolved": false,
+      "away_resolved": true,
       "home_score": "",
       "away_score": "",
       "home_penalty_score": "",

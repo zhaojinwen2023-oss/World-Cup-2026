@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T21:13:02Z",
+  "last_updated": "2026-06-25T22:45:49Z",
   "scorers": [
     {
       "rank": 1,
@@ -22,7 +22,7 @@
       "assists": 1,
       "penalties": 0,
       "appearances": 3,
-      "minutes": 264,
+      "minutes": 261,
       "photo": "https://media.api-sports.io/football/players/762.png"
     },
     {
@@ -57,8 +57,8 @@
       "goals": 3,
       "assists": 2,
       "penalties": 0,
-      "appearances": 2,
-      "minutes": 56,
+      "appearances": 3,
+      "minutes": 86,
       "photo": "https://media.api-sports.io/football/players/26475.png"
     },
     {
@@ -111,6 +111,30 @@
     },
     {
       "rank": 10,
+      "player_id": "72155",
+      "player": "A. Ueda",
+      "team": "Japan",
+      "goals": 2,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 3,
+      "minutes": 168,
+      "photo": "https://media.api-sports.io/football/players/72155.png"
+    },
+    {
+      "rank": 11,
+      "player_id": "247",
+      "player": "C. Gakpo",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 3,
+      "minutes": 174,
+      "photo": "https://media.api-sports.io/football/players/247.png"
+    },
+    {
+      "rank": 12,
       "player_id": "48471",
       "player": "R. Vargas",
       "team": "Switzerland",
@@ -122,7 +146,7 @@
       "photo": "https://media.api-sports.io/football/players/48471.png"
     },
     {
-      "rank": 11,
+      "rank": 13,
       "player_id": "37724",
       "player": "C. Summerville",
       "team": "Netherlands",
@@ -134,7 +158,7 @@
       "photo": "https://media.api-sports.io/football/players/37724.png"
     },
     {
-      "rank": 12,
+      "rank": 14,
       "player_id": "47323",
       "player": "Mikel Oyarzabal",
       "team": "Spain",
@@ -146,7 +170,7 @@
       "photo": "https://media.api-sports.io/football/players/47323.png"
     },
     {
-      "rank": 13,
+      "rank": 15,
       "player_id": "51776",
       "player": "M. Araújo",
       "team": "Uruguay",
@@ -158,31 +182,31 @@
       "photo": "https://media.api-sports.io/football/players/51776.png"
     },
     {
-      "rank": 14,
-      "player_id": "72155",
-      "player": "A. Ueda",
-      "team": "Japan",
-      "goals": 2,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 2,
-      "minutes": 168,
-      "photo": "https://media.api-sports.io/football/players/72155.png"
-    },
-    {
-      "rank": 15,
-      "player_id": "247",
-      "player": "C. Gakpo",
+      "rank": 16,
+      "player_id": "38750",
+      "player": "B. Brobbey",
       "team": "Netherlands",
       "goals": 2,
-      "assists": 1,
+      "assists": 0,
       "penalties": 0,
-      "appearances": 2,
-      "minutes": 174,
-      "photo": "https://media.api-sports.io/football/players/247.png"
+      "appearances": 3,
+      "minutes": 84,
+      "photo": "https://media.api-sports.io/football/players/38750.png"
     },
     {
-      "rank": 16,
+      "rank": 17,
+      "player_id": "3246",
+      "player": "N. Pépé",
+      "team": "Ivory Coast",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3,
+      "minutes": 157,
+      "photo": "https://media.api-sports.io/football/players/3246.png"
+    },
+    {
+      "rank": 18,
       "player_id": "2001",
       "player": "C. Larin",
       "team": "Canada",
@@ -194,52 +218,28 @@
       "photo": "https://media.api-sports.io/football/players/2001.png"
     },
     {
-      "rank": 17,
-      "player_id": "35532",
-      "player": "J. Quiñones",
-      "team": "Mexico",
+      "rank": 19,
+      "player_id": "2601",
+      "player": "D. Kamada",
+      "team": "Japan",
       "goals": 2,
       "assists": 0,
       "penalties": 0,
       "appearances": 3,
-      "minutes": 253,
-      "photo": "https://media.api-sports.io/football/players/35532.png"
-    },
-    {
-      "rank": 18,
-      "player_id": "340173",
-      "player": "Ermin Mahmić",
-      "team": "Bosnia & Herzegovina",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2,
-      "minutes": 33,
-      "photo": "https://media.api-sports.io/football/players/340173.png"
-    },
-    {
-      "rank": 19,
-      "player_id": "38750",
-      "player": "B. Brobbey",
-      "team": "Netherlands",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2,
-      "minutes": 84,
-      "photo": "https://media.api-sports.io/football/players/38750.png"
+      "minutes": 163,
+      "photo": "https://media.api-sports.io/football/players/2601.png"
     },
     {
       "rank": 20,
-      "player_id": "138835",
-      "player": "F. Balogun",
-      "team": "USA",
+      "player_id": "265820",
+      "player": "Y. Ayari",
+      "team": "Sweden",
       "goals": 2,
       "assists": 0,
       "penalties": 0,
-      "appearances": 2,
-      "minutes": 161,
-      "photo": "https://media.api-sports.io/football/players/138835.png"
+      "appearances": 3,
+      "minutes": 169,
+      "photo": "https://media.api-sports.io/football/players/265820.png"
     }
   ]
 }
