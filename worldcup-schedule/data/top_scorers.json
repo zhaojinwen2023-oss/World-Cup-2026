@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T04:38:11Z",
+  "last_updated": "2026-06-26T08:19:11Z",
   "scorers": [
     {
       "rank": 1,
@@ -231,15 +231,15 @@
     },
     {
       "rank": 20,
-      "player_id": "35532",
-      "player": "J. Quiñones",
-      "team": "Mexico",
+      "player_id": "2601",
+      "player": "D. Kamada",
+      "team": "Japan",
       "goals": 2,
       "assists": 0,
       "penalties": 0,
       "appearances": 3,
       "minutes": 253,
-      "photo": "https://media.api-sports.io/football/players/35532.png"
+      "photo": "https://media.api-sports.io/football/players/2601.png"
     }
   ]
 }
