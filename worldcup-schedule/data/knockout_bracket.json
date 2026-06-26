@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T21:01:05Z",
+  "last_updated": "2026-06-26T22:22:26Z",
   "knockout": [
     {
       "match_id": 73,
@@ -20,7 +20,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-26T21:01:05Z"
+      "last_updated": "2026-06-26T22:22:26Z"
     },
     {
       "match_id": 74,
@@ -744,6 +744,23 @@
       "best_third_qualified": true
     },
     {
+      "group": "I",
+      "team": "Senegal",
+      "played": 3,
+      "won": 1,
+      "drawn": 0,
+      "lost": 2,
+      "goals_for": 8,
+      "goals_against": 6,
+      "goal_difference": 2,
+      "points": 3,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 5,
+      "best_third_qualified": true
+    },
+    {
       "group": "L",
       "team": "Croatia",
       "played": 2,
@@ -757,7 +774,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5,
+      "best_third_rank": 6,
       "best_third_qualified": true
     },
     {
@@ -774,7 +791,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6,
+      "best_third_rank": 7,
       "best_third_qualified": true
     },
     {
@@ -791,7 +808,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7,
+      "best_third_rank": 8,
       "best_third_qualified": true
     },
     {
@@ -808,8 +825,8 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8,
-      "best_third_qualified": true
+      "best_third_rank": 9,
+      "best_third_qualified": false
     },
     {
       "group": "H",
@@ -825,7 +842,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9,
+      "best_third_rank": 10,
       "best_third_qualified": false
     },
     {
@@ -842,7 +859,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10,
+      "best_third_rank": 11,
       "best_third_qualified": false
     },
     {
@@ -856,23 +873,6 @@
       "goals_against": 2,
       "goal_difference": -1,
       "points": 1,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 11,
-      "best_third_qualified": false
-    },
-    {
-      "group": "I",
-      "team": "Senegal",
-      "played": 2,
-      "won": 0,
-      "drawn": 0,
-      "lost": 2,
-      "goals_for": 3,
-      "goals_against": 6,
-      "goal_difference": -3,
-      "points": 0,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
