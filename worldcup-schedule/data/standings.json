@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T19:15:01Z",
+  "last_updated": "2026-06-26T21:01:05Z",
   "standings": [
     {
       "group": "A",
@@ -492,14 +492,14 @@
     {
       "group": "I",
       "team": "France",
-      "played": 2,
-      "won": 2,
+      "played": 3,
+      "won": 3,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 6,
-      "goals_against": 1,
-      "goal_difference": 5,
-      "points": 6,
+      "goals_for": 10,
+      "goals_against": 2,
+      "goal_difference": 8,
+      "points": 9,
       "fair_play_points": 0,
       "rank": 1,
       "qualified_status": "possible"
@@ -507,13 +507,13 @@
     {
       "group": "I",
       "team": "Norway",
-      "played": 2,
+      "played": 3,
       "won": 2,
       "drawn": 0,
-      "lost": 0,
-      "goals_for": 7,
-      "goals_against": 3,
-      "goal_difference": 4,
+      "lost": 1,
+      "goals_for": 8,
+      "goals_against": 7,
+      "goal_difference": 1,
       "points": 6,
       "fair_play_points": 0,
       "rank": 2,

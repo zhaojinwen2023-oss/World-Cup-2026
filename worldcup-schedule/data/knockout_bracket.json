@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T19:15:01Z",
+  "last_updated": "2026-06-26T21:01:05Z",
   "knockout": [
     {
       "match_id": 73,
@@ -20,7 +20,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-26T19:15:00Z"
+      "last_updated": "2026-06-26T21:01:05Z"
     },
     {
       "match_id": 74,
@@ -91,9 +91,9 @@
       "stage": "Round of 32",
       "home_source": "Winner Group I",
       "away_source": "3rd Group C/D/F/G/H",
-      "home_team": "待定：I组第一",
+      "home_team": "France",
       "away_team": "Sweden",
-      "home_resolved": false,
+      "home_resolved": true,
       "away_resolved": true,
       "home_score": "",
       "away_score": "",
@@ -113,9 +113,9 @@
       "home_source": "Runner-up Group E",
       "away_source": "Runner-up Group I",
       "home_team": "Ivory Coast",
-      "away_team": "待定：I组第二",
+      "away_team": "Norway",
       "home_resolved": true,
-      "away_resolved": false,
+      "away_resolved": true,
       "home_score": "",
       "away_score": "",
       "home_penalty_score": "",
