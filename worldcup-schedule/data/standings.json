@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T22:15:05Z",
+  "last_updated": "2026-06-27T23:18:10Z",
   "standings": [
     {
       "group": "A",
@@ -106,7 +106,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3
+      "best_third_rank": 4
     },
     {
       "group": "B",
@@ -228,7 +228,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4
+      "best_third_rank": 5
     },
     {
       "group": "D",
@@ -411,7 +411,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 7
     },
     {
       "group": "G",
@@ -533,7 +533,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5
+      "best_third_rank": 6
     },
     {
       "group": "I",
@@ -675,63 +675,63 @@
     {
       "group": "L",
       "team": "England",
-      "played": 2,
-      "won": 1,
+      "played": 3,
+      "won": 2,
       "drawn": 1,
       "lost": 0,
-      "goals_for": 4,
+      "goals_for": 6,
       "goals_against": 2,
-      "goal_difference": 2,
-      "points": 4,
+      "goal_difference": 4,
+      "points": 7,
       "fair_play_points": 0,
       "rank": 1,
-      "qualified_status": "possible"
-    },
-    {
-      "group": "L",
-      "team": "Ghana",
-      "played": 2,
-      "won": 1,
-      "drawn": 1,
-      "lost": 0,
-      "goals_for": 1,
-      "goals_against": 0,
-      "goal_difference": 1,
-      "points": 4,
-      "fair_play_points": 0,
-      "rank": 2,
-      "qualified_status": "possible"
+      "qualified_status": "qualified"
     },
     {
       "group": "L",
       "team": "Croatia",
-      "played": 2,
-      "won": 1,
+      "played": 3,
+      "won": 2,
       "drawn": 0,
       "lost": 1,
-      "goals_for": 3,
-      "goals_against": 4,
-      "goal_difference": -1,
-      "points": 3,
+      "goals_for": 5,
+      "goals_against": 5,
+      "goal_difference": 0,
+      "points": 6,
+      "fair_play_points": 0,
+      "rank": 2,
+      "qualified_status": "qualified"
+    },
+    {
+      "group": "L",
+      "team": "Ghana",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 2,
+      "goals_against": 2,
+      "goal_difference": 0,
+      "points": 4,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7
+      "best_third_rank": 3
     },
     {
       "group": "L",
       "team": "Panama",
-      "played": 2,
+      "played": 3,
       "won": 0,
       "drawn": 0,
-      "lost": 2,
+      "lost": 3,
       "goals_for": 0,
-      "goals_against": 2,
-      "goal_difference": -2,
+      "goals_against": 4,
+      "goal_difference": -4,
       "points": 0,
       "fair_play_points": 0,
       "rank": 4,
-      "qualified_status": "possible"
+      "qualified_status": "eliminated"
     }
   ]
 }
