@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T04:56:01Z",
+  "last_updated": "2026-06-27T05:38:00Z",
   "standings": [
     {
       "group": "A",
@@ -45,7 +45,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7
+      "best_third_rank": 8
     },
     {
       "group": "A",
@@ -167,7 +167,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9
+      "best_third_rank": 10
     },
     {
       "group": "C",
@@ -369,64 +369,64 @@
     },
     {
       "group": "G",
-      "team": "Egypt",
-      "played": 2,
+      "team": "Belgium",
+      "played": 3,
       "won": 1,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 0,
-      "goals_for": 4,
+      "goals_for": 6,
       "goals_against": 2,
-      "goal_difference": 2,
-      "points": 4,
+      "goal_difference": 4,
+      "points": 5,
       "fair_play_points": 0,
       "rank": 1,
-      "qualified_status": "possible"
+      "qualified_status": "qualified"
+    },
+    {
+      "group": "G",
+      "team": "Egypt",
+      "played": 3,
+      "won": 1,
+      "drawn": 2,
+      "lost": 0,
+      "goals_for": 5,
+      "goals_against": 3,
+      "goal_difference": 2,
+      "points": 5,
+      "fair_play_points": 0,
+      "rank": 2,
+      "qualified_status": "qualified"
     },
     {
       "group": "G",
       "team": "Iran",
-      "played": 2,
+      "played": 3,
       "won": 0,
-      "drawn": 2,
+      "drawn": 3,
       "lost": 0,
-      "goals_for": 2,
-      "goals_against": 2,
+      "goals_for": 3,
+      "goals_against": 3,
       "goal_difference": 0,
-      "points": 2,
-      "fair_play_points": 0,
-      "rank": 2,
-      "qualified_status": "possible"
-    },
-    {
-      "group": "G",
-      "team": "Belgium",
-      "played": 2,
-      "won": 0,
-      "drawn": 2,
-      "lost": 0,
-      "goals_for": 1,
-      "goals_against": 1,
-      "goal_difference": 0,
-      "points": 2,
+      "points": 3,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10
+      "best_third_rank": 6
     },
     {
       "group": "G",
       "team": "New Zealand",
-      "played": 2,
+      "played": 3,
       "won": 0,
       "drawn": 1,
-      "lost": 1,
-      "goals_for": 3,
-      "goals_against": 5,
-      "goal_difference": -2,
+      "lost": 2,
+      "goals_for": 4,
+      "goals_against": 10,
+      "goal_difference": -6,
       "points": 1,
       "fair_play_points": 0,
       "rank": 4,
-      "qualified_status": "possible"
+      "qualified_status": "eliminated"
     },
     {
       "group": "H",
@@ -594,7 +594,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8
+      "best_third_rank": 9
     },
     {
       "group": "J",
@@ -716,7 +716,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 7
     },
     {
       "group": "L",

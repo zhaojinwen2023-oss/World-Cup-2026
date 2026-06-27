@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T04:56:01Z",
+  "last_updated": "2026-06-27T05:38:00Z",
   "knockout": [
     {
       "match_id": 73,
@@ -20,7 +20,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-27T04:56:00Z"
+      "last_updated": "2026-06-27T05:38:00Z"
     },
     {
       "match_id": 74,
@@ -196,9 +196,9 @@
       "stage": "Round of 32",
       "home_source": "Winner Group G",
       "away_source": "3rd Group A/E/H/I/J",
-      "home_team": "待定：G组第一",
+      "home_team": "Belgium",
       "away_team": "待定：A/E/H/I/J组第三之一",
-      "home_resolved": false,
+      "home_resolved": true,
       "away_resolved": false,
       "home_score": "",
       "away_score": "",
@@ -323,9 +323,9 @@
       "home_source": "Runner-up Group D",
       "away_source": "Runner-up Group G",
       "home_team": "Australia",
-      "away_team": "待定：G组第二",
+      "away_team": "Egypt",
       "home_resolved": true,
-      "away_resolved": false,
+      "away_resolved": true,
       "home_score": "",
       "away_score": "",
       "home_penalty_score": "",
@@ -761,6 +761,23 @@
       "best_third_qualified": true
     },
     {
+      "group": "G",
+      "team": "Iran",
+      "played": 3,
+      "won": 0,
+      "drawn": 3,
+      "lost": 0,
+      "goals_for": 3,
+      "goals_against": 3,
+      "goal_difference": 0,
+      "points": 3,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 6,
+      "best_third_qualified": true
+    },
+    {
       "group": "L",
       "team": "Croatia",
       "played": 2,
@@ -774,7 +791,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6,
+      "best_third_rank": 7,
       "best_third_qualified": true
     },
     {
@@ -791,7 +808,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7,
+      "best_third_rank": 8,
       "best_third_qualified": true
     },
     {
@@ -808,8 +825,8 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8,
-      "best_third_qualified": true
+      "best_third_rank": 9,
+      "best_third_qualified": false
     },
     {
       "group": "C",
@@ -822,23 +839,6 @@
       "goals_against": 4,
       "goal_difference": -3,
       "points": 3,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 9,
-      "best_third_qualified": false
-    },
-    {
-      "group": "G",
-      "team": "Belgium",
-      "played": 2,
-      "won": 0,
-      "drawn": 2,
-      "lost": 0,
-      "goals_for": 1,
-      "goals_against": 1,
-      "goal_difference": 0,
-      "points": 2,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
