@@ -95,15 +95,69 @@ def resolve_group_source(source: str, by_rank: dict[tuple[str, int], dict]) -> t
     return source, bool(source and not source.startswith("Winner Match") and not source.startswith("Loser Match"))
 
 
-def resolve_third_source(source: str, thirds: list[dict]) -> tuple[str, bool]:
+def third_groups(source: str) -> tuple[str, ...]:
     match = re.search(r"(3rd|Third)(?:\s+place)?\s+Group\s+([A-L](?:/[A-L])*)", source, flags=re.I)
     if not match:
+        return ()
+    return tuple(item.upper() for item in match.group(2).split("/") if item.upper() in GROUPS)
+
+
+def pending_third(groups: tuple[str, ...]) -> str:
+    return f"待定：{'/'.join(groups)}组第三之一"
+
+
+def derive_third_slot_candidates(static_rows) -> dict[tuple[int, str], tuple[str, ...]]:
+    slots: dict[tuple[int, str], tuple[str, ...]] = {}
+    for _, row in static_rows.iterrows():
+        if row["stage"] == "Group Stage":
+            continue
+        match_id = safe_int(row["match_id"])
+        for slot_name, source in [("home", static_home(row)), ("away", static_away(row))]:
+            groups = third_groups(source)
+            if groups:
+                slots[(match_id, slot_name)] = groups
+    return slots
+
+
+def assign_third_sources(thirds: list[dict], third_slots: dict[tuple[int, str], tuple[str, ...]]) -> dict[tuple[int, str], dict]:
+    eligible = [
+        row
+        for row in thirds
+        if row.get("group") in GROUPS and row.get("best_third_qualified") and safe_int(row.get("played")) >= 3
+    ]
+    if len(eligible) < len(third_slots):
+        return {}
+
+    slots = tuple(sorted(third_slots))
+    options: list[tuple[tuple[tuple[int, str], str], ...]] = []
+
+    def assign(position: int, used: set[str], mapping: list[tuple[tuple[int, str], str]]) -> None:
+        if position == len(slots):
+            options.append(tuple(mapping))
+            return
+        slot = slots[position]
+        for row in eligible:
+            group = row["group"]
+            if group not in used and group in third_slots[slot]:
+                assign(position + 1, used | {group}, [*mapping, (slot, group)])
+
+    assign(0, set(), [])
+    if not options:
+        return {}
+
+    by_group = {row["group"]: row for row in eligible}
+    rank_by_group = {row["group"]: safe_int(row.get("best_third_rank"), 99) for row in eligible}
+    selected = min(options, key=lambda mapping: tuple(rank_by_group[group] for _, group in mapping))
+    return {slot: by_group[group] for slot, group in selected}
+
+
+def resolve_third_source(source: str, assigned_third: dict | None = None) -> tuple[str, bool]:
+    groups = third_groups(source)
+    if not groups:
         return "", False
-    groups = [item.upper() for item in match.group(2).split("/") if item.upper() in GROUPS]
-    for row in thirds:
-        if row["group"] in groups and row.get("best_third_qualified") and row.get("played", 0) >= 3:
-            return row["team"], True
-    return f"待定：{'/'.join(groups)}组第三之一", False
+    if assigned_third and assigned_third.get("group") in groups:
+        return assigned_third["team"], True
+    return pending_third(groups), False
 
 
 def derive_next_map(static_rows) -> dict[int, tuple[int, str, str]]:
@@ -129,6 +183,7 @@ def resolve_knockout(static_path: Path, live_path: Path, standings_path: Path) -
     by_rank = standings_by_rank(standings["standings"])
     thirds = best_thirds(standings["standings"])
     next_map = derive_next_map(static_rows)
+    third_assignments = assign_third_sources(thirds, derive_third_slot_candidates(static_rows))
 
     bracket: dict[int, dict] = {}
     for _, row in static_rows.iterrows():
@@ -137,8 +192,8 @@ def resolve_knockout(static_path: Path, live_path: Path, standings_path: Path) -
         match_id = safe_int(row["match_id"])
         home_source = static_home(row)
         away_source = static_away(row)
-        home_team, home_resolved = resolve_third_source(home_source, thirds) if re.search(r"(3rd|Third)", home_source, flags=re.I) else resolve_group_source(home_source, by_rank)
-        away_team, away_resolved = resolve_third_source(away_source, thirds) if re.search(r"(3rd|Third)", away_source, flags=re.I) else resolve_group_source(away_source, by_rank)
+        home_team, home_resolved = resolve_third_source(home_source, third_assignments.get((match_id, "home"))) if third_groups(home_source) else resolve_group_source(home_source, by_rank)
+        away_team, away_resolved = resolve_third_source(away_source, third_assignments.get((match_id, "away"))) if third_groups(away_source) else resolve_group_source(away_source, by_rank)
         bracket[match_id] = {
             "match_id": match_id,
             "round": row["round"] or row["stage"],
