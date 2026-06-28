@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T20:52:51Z",
+  "last_updated": "2026-06-28T21:55:51Z",
   "scorers": [
     {
       "rank": 1,
@@ -99,6 +99,18 @@
     },
     {
       "rank": 9,
+      "player_id": "8489",
+      "player": "J. David",
+      "team": "Canada",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 4,
+      "minutes": 335,
+      "photo": "https://media.api-sports.io/football/players/8489.png"
+    },
+    {
+      "rank": 10,
       "player_id": "38750",
       "player": "B. Brobbey",
       "team": "Netherlands",
@@ -110,7 +122,7 @@
       "photo": "https://media.api-sports.io/football/players/38750.png"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "player_id": "1165",
       "player": "Matheus Cunha",
       "team": "Brazil",
@@ -120,18 +132,6 @@
       "appearances": 3,
       "minutes": 169,
       "photo": "https://media.api-sports.io/football/players/1165.png"
-    },
-    {
-      "rank": 11,
-      "player_id": "8489",
-      "player": "J. David",
-      "team": "Canada",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 241,
-      "photo": "https://media.api-sports.io/football/players/8489.png"
     },
     {
       "rank": 12,
