@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T23:18:10Z",
+  "last_updated": "2026-06-28T01:31:51Z",
   "knockout": [
     {
       "match_id": 73,
@@ -20,7 +20,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-27T23:18:10Z"
+      "last_updated": "2026-06-28T01:31:51Z"
     },
     {
       "match_id": 74,
@@ -217,9 +217,9 @@
       "stage": "Round of 32",
       "home_source": "Runner-up Group K",
       "away_source": "Runner-up Group L",
-      "home_team": "待定：K组第二",
+      "home_team": "Portugal",
       "away_team": "Croatia",
-      "home_resolved": false,
+      "home_resolved": true,
       "away_resolved": true,
       "home_score": "",
       "away_score": "",
@@ -301,9 +301,9 @@
       "stage": "Round of 32",
       "home_source": "Winner Group K",
       "away_source": "3rd Group D/E/I/J/L",
-      "home_team": "待定：K组第一",
+      "home_team": "Colombia",
       "away_team": "Ghana",
-      "home_resolved": false,
+      "home_resolved": true,
       "away_resolved": true,
       "home_score": "",
       "away_score": "",
