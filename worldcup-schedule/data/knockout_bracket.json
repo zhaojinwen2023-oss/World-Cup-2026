@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T19:51:29Z",
+  "last_updated": "2026-06-28T20:52:51Z",
   "knockout": [
     {
       "match_id": 73,
@@ -12,15 +12,15 @@
       "home_resolved": true,
       "away_resolved": true,
       "home_score": 0,
-      "away_score": 0,
+      "away_score": 1,
       "home_penalty_score": "",
       "away_penalty_score": "",
-      "winner": "",
-      "loser": "",
+      "winner": "Canada",
+      "loser": "South Africa",
       "next_match_id": 90,
       "next_slot": "home",
-      "status": "halftime",
-      "last_updated": "2026-06-28T19:51:29Z"
+      "status": "live",
+      "last_updated": "2026-06-28T20:52:51Z"
     },
     {
       "match_id": 74,
@@ -41,7 +41,7 @@
       "next_match_id": 89,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-28T19:51:29Z"
+      "last_updated": "2026-06-28T20:52:51Z"
     },
     {
       "match_id": 75,
@@ -62,7 +62,7 @@
       "next_match_id": 90,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-28T19:51:29Z"
+      "last_updated": "2026-06-28T20:52:51Z"
     },
     {
       "match_id": 76,
@@ -83,7 +83,7 @@
       "next_match_id": 91,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-28T19:51:29Z"
+      "last_updated": "2026-06-28T20:52:51Z"
     },
     {
       "match_id": 77,
@@ -104,7 +104,7 @@
       "next_match_id": 89,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-28T19:51:29Z"
+      "last_updated": "2026-06-28T20:52:51Z"
     },
     {
       "match_id": 78,
@@ -167,7 +167,7 @@
       "next_match_id": 92,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-28T19:51:29Z"
+      "last_updated": "2026-06-28T20:52:51Z"
     },
     {
       "match_id": 81,
@@ -209,7 +209,7 @@
       "next_match_id": 94,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-28T19:51:29Z"
+      "last_updated": "2026-06-28T20:52:51Z"
     },
     {
       "match_id": 83,
@@ -230,7 +230,7 @@
       "next_match_id": 93,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-28T19:51:29Z"
+      "last_updated": "2026-06-28T20:52:51Z"
     },
     {
       "match_id": 84,
@@ -251,7 +251,7 @@
       "next_match_id": 93,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-28T19:51:29Z"
+      "last_updated": "2026-06-28T20:52:51Z"
     },
     {
       "match_id": 85,
@@ -272,7 +272,7 @@
       "next_match_id": 96,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-28T19:51:29Z"
+      "last_updated": "2026-06-28T20:52:51Z"
     },
     {
       "match_id": 86,
@@ -293,7 +293,7 @@
       "next_match_id": 95,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-28T19:51:29Z"
+      "last_updated": "2026-06-28T20:52:51Z"
     },
     {
       "match_id": 87,
@@ -314,7 +314,7 @@
       "next_match_id": 96,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-28T19:51:29Z"
+      "last_updated": "2026-06-28T20:52:51Z"
     },
     {
       "match_id": 88,
@@ -364,9 +364,9 @@
       "stage": "Round of 16",
       "home_source": "Winner Match 73",
       "away_source": "Winner Match 75",
-      "home_team": "Winner Match 73",
+      "home_team": "Canada",
       "away_team": "Winner Match 75",
-      "home_resolved": false,
+      "home_resolved": true,
       "away_resolved": false,
       "home_score": "",
       "away_score": "",
