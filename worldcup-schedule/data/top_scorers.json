@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-06-28T06:01:55Z",
+  "last_updated": "2026-06-28T09:30:52Z",
   "scorers": [
     {
       "rank": 1,
       "player_id": "154",
       "player": "L. Messi",
       "team": "Argentina",
-      "goals": 5,
+      "goals": 6,
       "assists": 0,
       "penalties": 0,
-      "appearances": 2,
-      "minutes": 170,
+      "appearances": 3,
+      "minutes": 200,
       "photo": "https://media.api-sports.io/football/players/154.png"
     },
     {
@@ -159,6 +159,30 @@
     },
     {
       "rank": 14,
+      "player_id": "184",
+      "player": "H. Kane",
+      "team": "England",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 1,
+      "appearances": 3,
+      "minutes": 264,
+      "photo": "https://media.api-sports.io/football/players/184.png"
+    },
+    {
+      "rank": 15,
+      "player_id": "20649",
+      "player": "Y. Wissa",
+      "team": "Congo DR",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 1,
+      "appearances": 3,
+      "minutes": 279,
+      "photo": "https://media.api-sports.io/football/players/20649.png"
+    },
+    {
+      "rank": 16,
       "player_id": "37724",
       "player": "C. Summerville",
       "team": "Netherlands",
@@ -170,7 +194,7 @@
       "photo": "https://media.api-sports.io/football/players/37724.png"
     },
     {
-      "rank": 15,
+      "rank": 17,
       "player_id": "20696",
       "player": "P. Gueye",
       "team": "Senegal",
@@ -182,7 +206,7 @@
       "photo": "https://media.api-sports.io/football/players/20696.png"
     },
     {
-      "rank": 16,
+      "rank": 18,
       "player_id": "48471",
       "player": "R. Vargas",
       "team": "Switzerland",
@@ -194,7 +218,19 @@
       "photo": "https://media.api-sports.io/football/players/48471.png"
     },
     {
-      "rank": 17,
+      "rank": 19,
+      "player_id": "635",
+      "player": "R. Mahrez",
+      "team": "Algeria",
+      "goals": 2,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 3,
+      "minutes": 192,
+      "photo": "https://media.api-sports.io/football/players/635.png"
+    },
+    {
+      "rank": 20,
       "player_id": "47323",
       "player": "Mikel Oyarzabal",
       "team": "Spain",
@@ -204,42 +240,6 @@
       "appearances": 3,
       "minutes": 211,
       "photo": "https://media.api-sports.io/football/players/47323.png"
-    },
-    {
-      "rank": 18,
-      "player_id": "72155",
-      "player": "A. Ueda",
-      "team": "Japan",
-      "goals": 2,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 234,
-      "photo": "https://media.api-sports.io/football/players/72155.png"
-    },
-    {
-      "rank": 19,
-      "player_id": "51776",
-      "player": "M. Araújo",
-      "team": "Uruguay",
-      "goals": 2,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 252,
-      "photo": "https://media.api-sports.io/football/players/51776.png"
-    },
-    {
-      "rank": 20,
-      "player_id": "247",
-      "player": "C. Gakpo",
-      "team": "Netherlands",
-      "goals": 2,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 258,
-      "photo": "https://media.api-sports.io/football/players/247.png"
     }
   ]
 }
