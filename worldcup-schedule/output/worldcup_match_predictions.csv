@@ -1,8 +1,2 @@
 ﻿match_id,group,kickoff_utc,country,home_team,away_team,expected_home_goals,expected_away_goals,home_win_probability,draw_probability,away_win_probability,most_likely_score,favorite,underdog,rating_difference,upset_probability
 53,A,2026-06-25T00:00:00Z,Mexico,Czech Republic,Mexico,0.75,1.47,19.2,26.6,54.2,0-1,Mexico,Czech Republic,39.6,19.2
-67,L,2026-06-27T20:00:00Z,USA,Panama,England,0.74,1.82,14.6,22.2,63.2,0-1,England,Panama,38.4,14.6
-68,L,2026-06-27T20:00:00Z,USA,Croatia,Ghana,1.68,0.76,59.3,23.9,16.7,1-0,Croatia,Ghana,87.2,16.7
-69,J,2026-06-28T01:00:00Z,USA,Algeria,Austria,1.2,1.3,34.3,27.0,38.8,1-1,Algeria,Austria,13.4,38.8
-70,J,2026-06-28T01:00:00Z,USA,Jordan,Argentina,0.52,2.96,4.0,10.0,86.0,0-2,Argentina,Jordan,83.7,4.0
-71,K,2026-06-27T22:30:00Z,USA,Colombia,Portugal,1.22,1.61,28.8,24.6,46.6,1-1,Portugal,Colombia,23.3,28.8
-72,K,2026-06-27T22:30:00Z,USA,DR Congo,Uzbekistan,1.2,0.77,46.0,30.2,23.8,1-0,Uzbekistan,DR Congo,6.9,46.0

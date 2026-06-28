@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T01:31:51Z",
+  "last_updated": "2026-06-28T06:01:55Z",
   "standings": [
     {
       "group": "A",
@@ -45,7 +45,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8
+      "best_third_rank": 10
     },
     {
       "group": "A",
@@ -106,7 +106,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4
+      "best_third_rank": 5
     },
     {
       "group": "B",
@@ -167,7 +167,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10
+      "best_third_rank": 11
     },
     {
       "group": "C",
@@ -228,7 +228,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5
+      "best_third_rank": 7
     },
     {
       "group": "D",
@@ -289,7 +289,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 2
+      "best_third_rank": 3
     },
     {
       "group": "E",
@@ -350,7 +350,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 1
+      "best_third_rank": 2
     },
     {
       "group": "F",
@@ -411,7 +411,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7
+      "best_third_rank": 9
     },
     {
       "group": "G",
@@ -472,7 +472,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 11
+      "best_third_rank": 12
     },
     {
       "group": "H",
@@ -533,7 +533,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6
+      "best_third_rank": 8
     },
     {
       "group": "I",
@@ -553,63 +553,63 @@
     {
       "group": "J",
       "team": "Argentina",
-      "played": 2,
-      "won": 2,
+      "played": 3,
+      "won": 3,
       "drawn": 0,
       "lost": 0,
-      "goals_for": 5,
-      "goals_against": 0,
-      "goal_difference": 5,
-      "points": 6,
+      "goals_for": 8,
+      "goals_against": 1,
+      "goal_difference": 7,
+      "points": 9,
       "fair_play_points": 0,
       "rank": 1,
-      "qualified_status": "possible"
+      "qualified_status": "qualified"
     },
     {
       "group": "J",
       "team": "Austria",
-      "played": 2,
+      "played": 3,
       "won": 1,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 1,
-      "goals_for": 3,
-      "goals_against": 3,
+      "goals_for": 6,
+      "goals_against": 6,
       "goal_difference": 0,
-      "points": 3,
+      "points": 4,
       "fair_play_points": 0,
       "rank": 2,
-      "qualified_status": "possible"
+      "qualified_status": "qualified"
     },
     {
       "group": "J",
       "team": "Algeria",
-      "played": 2,
+      "played": 3,
       "won": 1,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 1,
-      "goals_for": 2,
-      "goals_against": 4,
+      "goals_for": 5,
+      "goals_against": 7,
       "goal_difference": -2,
-      "points": 3,
+      "points": 4,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 9
+      "best_third_rank": 6
     },
     {
       "group": "J",
       "team": "Jordan",
-      "played": 2,
+      "played": 3,
       "won": 0,
       "drawn": 0,
-      "lost": 2,
-      "goals_for": 2,
-      "goals_against": 5,
-      "goal_difference": -3,
+      "lost": 3,
+      "goals_for": 3,
+      "goals_against": 8,
+      "goal_difference": -5,
       "points": 0,
       "fair_play_points": 0,
       "rank": 4,
-      "qualified_status": "possible"
+      "qualified_status": "eliminated"
     },
     {
       "group": "K",
@@ -624,7 +624,7 @@
       "points": 7,
       "fair_play_points": 0,
       "rank": 1,
-      "qualified_status": "possible"
+      "qualified_status": "qualified"
     },
     {
       "group": "K",
@@ -639,38 +639,38 @@
       "points": 5,
       "fair_play_points": 0,
       "rank": 2,
-      "qualified_status": "possible"
+      "qualified_status": "qualified"
     },
     {
       "group": "K",
       "team": "DR Congo",
-      "played": 2,
-      "won": 0,
+      "played": 3,
+      "won": 1,
       "drawn": 1,
       "lost": 1,
-      "goals_for": 1,
-      "goals_against": 2,
-      "goal_difference": -1,
-      "points": 1,
+      "goals_for": 4,
+      "goals_against": 3,
+      "goal_difference": 1,
+      "points": 4,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 12
+      "best_third_rank": 1
     },
     {
       "group": "K",
       "team": "Uzbekistan",
-      "played": 2,
+      "played": 3,
       "won": 0,
       "drawn": 0,
-      "lost": 2,
-      "goals_for": 1,
-      "goals_against": 8,
-      "goal_difference": -7,
+      "lost": 3,
+      "goals_for": 2,
+      "goals_against": 11,
+      "goal_difference": -9,
       "points": 0,
       "fair_play_points": 0,
       "rank": 4,
-      "qualified_status": "possible"
+      "qualified_status": "eliminated"
     },
     {
       "group": "L",
@@ -716,7 +716,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3
+      "best_third_rank": 4
     },
     {
       "group": "L",

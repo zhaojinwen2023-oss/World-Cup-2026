@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T01:31:51Z",
+  "last_updated": "2026-06-28T06:01:55Z",
   "knockout": [
     {
       "match_id": 73,
@@ -20,7 +20,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-28T01:31:51Z"
+      "last_updated": "2026-06-28T06:01:55Z"
     },
     {
       "match_id": 74,
@@ -41,7 +41,7 @@
       "next_match_id": 89,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-06-28T06:01:55Z"
     },
     {
       "match_id": 75,
@@ -62,7 +62,7 @@
       "next_match_id": 90,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-06-28T06:01:55Z"
     },
     {
       "match_id": 76,
@@ -83,7 +83,7 @@
       "next_match_id": 91,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-06-28T06:01:55Z"
     },
     {
       "match_id": 77,
@@ -104,7 +104,7 @@
       "next_match_id": 89,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-06-28T06:01:55Z"
     },
     {
       "match_id": 78,
@@ -155,7 +155,7 @@
       "home_source": "Winner Group L",
       "away_source": "3rd Group E/H/I/J/K",
       "home_team": "England",
-      "away_team": "Senegal",
+      "away_team": "DR Congo",
       "home_resolved": true,
       "away_resolved": true,
       "home_score": "",
@@ -167,7 +167,7 @@
       "next_match_id": 92,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-06-28T06:01:55Z"
     },
     {
       "match_id": 81,
@@ -197,7 +197,7 @@
       "home_source": "Winner Group G",
       "away_source": "3rd Group A/E/H/I/J",
       "home_team": "Belgium",
-      "away_team": "South Korea",
+      "away_team": "Algeria",
       "home_resolved": true,
       "away_resolved": true,
       "home_score": "",
@@ -209,7 +209,7 @@
       "next_match_id": 94,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-06-28T06:01:55Z"
     },
     {
       "match_id": 83,
@@ -230,7 +230,7 @@
       "next_match_id": 93,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-06-28T06:01:55Z"
     },
     {
       "match_id": 84,
@@ -239,9 +239,9 @@
       "home_source": "Winner Group H",
       "away_source": "Runner-up Group J",
       "home_team": "Spain",
-      "away_team": "待定：J组第二",
+      "away_team": "Austria",
       "home_resolved": true,
-      "away_resolved": false,
+      "away_resolved": true,
       "home_score": "",
       "away_score": "",
       "home_penalty_score": "",
@@ -251,7 +251,7 @@
       "next_match_id": 93,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-06-28T06:01:55Z"
     },
     {
       "match_id": 85,
@@ -260,7 +260,7 @@
       "home_source": "Winner Group B",
       "away_source": "3rd Group E/F/G/I/J",
       "home_team": "Switzerland",
-      "away_team": "Iran",
+      "away_team": "Senegal",
       "home_resolved": true,
       "away_resolved": true,
       "home_score": "",
@@ -272,7 +272,7 @@
       "next_match_id": 96,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-06-28T06:01:55Z"
     },
     {
       "match_id": 86,
@@ -280,9 +280,9 @@
       "stage": "Round of 32",
       "home_source": "Winner Group J",
       "away_source": "Runner-up Group H",
-      "home_team": "待定：J组第一",
+      "home_team": "Argentina",
       "away_team": "Cape Verde",
-      "home_resolved": false,
+      "home_resolved": true,
       "away_resolved": true,
       "home_score": "",
       "away_score": "",
@@ -293,7 +293,7 @@
       "next_match_id": 95,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-06-28T06:01:55Z"
     },
     {
       "match_id": 87,
@@ -314,7 +314,7 @@
       "next_match_id": 96,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-06-28T06:01:55Z"
     },
     {
       "match_id": 88,
@@ -676,6 +676,23 @@
   ],
   "best_thirds": [
     {
+      "group": "K",
+      "team": "DR Congo",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 4,
+      "goals_against": 3,
+      "goal_difference": 1,
+      "points": 4,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 1,
+      "best_third_qualified": true
+    },
+    {
       "group": "F",
       "team": "Sweden",
       "played": 3,
@@ -689,7 +706,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 1,
+      "best_third_rank": 2,
       "best_third_qualified": true
     },
     {
@@ -706,7 +723,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 2,
+      "best_third_rank": 3,
       "best_third_qualified": true
     },
     {
@@ -723,7 +740,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 3,
+      "best_third_rank": 4,
       "best_third_qualified": true
     },
     {
@@ -740,7 +757,24 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 4,
+      "best_third_rank": 5,
+      "best_third_qualified": true
+    },
+    {
+      "group": "J",
+      "team": "Algeria",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 5,
+      "goals_against": 7,
+      "goal_difference": -2,
+      "points": 4,
+      "fair_play_points": 0,
+      "rank": 3,
+      "qualified_status": "possible",
+      "best_third_rank": 6,
       "best_third_qualified": true
     },
     {
@@ -757,7 +791,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 5,
+      "best_third_rank": 7,
       "best_third_qualified": true
     },
     {
@@ -774,7 +808,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 6,
+      "best_third_rank": 8,
       "best_third_qualified": true
     },
     {
@@ -791,8 +825,8 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 7,
-      "best_third_qualified": true
+      "best_third_rank": 9,
+      "best_third_qualified": false
     },
     {
       "group": "A",
@@ -808,24 +842,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 8,
-      "best_third_qualified": true
-    },
-    {
-      "group": "J",
-      "team": "Algeria",
-      "played": 2,
-      "won": 1,
-      "drawn": 0,
-      "lost": 1,
-      "goals_for": 2,
-      "goals_against": 4,
-      "goal_difference": -2,
-      "points": 3,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 9,
+      "best_third_rank": 10,
       "best_third_qualified": false
     },
     {
@@ -842,7 +859,7 @@
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
-      "best_third_rank": 10,
+      "best_third_rank": 11,
       "best_third_qualified": false
     },
     {
@@ -856,23 +873,6 @@
       "goals_against": 4,
       "goal_difference": -1,
       "points": 2,
-      "fair_play_points": 0,
-      "rank": 3,
-      "qualified_status": "possible",
-      "best_third_rank": 11,
-      "best_third_qualified": false
-    },
-    {
-      "group": "K",
-      "team": "DR Congo",
-      "played": 2,
-      "won": 0,
-      "drawn": 1,
-      "lost": 1,
-      "goals_for": 1,
-      "goals_against": 2,
-      "goal_difference": -1,
-      "points": 1,
       "fair_play_points": 0,
       "rank": 3,
       "qualified_status": "possible",
