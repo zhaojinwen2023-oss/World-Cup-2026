@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T18:59:30Z",
+  "last_updated": "2026-06-29T20:50:06Z",
   "scorers": [
     {
       "rank": 1,
@@ -27,6 +27,18 @@
     },
     {
       "rank": 3,
+      "player_id": "762",
+      "player": "Vinícius Júnior",
+      "team": "Brazil",
+      "goals": 4,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 4,
+      "minutes": 360,
+      "photo": "https://media.api-sports.io/football/players/762.png"
+    },
+    {
+      "rank": 4,
       "player_id": "153",
       "player": "O. Dembélé",
       "team": "France",
@@ -36,18 +48,6 @@
       "appearances": 3,
       "minutes": 213,
       "photo": "https://media.api-sports.io/football/players/153.png"
-    },
-    {
-      "rank": 4,
-      "player_id": "762",
-      "player": "Vinícius Júnior",
-      "team": "Brazil",
-      "goals": 4,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 261,
-      "photo": "https://media.api-sports.io/football/players/762.png"
     },
     {
       "rank": 5,
@@ -99,6 +99,18 @@
     },
     {
       "rank": 9,
+      "player_id": "1165",
+      "player": "Matheus Cunha",
+      "team": "Brazil",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 4,
+      "minutes": 235,
+      "photo": "https://media.api-sports.io/football/players/1165.png"
+    },
+    {
+      "rank": 10,
       "player_id": "8489",
       "player": "J. David",
       "team": "Canada",
@@ -110,7 +122,7 @@
       "photo": "https://media.api-sports.io/football/players/8489.png"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "player_id": "38750",
       "player": "B. Brobbey",
       "team": "Netherlands",
@@ -120,18 +132,6 @@
       "appearances": 3,
       "minutes": 161,
       "photo": "https://media.api-sports.io/football/players/38750.png"
-    },
-    {
-      "rank": 11,
-      "player_id": "1165",
-      "player": "Matheus Cunha",
-      "team": "Brazil",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 169,
-      "photo": "https://media.api-sports.io/football/players/1165.png"
     },
     {
       "rank": 12,
@@ -183,6 +183,18 @@
     },
     {
       "rank": 16,
+      "player_id": "72155",
+      "player": "A. Ueda",
+      "team": "Japan",
+      "goals": 2,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 4,
+      "minutes": 333,
+      "photo": "https://media.api-sports.io/football/players/72155.png"
+    },
+    {
+      "rank": 17,
       "player_id": "37724",
       "player": "C. Summerville",
       "team": "Netherlands",
@@ -194,7 +206,7 @@
       "photo": "https://media.api-sports.io/football/players/37724.png"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "player_id": "20696",
       "player": "P. Gueye",
       "team": "Senegal",
@@ -206,7 +218,7 @@
       "photo": "https://media.api-sports.io/football/players/20696.png"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "player_id": "48471",
       "player": "R. Vargas",
       "team": "Switzerland",
@@ -218,7 +230,7 @@
       "photo": "https://media.api-sports.io/football/players/48471.png"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "player_id": "635",
       "player": "R. Mahrez",
       "team": "Algeria",
@@ -228,18 +240,6 @@
       "appearances": 3,
       "minutes": 192,
       "photo": "https://media.api-sports.io/football/players/635.png"
-    },
-    {
-      "rank": 20,
-      "player_id": "47323",
-      "player": "Mikel Oyarzabal",
-      "team": "Spain",
-      "goals": 2,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 211,
-      "photo": "https://media.api-sports.io/football/players/47323.png"
     }
   ]
 }
