@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T22:04:58Z",
+  "last_updated": "2026-06-29T23:15:02Z",
   "scorers": [
     {
       "rank": 1,
@@ -34,7 +34,7 @@
       "assists": 1,
       "penalties": 0,
       "appearances": 4,
-      "minutes": 360,
+      "minutes": 351,
       "photo": "https://media.api-sports.io/football/players/762.png"
     },
     {
@@ -69,8 +69,8 @@
       "goals": 3,
       "assists": 2,
       "penalties": 0,
-      "appearances": 3,
-      "minutes": 86,
+      "appearances": 4,
+      "minutes": 149,
       "photo": "https://media.api-sports.io/football/players/26475.png"
     },
     {
@@ -159,6 +159,18 @@
     },
     {
       "rank": 14,
+      "player_id": "978",
+      "player": "K. Havertz",
+      "team": "Germany",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 1,
+      "appearances": 4,
+      "minutes": 305,
+      "photo": "https://media.api-sports.io/football/players/978.png"
+    },
+    {
+      "rank": 15,
       "player_id": "184",
       "player": "H. Kane",
       "team": "England",
@@ -170,7 +182,7 @@
       "photo": "https://media.api-sports.io/football/players/184.png"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "player_id": "20649",
       "player": "Y. Wissa",
       "team": "Congo DR",
@@ -182,7 +194,7 @@
       "photo": "https://media.api-sports.io/football/players/20649.png"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "player_id": "72155",
       "player": "A. Ueda",
       "team": "Japan",
@@ -190,11 +202,11 @@
       "assists": 1,
       "penalties": 0,
       "appearances": 4,
-      "minutes": 333,
+      "minutes": 324,
       "photo": "https://media.api-sports.io/football/players/72155.png"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "player_id": "37724",
       "player": "C. Summerville",
       "team": "Netherlands",
@@ -206,7 +218,7 @@
       "photo": "https://media.api-sports.io/football/players/37724.png"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "player_id": "20696",
       "player": "P. Gueye",
       "team": "Senegal",
@@ -218,7 +230,7 @@
       "photo": "https://media.api-sports.io/football/players/20696.png"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "player_id": "48471",
       "player": "R. Vargas",
       "team": "Switzerland",
@@ -228,18 +240,6 @@
       "appearances": 3,
       "minutes": 178,
       "photo": "https://media.api-sports.io/football/players/48471.png"
-    },
-    {
-      "rank": 20,
-      "player_id": "635",
-      "player": "R. Mahrez",
-      "team": "Algeria",
-      "goals": 2,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 192,
-      "photo": "https://media.api-sports.io/football/players/635.png"
     }
   ]
 }
