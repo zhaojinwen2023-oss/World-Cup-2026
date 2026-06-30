@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30T08:45:09Z",
+  "last_updated": "2026-06-30T11:34:12Z",
   "scorers": [
     {
       "rank": 1,
@@ -75,6 +75,18 @@
     },
     {
       "rank": 7,
+      "player_id": "247",
+      "player": "C. Gakpo",
+      "team": "Netherlands",
+      "goals": 3,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 4,
+      "minutes": 371,
+      "photo": "https://media.api-sports.io/football/players/247.png"
+    },
+    {
+      "rank": 8,
       "player_id": "406244",
       "player": "J. Manzambi",
       "team": "Switzerland",
@@ -86,7 +98,7 @@
       "photo": "https://media.api-sports.io/football/players/406244.png"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "player_id": "2218",
       "player": "I. Sarr",
       "team": "Senegal",
@@ -98,7 +110,19 @@
       "photo": "https://media.api-sports.io/football/players/2218.png"
     },
     {
-      "rank": 9,
+      "rank": 10,
+      "player_id": "38750",
+      "player": "B. Brobbey",
+      "team": "Netherlands",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 4,
+      "minutes": 232,
+      "photo": "https://media.api-sports.io/football/players/38750.png"
+    },
+    {
+      "rank": 11,
       "player_id": "1165",
       "player": "Matheus Cunha",
       "team": "Brazil",
@@ -110,7 +134,7 @@
       "photo": "https://media.api-sports.io/football/players/1165.png"
     },
     {
-      "rank": 10,
+      "rank": 12,
       "player_id": "8489",
       "player": "J. David",
       "team": "Canada",
@@ -122,31 +146,19 @@
       "photo": "https://media.api-sports.io/football/players/8489.png"
     },
     {
-      "rank": 11,
-      "player_id": "38750",
-      "player": "B. Brobbey",
-      "team": "Netherlands",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 161,
-      "photo": "https://media.api-sports.io/football/players/38750.png"
-    },
-    {
-      "rank": 12,
+      "rank": 13,
       "player_id": "161897",
       "player": "I. Saibari",
       "team": "Morocco",
       "goals": 3,
       "assists": 0,
       "penalties": 0,
-      "appearances": 3,
-      "minutes": 243,
+      "appearances": 4,
+      "minutes": 363,
       "photo": "https://media.api-sports.io/football/players/161897.png"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "player_id": "94333",
       "player": "E. Just",
       "team": "New Zealand",
@@ -154,11 +166,11 @@
       "assists": 0,
       "penalties": 0,
       "appearances": 3,
-      "minutes": 271,
+      "minutes": 265,
       "photo": "https://media.api-sports.io/football/players/94333.png"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "player_id": "978",
       "player": "K. Havertz",
       "team": "Germany",
@@ -166,11 +178,11 @@
       "assists": 0,
       "penalties": 1,
       "appearances": 4,
-      "minutes": 305,
+      "minutes": 355,
       "photo": "https://media.api-sports.io/football/players/978.png"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "player_id": "184",
       "player": "H. Kane",
       "team": "England",
@@ -182,7 +194,7 @@
       "photo": "https://media.api-sports.io/football/players/184.png"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "player_id": "20649",
       "player": "Y. Wissa",
       "team": "Congo DR",
@@ -190,11 +202,23 @@
       "assists": 0,
       "penalties": 1,
       "appearances": 3,
-      "minutes": 279,
+      "minutes": 270,
       "photo": "https://media.api-sports.io/football/players/20649.png"
     },
     {
-      "rank": 17,
+      "rank": 18,
+      "player_id": "37724",
+      "player": "C. Summerville",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": 2,
+      "penalties": 0,
+      "appearances": 4,
+      "minutes": 253,
+      "photo": "https://media.api-sports.io/football/players/37724.png"
+    },
+    {
+      "rank": 19,
       "player_id": "72155",
       "player": "A. Ueda",
       "team": "Japan",
@@ -206,19 +230,7 @@
       "photo": "https://media.api-sports.io/football/players/72155.png"
     },
     {
-      "rank": 18,
-      "player_id": "37724",
-      "player": "C. Summerville",
-      "team": "Netherlands",
-      "goals": 2,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 133,
-      "photo": "https://media.api-sports.io/football/players/37724.png"
-    },
-    {
-      "rank": 19,
+      "rank": 20,
       "player_id": "20696",
       "player": "P. Gueye",
       "team": "Senegal",
@@ -226,20 +238,8 @@
       "assists": 1,
       "penalties": 0,
       "appearances": 3,
-      "minutes": 177,
+      "minutes": 170,
       "photo": "https://media.api-sports.io/football/players/20696.png"
-    },
-    {
-      "rank": 20,
-      "player_id": "48471",
-      "player": "R. Vargas",
-      "team": "Switzerland",
-      "goals": 2,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 178,
-      "photo": "https://media.api-sports.io/football/players/48471.png"
     }
   ]
 }
