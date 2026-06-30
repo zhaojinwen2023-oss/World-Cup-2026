@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T23:15:02Z",
+  "last_updated": "2026-06-30T01:25:27Z",
   "knockout": [
     {
       "match_id": 73,
@@ -20,7 +20,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 74,
@@ -34,14 +34,14 @@
       "away_resolved": true,
       "home_score": 1,
       "away_score": 1,
-      "home_penalty_score": 0,
-      "away_penalty_score": 0,
-      "winner": "",
-      "loser": "",
+      "home_penalty_score": 3,
+      "away_penalty_score": 4,
+      "winner": "Paraguay",
+      "loser": "Germany",
       "next_match_id": 89,
       "next_slot": "home",
-      "status": "penalties",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "status": "finished",
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 75,
@@ -53,16 +53,16 @@
       "away_team": "Morocco",
       "home_resolved": true,
       "away_resolved": true,
-      "home_score": "",
-      "away_score": "",
+      "home_score": 0,
+      "away_score": 0,
       "home_penalty_score": "",
       "away_penalty_score": "",
       "winner": "",
       "loser": "",
       "next_match_id": 90,
       "next_slot": "away",
-      "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "status": "live",
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 76,
@@ -83,7 +83,7 @@
       "next_match_id": 91,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 77,
@@ -104,7 +104,7 @@
       "next_match_id": 89,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 78,
@@ -125,7 +125,7 @@
       "next_match_id": 91,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 79,
@@ -146,7 +146,7 @@
       "next_match_id": 92,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 80,
@@ -167,7 +167,7 @@
       "next_match_id": 92,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 81,
@@ -188,7 +188,7 @@
       "next_match_id": 94,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 82,
@@ -209,7 +209,7 @@
       "next_match_id": 94,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 83,
@@ -230,7 +230,7 @@
       "next_match_id": 93,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 84,
@@ -251,7 +251,7 @@
       "next_match_id": 93,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 85,
@@ -272,7 +272,7 @@
       "next_match_id": 96,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 86,
@@ -293,7 +293,7 @@
       "next_match_id": 95,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 87,
@@ -314,7 +314,7 @@
       "next_match_id": 96,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 88,
@@ -335,7 +335,7 @@
       "next_match_id": 95,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-06-29T23:15:02Z"
+      "last_updated": "2026-06-30T01:25:27Z"
     },
     {
       "match_id": 89,
@@ -343,9 +343,9 @@
       "stage": "Round of 16",
       "home_source": "Winner Match 74",
       "away_source": "Winner Match 77",
-      "home_team": "Winner Match 74",
+      "home_team": "Paraguay",
       "away_team": "Winner Match 77",
-      "home_resolved": false,
+      "home_resolved": true,
       "away_resolved": false,
       "home_score": "",
       "away_score": "",
