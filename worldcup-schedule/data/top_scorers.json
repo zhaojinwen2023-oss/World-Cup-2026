@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T20:28:13Z",
+  "last_updated": "2026-07-01T22:01:13Z",
   "scorers": [
     {
       "rank": 1,
@@ -39,6 +39,18 @@
     },
     {
       "rank": 4,
+      "player_id": "184",
+      "player": "H. Kane",
+      "team": "England",
+      "goals": 5,
+      "assists": 0,
+      "penalties": 1,
+      "appearances": 4,
+      "minutes": 354,
+      "photo": "https://media.api-sports.io/football/players/184.png"
+    },
+    {
+      "rank": 5,
       "player_id": "153",
       "player": "O. Dembélé",
       "team": "France",
@@ -50,7 +62,19 @@
       "photo": "https://media.api-sports.io/football/players/153.png"
     },
     {
-      "rank": 5,
+      "rank": 6,
+      "player_id": "2218",
+      "player": "I. Sarr",
+      "team": "Senegal",
+      "goals": 4,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 4,
+      "minutes": 305,
+      "photo": "https://media.api-sports.io/football/players/2218.png"
+    },
+    {
+      "rank": 7,
       "player_id": "762",
       "player": "Vinícius Júnior",
       "team": "Brazil",
@@ -62,7 +86,7 @@
       "photo": "https://media.api-sports.io/football/players/762.png"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "player_id": "26475",
       "player": "D. Undav",
       "team": "Germany",
@@ -74,7 +98,7 @@
       "photo": "https://media.api-sports.io/football/players/26475.png"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "player_id": "35532",
       "player": "J. Quiñones",
       "team": "Mexico",
@@ -86,7 +110,7 @@
       "photo": "https://media.api-sports.io/football/players/35532.png"
     },
     {
-      "rank": 8,
+      "rank": 10,
       "player_id": "247",
       "player": "C. Gakpo",
       "team": "Netherlands",
@@ -98,7 +122,7 @@
       "photo": "https://media.api-sports.io/football/players/247.png"
     },
     {
-      "rank": 9,
+      "rank": 11,
       "player_id": "406244",
       "player": "J. Manzambi",
       "team": "Switzerland",
@@ -110,19 +134,7 @@
       "photo": "https://media.api-sports.io/football/players/406244.png"
     },
     {
-      "rank": 10,
-      "player_id": "2218",
-      "player": "I. Sarr",
-      "team": "Senegal",
-      "goals": 3,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 246,
-      "photo": "https://media.api-sports.io/football/players/2218.png"
-    },
-    {
-      "rank": 11,
+      "rank": 12,
       "player_id": "38750",
       "player": "B. Brobbey",
       "team": "Netherlands",
@@ -134,7 +146,7 @@
       "photo": "https://media.api-sports.io/football/players/38750.png"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "player_id": "1165",
       "player": "Matheus Cunha",
       "team": "Brazil",
@@ -146,7 +158,7 @@
       "photo": "https://media.api-sports.io/football/players/1165.png"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "player_id": "8489",
       "player": "J. David",
       "team": "Canada",
@@ -158,7 +170,7 @@
       "photo": "https://media.api-sports.io/football/players/8489.png"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "player_id": "161897",
       "player": "I. Saibari",
       "team": "Morocco",
@@ -170,7 +182,7 @@
       "photo": "https://media.api-sports.io/football/players/161897.png"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "player_id": "94333",
       "player": "E. Just",
       "team": "New Zealand",
@@ -182,7 +194,7 @@
       "photo": "https://media.api-sports.io/football/players/94333.png"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "player_id": "978",
       "player": "K. Havertz",
       "team": "Germany",
@@ -194,18 +206,6 @@
       "photo": "https://media.api-sports.io/football/players/978.png"
     },
     {
-      "rank": 17,
-      "player_id": "184",
-      "player": "H. Kane",
-      "team": "England",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 1,
-      "appearances": 3,
-      "minutes": 264,
-      "photo": "https://media.api-sports.io/football/players/184.png"
-    },
-    {
       "rank": 18,
       "player_id": "20649",
       "player": "Y. Wissa",
@@ -213,8 +213,8 @@
       "goals": 3,
       "assists": 0,
       "penalties": 1,
-      "appearances": 3,
-      "minutes": 270,
+      "appearances": 4,
+      "minutes": 360,
       "photo": "https://media.api-sports.io/football/players/20649.png"
     },
     {
