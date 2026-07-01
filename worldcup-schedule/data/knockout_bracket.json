@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T16:39:32Z",
+  "last_updated": "2026-07-01T18:30:38Z",
   "knockout": [
     {
       "match_id": 73,
@@ -20,7 +20,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 74,
@@ -41,7 +41,7 @@
       "next_match_id": 89,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 75,
@@ -62,7 +62,7 @@
       "next_match_id": 90,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 76,
@@ -83,7 +83,7 @@
       "next_match_id": 91,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 77,
@@ -104,7 +104,7 @@
       "next_match_id": 89,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 78,
@@ -125,7 +125,7 @@
       "next_match_id": 91,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 79,
@@ -158,16 +158,16 @@
       "away_team": "DR Congo",
       "home_resolved": true,
       "away_resolved": true,
-      "home_score": 0,
+      "home_score": 2,
       "away_score": 1,
       "home_penalty_score": "",
       "away_penalty_score": "",
-      "winner": "Congo DR",
-      "loser": "England",
+      "winner": "England",
+      "loser": "Congo DR",
       "next_match_id": 92,
       "next_slot": "away",
-      "status": "live",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "status": "finished",
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 81,
@@ -188,7 +188,7 @@
       "next_match_id": 94,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 82,
@@ -209,7 +209,7 @@
       "next_match_id": 94,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 83,
@@ -230,7 +230,7 @@
       "next_match_id": 93,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 84,
@@ -251,7 +251,7 @@
       "next_match_id": 93,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 85,
@@ -272,7 +272,7 @@
       "next_match_id": 96,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 86,
@@ -293,7 +293,7 @@
       "next_match_id": 95,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 87,
@@ -314,7 +314,7 @@
       "next_match_id": 96,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 88,
@@ -335,7 +335,7 @@
       "next_match_id": 95,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 89,
@@ -356,7 +356,7 @@
       "next_match_id": 97,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 90,
@@ -377,7 +377,7 @@
       "next_match_id": 97,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-07-01T16:39:32Z"
+      "last_updated": "2026-07-01T18:30:38Z"
     },
     {
       "match_id": 91,
@@ -407,7 +407,7 @@
       "home_source": "Winner Match 79",
       "away_source": "Winner Match 80",
       "home_team": "Winner Match 79",
-      "away_team": "Congo DR",
+      "away_team": "England",
       "home_resolved": false,
       "away_resolved": true,
       "home_score": "",
