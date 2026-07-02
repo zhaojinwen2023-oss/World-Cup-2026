@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T01:36:04Z",
+  "last_updated": "2026-07-02T05:41:25Z",
   "knockout": [
     {
       "match_id": 73,
@@ -20,7 +20,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 74,
@@ -41,7 +41,7 @@
       "next_match_id": 89,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 75,
@@ -62,7 +62,7 @@
       "next_match_id": 90,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 76,
@@ -83,7 +83,7 @@
       "next_match_id": 91,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 77,
@@ -104,7 +104,7 @@
       "next_match_id": 89,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 78,
@@ -125,7 +125,7 @@
       "next_match_id": 91,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 79,
@@ -167,7 +167,7 @@
       "next_match_id": 92,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 81,
@@ -179,7 +179,7 @@
       "away_team": "Bosnia and Herzegovina",
       "home_resolved": true,
       "away_resolved": true,
-      "home_score": 1,
+      "home_score": 2,
       "away_score": 0,
       "home_penalty_score": "",
       "away_penalty_score": "",
@@ -187,8 +187,8 @@
       "loser": "Bosnia & Herzegovina",
       "next_match_id": 94,
       "next_slot": "home",
-      "status": "live",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "status": "finished",
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 82,
@@ -209,7 +209,7 @@
       "next_match_id": 94,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 83,
@@ -230,7 +230,7 @@
       "next_match_id": 93,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 84,
@@ -251,7 +251,7 @@
       "next_match_id": 93,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 85,
@@ -272,7 +272,7 @@
       "next_match_id": 96,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 86,
@@ -293,7 +293,7 @@
       "next_match_id": 95,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 87,
@@ -314,7 +314,7 @@
       "next_match_id": 96,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 88,
@@ -335,7 +335,7 @@
       "next_match_id": 95,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 89,
@@ -356,7 +356,7 @@
       "next_match_id": 97,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 90,
@@ -377,7 +377,7 @@
       "next_match_id": 97,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-07-02T01:36:04Z"
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 91,
@@ -398,7 +398,7 @@
       "next_match_id": 99,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 92,
@@ -461,7 +461,7 @@
       "next_match_id": 98,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-07-02T05:41:25Z"
     },
     {
       "match_id": 95,

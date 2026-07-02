@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T01:36:04Z",
+  "last_updated": "2026-07-02T05:41:25Z",
   "scorers": [
     {
       "rank": 1,
@@ -63,18 +63,6 @@
     },
     {
       "rank": 6,
-      "player_id": "2218",
-      "player": "I. Sarr",
-      "team": "Senegal",
-      "goals": 4,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 4,
-      "minutes": 305,
-      "photo": "https://media.api-sports.io/football/players/2218.png"
-    },
-    {
-      "rank": 7,
       "player_id": "762",
       "player": "Vinícius Júnior",
       "team": "Brazil",
@@ -84,6 +72,18 @@
       "appearances": 4,
       "minutes": 351,
       "photo": "https://media.api-sports.io/football/players/762.png"
+    },
+    {
+      "rank": 7,
+      "player_id": "2218",
+      "player": "I. Sarr",
+      "team": "Senegal",
+      "goals": 4,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 4,
+      "minutes": 366,
+      "photo": "https://media.api-sports.io/football/players/2218.png"
     },
     {
       "rank": 8,
@@ -183,6 +183,18 @@
     },
     {
       "rank": 16,
+      "player_id": "138835",
+      "player": "F. Balogun",
+      "team": "USA",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3,
+      "minutes": 225,
+      "photo": "https://media.api-sports.io/football/players/138835.png"
+    },
+    {
+      "rank": 17,
       "player_id": "94333",
       "player": "E. Just",
       "team": "New Zealand",
@@ -194,7 +206,7 @@
       "photo": "https://media.api-sports.io/football/players/94333.png"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "player_id": "978",
       "player": "K. Havertz",
       "team": "Germany",
@@ -206,7 +218,7 @@
       "photo": "https://media.api-sports.io/football/players/978.png"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "player_id": "20649",
       "player": "Y. Wissa",
       "team": "Congo DR",
@@ -218,7 +230,7 @@
       "photo": "https://media.api-sports.io/football/players/20649.png"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "player_id": "37724",
       "player": "C. Summerville",
       "team": "Netherlands",
@@ -228,18 +240,6 @@
       "appearances": 4,
       "minutes": 253,
       "photo": "https://media.api-sports.io/football/players/37724.png"
-    },
-    {
-      "rank": 20,
-      "player_id": "161904",
-      "player": "B. Barcola",
-      "team": "France",
-      "goals": 2,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 4,
-      "minutes": 208,
-      "photo": "https://media.api-sports.io/football/players/161904.png"
     }
   ]
 }
