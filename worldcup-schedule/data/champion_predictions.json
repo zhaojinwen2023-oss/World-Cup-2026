@@ -1,19 +1,19 @@
 {
   "model_version": "Poisson + 50,000次蒙特卡洛 v1.0",
-  "generated_at": "2026-07-04T16:03:57+08:00",
+  "generated_at": "2026-07-05T16:29:55+08:00",
   "status": "model",
   "source_label": "历史 Elo、近20场攻防、Poisson比分与完整赛事模拟",
   "data_freshness": {
-    "app_data_generated_at": "2026-07-04T08:03:55Z",
-    "live_last_updated": "2026-07-04T08:03:54Z",
-    "finished_matches": 86,
+    "app_data_generated_at": "2026-07-05T08:29:54Z",
+    "live_last_updated": "2026-07-05T08:29:53Z",
+    "finished_matches": 88,
     "simulations": 50000
   },
   "sources": [
     {
       "title": "世界杯赛程、实时赛果与积分",
       "path": "data/app_data.json",
-      "last_updated": "2026-07-04T08:03:55Z"
+      "last_updated": "2026-07-05T08:29:54Z"
     },
     {
       "title": "过去24个月国际比赛",
@@ -31,7 +31,7 @@
       "last_updated": "按文件内容"
     }
   ],
-  "other_probability": 6.9,
+  "other_probability": 3.0,
   "methodology": [
     {
       "label": "长期实力",
@@ -51,8 +51,23 @@
   ],
   "teams": [
     {
+      "team": "Morocco",
+      "champion_probability": 18.1,
+      "strength_score": 87,
+      "historical_elo": 1617.8,
+      "historical_matches": 20,
+      "historical_record": {
+        "won": 14,
+        "drawn": 6,
+        "lost": 0
+      },
+      "form_score": 78,
+      "path_score": 100.0,
+      "summary": "32强 100.0% · 16强 100.0%"
+    },
+    {
       "team": "Argentina",
-      "champion_probability": 17.7,
+      "champion_probability": 17.2,
       "strength_score": 83,
       "historical_elo": 1577.2,
       "historical_matches": 20,
@@ -66,8 +81,23 @@
       "summary": "32强 100.0% · 16强 100.0%"
     },
     {
+      "team": "France",
+      "champion_probability": 12.2,
+      "strength_score": 82,
+      "historical_elo": 1569.9,
+      "historical_matches": 20,
+      "historical_record": {
+        "won": 16,
+        "drawn": 1,
+        "lost": 3
+      },
+      "form_score": 87,
+      "path_score": 100.0,
+      "summary": "32强 100.0% · 16强 100.0%"
+    },
+    {
       "team": "Spain",
-      "champion_probability": 12.8,
+      "champion_probability": 11.7,
       "strength_score": 85,
       "historical_elo": 1603.8,
       "historical_matches": 20,
@@ -81,23 +111,8 @@
       "summary": "32强 100.0% · 16强 100.0%"
     },
     {
-      "team": "Morocco",
-      "champion_probability": 11.4,
-      "strength_score": 87,
-      "historical_elo": 1617.8,
-      "historical_matches": 20,
-      "historical_record": {
-        "won": 14,
-        "drawn": 6,
-        "lost": 0
-      },
-      "form_score": 76,
-      "path_score": 100.0,
-      "summary": "32强 100.0% · 16强 100.0%"
-    },
-    {
       "team": "England",
-      "champion_probability": 10.0,
+      "champion_probability": 9.5,
       "strength_score": 84,
       "historical_elo": 1593.4,
       "historical_matches": 20,
@@ -111,23 +126,8 @@
       "summary": "32强 100.0% · 16强 100.0%"
     },
     {
-      "team": "France",
-      "champion_probability": 9.7,
-      "strength_score": 82,
-      "historical_elo": 1569.9,
-      "historical_matches": 20,
-      "historical_record": {
-        "won": 15,
-        "drawn": 2,
-        "lost": 3
-      },
-      "form_score": 86,
-      "path_score": 100.0,
-      "summary": "32强 100.0% · 16强 100.0%"
-    },
-    {
       "team": "Belgium",
-      "champion_probability": 7.5,
+      "champion_probability": 6.5,
       "strength_score": 81,
       "historical_elo": 1555.6,
       "historical_matches": 20,
@@ -142,7 +142,7 @@
     },
     {
       "team": "Portugal",
-      "champion_probability": 4.8,
+      "champion_probability": 4.4,
       "strength_score": 82,
       "historical_elo": 1565.0,
       "historical_matches": 20,
@@ -157,7 +157,7 @@
     },
     {
       "team": "Brazil",
-      "champion_probability": 4.4,
+      "champion_probability": 4.2,
       "strength_score": 79,
       "historical_elo": 1542.8,
       "historical_matches": 20,
@@ -172,7 +172,7 @@
     },
     {
       "team": "Switzerland",
-      "champion_probability": 3.9,
+      "champion_probability": 3.6,
       "strength_score": 80,
       "historical_elo": 1545.2,
       "historical_matches": 20,
@@ -187,7 +187,7 @@
     },
     {
       "team": "Mexico",
-      "champion_probability": 3.9,
+      "champion_probability": 3.5,
       "strength_score": 82,
       "historical_elo": 1573.8,
       "historical_matches": 20,
@@ -197,27 +197,12 @@
         "lost": 2
       },
       "form_score": 75,
-      "path_score": 70.3,
-      "summary": "32强 100.0% · 16强 70.3%"
-    },
-    {
-      "team": "Canada",
-      "champion_probability": 3.7,
-      "strength_score": 79,
-      "historical_elo": 1544.6,
-      "historical_matches": 20,
-      "historical_record": {
-        "won": 9,
-        "drawn": 9,
-        "lost": 2
-      },
-      "form_score": 59,
-      "path_score": 100.0,
-      "summary": "32强 100.0% · 16强 100.0%"
+      "path_score": 70.6,
+      "summary": "32强 100.0% · 16强 70.6%"
     },
     {
       "team": "Norway",
-      "champion_probability": 3.3,
+      "champion_probability": 3.2,
       "strength_score": 83,
       "historical_elo": 1582.5,
       "historical_matches": 20,
@@ -225,6 +210,21 @@
         "won": 15,
         "drawn": 3,
         "lost": 2
+      },
+      "form_score": 71,
+      "path_score": 100.0,
+      "summary": "32强 100.0% · 16强 100.0%"
+    },
+    {
+      "team": "Colombia",
+      "champion_probability": 2.9,
+      "strength_score": 79,
+      "historical_elo": 1541.7,
+      "historical_matches": 20,
+      "historical_record": {
+        "won": 10,
+        "drawn": 5,
+        "lost": 5
       },
       "form_score": 71,
       "path_score": 100.0,
