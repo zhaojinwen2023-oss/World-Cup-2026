@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05T22:28:40Z",
+  "last_updated": "2026-07-05T23:35:22Z",
   "scorers": [
     {
       "rank": 1,
@@ -33,8 +33,8 @@
       "goals": 5,
       "assists": 0,
       "penalties": 0,
-      "appearances": 3,
-      "minutes": 270,
+      "appearances": 4,
+      "minutes": 332,
       "photo": "https://media.api-sports.io/football/players/1100.png"
     },
     {
@@ -63,6 +63,18 @@
     },
     {
       "rank": 6,
+      "player_id": "762",
+      "player": "Vinícius Júnior",
+      "team": "Brazil",
+      "goals": 4,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 5,
+      "minutes": 413,
+      "photo": "https://media.api-sports.io/football/players/762.png"
+    },
+    {
+      "rank": 7,
       "player_id": "47323",
       "player": "Mikel Oyarzabal",
       "team": "Spain",
@@ -72,18 +84,6 @@
       "appearances": 4,
       "minutes": 301,
       "photo": "https://media.api-sports.io/football/players/47323.png"
-    },
-    {
-      "rank": 7,
-      "player_id": "762",
-      "player": "Vinícius Júnior",
-      "team": "Brazil",
-      "goals": 4,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 4,
-      "minutes": 351,
-      "photo": "https://media.api-sports.io/football/players/762.png"
     },
     {
       "rank": 8,
@@ -147,6 +147,18 @@
     },
     {
       "rank": 13,
+      "player_id": "1165",
+      "player": "Matheus Cunha",
+      "team": "Brazil",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 5,
+      "minutes": 293,
+      "photo": "https://media.api-sports.io/football/players/1165.png"
+    },
+    {
+      "rank": 14,
       "player_id": "161897",
       "player": "I. Saibari",
       "team": "Morocco",
@@ -158,7 +170,7 @@
       "photo": "https://media.api-sports.io/football/players/161897.png"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "player_id": "8489",
       "player": "J. David",
       "team": "Canada",
@@ -170,7 +182,7 @@
       "photo": "https://media.api-sports.io/football/players/8489.png"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "player_id": "38750",
       "player": "B. Brobbey",
       "team": "Netherlands",
@@ -180,18 +192,6 @@
       "appearances": 4,
       "minutes": 232,
       "photo": "https://media.api-sports.io/football/players/38750.png"
-    },
-    {
-      "rank": 16,
-      "player_id": "1165",
-      "player": "Matheus Cunha",
-      "team": "Brazil",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 4,
-      "minutes": 235,
-      "photo": "https://media.api-sports.io/football/players/1165.png"
     },
     {
       "rank": 17,
