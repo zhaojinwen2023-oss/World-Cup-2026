@@ -1,2 +1,2 @@
 ﻿match_id,group,kickoff_utc,country,home_team,away_team,expected_home_goals,expected_away_goals,home_win_probability,draw_probability,away_win_probability,most_likely_score,favorite,underdog,rating_difference,upset_probability
-53,A,2026-06-25T00:00:00Z,Mexico,Czech Republic,Mexico,0.9,1.5,22.5,26.1,51.4,0-1,Mexico,Czech Republic,39.6,22.5
+53,A,2026-06-25T00:00:00Z,Mexico,Czech Republic,Mexico,0.75,1.47,19.1,26.6,54.3,0-1,Mexico,Czech Republic,39.6,19.1
