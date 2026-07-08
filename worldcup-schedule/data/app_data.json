@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-08T11:47:30Z",
-  "live_last_updated": "2026-07-08T11:47:29Z",
-  "standings_last_updated": "2026-07-08T11:47:29Z",
-  "top_scorers_last_updated": "2026-07-08T11:47:29Z",
-  "knockout_last_updated": "2026-07-08T11:47:29Z",
+  "generated_at": "2026-07-08T13:43:59Z",
+  "live_last_updated": "2026-07-08T13:43:58Z",
+  "standings_last_updated": "2026-07-08T13:43:58Z",
+  "top_scorers_last_updated": "2026-07-08T13:43:58Z",
+  "knockout_last_updated": "2026-07-08T13:43:58Z",
   "matches": [
     {
       "match_id": 1,
@@ -45,7 +45,7 @@
       "loser": "South Africa",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -90,7 +90,7 @@
       "loser": "Czechia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -135,7 +135,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -180,7 +180,7 @@
       "loser": "Paraguay",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -225,7 +225,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -270,7 +270,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -315,7 +315,7 @@
       "loser": "Haiti",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -360,7 +360,7 @@
       "loser": "Türkiye",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -405,7 +405,7 @@
       "loser": "Curaçao",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -450,7 +450,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -495,7 +495,7 @@
       "loser": "Ecuador",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -540,7 +540,7 @@
       "loser": "Tunisia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -585,7 +585,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -630,7 +630,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -675,7 +675,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -720,7 +720,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -765,7 +765,7 @@
       "loser": "Senegal",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -810,7 +810,7 @@
       "loser": "Iraq",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -855,7 +855,7 @@
       "loser": "Algeria",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -900,7 +900,7 @@
       "loser": "Jordan",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -945,7 +945,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -990,7 +990,7 @@
       "loser": "Croatia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -1035,7 +1035,7 @@
       "loser": "Panama",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -1080,7 +1080,7 @@
       "loser": "Uzbekistan",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -1125,7 +1125,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -1170,7 +1170,7 @@
       "loser": "Bosnia & Herzegovina",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -1215,7 +1215,7 @@
       "loser": "Qatar",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -1260,7 +1260,7 @@
       "loser": "South Korea",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -1305,7 +1305,7 @@
       "loser": "Australia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -1350,7 +1350,7 @@
       "loser": "Scotland",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -1395,7 +1395,7 @@
       "loser": "Haiti",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -1440,7 +1440,7 @@
       "loser": "Türkiye",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -1485,7 +1485,7 @@
       "loser": "Sweden",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -1530,7 +1530,7 @@
       "loser": "Ivory Coast",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -1575,7 +1575,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -1620,7 +1620,7 @@
       "loser": "Tunisia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -1665,7 +1665,7 @@
       "loser": "Saudi Arabia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -1710,7 +1710,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -1755,7 +1755,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -1800,7 +1800,7 @@
       "loser": "New Zealand",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -1845,7 +1845,7 @@
       "loser": "Austria",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -1890,7 +1890,7 @@
       "loser": "Iraq",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -1935,7 +1935,7 @@
       "loser": "Senegal",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -1980,7 +1980,7 @@
       "loser": "Jordan",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -2025,7 +2025,7 @@
       "loser": "Uzbekistan",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -2070,7 +2070,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -2115,7 +2115,7 @@
       "loser": "Panama",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -2160,7 +2160,7 @@
       "loser": "Congo DR",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -2205,7 +2205,7 @@
       "loser": "Canada",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -2250,7 +2250,7 @@
       "loser": "Qatar",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group B"
@@ -2295,7 +2295,7 @@
       "loser": "Scotland",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -2340,7 +2340,7 @@
       "loser": "Haiti",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group C"
@@ -2430,7 +2430,7 @@
       "loser": "South Korea",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group A"
@@ -2475,7 +2475,7 @@
       "loser": "Curaçao",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -2520,7 +2520,7 @@
       "loser": "Germany",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group E"
@@ -2565,7 +2565,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -2610,7 +2610,7 @@
       "loser": "Tunisia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group F"
@@ -2655,7 +2655,7 @@
       "loser": "USA",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -2700,7 +2700,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group D"
@@ -2745,7 +2745,7 @@
       "loser": "Norway",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -2790,7 +2790,7 @@
       "loser": "Iraq",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group I"
@@ -2835,7 +2835,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -2880,7 +2880,7 @@
       "loser": "Uruguay",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group H"
@@ -2925,7 +2925,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -2970,7 +2970,7 @@
       "loser": "New Zealand",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group G"
@@ -3015,7 +3015,7 @@
       "loser": "Panama",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -3060,7 +3060,7 @@
       "loser": "Ghana",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group L"
@@ -3105,7 +3105,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -3150,7 +3150,7 @@
       "loser": "Uzbekistan",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group K"
@@ -3195,7 +3195,7 @@
       "loser": "",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -3240,7 +3240,7 @@
       "loser": "Jordan",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": "Group J"
@@ -3285,7 +3285,7 @@
       "loser": "South Africa",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3330,7 +3330,7 @@
       "loser": "Japan",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3375,7 +3375,7 @@
       "loser": "Germany",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3420,7 +3420,7 @@
       "loser": "Netherlands",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3465,7 +3465,7 @@
       "loser": "Ivory Coast",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3510,7 +3510,7 @@
       "loser": "Sweden",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3600,7 +3600,7 @@
       "loser": "Congo DR",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3645,7 +3645,7 @@
       "loser": "Senegal",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3690,7 +3690,7 @@
       "loser": "Bosnia & Herzegovina",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3735,7 +3735,7 @@
       "loser": "Austria",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3780,7 +3780,7 @@
       "loser": "Croatia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3825,7 +3825,7 @@
       "loser": "Algeria",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3870,7 +3870,7 @@
       "loser": "Australia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3915,7 +3915,7 @@
       "loser": "Cape Verde Islands",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -3960,7 +3960,7 @@
       "loser": "Ghana",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4005,7 +4005,7 @@
       "loser": "Canada",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4050,7 +4050,7 @@
       "loser": "Paraguay",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4095,7 +4095,7 @@
       "loser": "Brazil",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4185,7 +4185,7 @@
       "loser": "Portugal",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4230,7 +4230,7 @@
       "loser": "USA",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4275,7 +4275,7 @@
       "loser": "Egypt",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4320,7 +4320,7 @@
       "loser": "Colombia",
       "is_finished": true,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4365,7 +4365,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4410,7 +4410,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4455,7 +4455,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "2026-07-08T11:47:29Z",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -4500,7 +4500,7 @@
       "loser": "",
       "is_finished": false,
       "is_live": false,
-      "last_updated": "",
+      "last_updated": "2026-07-08T13:43:58Z",
       "is_favorite": false,
       "favorite_mark": "",
       "notes": ""
@@ -5888,7 +5888,7 @@
       "next_match_id": 90,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 74,
@@ -5909,7 +5909,7 @@
       "next_match_id": 89,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 75,
@@ -5930,7 +5930,7 @@
       "next_match_id": 90,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 76,
@@ -5951,7 +5951,7 @@
       "next_match_id": 91,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 77,
@@ -5972,7 +5972,7 @@
       "next_match_id": 89,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 78,
@@ -5993,7 +5993,7 @@
       "next_match_id": 91,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 79,
@@ -6035,7 +6035,7 @@
       "next_match_id": 92,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 81,
@@ -6056,7 +6056,7 @@
       "next_match_id": 94,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 82,
@@ -6077,7 +6077,7 @@
       "next_match_id": 94,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 83,
@@ -6098,7 +6098,7 @@
       "next_match_id": 93,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 84,
@@ -6119,7 +6119,7 @@
       "next_match_id": 93,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 85,
@@ -6140,7 +6140,7 @@
       "next_match_id": 96,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 86,
@@ -6161,7 +6161,7 @@
       "next_match_id": 95,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 87,
@@ -6182,7 +6182,7 @@
       "next_match_id": 96,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 88,
@@ -6203,7 +6203,7 @@
       "next_match_id": 95,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 89,
@@ -6224,7 +6224,7 @@
       "next_match_id": 97,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 90,
@@ -6245,7 +6245,7 @@
       "next_match_id": 97,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 91,
@@ -6266,7 +6266,7 @@
       "next_match_id": 99,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 92,
@@ -6308,7 +6308,7 @@
       "next_match_id": 98,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 94,
@@ -6329,7 +6329,7 @@
       "next_match_id": 98,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 95,
@@ -6350,7 +6350,7 @@
       "next_match_id": 100,
       "next_slot": "home",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 96,
@@ -6371,7 +6371,7 @@
       "next_match_id": 100,
       "next_slot": "away",
       "status": "finished",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 97,
@@ -6392,7 +6392,7 @@
       "next_match_id": 101,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 98,
@@ -6413,7 +6413,7 @@
       "next_match_id": 101,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 99,
@@ -6434,7 +6434,7 @@
       "next_match_id": 102,
       "next_slot": "home",
       "status": "scheduled",
-      "last_updated": "2026-07-08T11:47:29Z"
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 100,
@@ -6455,7 +6455,7 @@
       "next_match_id": 102,
       "next_slot": "away",
       "status": "scheduled",
-      "last_updated": ""
+      "last_updated": "2026-07-08T13:43:58Z"
     },
     {
       "match_id": 101,
