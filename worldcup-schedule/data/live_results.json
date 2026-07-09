@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09T08:56:43Z",
+  "last_updated": "2026-07-09T11:57:03Z",
   "results": [
     {
       "match_id": 1,
@@ -14,7 +14,7 @@
       "winner": "Mexico",
       "loser": "South Africa",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 2,
@@ -29,7 +29,7 @@
       "winner": "South Korea",
       "loser": "Czechia",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 3,
@@ -44,7 +44,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 4,
@@ -59,7 +59,7 @@
       "winner": "USA",
       "loser": "Paraguay",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 5,
@@ -74,7 +74,7 @@
       "winner": "Scotland",
       "loser": "Haiti",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 6,
@@ -89,7 +89,7 @@
       "winner": "Australia",
       "loser": "Türkiye",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 7,
@@ -104,7 +104,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 8,
@@ -119,7 +119,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 9,
@@ -134,7 +134,7 @@
       "winner": "Ivory Coast",
       "loser": "Ecuador",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 10,
@@ -149,7 +149,7 @@
       "winner": "Germany",
       "loser": "Curaçao",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 11,
@@ -164,7 +164,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 12,
@@ -179,7 +179,7 @@
       "winner": "Sweden",
       "loser": "Tunisia",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 13,
@@ -194,7 +194,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 14,
@@ -209,7 +209,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 15,
@@ -224,7 +224,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 16,
@@ -239,7 +239,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 17,
@@ -254,7 +254,7 @@
       "winner": "France",
       "loser": "Senegal",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 18,
@@ -269,7 +269,7 @@
       "winner": "Norway",
       "loser": "Iraq",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 19,
@@ -284,7 +284,7 @@
       "winner": "Argentina",
       "loser": "Algeria",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 20,
@@ -299,7 +299,7 @@
       "winner": "Austria",
       "loser": "Jordan",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 21,
@@ -314,7 +314,7 @@
       "winner": "Ghana",
       "loser": "Panama",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 22,
@@ -329,7 +329,7 @@
       "winner": "England",
       "loser": "Croatia",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 23,
@@ -344,7 +344,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 24,
@@ -359,7 +359,7 @@
       "winner": "Colombia",
       "loser": "Uzbekistan",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 25,
@@ -374,7 +374,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 26,
@@ -389,7 +389,7 @@
       "winner": "Switzerland",
       "loser": "Bosnia & Herzegovina",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 27,
@@ -404,7 +404,7 @@
       "winner": "Canada",
       "loser": "Qatar",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 28,
@@ -419,7 +419,7 @@
       "winner": "Mexico",
       "loser": "South Korea",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 29,
@@ -434,7 +434,7 @@
       "winner": "Brazil",
       "loser": "Haiti",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 30,
@@ -449,7 +449,7 @@
       "winner": "Morocco",
       "loser": "Scotland",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 31,
@@ -464,7 +464,7 @@
       "winner": "Paraguay",
       "loser": "Türkiye",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 32,
@@ -479,7 +479,7 @@
       "winner": "USA",
       "loser": "Australia",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 33,
@@ -494,7 +494,7 @@
       "winner": "Germany",
       "loser": "Ivory Coast",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 34,
@@ -509,7 +509,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 35,
@@ -524,7 +524,7 @@
       "winner": "Netherlands",
       "loser": "Sweden",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 36,
@@ -539,7 +539,7 @@
       "winner": "Japan",
       "loser": "Tunisia",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 37,
@@ -554,7 +554,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 38,
@@ -569,7 +569,7 @@
       "winner": "Spain",
       "loser": "Saudi Arabia",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 39,
@@ -584,7 +584,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 40,
@@ -599,7 +599,7 @@
       "winner": "Egypt",
       "loser": "New Zealand",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 41,
@@ -614,7 +614,7 @@
       "winner": "Norway",
       "loser": "Senegal",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 42,
@@ -629,7 +629,7 @@
       "winner": "France",
       "loser": "Iraq",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 43,
@@ -644,7 +644,7 @@
       "winner": "Argentina",
       "loser": "Austria",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 44,
@@ -659,7 +659,7 @@
       "winner": "Algeria",
       "loser": "Jordan",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 45,
@@ -674,7 +674,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 46,
@@ -689,7 +689,7 @@
       "winner": "Croatia",
       "loser": "Panama",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 47,
@@ -704,7 +704,7 @@
       "winner": "Portugal",
       "loser": "Uzbekistan",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 48,
@@ -719,7 +719,7 @@
       "winner": "Colombia",
       "loser": "Congo DR",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 49,
@@ -734,7 +734,7 @@
       "winner": "Brazil",
       "loser": "Scotland",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 50,
@@ -749,7 +749,7 @@
       "winner": "Morocco",
       "loser": "Haiti",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 51,
@@ -764,7 +764,7 @@
       "winner": "Switzerland",
       "loser": "Canada",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 52,
@@ -779,7 +779,7 @@
       "winner": "Bosnia & Herzegovina",
       "loser": "Qatar",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 53,
@@ -809,7 +809,7 @@
       "winner": "South Africa",
       "loser": "South Korea",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 55,
@@ -824,7 +824,7 @@
       "winner": "Ivory Coast",
       "loser": "Curaçao",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 56,
@@ -839,7 +839,7 @@
       "winner": "Ecuador",
       "loser": "Germany",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 57,
@@ -854,7 +854,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 58,
@@ -869,7 +869,7 @@
       "winner": "Netherlands",
       "loser": "Tunisia",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 59,
@@ -884,7 +884,7 @@
       "winner": "Türkiye",
       "loser": "USA",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 60,
@@ -899,7 +899,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 61,
@@ -914,7 +914,7 @@
       "winner": "France",
       "loser": "Norway",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 62,
@@ -929,7 +929,7 @@
       "winner": "Senegal",
       "loser": "Iraq",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 63,
@@ -944,7 +944,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 64,
@@ -959,7 +959,7 @@
       "winner": "Belgium",
       "loser": "New Zealand",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 65,
@@ -974,7 +974,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 66,
@@ -989,7 +989,7 @@
       "winner": "Spain",
       "loser": "Uruguay",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 67,
@@ -1004,7 +1004,7 @@
       "winner": "England",
       "loser": "Panama",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 68,
@@ -1019,7 +1019,7 @@
       "winner": "Croatia",
       "loser": "Ghana",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 69,
@@ -1034,7 +1034,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 70,
@@ -1049,7 +1049,7 @@
       "winner": "Argentina",
       "loser": "Jordan",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 71,
@@ -1064,7 +1064,7 @@
       "winner": "",
       "loser": "",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 72,
@@ -1079,7 +1079,7 @@
       "winner": "Congo DR",
       "loser": "Uzbekistan",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 73,
@@ -1094,7 +1094,7 @@
       "winner": "Canada",
       "loser": "South Africa",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 74,
@@ -1109,7 +1109,7 @@
       "winner": "Paraguay",
       "loser": "Germany",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 75,
@@ -1124,7 +1124,7 @@
       "winner": "Morocco",
       "loser": "Netherlands",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 76,
@@ -1139,7 +1139,7 @@
       "winner": "Brazil",
       "loser": "Japan",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 77,
@@ -1154,7 +1154,7 @@
       "winner": "France",
       "loser": "Sweden",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 78,
@@ -1169,7 +1169,7 @@
       "winner": "Norway",
       "loser": "Ivory Coast",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 79,
@@ -1199,7 +1199,7 @@
       "winner": "England",
       "loser": "Congo DR",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 81,
@@ -1214,7 +1214,7 @@
       "winner": "USA",
       "loser": "Bosnia & Herzegovina",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 82,
@@ -1229,7 +1229,7 @@
       "winner": "Belgium",
       "loser": "Senegal",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 83,
@@ -1244,7 +1244,7 @@
       "winner": "Portugal",
       "loser": "Croatia",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 84,
@@ -1259,7 +1259,7 @@
       "winner": "Spain",
       "loser": "Austria",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 85,
@@ -1274,7 +1274,7 @@
       "winner": "Switzerland",
       "loser": "Algeria",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 86,
@@ -1289,7 +1289,7 @@
       "winner": "Argentina",
       "loser": "Cape Verde Islands",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 87,
@@ -1304,7 +1304,7 @@
       "winner": "Colombia",
       "loser": "Ghana",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 88,
@@ -1319,7 +1319,7 @@
       "winner": "Egypt",
       "loser": "Australia",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 89,
@@ -1334,7 +1334,7 @@
       "winner": "France",
       "loser": "Paraguay",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 90,
@@ -1349,7 +1349,7 @@
       "winner": "Morocco",
       "loser": "Canada",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 91,
@@ -1364,7 +1364,7 @@
       "winner": "Norway",
       "loser": "Brazil",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 92,
@@ -1394,7 +1394,7 @@
       "winner": "Spain",
       "loser": "Portugal",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 94,
@@ -1409,7 +1409,7 @@
       "winner": "Belgium",
       "loser": "USA",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 95,
@@ -1424,7 +1424,7 @@
       "winner": "Argentina",
       "loser": "Egypt",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 96,
@@ -1439,7 +1439,7 @@
       "winner": "Switzerland",
       "loser": "Colombia",
       "is_finished": true,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 97,
@@ -1454,7 +1454,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 98,
@@ -1469,7 +1469,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 99,
@@ -1484,7 +1484,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 100,
@@ -1499,7 +1499,7 @@
       "winner": "",
       "loser": "",
       "is_finished": false,
-      "last_updated": "2026-07-09T08:56:43Z"
+      "last_updated": "2026-07-09T11:57:03Z"
     },
     {
       "match_id": 101,
