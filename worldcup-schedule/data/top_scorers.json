@@ -1,8 +1,20 @@
 {
-  "last_updated": "2026-07-09T22:15:12Z",
+  "last_updated": "2026-07-09T23:38:02Z",
   "scorers": [
     {
       "rank": 1,
+      "player_id": "278",
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 8,
+      "assists": 3,
+      "penalties": 1,
+      "appearances": 6,
+      "minutes": 518,
+      "photo": "https://media.api-sports.io/football/players/278.png"
+    },
+    {
+      "rank": 2,
       "player_id": "154",
       "player": "L. Messi",
       "team": "Argentina",
@@ -10,20 +22,8 @@
       "assists": 1,
       "penalties": 0,
       "appearances": 5,
-      "minutes": 422,
+      "minutes": 410,
       "photo": "https://media.api-sports.io/football/players/154.png"
-    },
-    {
-      "rank": 2,
-      "player_id": "278",
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 7,
-      "assists": 2,
-      "penalties": 1,
-      "appearances": 5,
-      "minutes": 441,
-      "photo": "https://media.api-sports.io/football/players/278.png"
     },
     {
       "rank": 3,
@@ -54,11 +54,11 @@
       "player_id": "153",
       "player": "O. Dembélé",
       "team": "France",
-      "goals": 4,
+      "goals": 5,
       "assists": 2,
       "penalties": 0,
-      "appearances": 5,
-      "minutes": 372,
+      "appearances": 6,
+      "minutes": 462,
       "photo": "https://media.api-sports.io/football/players/153.png"
     },
     {
