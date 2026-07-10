@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T21:53:11Z",
+  "last_updated": "2026-07-10T22:53:06Z",
   "scorers": [
     {
       "rank": 1,
@@ -69,8 +69,8 @@
       "goals": 4,
       "assists": 1,
       "penalties": 0,
-      "appearances": 5,
-      "minutes": 390,
+      "appearances": 6,
+      "minutes": 469,
       "photo": "https://media.api-sports.io/football/players/47323.png"
     },
     {
@@ -153,12 +153,24 @@
       "goals": 3,
       "assists": 1,
       "penalties": 0,
-      "appearances": 5,
-      "minutes": 206,
+      "appearances": 6,
+      "minutes": 240,
       "photo": "https://media.api-sports.io/football/players/907.png"
     },
     {
       "rank": 14,
+      "player_id": "147859",
+      "player": "C. De Ketelaere",
+      "team": "Belgium",
+      "goals": 3,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 5,
+      "minutes": 357,
+      "photo": "https://media.api-sports.io/football/players/147859.png"
+    },
+    {
+      "rank": 15,
       "player_id": "247",
       "player": "C. Gakpo",
       "team": "Netherlands",
@@ -170,7 +182,7 @@
       "photo": "https://media.api-sports.io/football/players/247.png"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "player_id": "1165",
       "player": "Matheus Cunha",
       "team": "Brazil",
@@ -182,7 +194,7 @@
       "photo": "https://media.api-sports.io/football/players/1165.png"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "player_id": "161897",
       "player": "I. Saibari",
       "team": "Morocco",
@@ -194,7 +206,7 @@
       "photo": "https://media.api-sports.io/football/players/161897.png"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "player_id": "8489",
       "player": "J. David",
       "team": "Canada",
@@ -206,7 +218,7 @@
       "photo": "https://media.api-sports.io/football/players/8489.png"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "player_id": "38750",
       "player": "B. Brobbey",
       "team": "Netherlands",
@@ -218,7 +230,7 @@
       "photo": "https://media.api-sports.io/football/players/38750.png"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "player_id": "138835",
       "player": "F. Balogun",
       "team": "USA",
@@ -228,18 +240,6 @@
       "appearances": 4,
       "minutes": 314,
       "photo": "https://media.api-sports.io/football/players/138835.png"
-    },
-    {
-      "rank": 20,
-      "player_id": "94333",
-      "player": "E. Just",
-      "team": "New Zealand",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3,
-      "minutes": 265,
-      "photo": "https://media.api-sports.io/football/players/94333.png"
     }
   ]
 }
