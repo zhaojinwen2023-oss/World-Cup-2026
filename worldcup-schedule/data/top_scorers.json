@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12T09:16:41Z",
+  "last_updated": "2026-07-12T10:57:04Z",
   "scorers": [
     {
       "rank": 1,
@@ -19,10 +19,10 @@
       "player": "L. Messi",
       "team": "Argentina",
       "goals": 8,
-      "assists": 1,
+      "assists": 2,
       "penalties": 0,
-      "appearances": 5,
-      "minutes": 410,
+      "appearances": 6,
+      "minutes": 530,
       "photo": "https://media.api-sports.io/football/players/154.png"
     },
     {
@@ -33,24 +33,36 @@
       "goals": 7,
       "assists": 0,
       "penalties": 0,
-      "appearances": 4,
-      "minutes": 360,
+      "appearances": 5,
+      "minutes": 465,
       "photo": "https://media.api-sports.io/football/players/1100.png"
     },
     {
       "rank": 4,
+      "player_id": "129718",
+      "player": "J. Bellingham",
+      "team": "England",
+      "goals": 6,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 6,
+      "minutes": 528,
+      "photo": "https://media.api-sports.io/football/players/129718.png"
+    },
+    {
+      "rank": 5,
       "player_id": "184",
       "player": "H. Kane",
       "team": "England",
       "goals": 6,
       "assists": 1,
       "penalties": 2,
-      "appearances": 5,
-      "minutes": 444,
+      "appearances": 6,
+      "minutes": 564,
       "photo": "https://media.api-sports.io/football/players/184.png"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "player_id": "153",
       "player": "O. Dembélé",
       "team": "France",
@@ -62,7 +74,7 @@
       "photo": "https://media.api-sports.io/football/players/153.png"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "player_id": "47323",
       "player": "Mikel Oyarzabal",
       "team": "Spain",
@@ -74,7 +86,7 @@
       "photo": "https://media.api-sports.io/football/players/47323.png"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "player_id": "35532",
       "player": "J. Quiñones",
       "team": "Mexico",
@@ -84,18 +96,6 @@
       "appearances": 5,
       "minutes": 414,
       "photo": "https://media.api-sports.io/football/players/35532.png"
-    },
-    {
-      "rank": 8,
-      "player_id": "129718",
-      "player": "J. Bellingham",
-      "team": "England",
-      "goals": 4,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 5,
-      "minutes": 417,
-      "photo": "https://media.api-sports.io/football/players/129718.png"
     },
     {
       "rank": 9,
