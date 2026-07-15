@@ -1,11 +1,11 @@
 {
   "model_version": "Poisson + 50,000次蒙特卡洛 v1.0",
-  "generated_at": "2026-07-12T15:14:33+08:00",
+  "generated_at": "2026-07-15T14:14:03+08:00",
   "status": "model",
   "source_label": "历史 Elo、近20场攻防、Poisson比分与完整赛事模拟",
   "data_freshness": {
-    "app_data_generated_at": "2026-07-12T07:14:32Z",
-    "live_last_updated": "2026-07-12T07:14:31Z",
+    "app_data_generated_at": "2026-07-15T06:14:02Z",
+    "live_last_updated": "2026-07-15T06:14:01Z",
     "finished_matches": 97,
     "simulations": 50000
   },
@@ -13,7 +13,7 @@
     {
       "title": "世界杯赛程、实时赛果与积分",
       "path": "data/app_data.json",
-      "last_updated": "2026-07-12T07:14:32Z"
+      "last_updated": "2026-07-15T06:14:02Z"
     },
     {
       "title": "过去24个月国际比赛",
