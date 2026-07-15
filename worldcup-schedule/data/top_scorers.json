@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T08:36:09Z",
+  "last_updated": "2026-07-15T10:27:23Z",
   "scorers": [
     {
       "rank": 1,
@@ -9,8 +9,8 @@
       "goals": 8,
       "assists": 3,
       "penalties": 1,
-      "appearances": 6,
-      "minutes": 518,
+      "appearances": 7,
+      "minutes": 608,
       "photo": "https://media.api-sports.io/football/players/278.png"
     },
     {
@@ -69,8 +69,8 @@
       "goals": 5,
       "assists": 2,
       "penalties": 0,
-      "appearances": 6,
-      "minutes": 462,
+      "appearances": 7,
+      "minutes": 552,
       "photo": "https://media.api-sports.io/football/players/153.png"
     },
     {
@@ -78,11 +78,11 @@
       "player_id": "47323",
       "player": "Mikel Oyarzabal",
       "team": "Spain",
-      "goals": 4,
+      "goals": 5,
       "assists": 1,
-      "penalties": 0,
-      "appearances": 6,
-      "minutes": 469,
+      "penalties": 1,
+      "appearances": 7,
+      "minutes": 543,
       "photo": "https://media.api-sports.io/football/players/47323.png"
     },
     {
