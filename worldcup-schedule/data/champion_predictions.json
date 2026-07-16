@@ -1,19 +1,19 @@
 {
   "model_version": "Poisson + 50,000次蒙特卡洛 v1.0",
-  "generated_at": "2026-07-15T14:14:03+08:00",
+  "generated_at": "2026-07-16T14:03:44+08:00",
   "status": "model",
   "source_label": "历史 Elo、近20场攻防、Poisson比分与完整赛事模拟",
   "data_freshness": {
-    "app_data_generated_at": "2026-07-15T06:14:02Z",
-    "live_last_updated": "2026-07-15T06:14:01Z",
-    "finished_matches": 97,
+    "app_data_generated_at": "2026-07-16T06:03:43Z",
+    "live_last_updated": "2026-07-16T06:03:42Z",
+    "finished_matches": 98,
     "simulations": 50000
   },
   "sources": [
     {
       "title": "世界杯赛程、实时赛果与积分",
       "path": "data/app_data.json",
-      "last_updated": "2026-07-15T06:14:02Z"
+      "last_updated": "2026-07-16T06:03:43Z"
     },
     {
       "title": "过去24个月国际比赛",
@@ -51,8 +51,23 @@
   ],
   "teams": [
     {
+      "team": "Argentina",
+      "champion_probability": 51.2,
+      "strength_score": 83,
+      "historical_elo": 1577.2,
+      "historical_matches": 20,
+      "historical_record": {
+        "won": 18,
+        "drawn": 1,
+        "lost": 1
+      },
+      "form_score": 97,
+      "path_score": 100.0,
+      "summary": "32强 100.0% · 16强 100.0%"
+    },
+    {
       "team": "Spain",
-      "champion_probability": 27.6,
+      "champion_probability": 26.7,
       "strength_score": 85,
       "historical_elo": 1603.8,
       "historical_matches": 20,
@@ -66,23 +81,8 @@
       "summary": "32强 100.0% · 16强 100.0%"
     },
     {
-      "team": "Argentina",
-      "champion_probability": 27.4,
-      "strength_score": 83,
-      "historical_elo": 1577.2,
-      "historical_matches": 20,
-      "historical_record": {
-        "won": 18,
-        "drawn": 1,
-        "lost": 1
-      },
-      "form_score": 96,
-      "path_score": 100.0,
-      "summary": "32强 100.0% · 16强 100.0%"
-    },
-    {
       "team": "France",
-      "champion_probability": 23.0,
+      "champion_probability": 22.1,
       "strength_score": 82,
       "historical_elo": 1569.9,
       "historical_matches": 20,
@@ -97,16 +97,16 @@
     },
     {
       "team": "England",
-      "champion_probability": 22.0,
+      "champion_probability": 0.0,
       "strength_score": 84,
       "historical_elo": 1593.4,
       "historical_matches": 20,
       "historical_record": {
-        "won": 16,
+        "won": 15,
         "drawn": 2,
-        "lost": 2
+        "lost": 3
       },
-      "form_score": 82,
+      "form_score": 74,
       "path_score": 100.0,
       "summary": "32强 100.0% · 16强 100.0%"
     },
