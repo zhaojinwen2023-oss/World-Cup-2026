@@ -1,19 +1,19 @@
 {
   "model_version": "Poisson + 50,000次蒙特卡洛 v1.0",
-  "generated_at": "2026-07-18T15:29:20+08:00",
+  "generated_at": "2026-07-19T14:23:54+08:00",
   "status": "model",
   "source_label": "历史 Elo、近20场攻防、Poisson比分与完整赛事模拟",
   "data_freshness": {
-    "app_data_generated_at": "2026-07-18T07:29:19Z",
-    "live_last_updated": "2026-07-18T07:29:18Z",
-    "finished_matches": 98,
+    "app_data_generated_at": "2026-07-19T06:23:52Z",
+    "live_last_updated": "2026-07-19T06:23:51Z",
+    "finished_matches": 99,
     "simulations": 50000
   },
   "sources": [
     {
       "title": "世界杯赛程、实时赛果与积分",
       "path": "data/app_data.json",
-      "last_updated": "2026-07-18T07:29:19Z"
+      "last_updated": "2026-07-19T06:23:52Z"
     },
     {
       "title": "过去24个月国际比赛",
@@ -52,7 +52,7 @@
   "teams": [
     {
       "team": "Argentina",
-      "champion_probability": 51.2,
+      "champion_probability": 54.5,
       "strength_score": 83,
       "historical_elo": 1577.2,
       "historical_matches": 20,
@@ -67,7 +67,7 @@
     },
     {
       "team": "Spain",
-      "champion_probability": 26.7,
+      "champion_probability": 31.0,
       "strength_score": 85,
       "historical_elo": 1603.8,
       "historical_matches": 20,
@@ -82,7 +82,7 @@
     },
     {
       "team": "France",
-      "champion_probability": 22.1,
+      "champion_probability": 14.5,
       "strength_score": 82,
       "historical_elo": 1569.9,
       "historical_matches": 20,
@@ -91,7 +91,7 @@
         "drawn": 1,
         "lost": 3
       },
-      "form_score": 88,
+      "form_score": 82,
       "path_score": 100.0,
       "summary": "32强 100.0% · 16强 100.0%"
     },
@@ -106,7 +106,7 @@
         "drawn": 2,
         "lost": 3
       },
-      "form_score": 74,
+      "form_score": 76,
       "path_score": 100.0,
       "summary": "32强 100.0% · 16强 100.0%"
     },
