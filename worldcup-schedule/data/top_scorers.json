@@ -1,8 +1,20 @@
 {
-  "last_updated": "2026-07-19T08:41:23Z",
+  "last_updated": "2026-07-19T10:14:31Z",
   "scorers": [
     {
       "rank": 1,
+      "player_id": "278",
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 10,
+      "assists": 4,
+      "penalties": 1,
+      "appearances": 8,
+      "minutes": 698,
+      "photo": "https://media.api-sports.io/football/players/278.png"
+    },
+    {
+      "rank": 2,
       "player_id": "154",
       "player": "L. Messi",
       "team": "Argentina",
@@ -14,19 +26,19 @@
       "photo": "https://media.api-sports.io/football/players/154.png"
     },
     {
-      "rank": 2,
-      "player_id": "278",
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 8,
-      "assists": 3,
-      "penalties": 1,
-      "appearances": 7,
-      "minutes": 608,
-      "photo": "https://media.api-sports.io/football/players/278.png"
+      "rank": 3,
+      "player_id": "129718",
+      "player": "J. Bellingham",
+      "team": "England",
+      "goals": 7,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 8,
+      "minutes": 629,
+      "photo": "https://media.api-sports.io/football/players/129718.png"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "player_id": "1100",
       "player": "E. Haaland",
       "team": "Norway",
@@ -38,19 +50,19 @@
       "photo": "https://media.api-sports.io/football/players/1100.png"
     },
     {
-      "rank": 4,
-      "player_id": "129718",
-      "player": "J. Bellingham",
-      "team": "England",
+      "rank": 5,
+      "player_id": "153",
+      "player": "O. Dembélé",
+      "team": "France",
       "goals": 6,
-      "assists": 1,
+      "assists": 2,
       "penalties": 0,
-      "appearances": 7,
-      "minutes": 618,
-      "photo": "https://media.api-sports.io/football/players/129718.png"
+      "appearances": 8,
+      "minutes": 597,
+      "photo": "https://media.api-sports.io/football/players/153.png"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "player_id": "184",
       "player": "H. Kane",
       "team": "England",
@@ -60,18 +72,6 @@
       "appearances": 7,
       "minutes": 654,
       "photo": "https://media.api-sports.io/football/players/184.png"
-    },
-    {
-      "rank": 6,
-      "player_id": "153",
-      "player": "O. Dembélé",
-      "team": "France",
-      "goals": 5,
-      "assists": 2,
-      "penalties": 0,
-      "appearances": 7,
-      "minutes": 552,
-      "photo": "https://media.api-sports.io/football/players/153.png"
     },
     {
       "rank": 7,
@@ -147,6 +147,18 @@
     },
     {
       "rank": 13,
+      "player_id": "161904",
+      "player": "B. Barcola",
+      "team": "France",
+      "goals": 3,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 8,
+      "minutes": 384,
+      "photo": "https://media.api-sports.io/football/players/161904.png"
+    },
+    {
+      "rank": 14,
       "player_id": "907",
       "player": "R. Lukaku",
       "team": "Belgium",
@@ -158,7 +170,7 @@
       "photo": "https://media.api-sports.io/football/players/907.png"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "player_id": "147859",
       "player": "C. De Ketelaere",
       "team": "Belgium",
@@ -170,7 +182,7 @@
       "photo": "https://media.api-sports.io/football/players/147859.png"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "player_id": "247",
       "player": "C. Gakpo",
       "team": "Netherlands",
@@ -182,7 +194,7 @@
       "photo": "https://media.api-sports.io/football/players/247.png"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "player_id": "1165",
       "player": "Matheus Cunha",
       "team": "Brazil",
@@ -194,7 +206,7 @@
       "photo": "https://media.api-sports.io/football/players/1165.png"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "player_id": "161897",
       "player": "I. Saibari",
       "team": "Morocco",
@@ -206,7 +218,7 @@
       "photo": "https://media.api-sports.io/football/players/161897.png"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "player_id": "8489",
       "player": "J. David",
       "team": "Canada",
@@ -218,7 +230,7 @@
       "photo": "https://media.api-sports.io/football/players/8489.png"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "player_id": "38750",
       "player": "B. Brobbey",
       "team": "Netherlands",
@@ -228,18 +240,6 @@
       "appearances": 4,
       "minutes": 232,
       "photo": "https://media.api-sports.io/football/players/38750.png"
-    },
-    {
-      "rank": 20,
-      "player_id": "138835",
-      "player": "F. Balogun",
-      "team": "USA",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 4,
-      "minutes": 314,
-      "photo": "https://media.api-sports.io/football/players/138835.png"
     }
   ]
 }
