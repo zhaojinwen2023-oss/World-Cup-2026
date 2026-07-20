@@ -1,19 +1,19 @@
 {
   "model_version": "Poisson + 50,000次蒙特卡洛 v1.0",
-  "generated_at": "2026-07-19T14:23:54+08:00",
+  "generated_at": "2026-07-20T15:26:24+08:00",
   "status": "model",
   "source_label": "历史 Elo、近20场攻防、Poisson比分与完整赛事模拟",
   "data_freshness": {
-    "app_data_generated_at": "2026-07-19T06:23:52Z",
-    "live_last_updated": "2026-07-19T06:23:51Z",
-    "finished_matches": 99,
+    "app_data_generated_at": "2026-07-20T07:26:23Z",
+    "live_last_updated": "2026-07-20T07:26:22Z",
+    "finished_matches": 100,
     "simulations": 50000
   },
   "sources": [
     {
       "title": "世界杯赛程、实时赛果与积分",
       "path": "data/app_data.json",
-      "last_updated": "2026-07-19T06:23:52Z"
+      "last_updated": "2026-07-20T07:26:23Z"
     },
     {
       "title": "过去24个月国际比赛",
@@ -51,38 +51,38 @@
   ],
   "teams": [
     {
-      "team": "Argentina",
-      "champion_probability": 54.5,
-      "strength_score": 83,
-      "historical_elo": 1577.2,
-      "historical_matches": 20,
-      "historical_record": {
-        "won": 18,
-        "drawn": 1,
-        "lost": 1
-      },
-      "form_score": 97,
-      "path_score": 100.0,
-      "summary": "32强 100.0% · 16强 100.0%"
-    },
-    {
       "team": "Spain",
-      "champion_probability": 31.0,
+      "champion_probability": 100.0,
       "strength_score": 85,
       "historical_elo": 1603.8,
       "historical_matches": 20,
       "historical_record": {
-        "won": 13,
-        "drawn": 7,
+        "won": 14,
+        "drawn": 6,
         "lost": 0
       },
-      "form_score": 81,
+      "form_score": 84,
+      "path_score": 100.0,
+      "summary": "32强 100.0% · 16强 100.0%"
+    },
+    {
+      "team": "Argentina",
+      "champion_probability": 0.0,
+      "strength_score": 83,
+      "historical_elo": 1577.2,
+      "historical_matches": 20,
+      "historical_record": {
+        "won": 17,
+        "drawn": 1,
+        "lost": 2
+      },
+      "form_score": 89,
       "path_score": 100.0,
       "summary": "32强 100.0% · 16强 100.0%"
     },
     {
       "team": "France",
-      "champion_probability": 14.5,
+      "champion_probability": 0.0,
       "strength_score": 82,
       "historical_elo": 1569.9,
       "historical_matches": 20,
