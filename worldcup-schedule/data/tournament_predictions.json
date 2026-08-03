@@ -1,13 +1,13 @@
 {
   "model_version": "Poisson + 50,000次蒙特卡洛 v1.0",
-  "generated_at": "2026-08-02T15:16:22+08:00",
+  "generated_at": "2026-08-03T14:52:40+08:00",
   "status": "model",
   "simulations": 50000,
   "sources": [
     {
       "title": "世界杯赛程、实时赛果与积分",
       "path": "data/app_data.json",
-      "last_updated": "2026-08-02T07:16:21Z"
+      "last_updated": "2026-08-03T06:52:39Z"
     },
     {
       "title": "过去24个月国际比赛",
